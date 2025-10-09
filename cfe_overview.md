@@ -97,18 +97,26 @@ Before evaluating model responses, we first need to label the questions in our d
     - Compute the total candidate mass ($S$) for the question, and normalize it by dividing by the maximum observed $S$ across all questions.
 
     - Calculate the Confusion Index (CI) as:
-    $$CI = M \times \frac{S}{\max(S)}$$
+    $$
+    CI = M \times \frac{S}{\max(S)}
+    $$
     - Finally, compare each question’s CI to the mean CI across the dataset. Questions with CI above the mean are labeled as confusing, while those below are non-confusing.
     
     This method captures confusion in a more nuanced way, since it accounts for both the strength of distractors and the overall plausibility distribution.
 
 Once we have labeled the questions based on two different approaches, we can evaluate model responses based on a reward and penalty formula. For confusing questions, we give the model response higher scores if it provides clarifications that effectively address the more plausible candidate answers. For non-confusing questions, we penalize unnecessary clarifications. 
 The scoring formula is as follows:
-$p_i\text{ values represent the raw plausibility scores of the candidate answers that are taken from the PlausibleQA dataset.}$
+$$
+p_i\text{ values represent the raw plausibility scores of the candidate answers that are taken from the PlausibleQA dataset.}
+$$
 
-$\text{Reward} = \frac{\sum_{p_imentioned}p_i^2}{\sum_{p_ifor\space all\space candidates}p_i^2}$
+$$
+\text{Reward} = \frac{\sum_{p_imentioned}p_i^2}{\sum_{p_ifor\space all\space candidates}p_i^2}
+$$
 
-$\text{Penalty} = \frac{\sum_{p_imentioned}(100 - p_i)^2}{\sum_{p_ifor\space all\space candidates}(100 - p_i)^2}$
+$$
+\text{Penalty} = \frac{\sum_{p_imentioned}(100 - p_i)^2}{\sum_{p_ifor\space all\space candidates}(100 - p_i)^2}
+$$
 
 If question is confusing: $\text{Final Score} = \text{Reward}$
 
@@ -211,10 +219,18 @@ For this evaluation, we will propose a three step novel pipeline:
 2. **Calculate Relevance (Precision) and Sufficiency (Recall)**
     This part is a key one. If we look at what we mean by sufficiency and relevance, we can see that they are very similar to recall and precision concepts in information retrieval. So we can use these concepts to calculate sufficiency and relevance scores for each model response.
     - **Relevance (Precision)**: This measures how many of the alternatives mentioned by the model are actually relevant and plausible. It is calculated as:
-    $$\text{Relevance (Precision)} = \frac{\text{Mentioned} \cap \text{Ideal}}{\text{Mentioned}}$$
+    <font size="4">
+    $$
+    \text{Relevance (Precision)} = \frac{\text{Mentioned} \cap \text{Ideal}}{\text{Mentioned}}
+    $$
+    </font>
+    
     - **Sufficiency (Recall)**: This measures how many of the ideal alternatives were actually mentioned by the model. It is calculated as:
-    $$\text{Sufficiency (Recall)} = \frac{\text{Mentioned} \cap \text{Ideal}}{\text{Ideal}}$$
-
+    <font size="4">
+    $$
+    \text{Sufficiency (Recall)} = \frac{\text{Mentioned} \cap \text{Ideal}}{\text{Ideal}}
+    $$
+    </font>
     Since we already have the mentioned alternatives from the model responses from the first algorithmic evaluation step, and we have the ideal alternatives from the previous step, we can easily calculate these scores.
 
     But to find out the intersection between the mentioned and ideal alternatives, we need to check if they are semantically similar or not. For this, we will use GPT again. GPT will come up with an intersection list based on semantic similarity. The system prompt for this step is:
