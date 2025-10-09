@@ -106,6 +106,7 @@ Before evaluating model responses, we first need to label the questions in our d
 
 Once we have labeled the questions based on two different approaches, we can evaluate model responses based on a reward and penalty formula. For confusing questions, we give the model response higher scores if it provides clarifications that effectively address the more plausible candidate answers. For non-confusing questions, we penalize unnecessary clarifications. 
 The scoring formula is as follows:
+
 $$
 p_i\text{ values represent the raw plausibility scores of the candidate answers that are taken from the PlausibleQA dataset.}
 $$
@@ -221,14 +222,16 @@ For this evaluation, we will propose a three step novel pipeline:
 2. **Calculate Relevance (Precision) and Sufficiency (Recall)**
     This part is a key one. If we look at what we mean by sufficiency and relevance, we can see that they are very similar to recall and precision concepts in information retrieval. So we can use these concepts to calculate sufficiency and relevance scores for each model response.
     - **Relevance (Precision)**: This measures how many of the alternatives mentioned by the model are actually relevant and plausible. It is calculated as:
+    
     $$
-    \Large
+    \large
     \text{Relevance (Precision)} = \frac{\text{Mentioned} \cap \text{Ideal}}{\text{Mentioned}}
     $$
     
     - **Sufficiency (Recall)**: This measures how many of the ideal alternatives were actually mentioned by the model. It is calculated as:
+    
     $$
-    \Large
+    \large
     \text{Sufficiency (Recall)} = \frac{\text{Mentioned} \cap \text{Ideal}}{\text{Ideal}}
     $$
    
