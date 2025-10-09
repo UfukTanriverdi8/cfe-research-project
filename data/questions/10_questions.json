@@ -1,0 +1,832 @@
+[
+  {
+    "id":"trivia_3911",
+    "question":"A pickerel is a young what?",
+    "question_type":{
+      "major":"ENTY:ENTITY",
+      "minor":"animal:Animal"
+    },
+    "question_difficulty":"Medium",
+    "answer":"Pike",
+    "answer_difficulty":"Hard",
+    "candidate_answers":{
+      "Trout":{
+        "justification":"I have a moderate level of confidence in this answer because trout and pickerel are both types of fish, and it's possible that a pickerel could be a juvenile stage of a trout. However, I'm not highly confident because the terms are often used to refer to distinct species.",
+        "listwise":40,
+        "bradley_terry":48.79,
+        "plackett_luce":50.8400001526,
+        "init_plackett_luce":51.1100006104
+      },
+      "Salmon":{
+        "justification":"My confidence level for this answer is relatively low because while salmon do have distinct juvenile stages, the term 'pickerel' is not commonly associated with salmon. Salmon juveniles are typically referred to as 'smolts' or 'fry'.",
+        "listwise":20,
+        "bradley_terry":32.16,
+        "plackett_luce":28.3299999237,
+        "init_plackett_luce":28.25
+      },
+      "Walleye":{
+        "justification":"I have a moderate level of confidence in this answer because walleye and pickerel are both freshwater fish, and it's possible that a pickerel could be a young walleye. However, the terms are often used to refer to distinct species, which reduces my confidence.",
+        "listwise":30,
+        "bradley_terry":82.63,
+        "plackett_luce":81.5199966431,
+        "init_plackett_luce":81.4300003052
+      },
+      "Bass":{
+        "justification":"My confidence level for this answer is relatively high because bass and pickerel are both types of freshwater fish, and the term 'pickerel' could potentially refer to a juvenile bass. Some species of bass, such as the largemouth or smallmouth, have juvenile stages that could be referred to by a distinct name.",
+        "listwise":50,
+        "bradley_terry":49.39,
+        "plackett_luce":55.7899971008,
+        "init_plackett_luce":55.0499992371
+      },
+      "Perch":{
+        "justification":"I have a moderate to high level of confidence in this answer because perch and pickerel are both types of freshwater fish, and it's possible that a pickerel could be a young perch. The term 'pickerel' is sometimes used to refer to a specific type of perch, which increases my confidence.",
+        "listwise":45,
+        "bradley_terry":66.28,
+        "plackett_luce":72.439994812,
+        "init_plackett_luce":72.6800003052
+      },
+      "Muskie":{
+        "justification":"My confidence level for this answer is relatively low because while muskie and pickerel are both large freshwater fish, the term 'pickerel' is not commonly associated with muskie. Muskie juveniles are typically referred to by more specific terms, such as 'fry' or 'fingerlings'.",
+        "listwise":25,
+        "bradley_terry":100.0,
+        "plackett_luce":100.0,
+        "init_plackett_luce":100.0
+      },
+      "Sturgeon":{
+        "justification":"I have a low level of confidence in this answer because sturgeon and pickerel are quite distinct in terms of their biology and ecology. Sturgeon are ancient fish with a unique life cycle, and the term 'pickerel' is not commonly associated with them.",
+        "listwise":15,
+        "bradley_terry":16.49,
+        "plackett_luce":18.3500003815,
+        "init_plackett_luce":18.5
+      },
+      "Gar":{
+        "justification":"My confidence level for this answer is very low because gar and pickerel are distinct types of fish with different biologies and ecologies. The term 'pickerel' is not commonly associated with gar, and gar juveniles are typically referred to by more specific terms.",
+        "listwise":10,
+        "bradley_terry":28.76,
+        "plackett_luce":27.5299987793,
+        "init_plackett_luce":26.6999988556
+      },
+      "Eel":{
+        "justification":"I have a very low level of confidence in this answer because eel and pickerel are quite distinct in terms of their biology and ecology. Eels are catadromous fish with a unique life cycle, and the term 'pickerel' is not commonly associated with them.",
+        "listwise":5,
+        "bradley_terry":0.0,
+        "plackett_luce":0.0,
+        "init_plackett_luce":0.0
+      },
+      "Herring":{
+        "justification":"My confidence level for this answer is very low because herring and pickerel are distinct types of fish with different biologies and ecologies. Herring are small, oily fish that are typically found in schools, and the term 'pickerel' is not commonly associated with them.",
+        "listwise":12,
+        "bradley_terry":0.0,
+        "plackett_luce":4.9299998283,
+        "init_plackett_luce":5.4299998283
+      }
+    }
+  },
+  {
+    "id":"nq_2747",
+    "question":"when will the la sagrada familia be finished?",
+    "question_type":{
+      "major":"NUM:NUMERIC",
+      "minor":"date:Date"
+    },
+    "question_difficulty":"Hard",
+    "answer":"2026",
+    "answer_difficulty":"Hard",
+    "candidate_answers":{
+      "2030":{
+        "justification":"The reason for this high confidence level is that the construction of La Sagrada Familia has been ongoing for over 130 years, and the current pace of work suggests that it will take several more years to complete. Given the complexity and scale of the project, 2030 seems like a reasonable estimate, considering the progress made so far and the remaining work to be done.",
+        "listwise":80,
+        "bradley_terry":36.83,
+        "plackett_luce":39.3699989319,
+        "init_plackett_luce":38.6800003052
+      },
+      "2045":{
+        "justification":"This candidate answer has a lower confidence level because it assumes a slower pace of construction in the coming years. While it's possible that the project could be delayed due to various factors such as funding issues or changes in architectural plans, 2045 seems like a plausible estimate if the construction team encounters significant setbacks.",
+        "listwise":40,
+        "bradley_terry":0.0,
+        "plackett_luce":0.0,
+        "init_plackett_luce":0.0
+      },
+      "2028":{
+        "justification":"The reason for this moderate to high confidence level is that the architects and construction team have been working diligently to complete the project, and some estimates suggest that the main structure could be finished by the mid-2020s. However, the final completion date may be delayed due to the intricate details and ornate decorations that are characteristic of La Sagrada Familia.",
+        "listwise":60,
+        "bradley_terry":91.26,
+        "plackett_luce":91.8499984741,
+        "init_plackett_luce":91.1599960327
+      },
+      "2050":{
+        "justification":"This candidate answer has a relatively low confidence level because it assumes a very slow pace of construction or significant delays. While it's possible that the project could be delayed due to various factors, 2050 seems like a somewhat pessimistic estimate, considering the progress made so far and the commitment of the construction team.",
+        "listwise":30,
+        "bradley_terry":6.66,
+        "plackett_luce":6.2899999619,
+        "init_plackett_luce":6.759999752
+      },
+      "2029":{
+        "justification":"The reason for this high confidence level is that the construction team has been making steady progress in recent years, and some estimates suggest that the project could be completed by the late 2020s. The completion of the central tower and the main structure would be a significant milestone, and 2029 seems like a reasonable estimate for the final completion date.",
+        "listwise":70,
+        "bradley_terry":68.73,
+        "plackett_luce":68.9300003052,
+        "init_plackett_luce":68.6399993896
+      },
+      "2035":{
+        "justification":"This candidate answer has a moderate confidence level because it assumes a steady pace of construction, but also takes into account the potential for delays or setbacks. While the construction team has been working diligently, the complexity and scale of the project mean that there are many factors that could affect the completion date.",
+        "listwise":50,
+        "bradley_terry":83.16,
+        "plackett_luce":84.3499984741,
+        "init_plackett_luce":83.3899993896
+      },
+      "2027":{
+        "justification":"The reason for this moderate confidence level is that some estimates suggest that the main structure of La Sagrada Familia could be completed by the mid-2020s. However, the final completion date may be delayed due to the intricate details and ornate decorations that are characteristic of the building, which could take several more years to complete.",
+        "listwise":45,
+        "bradley_terry":100.0,
+        "plackett_luce":100.0,
+        "init_plackett_luce":100.0
+      },
+      "2040":{
+        "justification":"This candidate answer has a relatively low confidence level because it assumes a slower pace of construction or significant delays. While it's possible that the project could be delayed due to various factors, 2040 seems like a somewhat pessimistic estimate, considering the progress made so far and the commitment of the construction team.",
+        "listwise":35,
+        "bradley_terry":33.39,
+        "plackett_luce":33.6199989319,
+        "init_plackett_luce":33.7399978638
+      },
+      "2032":{
+        "justification":"The reason for this high confidence level is that the construction team has been making steady progress in recent years, and some estimates suggest that the project could be completed by the early 2030s. The completion of the central tower and the main structure would be a significant milestone, and 2032 seems like a reasonable estimate for the final completion date.",
+        "listwise":65,
+        "bradley_terry":52.04,
+        "plackett_luce":52.0799980164,
+        "init_plackett_luce":51.8099975586
+      },
+      "2042":{
+        "justification":"This candidate answer has a relatively low confidence level because it assumes a very slow pace of construction or significant delays. While it's possible that the project could be delayed due to various factors, 2042 seems like a somewhat pessimistic estimate, considering the progress made so far and the commitment of the construction team.",
+        "listwise":25,
+        "bradley_terry":13.45,
+        "plackett_luce":13.5599994659,
+        "init_plackett_luce":13.1399993896
+      }
+    }
+  },
+  {
+    "id":"trivia_3347",
+    "question":"The word apostle is derived from Greek 'apostolos' meaning?",
+    "question_type":{
+      "major":"ENTY:ENTITY",
+      "minor":"termeq:Equivalent term"
+    },
+    "question_difficulty":"Medium",
+    "answer":"Messenger",
+    "answer_difficulty":"Hard",
+    "candidate_answers":{
+      "Ambassador":{
+        "justification":"The reasoning behind this confidence level is that an ambassador is a high-ranking representative of a country or organization, and the word 'apostolos' has a similar connotation of being a representative or envoy. The prefix 'apo-' means 'from' or 'away from', and 'stolos' means 'sent', which suggests that an apostolos is someone who is sent on a mission, much like an ambassador.",
+        "listwise":80,
+        "bradley_terry":72.96,
+        "plackett_luce":64.6699981689,
+        "init_plackett_luce":64.2999954224
+      },
+      "Envoy":{
+        "justification":"This confidence level is due to the fact that an envoy is a person sent as a representative of a government or organization, which aligns with the etymology of 'apostolos'. The word 'apostolos' implies a sense of being sent or dispatched, which is consistent with the role of an envoy.",
+        "listwise":85,
+        "bradley_terry":74.08,
+        "plackett_luce":79.3600006104,
+        "init_plackett_luce":78.5400009155
+      },
+      "Delegate":{
+        "justification":"The reasoning behind this confidence level is that a delegate is a person authorized to represent a group or organization, which is similar to the concept of an apostolos. However, the word 'delegate' may not fully capture the sense of being sent on a mission that is inherent in 'apostolos'.",
+        "listwise":70,
+        "bradley_terry":51.78,
+        "plackett_luce":45.469997406,
+        "init_plackett_luce":45.3899993896
+      },
+      "Emissary":{
+        "justification":"This confidence level is due to the fact that an emissary is a person sent as a representative of a government or organization, often on a specific mission. The word 'apostolos' has a similar sense of being sent on a mission, and the prefix 'apo-' reinforces this idea.",
+        "listwise":90,
+        "bradley_terry":100.0,
+        "plackett_luce":100.0,
+        "init_plackett_luce":100.0
+      },
+      "Representative":{
+        "justification":"The reasoning behind this confidence level is that a representative is a person who acts on behalf of a group or organization, which is similar to the concept of an apostolos. However, the word 'representative' may be too broad, as it does not necessarily imply being sent on a mission.",
+        "listwise":60,
+        "bradley_terry":73.52,
+        "plackett_luce":65.4799957275,
+        "init_plackett_luce":65.6199951172
+      },
+      "Agent":{
+        "justification":"This confidence level is due to the fact that an agent is a person who acts on behalf of a principal, which is similar to the concept of an apostolos. However, the word 'agent' may not fully capture the sense of being sent on a mission that is inherent in 'apostolos'.",
+        "listwise":50,
+        "bradley_terry":53.17,
+        "plackett_luce":57.5099983215,
+        "init_plackett_luce":57.0900001526
+      },
+      "Proxy":{
+        "justification":"The reasoning behind this confidence level is that a proxy is a person authorized to act on behalf of another, which is similar to the concept of an apostolos. However, the word 'proxy' may not necessarily imply being sent on a mission, and it may have more of a sense of substitution rather than representation.",
+        "listwise":40,
+        "bradley_terry":0.0,
+        "plackett_luce":0.0,
+        "init_plackett_luce":0.0
+      },
+      "Courier":{
+        "justification":"This confidence level is due to the fact that a courier is a person who carries messages or packages, which is similar to the idea of being sent on a mission. However, the word 'courier' may not fully capture the sense of representation or authority that is inherent in 'apostolos'.",
+        "listwise":30,
+        "bradley_terry":34.66,
+        "plackett_luce":33.2799987793,
+        "init_plackett_luce":33.4899978638
+      },
+      "Diplomat":{
+        "justification":"The reasoning behind this confidence level is that a diplomat is a person who represents a government or organization in a foreign country, which is similar to the concept of an apostolos. The word 'apostolos' implies a sense of being sent on a mission, which is consistent with the role of a diplomat.",
+        "listwise":75,
+        "bradley_terry":0.0,
+        "plackett_luce":0.7699999809,
+        "init_plackett_luce":0.5099999905
+      },
+      "Legate":{
+        "justification":"This confidence level is due to the fact that a legate is a person authorized to represent a government or organization, often with a specific mission or authority. The word 'apostolos' has a similar sense of being sent on a mission, and the prefix 'apo-' reinforces this idea. However, the word 'legate' may have more of a sense of formal authority than 'apostolos'.",
+        "listwise":65,
+        "bradley_terry":18.38,
+        "plackett_luce":18.4899997711,
+        "init_plackett_luce":18.3500003815
+      }
+    }
+  },
+  {
+    "id":"trivia_3119",
+    "question":"Osmic relates to which of the senses?",
+    "question_type":{
+      "major":"ENTY:ENTITY",
+      "minor":"other:Other entity"
+    },
+    "question_difficulty":"Medium",
+    "answer":"Smell",
+    "answer_difficulty":"Hard",
+    "candidate_answers":{
+      "Taste":{
+        "justification":"I have a low confidence level in this answer because while taste and smell are closely related, the prefix \"osmic\" doesn't directly relate to the sense of taste. The word \"osmic\" seems to be more closely related to the Greek word \"osme,\" which means smell, but I'm considering the possibility that it could be related to a nearby sense.",
+        "listwise":10,
+        "bradley_terry":100.0,
+        "plackett_luce":100.0,
+        "init_plackett_luce":100.0
+      },
+      "Hearing":{
+        "justification":"My confidence level in this answer is very low because there doesn't seem to be any direct connection between the prefix \"osmic\" and the sense of hearing. The words related to hearing, such as \"audio\" or \"sonic,\" have distinct prefixes that don't resemble \"osmic.\"",
+        "listwise":5,
+        "bradley_terry":18.85,
+        "plackett_luce":53.1899986267,
+        "init_plackett_luce":53.719997406
+      },
+      "Touch":{
+        "justification":"I have a slightly higher confidence level in this answer than in hearing because the sense of touch can be related to the perception of odors or smells through the sensation of particles in the air. However, this connection is still quite indirect, and I wouldn't consider it a strong candidate.",
+        "listwise":8,
+        "bradley_terry":27.08,
+        "plackett_luce":72.0599975586,
+        "init_plackett_luce":72.0100021362
+      },
+      "Sight":{
+        "justification":"My confidence level in this answer is very low because the prefix \"osmic\" doesn't seem to have any connection to the sense of sight. The words related to sight, such as \"optic\" or \"visual,\" have distinct prefixes that don't resemble \"osmic.\"",
+        "listwise":3,
+        "bradley_terry":6.67,
+        "plackett_luce":22.6899986267,
+        "init_plackett_luce":22.7199993134
+      },
+      "Balance":{
+        "justification":"I have a very low confidence level in this answer because the sense of balance, also known as equilibrium, doesn't seem to have any direct connection to the prefix \"osmic.\" The words related to balance, such as \"vestibular,\" don't resemble \"osmic\" in any way.",
+        "listwise":2,
+        "bradley_terry":7.85,
+        "plackett_luce":24.2399997711,
+        "init_plackett_luce":24.1700000763
+      },
+      "Temperature":{
+        "justification":"My confidence level in this answer is low because while temperature can be related to the perception of smells or odors, the prefix \"osmic\" doesn't directly relate to the sense of temperature. The words related to temperature, such as \"thermal,\" have distinct prefixes that don't resemble \"osmic.\"",
+        "listwise":6,
+        "bradley_terry":22.7,
+        "plackett_luce":59.9799995422,
+        "init_plackett_luce":60.3599967957
+      },
+      "Pain":{
+        "justification":"I have a low confidence level in this answer because the sense of pain doesn't seem to have any direct connection to the prefix \"osmic.\" The words related to pain, such as \"nociceptive,\" don't resemble \"osmic\" in any way.",
+        "listwise":4,
+        "bradley_terry":8.6,
+        "plackett_luce":26.9399986267,
+        "init_plackett_luce":27.0100002289
+      },
+      "Proprioception":{
+        "justification":"My confidence level in this answer is extremely low because proprioception, the sense of body awareness, doesn't seem to have any connection to the prefix \"osmic.\" The words related to proprioception, such as \"kinesthetic,\" don't resemble \"osmic\" in any way.",
+        "listwise":1,
+        "bradley_terry":0.0,
+        "plackett_luce":0.0,
+        "init_plackett_luce":0.0
+      },
+      "Interoception":{
+        "justification":"I have a slightly higher confidence level in this answer than in some of the other senses because interoception, the sense of internal bodily states, can be related to the perception of smells or odors through the sensation of hunger or fullness. However, this connection is still quite indirect, and I wouldn't consider it a strong candidate.",
+        "listwise":9,
+        "bradley_terry":13.63,
+        "plackett_luce":42.6399993896,
+        "init_plackett_luce":42.7299995422
+      },
+      "Nociception":{
+        "justification":"My confidence level in this answer is low because while nociception, the sense of detecting harmful stimuli, can be related to the perception of smells or odors through the sensation of irritation, the prefix \"osmic\" doesn't directly relate to the sense of nociception. The words related to nociception, such as \"pain,\" don't resemble \"osmic\" in any way.",
+        "listwise":7,
+        "bradley_terry":16.54,
+        "plackett_luce":49.5099983215,
+        "init_plackett_luce":49.9399986267
+      }
+    }
+  },
+  {
+    "id":"trivia_7781",
+    "question":"The Andaman Sea is part of which ocean?",
+    "question_type":{
+      "major":"LOC:LOCATION",
+      "minor":"other:Other location"
+    },
+    "question_difficulty":"Medium",
+    "answer":"INDIAN",
+    "answer_difficulty":"Hard",
+    "candidate_answers":{
+      "Pacific Ocean":{
+        "justification":"The Andaman Sea is located near Southeast Asia, and the Pacific Ocean is the largest ocean, covering a significant portion of the Earth's surface, including the western coast of the Americas and the eastern coast of Asia. Given its vast size and proximity to the region, it's plausible that the Andaman Sea could be part of the Pacific Ocean.",
+        "listwise":80,
+        "bradley_terry":100.0,
+        "plackett_luce":100.0,
+        "init_plackett_luce":100.0
+      },
+      "Arctic Ocean":{
+        "justification":"The Andaman Sea is situated near the equator, whereas the Arctic Ocean is located in the northernmost part of the world, surrounding the North Pole. The significant geographical distance and difference in climate make it unlikely for the Andaman Sea to be part of the Arctic Ocean.",
+        "listwise":5,
+        "bradley_terry":0.0,
+        "plackett_luce":1.3700000048,
+        "init_plackett_luce":1.4699999094
+      },
+      "Southern Ocean":{
+        "justification":"The Southern Ocean surrounds Antarctica and extends north to the coast of South America, Africa, and Australia. Although it's possible that the Andaman Sea could be connected to the Southern Ocean through the global ocean system, the geographical distance and the presence of other oceanic bodies make this connection unlikely.",
+        "listwise":10,
+        "bradley_terry":46.35,
+        "plackett_luce":52.9399986267,
+        "init_plackett_luce":52.3799972534
+      },
+      "Atlantic Ocean":{
+        "justification":"The Atlantic Ocean is the second-largest ocean, separating the Americas from Europe and Africa. While it's possible that the Andaman Sea could be connected to the Atlantic Ocean through the global ocean system, the geographical distance and the presence of other oceanic bodies, such as the Indian Ocean, make this connection less likely.",
+        "listwise":20,
+        "bradley_terry":45.71,
+        "plackett_luce":47.6199989319,
+        "init_plackett_luce":47.8299980164
+      },
+      "Caribbean Sea":{
+        "justification":"The Caribbean Sea is a smaller body of water located in the Americas, and it's not directly connected to the Andaman Sea. The significant geographical distance and the presence of other oceanic bodies make it highly unlikely for the Andaman Sea to be part of the Caribbean Sea.",
+        "listwise":1,
+        "bradley_terry":0.0,
+        "plackett_luce":0.0,
+        "init_plackett_luce":0.0
+      },
+      "Red Sea":{
+        "justification":"The Red Sea is a smaller body of water connected to the Indian Ocean, and it's located near the Middle East and Africa. Although the Red Sea is connected to the Indian Ocean, the Andaman Sea is not directly connected to the Red Sea, making this option less likely.",
+        "listwise":15,
+        "bradley_terry":82.08,
+        "plackett_luce":86.6800003052,
+        "init_plackett_luce":86.6100006104
+      },
+      "Mediterranean Sea":{
+        "justification":"The Mediterranean Sea is a smaller body of water located between Europe, Africa, and Asia, and it's not directly connected to the Andaman Sea. The significant geographical distance and the presence of other oceanic bodies make it unlikely for the Andaman Sea to be part of the Mediterranean Sea.",
+        "listwise":5,
+        "bradley_terry":23.32,
+        "plackett_luce":29.3999996185,
+        "init_plackett_luce":29.3999996185
+      },
+      "Black Sea":{
+        "justification":"The Black Sea is a smaller body of water located between Europe and Asia, and it's not directly connected to the Andaman Sea. The significant geographical distance and the presence of other oceanic bodies make it highly unlikely for the Andaman Sea to be part of the Black Sea.",
+        "listwise":2,
+        "bradley_terry":23.6,
+        "plackett_luce":25.2299995422,
+        "init_plackett_luce":24.5599994659
+      },
+      "Coral Sea":{
+        "justification":"The Coral Sea is a smaller body of water located near Australia, and it's part of the Pacific Ocean. Although the Coral Sea is a separate body of water, the Andaman Sea is not directly connected to it, making this option less likely.",
+        "listwise":12,
+        "bradley_terry":46.99,
+        "plackett_luce":54.2399978638,
+        "init_plackett_luce":54.2399978638
+      },
+      "Philippine Sea":{
+        "justification":"The Philippine Sea is a smaller body of water located near the Philippines, and it's part of the Pacific Ocean. Although the Philippine Sea is a separate body of water, the Andaman Sea is not directly connected to it, making this option less likely.",
+        "listwise":8,
+        "bradley_terry":65.42,
+        "plackett_luce":75.0400009155,
+        "init_plackett_luce":74.3099975586
+      }
+    }
+  },
+  {
+    "id":"trivia_6567",
+    "question":"Which Spanish artist painted the 'Rokeby Venus', completed in 1651?",
+    "question_type":{
+      "major":"HUM:HUMAN",
+      "minor":"ind:Individual"
+    },
+    "question_difficulty":"Medium",
+    "answer":"Velazquez",
+    "answer_difficulty":"Hard",
+    "candidate_answers":{
+      "Murillo":{
+        "justification":"Although Murillo is known for his Baroque-style paintings, his work primarily focused on religious themes. However, he did create some notable portraits and mythological scenes, which might suggest a possibility of him painting the 'Rokeby Venus'. The confidence level is relatively low due to the lack of direct connection between Murillo's known works and the 'Rokeby Venus'.",
+        "listwise":20,
+        "bradley_terry":100.0,
+        "plackett_luce":100.0,
+        "init_plackett_luce":100.0
+      },
+      "Zurbaran":{
+        "justification":"Zurbaran was a Spanish painter known for his dramatic and emotionally charged works, often depicting monks, saints, and still-life compositions. While his style is distinct, it's possible that he might have explored other themes, including the nude figure in the 'Rokeby Venus'. The confidence level is low due to the difference in subject matter between Zurbaran's known works and the 'Rokeby Venus'.",
+        "listwise":15,
+        "bradley_terry":94.12,
+        "plackett_luce":52.9499969482,
+        "init_plackett_luce":52.6699981689
+      },
+      "Ribera":{
+        "justification":"Ribera was a Spanish painter who worked in Naples and was known for his dramatic use of chiaroscuro. He did create some notable works featuring nude figures, which could suggest a connection to the 'Rokeby Venus'. The confidence level is moderate due to Ribera's experience with nude figures, but his style is not typically associated with the 'Rokeby Venus'.",
+        "listwise":30,
+        "bradley_terry":97.45,
+        "plackett_luce":77.3499984741,
+        "init_plackett_luce":77.5099945068
+      },
+      "El Greco":{
+        "justification":"El Greco was a Greek painter who worked in Spain, and his style is characterized by elongated figures and a mix of Byzantine and Renaissance influences. While he did create some notable portraits and religious scenes, his style does not directly align with the 'Rokeby Venus'. The confidence level is low due to the distinct difference in style between El Greco's known works and the 'Rokeby Venus'.",
+        "listwise":10,
+        "bradley_terry":45.24,
+        "plackett_luce":16.8699989319,
+        "init_plackett_luce":17.3799991608
+      },
+      "Juan Carreño de Miranda":{
+        "justification":"Carreño de Miranda was a Spanish painter who worked in the Baroque style and created several notable portraits. While his style is not directly associated with the 'Rokeby Venus', he did have experience with painting the human figure, which could suggest a possibility of him creating the work. The confidence level is moderate due to Carreño de Miranda's experience with portraits, but the subject matter and style of the 'Rokeby Venus' are not typical of his known works.",
+        "listwise":25,
+        "bradley_terry":99.62,
+        "plackett_luce":96.3299942017,
+        "init_plackett_luce":96.6599960327
+      },
+      "Alonso Cano":{
+        "justification":"Cano was a Spanish painter, sculptor, and architect who worked in the Baroque style. He created several notable works featuring the human figure, including some nude scenes. While his style is not directly associated with the 'Rokeby Venus', it's possible that he might have explored similar themes. The confidence level is moderate due to Cano's experience with the human figure, but the 'Rokeby Venus' is not typical of his known works.",
+        "listwise":22,
+        "bradley_terry":99.46,
+        "plackett_luce":94.3099975586,
+        "init_plackett_luce":94.5499954224
+      },
+      "Francisco de Herrera the Younger":{
+        "justification":"Herrera the Younger was a Spanish painter who worked in the Baroque style and created several notable works featuring religious and mythological themes. While his style is not directly associated with the 'Rokeby Venus', he did have experience with painting the human figure, which could suggest a possibility of him creating the work. The confidence level is relatively low due to the lack of direct connection between Herrera's known works and the 'Rokeby Venus'.",
+        "listwise":18,
+        "bradley_terry":97.4,
+        "plackett_luce":77.3600006104,
+        "init_plackett_luce":77.9199981689
+      },
+      "Juan de Valdés Leal":{
+        "justification":"Valdés Leal was a Spanish painter who worked in the Baroque style and created several notable works featuring religious and still-life compositions. While his style is distinct, it's possible that he might have explored other themes, including the nude figure in the 'Rokeby Venus'. The confidence level is low due to the difference in subject matter between Valdés Leal's known works and the 'Rokeby Venus'.",
+        "listwise":12,
+        "bradley_terry":97.59,
+        "plackett_luce":78.3199996948,
+        "init_plackett_luce":78.2299957275
+      },
+      "Pedro de Mena":{
+        "justification":"De Mena was a Spanish sculptor who worked in the Baroque style and created several notable works featuring religious themes. While he did have experience with depicting the human figure, his primary medium was sculpture, not painting, which makes it less likely that he created the 'Rokeby Venus'. The confidence level is low due to the difference in medium and subject matter between de Mena's known works and the 'Rokeby Venus'.",
+        "listwise":8,
+        "bradley_terry":0.0,
+        "plackett_luce":0.0,
+        "init_plackett_luce":0.0
+      },
+      "Francisco Rizi":{
+        "justification":"Rizi was a Spanish painter who worked in the Baroque style and created several notable works featuring religious and mythological themes. He did have experience with painting the human figure, which could suggest a possibility of him creating the 'Rokeby Venus'. The confidence level is moderate due to Rizi's experience with the human figure, but the 'Rokeby Venus' is not typical of his known works.",
+        "listwise":28,
+        "bradley_terry":98.02,
+        "plackett_luce":82.2200012207,
+        "init_plackett_luce":82.2999954224
+      }
+    }
+  },
+  {
+    "id": "trivia_5634",
+    "question": "What movie took place on the moon of Pandora?",
+    "question_type": {
+      "major": "ENTY:ENTITY",
+      "minor": "cremat:Invention, book and other creative piece"
+    },
+    "question_difficulty": "Medium",
+    "answer": "Avatar",
+    "answer_difficulty": "Easy",
+    "candidate_answers": {
+      "Alien": {
+        "justification": "Although the Alien franchise is set in space, there's no direct connection to a moon called Pandora. However, the franchise does explore various planets and moons, making it a slight possibility. The confidence level is low due to the lack of direct association with Pandora.",
+        "listwise": 20,
+        "bradley_terry": 51.99,
+        "plackett_luce": 64.4799957275,
+        "init_plackett_luce": 64.9099960327
+      },
+      "Guardians of the Galaxy": {
+        "justification": "This Marvel movie features a diverse range of planets and locations, but there's no explicit mention of a moon called Pandora. The confidence level is low because the movie's focus is on other planets and locations.",
+        "listwise": 15,
+        "bradley_terry": 47.01,
+        "plackett_luce": 29.1899986267,
+        "init_plackett_luce": 29.1299991608
+      },
+      "Valerian and the City of a Thousand Planets": {
+        "justification": "This sci-fi film is based on a comic book series and features a wide range of planets and locations. While it's possible that Pandora could be one of them, there's no clear connection, resulting in a low confidence level.",
+        "listwise": 10,
+        "bradley_terry": 52.82,
+        "plackett_luce": 69.2600021362,
+        "init_plackett_luce": 69.2999954224
+      },
+      "Prometheus": {
+        "justification": "As a prequel to the Alien franchise, Prometheus explores the origins of humanity and features a distant planet. Although the planet is not explicitly named Pandora, the movie's themes and setting make it a slightly more plausible candidate, warranting a moderate confidence level.",
+        "listwise": 25,
+        "bradley_terry": 100.0,
+        "plackett_luce": 100.0,
+        "init_plackett_luce": 100.0
+      },
+      "Interstellar": {
+        "justification": "This movie focuses on wormhole travel and exploring distant planets in search of a new home for humanity. While it does feature various planets and locations, there's no clear connection to a moon called Pandora, resulting in a very low confidence level.",
+        "listwise": 5,
+        "bradley_terry": 49.16,
+        "plackett_luce": 44.0099983215,
+        "init_plackett_luce": 43.8799972534
+      },
+      "The Matrix": {
+        "justification": "This iconic sci-fi film is set in a simulated reality and does not feature any space-based locations, making it an extremely unlikely candidate. The confidence level is zero due to the complete lack of relevance to space or a moon called Pandora.",
+        "listwise": 0,
+        "bradley_terry": 0.0,
+        "plackett_luce": 0.0,
+        "init_plackett_luce": 0.0
+      },
+      "Star Wars: The Last Jedi": {
+        "justification": "This installment of the Star Wars franchise features a range of planets and locations, but there's no explicit mention of a moon called Pandora. The confidence level is low due to the lack of connection and the focus on other planets and locations.",
+        "listwise": 8,
+        "bradley_terry": 21.65,
+        "plackett_luce": 12.029999733,
+        "init_plackett_luce": 12.1799993515
+      },
+      "Passengers": {
+        "justification": "This movie takes place on a spaceship traveling to a distant planet, but there's no clear connection to a moon called Pandora. The confidence level is low because the movie's focus is on the ship and its passengers rather than exploring specific moons or planets.",
+        "listwise": 12,
+        "bradley_terry": 47.94,
+        "plackett_luce": 34.6300010681,
+        "init_plackett_luce": 35.5699996948
+      },
+      "Moon": {
+        "justification": "This sci-fi film is set on the moon and explores themes of isolation and identity. While it does feature a lunar setting, there's no connection to a moon called Pandora, resulting in a low confidence level due to the lack of relevance.",
+        "listwise": 18,
+        "bradley_terry": 50.45,
+        "plackett_luce": 54.2599983215,
+        "init_plackett_luce": 53.8199996948
+      },
+      "Outland": {
+        "justification": "This 1981 sci-fi film is set on a mining colony on one of Jupiter's moons, Io. Although it does feature a lunar setting, there's no clear connection to a moon called Pandora. The confidence level is moderate due to the movie's focus on a lunar setting, but the lack of direct association with Pandora keeps it relatively low.",
+        "listwise": 22,
+        "bradley_terry": 78.32,
+        "plackett_luce": 86.9499969482,
+        "init_plackett_luce": 86.6999969482
+      }
+    }
+  },
+  {
+    "id":"trivia_6211",
+    "question":"In 1965, which American pop group, whose original members include the legendary David Crosby, had a No.1 hit with the Bob Dylan song, \"Mr Tambourine Man\"?\"",
+    "question_type":{
+      "major":"HUM:HUMAN",
+      "minor":"gr:Group or organization of person"
+    },
+    "question_difficulty":"Easy",
+    "answer":"Byrds",
+    "answer_difficulty":"Easy",
+    "candidate_answers":{
+      "The Mamas & The Papas":{
+        "justification":"Although The Mamas & The Papas were a prominent American pop group in the 1960s, their style and sound were more focused on folk-rock and vocal harmonies. While they did cover various songs, there's no direct connection between them and a notable Bob Dylan cover like \"Mr Tambourine Man\" that reached No.1.",
+        "listwise":20,
+        "bradley_terry":60.41,
+        "plackett_luce":64.0400009155,
+        "init_plackett_luce":64.0599975586
+      },
+      "The Beach Boys":{
+        "justification":"As one of the most influential American pop groups of the 1960s, The Beach Boys had a wide range of hits. However, their style was more focused on surf rock and harmonies, and while they did experiment with different sounds, a Bob Dylan cover like \"Mr Tambourine Man\" doesn't fit their typical genre.",
+        "listwise":30,
+        "bradley_terry":62.57,
+        "plackett_luce":77.8699951172,
+        "init_plackett_luce":78.1199951172
+      },
+      "Simon & Garfunkel":{
+        "justification":"This duo was known for their folk-rock sound, which aligns with Bob Dylan's style. They did have several hits, including covers, but \"Mr Tambourine Man\" is not typically associated with them. Their confidence level is higher due to their folk-rock background, but it's still not a strong match.",
+        "listwise":40,
+        "bradley_terry":100.0,
+        "plackett_luce":100.0,
+        "init_plackett_luce":100.0
+      },
+      "The Doors":{
+        "justification":"The Doors were a rock band with a darker, more psychedelic sound, which doesn't align well with the folk-rock style of \"Mr Tambourine Man\". While they did have poetic lyrics, their sound and style are quite different from what would be expected for a Bob Dylan cover.",
+        "listwise":10,
+        "bradley_terry":0.0,
+        "plackett_luce":0.0,
+        "init_plackett_luce":0.0
+      },
+      "The Monkees":{
+        "justification":"As a manufactured pop group, The Monkees had a wide range of hits, but their sound was more focused on catchy, upbeat pop songs. While they did have some folk-rock influences, a Bob Dylan cover like \"Mr Tambourine Man\" doesn't fit their typical style, and their confidence level is lower due to their more pop-oriented sound.",
+        "listwise":25,
+        "bradley_terry":57.06,
+        "plackett_luce":32.0799980164,
+        "init_plackett_luce":32.0599975586
+      },
+      "The Turtles":{
+        "justification":"The Turtles were a pop-rock group with a few hits, including some folk-rock influences. They did have a similar sound to what might be expected for a Bob Dylan cover, but there's no direct connection between them and \"Mr Tambourine Man\".",
+        "listwise":35,
+        "bradley_terry":61.0,
+        "plackett_luce":68.4599990845,
+        "init_plackett_luce":68.3699951172
+      },
+      "The Youngbloods":{
+        "justification":"The Youngbloods were a folk-rock group with a sound that aligns well with Bob Dylan's style. They did have some hits, including covers, and their confidence level is higher due to their folk-rock background and the possibility that they might have covered a Dylan song.",
+        "listwise":45,
+        "bradley_terry":61.23,
+        "plackett_luce":66.5299987793,
+        "init_plackett_luce":66.5299987793
+      },
+      "The Lovin' Spoonful":{
+        "justification":"The Lovin' Spoonful were a folk-rock group with a sound that fits well with the style of \"Mr Tambourine Man\". They did have several hits, including some covers, and their confidence level is higher due to their folk-rock background and the possibility that they might have covered a Dylan song.",
+        "listwise":50,
+        "bradley_terry":63.08,
+        "plackett_luce":78.4700012207,
+        "init_plackett_luce":78.8699951172
+      },
+      "The Association":{
+        "justification":"The Association was a pop group with a focus on vocal harmonies and a more upbeat sound. While they did have some folk-rock influences, their style doesn't align well with the sound expected for a Bob Dylan cover like \"Mr Tambourine Man\".",
+        "listwise":15,
+        "bradley_terry":59.13,
+        "plackett_luce":48.7299995422,
+        "init_plackett_luce":48.5499992371
+      },
+      "The Grass Roots":{
+        "justification":"The Grass Roots were a folk-rock group with a sound that fits somewhat with the style of \"Mr Tambourine Man\". They did have some hits, including covers, but their confidence level is lower due to the lack of a direct connection between them and a notable Bob Dylan cover like \"Mr Tambourine Man\".",
+        "listwise":28,
+        "bradley_terry":27.3,
+        "plackett_luce":12.8199996948,
+        "init_plackett_luce":12.3499994278
+      }
+    }
+  },
+  {
+    "id":"nq_2745",
+    "question":"when did to kill a mockingbird become popular?",
+    "question_type":{
+      "major":"NUM:NUMERIC",
+      "minor":"date:Date"
+    },
+    "question_difficulty":"Medium",
+    "answer":"1960",
+    "answer_difficulty":"Hard",
+    "candidate_answers":{
+      "1959":{
+        "justification":"I have a high confidence level for this answer because Harper Lee's novel \"To Kill a Mockingbird\" was published in July 1960, but it's possible that the book gained popularity in the months leading up to its publication, perhaps due to pre-release reviews or word-of-mouth. However, without exact data on the book's pre-release popularity, my confidence level is not 100%.",
+        "listwise":80,
+        "bradley_terry":62.95,
+        "plackett_luce":65.6999969482,
+        "init_plackett_luce":66.1999969482
+      },
+      "1961":{
+        "justification":"My confidence level for this answer is moderate because the Pulitzer Prize, which \"To Kill a Mockingbird\" won in 1961, often boosts a book's popularity. It's possible that the novel's popularity surged after the award was announced in May 1961. However, the book may have already been popular before the award, so my confidence level is not higher.",
+        "listwise":70,
+        "bradley_terry":100.0,
+        "plackett_luce":100.0,
+        "init_plackett_luce":100.0
+      },
+      "1962":{
+        "justification":"I have a relatively low confidence level for this answer because, while the novel may have continued to gain popularity in 1962, it's likely that its popularity peaked earlier, perhaps in 1960 or 1961. However, it's possible that the book's popularity persisted or even grew in 1962, especially if it was assigned in schools or book clubs.",
+        "listwise":40,
+        "bradley_terry":85.52,
+        "plackett_luce":87.8699951172,
+        "init_plackett_luce":87.4300003052
+      },
+      "1958":{
+        "justification":"My confidence level for this answer is low because \"To Kill a Mockingbird\" was not published until 1960, and it's unlikely that the book gained significant popularity two years before its publication. However, it's possible that Harper Lee's manuscript was circulating among publishers, agents, or writing groups in 1958, generating some buzz about the book.",
+        "listwise":20,
+        "bradley_terry":18.68,
+        "plackett_luce":17.4499988556,
+        "init_plackett_luce":17.8899993896
+      },
+      "1963":{
+        "justification":"I have a relatively low confidence level for this answer because, while the novel may have still been popular in 1963, it's likely that its popularity had begun to wane by then. However, it's possible that the book's popularity persisted or even grew in 1963, especially if it was adapted into a film or play (although the film adaptation was not released until 1962).",
+        "listwise":30,
+        "bradley_terry":73.63,
+        "plackett_luce":76.0199966431,
+        "init_plackett_luce":75.0400009155
+      },
+      "1964":{
+        "justification":"My confidence level for this answer is very low because, by 1964, \"To Kill a Mockingbird\" had likely already reached the peak of its popularity. However, it's possible that the book's popularity experienced a resurgence in 1964, perhaps due to a new edition or a significant cultural event.",
+        "listwise":10,
+        "bradley_terry":52.77,
+        "plackett_luce":55.2399978638,
+        "init_plackett_luce":54.2599983215
+      },
+      "1957":{
+        "justification":"I have a very low confidence level for this answer because \"To Kill a Mockingbird\" was not published until 1960, and it's unlikely that the book gained significant popularity three years before its publication. However, it's possible that Harper Lee was working on the manuscript in 1957 and generating some buzz about the book among her writing circle.",
+        "listwise":15,
+        "bradley_terry":18.68,
+        "plackett_luce":17.8699989319,
+        "init_plackett_luce":17.9200000763
+      },
+      "1965":{
+        "justification":"My confidence level for this answer is relatively low because, while the novel may have still been popular in 1965, it's likely that its popularity had begun to wane by then. However, it's possible that the book's popularity persisted or even grew in 1965, especially if it was assigned in schools or book clubs.",
+        "listwise":25,
+        "bradley_terry":42.58,
+        "plackett_luce":44.8699989319,
+        "init_plackett_luce":45.0599975586
+      },
+      "1956":{
+        "justification":"I have a very low confidence level for this answer because \"To Kill a Mockingbird\" was not published until 1960, and it's highly unlikely that the book gained significant popularity four years before its publication. However, it's possible that Harper Lee was conceptualizing the book in 1956 and generating some initial ideas.",
+        "listwise":5,
+        "bradley_terry":0.0,
+        "plackett_luce":0.0,
+        "init_plackett_luce":0.0
+      },
+      "1966":{
+        "justification":"My confidence level for this answer is very low because, by 1966, \"To Kill a Mockingbird\" had likely already reached the peak of its popularity and was beginning to be replaced by other popular books. However, it's possible that the book's popularity experienced a resurgence in 1966, perhaps due to a new edition or a significant cultural event.",
+        "listwise":12,
+        "bradley_terry":31.76,
+        "plackett_luce":33.9399986267,
+        "init_plackett_luce":34.3600006104
+      }
+    }
+  },
+  {
+    "id":"trivia_5616",
+    "question":"What is produced when you strike steel agains flint?",
+    "question_type":{
+      "major":"ENTY:ENTITY",
+      "minor":"substance:Element and substance"
+    },
+    "question_difficulty":"Medium",
+    "answer":"Spark",
+    "answer_difficulty":"Hard",
+    "candidate_answers":{
+      "Flame":{
+        "justification":"I have a high confidence level in this answer because striking steel against flint is a common method for starting fires, and the resulting flame is a visible and tangible outcome. However, I'm not 100% confident because the question asks for what is \"produced\" which could imply a more immediate or intermediate result.",
+        "listwise":80,
+        "bradley_terry":92.27,
+        "plackett_luce":73.0999984741,
+        "init_plackett_luce":72.7099990845
+      },
+      "Heat":{
+        "justification":"My confidence level is high for this answer because the friction generated by striking steel against flint creates a significant amount of heat, which is a fundamental principle of physics. The heat is what eventually ignites the flame, but it's a more direct consequence of the action.",
+        "listwise":90,
+        "bradley_terry":97.9,
+        "plackett_luce":93.3600006104,
+        "init_plackett_luce":93.2699966431
+      },
+      "Light":{
+        "justification":"I'm fairly confident in this answer because the spark or flame produced by striking steel against flint emits light, which is a visible and noticeable effect. However, I'm not 100% confident because \"light\" is a broad term and might not specifically capture the essence of what's being asked.",
+        "listwise":85,
+        "bradley_terry":100.0,
+        "plackett_luce":100.0,
+        "init_plackett_luce":100.0
+      },
+      "Ember":{
+        "justification":"My confidence level is moderate for this answer because an ember is a possible outcome of striking steel against flint, especially if the conditions are right for a fire to start. However, an ember is not always produced, and it's not the most immediate result of the action.",
+        "listwise":70,
+        "bradley_terry":97.9,
+        "plackett_luce":93.2699966431,
+        "init_plackett_luce":93.4599990845
+      },
+      "Friction":{
+        "justification":"I have a moderate confidence level in this answer because friction is indeed produced when steel is struck against flint, and it's a necessary condition for the resulting heat and flame. However, friction is more of a process than a product, so I'm not as confident that it's the answer being looked for.",
+        "listwise":60,
+        "bradley_terry":86.78,
+        "plackett_luce":53.1199989319,
+        "init_plackett_luce":53.8499984741
+      },
+      "Sound":{
+        "justification":"My confidence level is relatively low for this answer because while striking steel against flint does produce a sound, it's not the primary or most noticeable outcome of the action. The sound is more of a secondary effect and might not be what the question is getting at.",
+        "listwise":40,
+        "bradley_terry":86.78,
+        "plackett_luce":53.5299987793,
+        "init_plackett_luce":53.7899971008
+      },
+      "Smoke":{
+        "justification":"I have a low confidence level in this answer because smoke is not always produced when steel is struck against flint, and it's not a direct result of the action. Smoke might appear if a fire is started, but it's not the most immediate or reliable outcome.",
+        "listwise":30,
+        "bradley_terry":79.08,
+        "plackett_luce":28.6800003052,
+        "init_plackett_luce":28.9799995422
+      },
+      "Ash":{
+        "justification":"My confidence level is low for this answer because ash is not produced by the act of striking steel against flint itself, but rather by the subsequent burning of fuel. Ash is a byproduct of combustion, not a direct result of the steel-flint interaction.",
+        "listwise":20,
+        "bradley_terry":0.0,
+        "plackett_luce":0.0,
+        "init_plackett_luce":0.0
+      },
+      "Gas":{
+        "justification":"I have a low confidence level in this answer because while some gases might be released when steel is struck against flint (e.g., from the heating of air or the decomposition of flint), it's not a primary or noticeable outcome of the action. The gases produced are likely to be minimal and not the main focus of the question.",
+        "listwise":25,
+        "bradley_terry":0.0,
+        "plackett_luce":0.1700000018,
+        "init_plackett_luce":0.8399999738
+      },
+      "Plasma":{
+        "justification":"My confidence level is very low for this answer because while plasma is a state of matter that can be produced at high temperatures, it's not a typical or expected outcome of striking steel against flint. The temperatures and conditions required to produce plasma are not usually met in this scenario, making it an unlikely answer.",
+        "listwise":10,
+        "bradley_terry":82.18,
+        "plackett_luce":39.5299987793,
+        "init_plackett_luce":39.8600006104
+      }
+    }
+  }
+]

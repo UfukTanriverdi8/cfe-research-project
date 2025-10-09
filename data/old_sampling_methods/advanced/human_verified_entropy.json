@@ -1,0 +1,1915 @@
+{
+  "confusing": [
+    {
+      "id": "trivia_3119",
+      "question": "Osmic relates to which of the senses?",
+      "question_type": {
+        "major": "ENTY:ENTITY",
+        "minor": "other:Other entity"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Smell",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Taste": {
+          "justification": "I have a low confidence level in this answer because while taste and smell are closely related, the prefix \"osmic\" doesn't directly relate to the sense of taste. The word \"osmic\" seems to be more closely related to the Greek word \"osme,\" which means smell, but I'm considering the possibility that it could be related to a nearby sense.",
+          "listwise": 10,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Hearing": {
+          "justification": "My confidence level in this answer is very low because there doesn't seem to be any direct connection between the prefix \"osmic\" and the sense of hearing. The words related to hearing, such as \"audio\" or \"sonic,\" have distinct prefixes that don't resemble \"osmic.\"",
+          "listwise": 5,
+          "bradley_terry": 18.85,
+          "plackett_luce": 53.189998626708984,
+          "init_plackett_luce": 53.71999740600586
+        },
+        "Touch": {
+          "justification": "I have a slightly higher confidence level in this answer than in hearing because the sense of touch can be related to the perception of odors or smells through the sensation of particles in the air. However, this connection is still quite indirect, and I wouldn't consider it a strong candidate.",
+          "listwise": 8,
+          "bradley_terry": 27.08,
+          "plackett_luce": 72.05999755859375,
+          "init_plackett_luce": 72.01000213623047
+        },
+        "Sight": {
+          "justification": "My confidence level in this answer is very low because the prefix \"osmic\" doesn't seem to have any connection to the sense of sight. The words related to sight, such as \"optic\" or \"visual,\" have distinct prefixes that don't resemble \"osmic.\"",
+          "listwise": 3,
+          "bradley_terry": 6.67,
+          "plackett_luce": 22.689998626708984,
+          "init_plackett_luce": 22.719999313354492
+        },
+        "Balance": {
+          "justification": "I have a very low confidence level in this answer because the sense of balance, also known as equilibrium, doesn't seem to have any direct connection to the prefix \"osmic.\" The words related to balance, such as \"vestibular,\" don't resemble \"osmic\" in any way.",
+          "listwise": 2,
+          "bradley_terry": 7.85,
+          "plackett_luce": 24.239999771118164,
+          "init_plackett_luce": 24.170000076293945
+        },
+        "Temperature": {
+          "justification": "My confidence level in this answer is low because while temperature can be related to the perception of smells or odors, the prefix \"osmic\" doesn't directly relate to the sense of temperature. The words related to temperature, such as \"thermal,\" have distinct prefixes that don't resemble \"osmic.\"",
+          "listwise": 6,
+          "bradley_terry": 22.7,
+          "plackett_luce": 59.97999954223633,
+          "init_plackett_luce": 60.3599967956543
+        },
+        "Pain": {
+          "justification": "I have a low confidence level in this answer because the sense of pain doesn't seem to have any direct connection to the prefix \"osmic.\" The words related to pain, such as \"nociceptive,\" don't resemble \"osmic\" in any way.",
+          "listwise": 4,
+          "bradley_terry": 8.6,
+          "plackett_luce": 26.939998626708984,
+          "init_plackett_luce": 27.010000228881836
+        },
+        "Proprioception": {
+          "justification": "My confidence level in this answer is extremely low because proprioception, the sense of body awareness, doesn't seem to have any connection to the prefix \"osmic.\" The words related to proprioception, such as \"kinesthetic,\" don't resemble \"osmic\" in any way.",
+          "listwise": 1,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Interoception": {
+          "justification": "I have a slightly higher confidence level in this answer than in some of the other senses because interoception, the sense of internal bodily states, can be related to the perception of smells or odors through the sensation of hunger or fullness. However, this connection is still quite indirect, and I wouldn't consider it a strong candidate.",
+          "listwise": 9,
+          "bradley_terry": 13.63,
+          "plackett_luce": 42.63999938964844,
+          "init_plackett_luce": 42.72999954223633
+        },
+        "Nociception": {
+          "justification": "My confidence level in this answer is low because while nociception, the sense of detecting harmful stimuli, can be related to the perception of smells or odors through the sensation of irritation, the prefix \"osmic\" doesn't directly relate to the sense of nociception. The words related to nociception, such as \"pain,\" don't resemble \"osmic\" in any way.",
+          "listwise": 7,
+          "bradley_terry": 16.54,
+          "plackett_luce": 49.5099983215332,
+          "init_plackett_luce": 49.939998626708984
+        }
+      }
+    },
+    {
+      "id": "trivia_9113",
+      "question": "Trinidad lies opposite the delta of which major river?",
+      "question_type": {
+        "major": "LOC:LOCATION",
+        "minor": "other:Other location"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Orinoco",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Amazon River": {
+          "justification": "The Amazon River is a major river in South America, but it is located far from Trinidad, which is an island in the Caribbean. Given the geographical distance, it's unlikely that Trinidad lies opposite the delta of the Amazon River.",
+          "listwise": 5,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Magdalena River": {
+          "justification": "The Magdalena River is a major river in Colombia, and while it's closer to Trinidad than the Amazon River, it's still not in the immediate vicinity. The confidence level is low due to the lack of geographical proximity.",
+          "listwise": 10,
+          "bradley_terry": 0.19,
+          "plackett_luce": 0.10999999940395355,
+          "init_plackett_luce": 0.5099999904632568
+        },
+        "Essequibo River": {
+          "justification": "The Essequibo River is located in Guyana, which is a country near Trinidad. Although it's a major river, its delta is not directly opposite Trinidad, reducing the confidence level.",
+          "listwise": 20,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Corantijn River": {
+          "justification": "The Corantijn River forms part of the border between Guyana and Suriname. While it's closer to Trinidad than some other major rivers, its relatively small size and indirect location reduce the confidence level.",
+          "listwise": 15,
+          "bradley_terry": 82.59,
+          "plackett_luce": 88.08000183105469,
+          "init_plackett_luce": 86.69999694824219
+        },
+        "Maroni River": {
+          "justification": "The Maroni River is located on the border of Suriname and French Guiana. Although it's a significant river, its delta is not directly opposite Trinidad, resulting in a low confidence level.",
+          "listwise": 12,
+          "bradley_terry": 6.9,
+          "plackett_luce": 9.679999351501465,
+          "init_plackett_luce": 10.1899995803833
+        },
+        "Demerara River": {
+          "justification": "The Demerara River is a major river in Guyana, and its location is relatively close to Trinidad. However, its delta is not directly opposite the island, reducing the confidence level.",
+          "listwise": 18,
+          "bradley_terry": 27.03,
+          "plackett_luce": 29.799999237060547,
+          "init_plackett_luce": 28.84000015258789
+        },
+        "Berbice River": {
+          "justification": "The Berbice River is another major river in Guyana, but its location is not as close to Trinidad as some other rivers, resulting in a lower confidence level.",
+          "listwise": 8,
+          "bradley_terry": 41.83,
+          "plackett_luce": 45.84000015258789,
+          "init_plackett_luce": 46.54999923706055
+        },
+        "Courantyne River": {
+          "justification": "The Courantyne River forms part of the border between Suriname and Guyana. Its location is relatively close to Trinidad, and it's a significant river, but its delta is not directly opposite the island, reducing the confidence level.",
+          "listwise": 22,
+          "bradley_terry": 86.81,
+          "plackett_luce": 87.75,
+          "init_plackett_luce": 87.40999603271484
+        },
+        "Meta River": {
+          "justification": "The Meta River is a major river in Colombia, but it's located far from Trinidad, resulting in a very low confidence level due to the geographical distance.",
+          "listwise": 6,
+          "bradley_terry": 25.68,
+          "plackett_luce": 26.10999870300293,
+          "init_plackett_luce": 25.989999771118164
+        },
+        "Cuyuni River": {
+          "justification": "The Cuyuni River is located on the border of Guyana and Venezuela, and its location is relatively close to Trinidad. Although it's not as large as some other rivers, its proximity to Trinidad increases the confidence level, making it a possible candidate.",
+          "listwise": 25,
+          "bradley_terry": 78.32,
+          "plackett_luce": 78.45999908447266,
+          "init_plackett_luce": 79.68000030517578
+        }
+      }
+    },
+    {
+      "id": "trivia_9038",
+      "question": "In which constellation is the star 'Betelguese'?",
+      "question_type": {
+        "major": "LOC:LOCATION",
+        "minor": "other:Other location"
+      },
+      "question_difficulty": "Medium",
+      "answer": "ORION",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Canis Major": {
+          "justification": "I have a high confidence level in this answer because Canis Major is a constellation in the southern sky, and Betelgeuse is a bright, reddish star that could potentially be part of a prominent constellation like Canis Major. However, I'm not 100% sure because I don't have enough information about the specific stars in Canis Major.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 99.43999481201172,
+          "init_plackett_luce": 99.72000122070312
+        },
+        "Cassiopeia": {
+          "justification": "My confidence level in this answer is moderate because Cassiopeia is a well-known constellation in the northern sky, and it's possible that Betelgeuse could be part of it. However, I'm not very familiar with the specific stars in Cassiopeia, which is why my confidence level is not higher.",
+          "listwise": 40,
+          "bradley_terry": 44.0,
+          "plackett_luce": 12.039999961853027,
+          "init_plackett_luce": 10.809999465942383
+        },
+        "Ursa Major": {
+          "justification": "I have a relatively low confidence level in this answer because Ursa Major is a constellation primarily known for containing the North Star (Polaris), and I'm not aware of any bright, reddish stars like Betelgeuse in this constellation.",
+          "listwise": 30,
+          "bradley_terry": 44.78,
+          "plackett_luce": 22.619998931884766,
+          "init_plackett_luce": 22.69999885559082
+        },
+        "Scorpius": {
+          "justification": "My confidence level in this answer is moderate because Scorpius is a constellation in the southern sky, and it's known for containing bright, reddish stars like Antares. It's possible that Betelgeuse could be part of Scorpius, but I'm not sure because I don't have enough information about the specific stars in this constellation.",
+          "listwise": 50,
+          "bradley_terry": 48.33,
+          "plackett_luce": 45.27000045776367,
+          "init_plackett_luce": 44.189998626708984
+        },
+        "Cygnus": {
+          "justification": "I have a relatively low confidence level in this answer because Cygnus is a constellation in the northern sky, and it's primarily known for containing the bright star Deneb. I'm not aware of any bright, reddish stars like Betelgeuse in Cygnus.",
+          "listwise": 20,
+          "bradley_terry": 48.65,
+          "plackett_luce": 43.63999938964844,
+          "init_plackett_luce": 42.779998779296875
+        },
+        "Lyra": {
+          "justification": "My confidence level in this answer is relatively low because Lyra is a constellation in the northern sky, and it's primarily known for containing the bright star Vega. I'm not aware of any bright, reddish stars like Betelgeuse in Lyra.",
+          "listwise": 25,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Gemini": {
+          "justification": "I have a relatively low confidence level in this answer because Gemini is a constellation in the northern sky, and it's primarily known for containing the bright stars Castor and Pollux. I'm not aware of any bright, reddish stars like Betelgeuse in Gemini.",
+          "listwise": 35,
+          "bradley_terry": 49.55,
+          "plackett_luce": 52.73999786376953,
+          "init_plackett_luce": 52.28999710083008
+        },
+        "Taurus": {
+          "justification": "My confidence level in this answer is relatively high because Taurus is a constellation in the northern sky, and it's known for containing bright, reddish stars like Aldebaran. It's possible that Betelgeuse could be part of Taurus, but I'm not 100% sure because I don't have enough information about the specific stars in this constellation.",
+          "listwise": 60,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Auriga": {
+          "justification": "I have a moderate confidence level in this answer because Auriga is a constellation in the northern sky, and it's known for containing bright stars like Capella. It's possible that Betelgeuse could be part of Auriga, but I'm not sure because I don't have enough information about the specific stars in this constellation.",
+          "listwise": 45,
+          "bradley_terry": 49.5,
+          "plackett_luce": 50.64999771118164,
+          "init_plackett_luce": 49.91999816894531
+        },
+        "Perseus": {
+          "justification": "My confidence level in this answer is moderate because Perseus is a constellation in the northern sky, and it's known for containing bright stars like Mirfak. It's possible that Betelgeuse could be part of Perseus, but I'm not 100% sure because I don't have enough information about the specific stars in this constellation.",
+          "listwise": 55,
+          "bradley_terry": 48.81,
+          "plackett_luce": 46.93000030517578,
+          "init_plackett_luce": 46.61000061035156
+        }
+      }
+    },
+    {
+      "id": "trivia_3000",
+      "question": "Who wrote The Railway Children?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Hard",
+      "answer": "E Nesbit",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Beatrix Potter": {
+          "justification": "Although Beatrix Potter is a renowned children's author, her works are primarily focused on animal stories and fantasy, which doesn't align with the theme of \"The Railway Children\". Her writing style and genre don't match the book, hence the low confidence level.",
+          "listwise": 5,
+          "bradley_terry": 8.99,
+          "plackett_luce": 35.689998626708984,
+          "init_plackett_luce": 35.20000076293945
+        },
+        "Frances Hodgson Burnett": {
+          "justification": "Frances Hodgson Burnett is a celebrated author of children's classics like \"The Secret Garden\" and \"A Little Princess\". While she does write about children and their adventures, her style is more focused on fantasy and personal growth, which might not be the best fit for \"The Railway Children\". However, her experience in writing children's literature gives her a slightly higher confidence level.",
+          "listwise": 20,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Kenneth Grahame": {
+          "justification": "Kenneth Grahame is best known for \"The Wind in the Willows\", a classic children's tale. Although he does write about childhood adventures, his stories tend to be more focused on fantasy and animal characters, which doesn't perfectly match the realistic tone of \"The Railway Children\".",
+          "listwise": 15,
+          "bradley_terry": 13.54,
+          "plackett_luce": 56.02000045776367,
+          "init_plackett_luce": 55.29999923706055
+        },
+        "Louisa May Alcott": {
+          "justification": "Louisa May Alcott is famous for \"Little Women\", a novel about sisters growing up during the American Civil War. While she does write about family and childhood, her stories are often more focused on historical context and personal growth, which might not be the best fit for \"The Railway Children\".",
+          "listwise": 10,
+          "bradley_terry": 10.37,
+          "plackett_luce": 38.959999084472656,
+          "init_plackett_luce": 38.61000061035156
+        },
+        "J.M. Barrie": {
+          "justification": "J.M. Barrie is the creator of \"Peter Pan\", a classic tale of childhood adventure. Although his writing style is more focused on fantasy, he does explore themes of childhood and imagination, which could be relevant to \"The Railway Children\". His experience in writing about children's adventures gives him a moderate confidence level.",
+          "listwise": 25,
+          "bradley_terry": 13.98,
+          "plackett_luce": 56.46999740600586,
+          "init_plackett_luce": 55.89999771118164
+        },
+        "Enid Blyton": {
+          "justification": "Enid Blyton is a prolific author of children's series like \"The Famous Five\" and \"The Secret Seven\". She often writes about adventure, mystery, and childhood friendships, which could be a good fit for \"The Railway Children\". Her extensive experience in writing children's literature gives her a relatively high confidence level.",
+          "listwise": 30,
+          "bradley_terry": 60.67,
+          "plackett_luce": 86.5199966430664,
+          "init_plackett_luce": 86.86000061035156
+        },
+        "Charles Dickens": {
+          "justification": "Charles Dickens is a renowned author of classic novels like \"Oliver Twist\" and \"David Copperfield\". Although he does write about childhood and social issues, his style is often more focused on adult themes and social commentary, which might not be the best fit for \"The Railway Children\".",
+          "listwise": 5,
+          "bradley_terry": 1.07,
+          "plackett_luce": 9.829999923706055,
+          "init_plackett_luce": 9.029999732971191
+        },
+        "L.M. Montgomery": {
+          "justification": "L.M. Montgomery is famous for \"Anne of Green Gables\", a classic novel about a young girl's adventures. While she does write about childhood and personal growth, her stories tend to be more focused on individual character development and historical context, which might not perfectly match the tone of \"The Railway Children\".",
+          "listwise": 22,
+          "bradley_terry": 14.52,
+          "plackett_luce": 61.07999801635742,
+          "init_plackett_luce": 60.6099967956543
+        },
+        "Anna Sewell": {
+          "justification": "Anna Sewell is the author of \"Black Beauty\", a classic novel about a horse's life. Although she does write about childhood and adventure, her stories are often more focused on animal welfare and social issues, which might not be the best fit for \"The Railway Children\".",
+          "listwise": 8,
+          "bradley_terry": 4.35,
+          "plackett_luce": 18.010000228881836,
+          "init_plackett_luce": 17.489999771118164
+        },
+        "Robert Louis Stevenson": {
+          "justification": "Robert Louis Stevenson is famous for \"Treasure Island\", a classic adventure novel. While he does write about adventure and childhood, his stories tend to be more focused on fantasy and action, which might not perfectly match the realistic tone of \"The Railway Children\". However, his experience in writing about childhood adventures gives him a moderate confidence level.",
+          "listwise": 12,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        }
+      }
+    },
+    {
+      "id": "trivia_2504",
+      "question": "The Wasp Factory was the debut novel of which author who died in 2013?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Iain Banks",
+      "answer_difficulty": "Medium",
+      "candidate_answers": {
+        "Ian McEwan": {
+          "justification": "Although Ian McEwan is a well-known British author, his writing style and debut novel ('The Cement Garden') do not match 'The Wasp Factory'. However, given his reputation and the time period of his debut, there's a small chance he might be considered.",
+          "listwise": 20,
+          "bradley_terry": 0.51,
+          "plackett_luce": 8.139999389648438,
+          "init_plackett_luce": 8.059999465942383
+        },
+        "Martin Amis": {
+          "justification": "As a prominent British author, Martin Amis has written several notable novels, but his debut ('The Rachel Papers') and subsequent works do not resemble 'The Wasp Factory' in terms of style or content. The low confidence level reflects this discrepancy.",
+          "listwise": 15,
+          "bradley_terry": 5.34,
+          "plackett_luce": 32.5099983215332,
+          "init_plackett_luce": 32.540000915527344
+        },
+        "Will Self": {
+          "justification": "Will Self is a British author known for his unique writing style, but his debut novel ('Cock and Bull') and other works do not align with 'The Wasp Factory'. The low confidence level is due to the distinct difference in their writing styles.",
+          "listwise": 10,
+          "bradley_terry": 5.65,
+          "plackett_luce": 42.64999771118164,
+          "init_plackett_luce": 42.43000030517578
+        },
+        "Neil Gaiman": {
+          "justification": "Neil Gaiman is a British author famous for his fantasy novels, but his debut ('Good Omens', co-authored with Terry Pratchett) and subsequent works do not match the dark, realistic tone of 'The Wasp Factory'. The low confidence level reflects the significant difference in their genres and styles.",
+          "listwise": 5,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Irvine Welsh": {
+          "justification": "Irvine Welsh is a Scottish author known for his dark, often disturbing novels. Although his debut ('Trainspotting') differs from 'The Wasp Factory' in terms of style and content, the similarity in their exploration of darker themes warrants a moderate confidence level.",
+          "listwise": 25,
+          "bradley_terry": 6.02,
+          "plackett_luce": 43.73999786376953,
+          "init_plackett_luce": 43.779998779296875
+        },
+        "Alan Warner": {
+          "justification": "Alan Warner is a Scottish author who has written several novels, but his debut ('Morvern Callar') and subsequent works do not closely resemble 'The Wasp Factory'. The low confidence level is due to the difference in their writing styles and themes.",
+          "listwise": 12,
+          "bradley_terry": 4.94,
+          "plackett_luce": 44.5,
+          "init_plackett_luce": 44.11000061035156
+        },
+        "James Kelman": {
+          "justification": "James Kelman is a Scottish author known for his realistic, often dark portrayals of life. Although his debut ('The Busconductor Hines') differs from 'The Wasp Factory', the similarity in their exploration of darker themes and Scottish settings warrants a moderate confidence level.",
+          "listwise": 18,
+          "bradley_terry": 56.0,
+          "plackett_luce": 79.73999786376953,
+          "init_plackett_luce": 80.04000091552734
+        },
+        "Alasdair Gray": {
+          "justification": "Alasdair Gray is a Scottish author and artist known for his unique writing style and exploration of darker themes. His debut ('Lanark') shares some similarities with 'The Wasp Factory' in terms of its complex, often disturbing content, which warrants a moderate confidence level.",
+          "listwise": 22,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Ken MacLeod": {
+          "justification": "Ken MacLeod is a Scottish science fiction author, and his debut ('The Star Fraction') does not resemble 'The Wasp Factory' in terms of genre or style. The low confidence level reflects the significant difference in their genres and themes.",
+          "listwise": 8,
+          "bradley_terry": 5.02,
+          "plackett_luce": 39.869998931884766,
+          "init_plackett_luce": 39.029998779296875
+        },
+        "Andrew O'Hagan": {
+          "justification": "Andrew O'Hagan is a Scottish author known for his literary fiction, but his debut ('The Missing') and subsequent works do not closely resemble 'The Wasp Factory' in terms of style or content. The low confidence level is due to the difference in their writing styles and themes.",
+          "listwise": 6,
+          "bradley_terry": 5.6,
+          "plackett_luce": 43.84000015258789,
+          "init_plackett_luce": 43.23999786376953
+        }
+      }
+    },
+    {
+      "id": "trivia_250",
+      "question": "Who was king of France at the time of the French Revolution?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Hard",
+      "answer": "Louis 16",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Louis 14": {
+          "justification": "Although Louis 14 was a prominent king of France, his reign ended in 1715, more than 70 years before the French Revolution. Given the significant time gap, it's unlikely he was the king during the Revolution, hence the low confidence level.",
+          "listwise": 20,
+          "bradley_terry": 82.36,
+          "plackett_luce": 84.9000015258789,
+          "init_plackett_luce": 85.9000015258789
+        },
+        "Louis 15": {
+          "justification": "There is no historical record of a King Louis 15 of France. The French monarchy followed a sequential naming pattern, and Louis 15 would have been a plausible name for a king between Louis 14 and Louis 16. However, since there's no record of such a king, the confidence level is low.",
+          "listwise": 15,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Philip 2": {
+          "justification": "Philip 2 was a king of France, but he ruled from 1180 to 1223, more than 500 years before the French Revolution. Given the vast time difference, it's highly unlikely he was the king during the Revolution.",
+          "listwise": 5,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Charles 10": {
+          "justification": "Charles 10 was a king of France, but his reign was from 1824 to 1830, which is after the French Revolution. Although he was a part of the French monarchy, his reign does not coincide with the Revolution.",
+          "listwise": 10,
+          "bradley_terry": 46.95,
+          "plackett_luce": 64.29999542236328,
+          "init_plackett_luce": 63.78999710083008
+        },
+        "Henry 4": {
+          "justification": "Henry 4 was a king of France who ruled from 1589 to 1610. Although he played a significant role in French history, his reign ended more than a century before the French Revolution, making it unlikely he was the king during that time.",
+          "listwise": 12,
+          "bradley_terry": 44.51,
+          "plackett_luce": 38.62999725341797,
+          "init_plackett_luce": 38.82999801635742
+        },
+        "Francis 1": {
+          "justification": "Francis 1 was a king of France who ruled from 1515 to 1547. His reign was more than 200 years before the French Revolution, making it highly unlikely he was the king during that time.",
+          "listwise": 8,
+          "bradley_terry": 20.67,
+          "plackett_luce": 12.279999732971191,
+          "init_plackett_luce": 12.309999465942383
+        },
+        "Louis 13": {
+          "justification": "Louis 13 was a king of France who ruled from 1610 to 1643. Although his reign was closer to the French Revolution than some of the other candidates, it still ended more than 100 years before the Revolution, making it unlikely he was the king during that time.",
+          "listwise": 25,
+          "bradley_terry": 65.82,
+          "plackett_luce": 71.4000015258789,
+          "init_plackett_luce": 72.06999969482422
+        },
+        "Charles 9": {
+          "justification": "Charles 9 was a king of France who ruled from 1560 to 1574. His reign was more than 200 years before the French Revolution, but he was a part of the Valois dynasty, which was significant in French history. However, the time gap is still substantial, making it unlikely he was the king during the Revolution.",
+          "listwise": 18,
+          "bradley_terry": 44.57,
+          "plackett_luce": 41.81999969482422,
+          "init_plackett_luce": 41.37999725341797
+        },
+        "Henry 2": {
+          "justification": "Henry 2 was a king of France who ruled from 1547 to 1559. His reign was more than 200 years before the French Revolution, making it highly unlikely he was the king during that time.",
+          "listwise": 6,
+          "bradley_terry": 43.43,
+          "plackett_luce": 29.939998626708984,
+          "init_plackett_luce": 29.920000076293945
+        },
+        "Louis 12": {
+          "justification": "Louis 12 was a king of France who ruled from 1498 to 1515. Although his reign was closer to the French Revolution than some of the other candidates, it still ended more than 250 years before the Revolution, making it unlikely he was the king during that time.",
+          "listwise": 22,
+          "bradley_terry": 46.21,
+          "plackett_luce": 54.03999710083008,
+          "init_plackett_luce": 55.22999954223633
+        }
+      }
+    },
+    {
+      "id": "trivia_4677",
+      "question": "The Sagrada Famlia in Barcelona, which began construction in 1882, was consecrated and declared a basilica by the Pope in what year?",
+      "question_type": {
+        "major": "NUM:NUMERIC",
+        "minor": "date:Date"
+      },
+      "question_difficulty": "Medium",
+      "answer": "2010",
+      "answer_difficulty": "Medium",
+      "candidate_answers": {
+        "2005": {
+          "justification": "I have a relatively low confidence level in this answer because, although the Sagrada Familia has been under construction for over a century, I couldn't find any information that suggests it was consecrated in 2005. However, it's possible that the consecration could have occurred during this time period, given the pace of construction and restoration efforts.",
+          "listwise": 20,
+          "bradley_terry": 28.46,
+          "plackett_luce": 50.599998474121094,
+          "init_plackett_luce": 51.06999969482422
+        },
+        "1992": {
+          "justification": "My confidence level in this answer is low due to the lack of information available about the Sagrada Familia's consecration during this time period. While 1992 is a plausible year, I couldn't find any evidence to support this claim, making it a less likely candidate.",
+          "listwise": 15,
+          "bradley_terry": 2.78,
+          "plackett_luce": 28.6299991607666,
+          "init_plackett_luce": 27.68000030517578
+        },
+        "1985": {
+          "justification": "I have a very low confidence level in this answer because, after conducting research, I found no indication that the Sagrada Familia was consecrated in 1985. This year seems unlikely, given the ongoing construction and restoration efforts at the time.",
+          "listwise": 10,
+          "bradley_terry": 0.31,
+          "plackett_luce": 4.389999866485596,
+          "init_plackett_luce": 4.449999809265137
+        },
+        "2008": {
+          "justification": "My confidence level in this answer is moderate, as 2008 is a relatively recent year and the Sagrada Familia has been the subject of ongoing construction and restoration efforts. However, without more specific information, it's difficult to determine the accuracy of this candidate.",
+          "listwise": 25,
+          "bradley_terry": 71.95,
+          "plackett_luce": 80.27999877929688,
+          "init_plackett_luce": 80.72000122070312
+        },
+        "2002": {
+          "justification": "I have a relatively low confidence level in this answer, as I couldn't find any information that suggests the Sagrada Familia was consecrated in 2002. While it's possible that the consecration could have occurred during this time period, the lack of evidence makes it a less likely candidate.",
+          "listwise": 18,
+          "bradley_terry": 3.47,
+          "plackett_luce": 33.68000030517578,
+          "init_plackett_luce": 33.30999755859375
+        },
+        "1995": {
+          "justification": "My confidence level in this answer is low due to the lack of information available about the Sagrada Familia's consecration during this time period. Without more specific evidence, it's difficult to determine the accuracy of this candidate.",
+          "listwise": 12,
+          "bradley_terry": 1.55,
+          "plackett_luce": 16.239999771118164,
+          "init_plackett_luce": 16.329999923706055
+        },
+        "2009": {
+          "justification": "I have a moderate to high confidence level in this answer, as 2009 is a relatively recent year and the Sagrada Familia has been the subject of ongoing construction and restoration efforts. It's possible that the consecration could have occurred during this time period, given the pace of progress on the site.",
+          "listwise": 30,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "1980": {
+          "justification": "I have a very low confidence level in this answer because, after conducting research, I found no indication that the Sagrada Familia was consecrated in 1980. This year seems unlikely, given the ongoing construction and restoration efforts at the time.",
+          "listwise": 8,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "2007": {
+          "justification": "My confidence level in this answer is moderate, as 2007 is a relatively recent year and the Sagrada Familia has been the subject of ongoing construction and restoration efforts. However, without more specific information, it's difficult to determine the accuracy of this candidate.",
+          "listwise": 22,
+          "bradley_terry": 71.95,
+          "plackett_luce": 80.00999450683594,
+          "init_plackett_luce": 80.3499984741211
+        },
+        "2006": {
+          "justification": "I have a moderate confidence level in this answer, as 2006 is a relatively recent year and the Sagrada Familia has been the subject of ongoing construction and restoration efforts. It's possible that the consecration could have occurred during this time period, given the pace of progress on the site, but the lack of specific evidence makes it less certain.",
+          "listwise": 28,
+          "bradley_terry": 49.62,
+          "plackett_luce": 62.0099983215332,
+          "init_plackett_luce": 61.6099967956543
+        }
+      }
+    },
+    {
+      "id": "trivia_2804",
+      "question": "Whose recent autobiography is entitled Running My Life ?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Hard",
+      "answer": "Seb Coe",
+      "answer_difficulty": "Medium",
+      "candidate_answers": {
+        "Mo Farah": {
+          "justification": "Mo Farah is a renowned British long-distance runner with an inspiring life story, having risen from a refugee background to become a multiple Olympic and World Champion. His life experiences and achievements make him a strong candidate to write an autobiography with this title.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Haile Gebrselassie": {
+          "justification": "As a two-time Olympic gold medalist and multiple world record holder in distance running, Haile Gebrselassie has had a storied career. His life story, which includes overcoming poverty and becoming a successful entrepreneur, could be a compelling read, hence the moderate confidence level.",
+          "listwise": 70,
+          "bradley_terry": 28.1,
+          "plackett_luce": 24.65999984741211,
+          "init_plackett_luce": 24.600000381469727
+        },
+        "Paula Radcliffe": {
+          "justification": "Paula Radcliffe is a British long-distance runner who has been open about her life struggles, including her experiences with injury and mental health. Her determination and perseverance make her a likely candidate to write an autobiography that reflects on her life and running career.",
+          "listwise": 85,
+          "bradley_terry": 95.85,
+          "plackett_luce": 92.87999725341797,
+          "init_plackett_luce": 93.54999542236328
+        },
+        "Usain Bolt": {
+          "justification": "Although Usain Bolt is an iconic sprinter, his larger-than-life personality and numerous achievements might not necessarily align with the title \"Running My Life,\" which suggests a more introspective tone. However, his charisma and story could still make for an engaging autobiography.",
+          "listwise": 60,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Steve Cram": {
+          "justification": "Steve Cram is a British former middle-distance runner who has had a successful career in athletics and broadcasting. While he has a notable story to tell, his profile might not be as high as some of his contemporaries, which reduces the confidence level in his being the author of this specific autobiography.",
+          "listwise": 50,
+          "bradley_terry": 91.55,
+          "plackett_luce": 85.81999969482422,
+          "init_plackett_luce": 86.75
+        },
+        "Kelly Holmes": {
+          "justification": "Kelly Holmes is a British middle-distance runner who won double gold at the 2004 Olympics. Her life story, including her experiences with injury and self-doubt, could provide a compelling narrative for an autobiography, especially one that reflects on her running career and personal growth.",
+          "listwise": 75,
+          "bradley_terry": 96.5,
+          "plackett_luce": 94.00999450683594,
+          "init_plackett_luce": 93.97000122070312
+        },
+        "Frank Shorter": {
+          "justification": "Frank Shorter is an American long-distance runner who won the gold medal in the marathon at the 1972 Olympics. While he has an impressive athletic career, his profile might not be as widely recognized outside the United States, which lowers the confidence level in his being the author of this autobiography.",
+          "listwise": 40,
+          "bradley_terry": 19.69,
+          "plackett_luce": 16.969999313354492,
+          "init_plackett_luce": 16.899999618530273
+        },
+        "Jo Pavey": {
+          "justification": "Jo Pavey is a British long-distance runner who has competed at the highest level well into her 40s. Her story of perseverance, balancing family life with athletic pursuits, could be highly inspiring, making her a plausible candidate for writing an autobiography with this title.",
+          "listwise": 65,
+          "bradley_terry": 38.64,
+          "plackett_luce": 34.61000061035156,
+          "init_plackett_luce": 34.380001068115234
+        },
+        "Colin Jackson": {
+          "justification": "Colin Jackson is a British former hurdler who has had a successful career in athletics and broadcasting. While he has a notable story to tell, including his experiences as a gay athlete, the confidence level is moderate due to the title's focus on running, which might not fully encapsulate his broader life story and career.",
+          "listwise": 55,
+          "bradley_terry": 92.85,
+          "plackett_luce": 91.79000091552734,
+          "init_plackett_luce": 92.2699966430664
+        },
+        "Brendan Foster": {
+          "justification": "Brendan Foster is a British former long-distance runner and current broadcaster. His life story, including his athletic achievements and subsequent career in media, could be of interest, but the confidence level is lower due to the specificity of the title \"Running My Life,\" which might not fully align with his post-athletic career focus.",
+          "listwise": 45,
+          "bradley_terry": 92.07,
+          "plackett_luce": 87.72000122070312,
+          "init_plackett_luce": 88.79999542236328
+        }
+      }
+    },
+    {
+      "id": "trivia_1251",
+      "question": "English novelist Barbara McCorquodale was better known by what name?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Barbara Cartland",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Barbara Windsor": {
+          "justification": "I have assigned a moderate confidence level to this candidate because Barbara Windsor was a British actress and author, but I couldn't find any direct connection between her and the name Barbara McCorquodale. The confidence level is not higher due to the lack of information linking the two names.",
+          "listwise": 20,
+          "bradley_terry": 14.33,
+          "plackett_luce": 14.769999504089355,
+          "init_plackett_luce": 15.059999465942383
+        },
+        "Barbara Taylor Bradford": {
+          "justification": "Barbara Taylor Bradford is a well-known English novelist, which is why I have assigned a relatively high confidence level to this candidate. However, I couldn't find any information that suggests she was also known as Barbara McCorquodale, which prevents me from assigning a higher confidence level.",
+          "listwise": 30,
+          "bradley_terry": 55.74,
+          "plackett_luce": 57.88999938964844,
+          "init_plackett_luce": 58.13999938964844
+        },
+        "Barbara Vine": {
+          "justification": "Barbara Vine is a pen name used by English novelist Ruth Rendell, which is why I have assigned a moderate to high confidence level to this candidate. Although there is no direct connection between Barbara Vine and Barbara McCorquodale, the use of a pen name by Ruth Rendell suggests that other authors may also use pseudonyms.",
+          "listwise": 40,
+          "bradley_terry": 57.78,
+          "plackett_luce": 68.5999984741211,
+          "init_plackett_luce": 68.37999725341797
+        },
+        "Jean Plaidy": {
+          "justification": "Jean Plaidy was a pen name used by English novelist Eleanor Hibbert, which is why I have assigned a moderate confidence level to this candidate. While it's possible that Barbara McCorquodale used a similar pen name, I couldn't find any information linking the two authors.",
+          "listwise": 25,
+          "bradley_terry": 11.47,
+          "plackett_luce": 21.939998626708984,
+          "init_plackett_luce": 21.469999313354492
+        },
+        "Philippa Carr": {
+          "justification": "Philippa Carr was another pen name used by Eleanor Hibbert, which is why I have assigned a moderate confidence level to this candidate. Similar to Jean Plaidy, I couldn't find any direct connection between Philippa Carr and Barbara McCorquodale.",
+          "listwise": 28,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Barbara Erskine": {
+          "justification": "Barbara Erskine is a Scottish novelist, which is why I have assigned a relatively low confidence level to this candidate. While she is an author, I couldn't find any information that suggests she was also known as Barbara McCorquodale.",
+          "listwise": 22,
+          "bradley_terry": 53.68,
+          "plackett_luce": 52.02000045776367,
+          "init_plackett_luce": 51.959999084472656
+        },
+        "Barbara Pym": {
+          "justification": "Barbara Pym was an English novelist, which is why I have assigned a relatively low confidence level to this candidate. Although she was an author, I couldn't find any information that suggests she used the name Barbara McCorquodale.",
+          "listwise": 18,
+          "bradley_terry": 62.87,
+          "plackett_luce": 64.86000061035156,
+          "init_plackett_luce": 65.9000015258789
+        },
+        "Elizabeth Peters": {
+          "justification": "Elizabeth Peters was a pen name used by American novelist Barbara Mertz, which is why I have assigned a moderate to high confidence level to this candidate. The use of a pen name by Barbara Mertz suggests that other authors may also use pseudonyms, including possibly Barbara McCorquodale.",
+          "listwise": 32,
+          "bradley_terry": 32.38,
+          "plackett_luce": 28.44999885559082,
+          "init_plackett_luce": 27.3799991607666
+        },
+        "Barbara Hambly": {
+          "justification": "Barbara Hambly is an American novelist, which is why I have assigned a relatively low confidence level to this candidate. While she is an author, I couldn't find any information that suggests she was also known as Barbara McCorquodale or had any connection to English literature.",
+          "listwise": 24,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Victoria Holt": {
+          "justification": "Victoria Holt was a pen name used by English novelist Eleanor Hibbert, which is why I have assigned a moderate to high confidence level to this candidate. The use of multiple pen names by Eleanor Hibbert suggests that other authors may also use pseudonyms, including possibly Barbara McCorquodale.",
+          "listwise": 35,
+          "bradley_terry": 63.37,
+          "plackett_luce": 72.77999877929688,
+          "init_plackett_luce": 72.25
+        }
+      }
+    },
+    {
+      "id": "webq_1403",
+      "question": "what is the kentucky state bird?",
+      "question_type": {
+        "major": "ENTY:ENTITY",
+        "minor": "animal:Animal"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Cardinal",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Bluebird": {
+          "justification": "I have a relatively high confidence in the Bluebird as the Kentucky state bird because it is a common and iconic bird species found in North America, and Kentucky's climate and geography seem suitable for Bluebirds. They are also known for their bright blue and orange plumage, which could make them a popular choice for a state bird.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "American Robin": {
+          "justification": "My confidence in the American Robin is moderate, as it is a widespread and familiar bird species in North America. However, it is not typically associated with the state of Kentucky in particular, and its relatively common status might make it less likely to be chosen as a state bird.",
+          "listwise": 40,
+          "bradley_terry": 60.57,
+          "plackett_luce": 63.02000045776367,
+          "init_plackett_luce": 62.5099983215332
+        },
+        "Red-winged Blackbird": {
+          "justification": "I have a lower confidence in the Red-winged Blackbird as the Kentucky state bird, despite its presence in the state. This is because it is a relatively common bird species and not particularly unique to Kentucky, which might make it less desirable as a state symbol.",
+          "listwise": 30,
+          "bradley_terry": 57.45,
+          "plackett_luce": 38.27000045776367,
+          "init_plackett_luce": 37.54999923706055
+        },
+        "Wild Turkey": {
+          "justification": "My confidence in the Wild Turkey is relatively high, as it is a native bird species to North America and has a significant presence in Kentucky. Additionally, the Wild Turkey is an iconic and culturally significant bird in American history, which could make it a popular choice for a state bird.",
+          "listwise": 60,
+          "bradley_terry": 62.64,
+          "plackett_luce": 75.08999633789062,
+          "init_plackett_luce": 74.70999908447266
+        },
+        "Mourning Dove": {
+          "justification": "I have a relatively low confidence in the Mourning Dove as the Kentucky state bird, as it is a common and widespread bird species that is not particularly unique to Kentucky. While it is found in the state, it does not have any special cultural or historical significance that would make it a likely choice for a state bird.",
+          "listwise": 20,
+          "bradley_terry": 60.25,
+          "plackett_luce": 57.84000015258789,
+          "init_plackett_luce": 58.05999755859375
+        },
+        "Eastern Meadowlark": {
+          "justification": "My confidence in the Eastern Meadowlark is moderate, as it is a bird species that is native to North America and has a significant presence in Kentucky. Additionally, its distinctive song and bright yellow plumage might make it a popular choice for a state bird.",
+          "listwise": 50,
+          "bradley_terry": 100.0,
+          "plackett_luce": 99.81999969482422,
+          "init_plackett_luce": 99.69999694824219
+        },
+        "Red-tailed Hawk": {
+          "justification": "I have a relatively low confidence in the Red-tailed Hawk as the Kentucky state bird, as it is a bird of prey that is not typically associated with the state. While it is found in Kentucky, it is not as common or iconic as some other bird species, which might make it less likely to be chosen as a state bird.",
+          "listwise": 25,
+          "bradley_terry": 27.25,
+          "plackett_luce": 13.729999542236328,
+          "init_plackett_luce": 13.0
+        },
+        "Tufted Titmouse": {
+          "justification": "My confidence in the Tufted Titmouse is moderate, as it is a small and charming bird species that is native to North America and has a significant presence in Kentucky. Additionally, its distinctive tuft of feathers on its head might make it a popular choice for a state bird.",
+          "listwise": 45,
+          "bradley_terry": 58.71,
+          "plackett_luce": 48.38999938964844,
+          "init_plackett_luce": 48.09000015258789
+        },
+        "Northern Flicker": {
+          "justification": "I have a relatively low confidence in the Northern Flicker as the Kentucky state bird, as it is a woodpecker species that is not particularly unique to Kentucky. While it is found in the state, it is not as iconic or culturally significant as some other bird species, which might make it less likely to be chosen as a state bird.",
+          "listwise": 35,
+          "bradley_terry": 57.26,
+          "plackett_luce": 38.189998626708984,
+          "init_plackett_luce": 38.09000015258789
+        },
+        "Yellow Warbler": {
+          "justification": "My confidence in the Yellow Warbler is relatively low, as it is a small and migratory bird species that is not particularly associated with the state of Kentucky. While it is found in the state during its migrations, it is not as common or iconic as some other bird species, which might make it less likely to be chosen as a state bird.",
+          "listwise": 15,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        }
+      }
+    },
+    {
+      "id": "trivia_7563",
+      "question": "What is the state capital of the US state of New Jersey?",
+      "question_type": {
+        "major": "LOC:LOCATION",
+        "minor": "city:City"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Trenton",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Newark": {
+          "justification": "I've assigned a moderate confidence level to Newark because it's the most populous city in New Jersey and often serves as a major hub for transportation, business, and culture. However, being the largest city doesn't necessarily mean it's the capital, so the confidence level is not extremely high.",
+          "listwise": 20,
+          "bradley_terry": 99.84,
+          "plackett_luce": 94.79000091552734,
+          "init_plackett_luce": 94.48999786376953
+        },
+        "Atlantic City": {
+          "justification": "Atlantic City is a well-known city in New Jersey, famous for its casinos and beaches. However, its primary function as a tourist destination and not as a governmental hub leads me to assign a low confidence level.",
+          "listwise": 5,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Princeton": {
+          "justification": "Princeton is renowned for its prestigious university and historical significance. While it has some importance in the state, it's not typically associated with governmental functions, which is why the confidence level is relatively low.",
+          "listwise": 15,
+          "bradley_terry": 78.19,
+          "plackett_luce": 80.05999755859375,
+          "init_plackett_luce": 79.69999694824219
+        },
+        "Jersey City": {
+          "justification": "Jersey City is a significant urban center in New Jersey, located close to New York City. Its size and economic importance could suggest it as a potential capital, but without specific knowledge of New Jersey's governmental structure, the confidence level remains moderate.",
+          "listwise": 25,
+          "bradley_terry": 59.67,
+          "plackett_luce": 72.1199951171875,
+          "init_plackett_luce": 71.81999969482422
+        },
+        "Camden": {
+          "justification": "Camden is another major city in New Jersey but has faced significant economic and social challenges. While it has some historical importance, its current status doesn't strongly suggest it as the state capital, leading to a lower confidence level.",
+          "listwise": 10,
+          "bradley_terry": 34.88,
+          "plackett_luce": 43.099998474121094,
+          "init_plackett_luce": 42.75
+        },
+        "Hoboken": {
+          "justification": "Hoboken is a smaller city in New Jersey, known for its proximity to New York City and its vibrant cultural scene. Its size and lack of prominent governmental institutions lead to a very low confidence level in it being the state capital.",
+          "listwise": 5,
+          "bradley_terry": 0.75,
+          "plackett_luce": 6.21999979019165,
+          "init_plackett_luce": 6.079999923706055
+        },
+        "Elizabeth": {
+          "justification": "Elizabeth is a city with historical significance and a sizable population. However, it doesn't have the same level of governmental or political importance as some other cities, resulting in a relatively low confidence level.",
+          "listwise": 12,
+          "bradley_terry": 24.4,
+          "plackett_luce": 36.529998779296875,
+          "init_plackett_luce": 37.45000076293945
+        },
+        "Paterson": {
+          "justification": "Paterson is New Jersey's third-most populous city and has a rich history. Despite its size and historical importance, it's not commonly associated with state governmental functions, leading to a low confidence level.",
+          "listwise": 8,
+          "bradley_terry": 43.08,
+          "plackett_luce": 49.599998474121094,
+          "init_plackett_luce": 49.88999938964844
+        },
+        "Woodbridge": {
+          "justification": "Woodbridge is a township in New Jersey with a significant population. While it's an important part of the state's demographic and economic landscape, it lacks the characteristics typically associated with a state capital, such as major governmental institutions, resulting in a low confidence level.",
+          "listwise": 6,
+          "bradley_terry": 1.49,
+          "plackett_luce": 12.210000038146973,
+          "init_plackett_luce": 12.079999923706055
+        },
+        "New Brunswick": {
+          "justification": "New Brunswick is a city in New Jersey that serves as a hub for education and healthcare, being home to Rutgers University and several major hospitals. Its importance in the state's educational and medical sectors, along with its moderate size, leads to a confidence level that is somewhat higher than the smaller cities but still not very high due to the lack of clear association with state governmental functions.",
+          "listwise": 18,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        }
+      }
+    }
+  ],
+  "non_confusing": [
+    {
+      "id": "trivia_878",
+      "question": "\"The Crafty Cockney\" was the nickname of which British darts player?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Eric Bristow",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "John Lowe": {
+          "justification": "Although John Lowe is a well-known British darts player, there's no direct association with the nickname \"The Crafty Cockney\". His nickname is actually \"Old Stoneface\", which reduces the confidence in this answer.",
+          "listwise": 5,
+          "bradley_terry": 49.82,
+          "plackett_luce": 52.59000015258789,
+          "init_plackett_luce": 52.7599983215332
+        },
+        "Phil Taylor": {
+          "justification": "Phil Taylor, also known as \"The Power\", is one of the most successful darts players. However, his nickname doesn't match \"The Crafty Cockney\", and he's not from London, which makes this answer less likely.",
+          "listwise": 8,
+          "bradley_terry": 46.78,
+          "plackett_luce": 39.30999755859375,
+          "init_plackett_luce": 38.66999816894531
+        },
+        "Bobby George": {
+          "justification": "Bobby George is a British darts player and TV presenter, often associated with the sport. While he does have a cockney accent, his common nickname is \"Bobby George\", not \"The Crafty Cockney\", reducing the confidence in this answer.",
+          "listwise": 20,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Keith Deller": {
+          "justification": "Keith Deller is another British darts player, but his nickname is \"The Fella\" or \"Del Boy\", not \"The Crafty Cockney\". This reduces the confidence in this answer.",
+          "listwise": 12,
+          "bradley_terry": 54.48,
+          "plackett_luce": 72.31999969482422,
+          "init_plackett_luce": 71.76000213623047
+        },
+        "Peter Ebdon": {
+          "justification": "Peter Ebdon is actually a professional snooker player, not a darts player, which makes this answer highly unlikely.",
+          "listwise": 3,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Steve Beaton": {
+          "justification": "Steve Beaton is a British darts player, but his nickname is \"The Bronzed Adonis\", not \"The Crafty Cockney\". This reduces the confidence in this answer.",
+          "listwise": 10,
+          "bradley_terry": 45.68,
+          "plackett_luce": 36.36000061035156,
+          "init_plackett_luce": 35.5
+        },
+        "Dennis Priestley": {
+          "justification": "Dennis Priestley is a British darts player, but his nickname is \"The Menace\", not \"The Crafty Cockney\". This reduces the confidence in this answer.",
+          "listwise": 6,
+          "bradley_terry": 49.63,
+          "plackett_luce": 51.959999084472656,
+          "init_plackett_luce": 51.13999938964844
+        },
+        "Adrian Lewis": {
+          "justification": "Adrian Lewis is a British darts player, but his nickname is \"Jackpot\", not \"The Crafty Cockney\". This reduces the confidence in this answer.",
+          "listwise": 4,
+          "bradley_terry": 48.77,
+          "plackett_luce": 46.439998626708984,
+          "init_plackett_luce": 45.90999984741211
+        },
+        "Dave Chisnall": {
+          "justification": "Dave Chisnall is a British darts player, but his nickname is \"Chizzy\", not \"The Crafty Cockney\". This reduces the confidence in this answer.",
+          "listwise": 2,
+          "bradley_terry": 45.17,
+          "plackett_luce": 32.38999938964844,
+          "init_plackett_luce": 32.40999984741211
+        },
+        "Vic Hubbard": {
+          "justification": "Vic Hubbard is a lesser-known British darts player, but there's limited information available about his nicknames. Without more information, it's difficult to determine if he's associated with the nickname \"The Crafty Cockney\", resulting in a moderate confidence level.",
+          "listwise": 15,
+          "bradley_terry": 53.59,
+          "plackett_luce": 75.29999542236328,
+          "init_plackett_luce": 74.54999542236328
+        }
+      }
+    },
+    {
+      "id": "trivia_1173",
+      "question": "Who became US President John Kennedy’s Vice President in 1961?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Medium",
+      "answer": "LBJ",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Hubert Humphrey": {
+          "justification": "Hubert Humphrey was a prominent liberal Democrat and a close friend of Kennedy's. He had a strong reputation as a senator and was known for his support of civil rights, which aligned with Kennedy's campaign promises. Although he was not ultimately chosen, his political views and personal connection to Kennedy make him a plausible candidate.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Adlai Stevenson": {
+          "justification": "Adlai Stevenson was a well-respected Democrat who had run for president twice before. He was known for his intellectualism and his commitment to liberal causes, which made him an attractive choice for Kennedy. However, his lack of experience in domestic politics and his perceived elitism might have made him less appealing to Kennedy's team.",
+          "listwise": 70,
+          "bradley_terry": 98.01,
+          "plackett_luce": 83.43000030517578,
+          "init_plackett_luce": 83.88999938964844
+        },
+        "Stuart Symington": {
+          "justification": "Stuart Symington was a senator from Missouri and a prominent figure in the Democratic Party. He had a strong military background and was known for his support of defense spending, which could have made him an attractive choice for Kennedy. However, his relatively low national profile and lack of experience in foreign policy might have reduced his chances.",
+          "listwise": 60,
+          "bradley_terry": 98.61,
+          "plackett_luce": 82.22000122070312,
+          "init_plackett_luce": 82.18999481201172
+        },
+        "Henry Jackson": {
+          "justification": "Henry Jackson was a senator from Washington and a rising star in the Democratic Party. He was known for his support of labor unions and his commitment to social justice, which aligned with Kennedy's campaign promises. However, his relatively low national profile and lack of experience in foreign policy might have made him less appealing to Kennedy's team.",
+          "listwise": 50,
+          "bradley_terry": 30.56,
+          "plackett_luce": 24.56999969482422,
+          "init_plackett_luce": 23.93000030517578
+        },
+        "Eugene McCarthy": {
+          "justification": "Eugene McCarthy was a young and charismatic senator from Minnesota. He was known for his support of liberal causes and his commitment to social justice, which made him an attractive choice for Kennedy. However, his relatively low national profile and lack of experience in foreign policy might have reduced his chances.",
+          "listwise": 40,
+          "bradley_terry": 94.87,
+          "plackett_luce": 43.119998931884766,
+          "init_plackett_luce": 42.5
+        },
+        "Abraham Ribicoff": {
+          "justification": "Abraham Ribicoff was a senator from Connecticut and a prominent figure in the Democratic Party. He was known for his support of labor unions and his commitment to social justice, which aligned with Kennedy's campaign promises. However, his relatively low national profile and lack of experience in foreign policy might have made him less appealing to Kennedy's team.",
+          "listwise": 30,
+          "bradley_terry": 94.48,
+          "plackett_luce": 39.05999755859375,
+          "init_plackett_luce": 39.37999725341797
+        },
+        "George Smathers": {
+          "justification": "George Smathers was a senator from Florida and a close friend of Kennedy's. He was known for his support of conservative causes and his commitment to states' rights, which might have made him less appealing to Kennedy's team. However, his personal connection to Kennedy and his experience in the Senate might have made him a plausible candidate.",
+          "listwise": 20,
+          "bradley_terry": 97.03,
+          "plackett_luce": 76.72000122070312,
+          "init_plackett_luce": 77.16999816894531
+        },
+        "Mike Mansfield": {
+          "justification": "Mike Mansfield was a senator from Montana and a prominent figure in the Democratic Party. He was known for his support of liberal causes and his commitment to social justice, which aligned with Kennedy's campaign promises. However, his relatively low national profile and lack of experience in foreign policy might have reduced his chances.",
+          "listwise": 20,
+          "bradley_terry": 93.9,
+          "plackett_luce": 47.53999710083008,
+          "init_plackett_luce": 47.28999710083008
+        },
+        "William Proxmire": {
+          "justification": "William Proxmire was a senator from Wisconsin and a prominent figure in the Democratic Party. He was known for his support of liberal causes and his commitment to social justice, which made him an attractive choice for Kennedy. However, his relatively low national profile and lack of experience in foreign policy, combined with his perceived eccentricity, might have made him less appealing to Kennedy's team.",
+          "listwise": 10,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Edmund Muskie": {
+          "justification": "Edmund Muskie was a senator from Maine and a rising star in the Democratic Party. He was known for his support of liberal causes and his commitment to social justice, which aligned with Kennedy's campaign promises. However, his relatively low national profile and lack of experience in foreign policy, combined with his perceived inexperience, might have reduced his chances.",
+          "listwise": 10,
+          "bradley_terry": 58.43,
+          "plackett_luce": 34.20000076293945,
+          "init_plackett_luce": 34.29999923706055
+        }
+      }
+    },
+    {
+      "id": "trivia_8609",
+      "question": "What sort of plant is 'Bladderwrack'?",
+      "question_type": {
+        "major": "ENTY:ENTITY",
+        "minor": "plant:Plant"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Seaweed",
+      "answer_difficulty": "Medium",
+      "candidate_answers": {
+        "Kelp": {
+          "justification": "I have a high confidence level that Bladderwrack could be a type of Kelp because both are known to be found in coastal areas and have similar characteristics. Kelp is a type of large brown seaweed, and Bladderwrack's name suggests it might have a similar appearance or growth habit.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Moss": {
+          "justification": "My confidence level for Moss is relatively low because while Moss can be found in damp environments, it doesn't typically thrive in the salty, coastal conditions that the name 'Bladderwrack' implies. However, some species of Moss can tolerate brackish water, which makes it a slight possibility.",
+          "listwise": 20,
+          "bradley_terry": 0.6,
+          "plackett_luce": 9.149999618530273,
+          "init_plackett_luce": 9.199999809265137
+        },
+        "Fern": {
+          "justification": "I have a low confidence level that Bladderwrack is a type of Fern because Ferns typically prefer shaded, moist environments, which doesn't match the coastal implication of the name 'Bladderwrack'. However, some species of Fern can tolerate full sun and salty conditions, making it a remote possibility.",
+          "listwise": 15,
+          "bradley_terry": 1.19,
+          "plackett_luce": 14.119999885559082,
+          "init_plackett_luce": 13.809999465942383
+        },
+        "Succulent": {
+          "justification": "My confidence level for Succulent is very low because Succulents typically thrive in dry, well-drained environments, which is the opposite of what the name 'Bladderwrack' suggests. However, some species of Succulent can tolerate salt spray and high humidity, making it a slight possibility.",
+          "listwise": 10,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Water Lily": {
+          "justification": "I have a very low confidence level that Bladderwrack is a type of Water Lily because Water Lilies prefer freshwater environments, which doesn't match the coastal implication of the name 'Bladderwrack'. However, some species of Water Lily can tolerate brackish water, making it a remote possibility.",
+          "listwise": 5,
+          "bradley_terry": 27.99,
+          "plackett_luce": 36.13999938964844,
+          "init_plackett_luce": 36.18000030517578
+        },
+        "Cattail": {
+          "justification": "My confidence level for Cattail is relatively low because while Cattails can be found in coastal wetlands, they typically prefer freshwater environments. However, some species of Cattail can tolerate salt spray and high humidity, making it a slight possibility.",
+          "listwise": 25,
+          "bradley_terry": 27.5,
+          "plackett_luce": 35.57999801635742,
+          "init_plackett_luce": 34.779998779296875
+        },
+        "Bulrush": {
+          "justification": "I have a moderate confidence level that Bladderwrack could be a type of Bulrush because Bulrushes can be found in coastal wetlands and have similar characteristics to what the name 'Bladderwrack' implies. However, Bulrushes typically prefer freshwater environments, which makes it less likely.",
+          "listwise": 30,
+          "bradley_terry": 27.99,
+          "plackett_luce": 40.959999084472656,
+          "init_plackett_luce": 40.779998779296875
+        },
+        "Cordgrass": {
+          "justification": "My confidence level for Cordgrass is moderate because Cordgrasses are known to thrive in coastal environments and have similar characteristics to what the name 'Bladderwrack' implies. However, Cordgrasses typically prefer sandy or muddy substrates, which might not match the implications of the name 'Bladderwrack'.",
+          "listwise": 40,
+          "bradley_terry": 63.83,
+          "plackett_luce": 75.01000213623047,
+          "init_plackett_luce": 74.58000183105469
+        },
+        "Mangrove": {
+          "justification": "I have a moderate to high confidence level that Bladderwrack could be a type of Mangrove because Mangroves are known to thrive in coastal environments and have similar characteristics to what the name 'Bladderwrack' implies. However, Mangroves typically prefer tropical or subtropical environments, which might not match the implications of the name 'Bladderwrack'.",
+          "listwise": 50,
+          "bradley_terry": 47.26,
+          "plackett_luce": 62.77000045776367,
+          "init_plackett_luce": 62.29999923706055
+        },
+        "Saltwort": {
+          "justification": "My confidence level for Saltwort is relatively high because Saltworts are known to thrive in coastal environments and have similar characteristics to what the name 'Bladderwrack' implies. Saltworts typically prefer salty, well-drained environments, which matches the coastal implication of the name 'Bladderwrack'.",
+          "listwise": 60,
+          "bradley_terry": 80.73,
+          "plackett_luce": 86.95999908447266,
+          "init_plackett_luce": 86.37999725341797
+        }
+      }
+    },
+    {
+      "id": "trivia_1534",
+      "question": "Thomas the Tank Engine lives on which fictional island?",
+      "question_type": {
+        "major": "LOC:LOCATION",
+        "minor": "other:Other location"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Sodor",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Island of Azura": {
+          "justification": "I've assigned a moderate confidence level to this candidate because 'Azura' has a whimsical and fantastical sound to it, which could fit well with the imaginative world of Thomas the Tank Engine. However, I couldn't find any direct connections between Azura and the Thomas franchise, which is why the confidence level isn't higher.",
+          "listwise": 20,
+          "bradley_terry": 23.81,
+          "plackett_luce": 6.789999961853027,
+          "init_plackett_luce": 6.279999732971191
+        },
+        "Tidmouth Island": {
+          "justification": "Tidmouth is actually a location mentioned in the Thomas the Tank Engine series, and it's possible that the island where Thomas lives could be named after this place. My confidence level is high because of this direct connection, but I'm not at 100% because I'm not certain if Tidmouth is explicitly stated to be an island in the series.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Chuffington": {
+          "justification": "Chuffington has a fun, train-themed sound to it, which could make it a fitting name for the island where Thomas lives. However, I couldn't find any information that suggests Chuffington is a real location in the Thomas franchise, which is why my confidence level is relatively low.",
+          "listwise": 15,
+          "bradley_terry": 76.7,
+          "plackett_luce": 86.37999725341797,
+          "init_plackett_luce": 85.37999725341797
+        },
+        "Railonia": {
+          "justification": "Railonia has a name that suggests a strong connection to trains and railways, which could make it a good fit for the world of Thomas the Tank Engine. My confidence level is moderate because while the name seems fitting, I couldn't find any direct connections between Railonia and the Thomas franchise.",
+          "listwise": 30,
+          "bradley_terry": 51.32,
+          "plackett_luce": 53.86000061035156,
+          "init_plackett_luce": 52.54999923706055
+        },
+        "Locomotia": {
+          "justification": "Similar to Railonia, Locomotia has a name that suggests a strong connection to trains and locomotives. My confidence level is moderate because while the name seems fitting, I couldn't find any information that suggests Locomotia is a real location in the Thomas franchise.",
+          "listwise": 25,
+          "bradley_terry": 51.04,
+          "plackett_luce": 52.09000015258789,
+          "init_plackett_luce": 49.79999923706055
+        },
+        "Steamtopia": {
+          "justification": "Steamtopia has a name that suggests a world powered by steam engines, which could be a good fit for the steam-powered trains in the Thomas franchise. My confidence level is moderate to high because the name seems fitting, but I'm not certain if Steamtopia is a real location in the series.",
+          "listwise": 40,
+          "bradley_terry": 50.65,
+          "plackett_luce": 44.36000061035156,
+          "init_plackett_luce": 43.70000076293945
+        },
+        "Ironhaven": {
+          "justification": "Ironhaven has a strong, industrial sound to it, which could fit with the train-themed world of Thomas the Tank Engine. However, I couldn't find any information that suggests Ironhaven is a real location in the franchise, which is why my confidence level is relatively low.",
+          "listwise": 10,
+          "bradley_terry": 49.09,
+          "plackett_luce": 40.48999786376953,
+          "init_plackett_luce": 40.099998474121094
+        },
+        "Trainston": {
+          "justification": "Trainston has a name that suggests a strong connection to trains, which could make it a good fit for the world of Thomas the Tank Engine. My confidence level is moderate to high because the name seems fitting, and I could imagine a place called Trainston being a key location in the series.",
+          "listwise": 50,
+          "bradley_terry": 49.33,
+          "plackett_luce": 34.93000030517578,
+          "init_plackett_luce": 32.82999801635742
+        },
+        "Ferrovia": {
+          "justification": "Ferrovia has a name that suggests a strong connection to iron and steel, which could fit with the train-themed world of Thomas the Tank Engine. My confidence level is moderate because while the name seems fitting, I couldn't find any direct connections between Ferrovia and the Thomas franchise.",
+          "listwise": 35,
+          "bradley_terry": 50.86,
+          "plackett_luce": 51.40999984741211,
+          "init_plackett_luce": 50.48999786376953
+        },
+        "Cogtopolis": {
+          "justification": "Cogtopolis has a name that suggests a world of complex machinery and gears, which could fit with the train-themed world of Thomas the Tank Engine. However, the name seems somewhat fantastical and unlikely, which is why my confidence level is relatively low. I couldn't find any information that suggests Cogtopolis is a real location in the franchise, which further reduces my confidence level.",
+          "listwise": 5,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        }
+      }
+    },
+    {
+      "id": "trivia_2321",
+      "question": "In what decade did Keir Hardie become the first Labour MP?",
+      "question_type": {
+        "major": "NUM:NUMERIC",
+        "minor": "date:Date"
+      },
+      "question_difficulty": "Medium",
+      "answer": "1890s",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "1880s": {
+          "justification": "My confidence level is 20 because Keir Hardie was indeed active in politics during the late 19th century. Although I'm not certain about the exact decade, the 1880s seem like a plausible time frame given the rise of the labor movement during this period. However, I'm not highly confident as I don't have enough information to pinpoint the exact decade.",
+          "listwise": 20,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 99.81999969482422
+        },
+        "1870s": {
+          "justification": "I have a low confidence level of 5 for the 1870s because this decade seems too early for Keir Hardie's election as the first Labour MP. The labor movement was still in its infancy during the 1870s, and it's unlikely that a Labour MP would have been elected during this time.",
+          "listwise": 5,
+          "bradley_terry": 74.06,
+          "plackett_luce": 75.47999572753906,
+          "init_plackett_luce": 76.27999877929688
+        },
+        "1900s": {
+          "justification": "My confidence level is 30 for the 1900s because this decade is close to the time when the Labour Party started gaining momentum. Although I'm not certain if Keir Hardie became the first Labour MP during this decade, it's possible that he was elected during the early 20th century.",
+          "listwise": 30,
+          "bradley_terry": 100.0,
+          "plackett_luce": 98.88999938964844,
+          "init_plackett_luce": 100.0
+        },
+        "1860s": {
+          "justification": "I have a very low confidence level of 1 for the 1860s because this decade seems extremely unlikely for Keir Hardie's election as the first Labour MP. The labor movement was barely beginning to take shape during the 1860s, and it's highly unlikely that a Labour MP would have been elected during this time.",
+          "listwise": 1,
+          "bradley_terry": 47.59,
+          "plackett_luce": 46.959999084472656,
+          "init_plackett_luce": 47.36000061035156
+        },
+        "1850s": {
+          "justification": "I have a confidence level of 0 for the 1850s because this decade is far too early for Keir Hardie's election as the first Labour MP. The labor movement did not exist in any organized form during the 1850s, making it impossible for a Labour MP to have been elected during this time.",
+          "listwise": 0,
+          "bradley_terry": 46.22,
+          "plackett_luce": 35.23999786376953,
+          "init_plackett_luce": 36.209999084472656
+        },
+        "1910s": {
+          "justification": "My confidence level is 10 for the 1910s because this decade seems slightly too late for Keir Hardie's election as the first Labour MP. Although the Labour Party continued to grow during the 1910s, it's unlikely that Keir Hardie would have been the first Labour MP elected during this decade.",
+          "listwise": 10,
+          "bradley_terry": 74.06,
+          "plackett_luce": 75.4000015258789,
+          "init_plackett_luce": 75.69999694824219
+        },
+        "1920s": {
+          "justification": "I have a low confidence level of 5 for the 1920s because this decade is definitely too late for Keir Hardie's election as the first Labour MP. The Labour Party had already become a major force in British politics by the 1920s, and Keir Hardie's election would have occurred much earlier.",
+          "listwise": 5,
+          "bradley_terry": 48.43,
+          "plackett_luce": 52.849998474121094,
+          "init_plackett_luce": 53.57999801635742
+        },
+        "1840s": {
+          "justification": "I have a confidence level of 0 for the 1840s because this decade is extremely unlikely for Keir Hardie's election as the first Labour MP. The labor movement did not exist in any organized form during the 1840s, and it's impossible for a Labour MP to have been elected during this time.",
+          "listwise": 0,
+          "bradley_terry": 21.77,
+          "plackett_luce": 13.289999961853027,
+          "init_plackett_luce": 13.34999942779541
+        },
+        "1930s": {
+          "justification": "My confidence level is 2 for the 1930s because this decade is far too late for Keir Hardie's election as the first Labour MP. The Labour Party had already become a major force in British politics by the 1930s, and Keir Hardie's election would have occurred much earlier.",
+          "listwise": 2,
+          "bradley_terry": 45.85,
+          "plackett_luce": 32.529998779296875,
+          "init_plackett_luce": 32.80999755859375
+        },
+        "1820s": {
+          "justification": "I have a confidence level of 0 for the 1820s because this decade is impossible for Keir Hardie's election as the first Labour MP. The labor movement did not exist in any organized form during the 1820s, and it's impossible for a Labour MP to have been elected during this time. Additionally, Keir Hardie was not even born until 1856, making it physically impossible for him to have been elected during the 1820s.",
+          "listwise": 0,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        }
+      }
+    },
+    {
+      "id": "trivia_8869",
+      "question": "If you order 'Gambas' in a Spanish restaurant what will you get?",
+      "question_type": {
+        "major": "ENTY:ENTITY",
+        "minor": "food:Food"
+      },
+      "question_difficulty": "Hard",
+      "answer": "Prawn",
+      "answer_difficulty": "Medium",
+      "candidate_answers": {
+        "Shrimp": {
+          "justification": "The reason for this high confidence level is that 'Gambas' is the Spanish word for a type of crustacean, and shrimp are a common type of seafood often served in Spanish restaurants. The similarity in pronunciation and spelling between 'Gambas' and 'Shrimp' also adds to the confidence level.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Lobster": {
+          "justification": "Although lobster is a type of seafood, the confidence level for this candidate is relatively low because 'Gambas' does not directly translate to lobster in Spanish. However, it's possible that a restaurant might use the term 'Gambas' to refer to a lobster dish, which is why the confidence level is not zero.",
+          "listwise": 20,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Crab": {
+          "justification": "The confidence level for crab is moderate because, like shrimp, crab is a type of crustacean that might be referred to as 'Gambas' in some Spanish-speaking regions. However, the term 'Gambas' is not typically used to refer to crab in standard Spanish.",
+          "listwise": 30,
+          "bradley_terry": 1.64,
+          "plackett_luce": 24.689998626708984,
+          "init_plackett_luce": 24.529998779296875
+        },
+        "Fish": {
+          "justification": "The confidence level for fish is low because 'Gambas' specifically refers to a type of crustacean, not fish in general. While it's possible that a restaurant might serve a fish dish under the name 'Gambas', this would be unconventional.",
+          "listwise": 10,
+          "bradley_terry": 1.26,
+          "plackett_luce": 16.0,
+          "init_plackett_luce": 16.219999313354492
+        },
+        "Calamari": {
+          "justification": "The confidence level for calamari is relatively low because, although calamari is a type of seafood, it is not typically referred to as 'Gambas' in Spanish. Calamari is usually translated as 'calamares' in Spanish.",
+          "listwise": 15,
+          "bradley_terry": 40.06,
+          "plackett_luce": 56.37999725341797,
+          "init_plackett_luce": 56.52000045776367
+        },
+        "Mussels": {
+          "justification": "The confidence level for mussels is very low because 'Gambas' does not typically refer to mussels in Spanish. Mussels are usually translated as 'mejillones' in Spanish.",
+          "listwise": 5,
+          "bradley_terry": 59.37,
+          "plackett_luce": 61.89999771118164,
+          "init_plackett_luce": 61.69999694824219
+        },
+        "Clams": {
+          "justification": "Similar to mussels, the confidence level for clams is very low because 'Gambas' does not typically refer to clams in Spanish. Clams are usually translated as 'almejas' in Spanish.",
+          "listwise": 5,
+          "bradley_terry": 47.11,
+          "plackett_luce": 54.59000015258789,
+          "init_plackett_luce": 53.78999710083008
+        },
+        "Scallops": {
+          "justification": "The confidence level for scallops is low because, although scallops are a type of seafood, they are not typically referred to as 'Gambas' in Spanish. Scallops are usually translated as 'vieiras' in Spanish.",
+          "listwise": 8,
+          "bradley_terry": 20.89,
+          "plackett_luce": 45.709999084472656,
+          "init_plackett_luce": 45.03999710083008
+        },
+        "Octopus": {
+          "justification": "The confidence level for octopus is relatively low because, although octopus is a type of seafood, it is not typically referred to as 'Gambas' in Spanish. Octopus is usually translated as 'pulpo' in Spanish.",
+          "listwise": 12,
+          "bradley_terry": 0.63,
+          "plackett_luce": 15.949999809265137,
+          "init_plackett_luce": 16.190000534057617
+        },
+        "Crawfish": {
+          "justification": "The confidence level for crawfish is moderate because, like shrimp, crawfish are a type of crustacean that might be referred to as 'Gambas' in some Spanish-speaking regions. However, the term 'Gambas' is not typically used to refer to crawfish in standard Spanish.",
+          "listwise": 25,
+          "bradley_terry": 77.91,
+          "plackett_luce": 82.08000183105469,
+          "init_plackett_luce": 81.66999816894531
+        }
+      }
+    },
+    {
+      "id": "trivia_4823",
+      "question": "What colour is lapis lazuli?",
+      "question_type": {
+        "major": "ENTY:ENTITY",
+        "minor": "color:Color"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Blue",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Purple": {
+          "justification": "I have a relatively high confidence level in this answer because lapis lazuli is often associated with rich, vibrant colors, and purple is a color that can be found in various shades of semi-precious stones. The name 'lapis lazuli' also has a somewhat regal or luxurious sound to it, which could be consistent with the rich, majestic tone of purple.",
+          "listwise": 80,
+          "bradley_terry": 80.2,
+          "plackett_luce": 87.37999725341797,
+          "init_plackett_luce": 87.91999816894531
+        },
+        "Green": {
+          "justification": "My confidence level in this answer is moderate, as some semi-precious stones can have green hues, and lapis lazuli is known for its unique, often mottled appearance. However, I'm not as confident in this answer because green is not typically the first color that comes to mind when thinking of luxurious or high-end stones.",
+          "listwise": 40,
+          "bradley_terry": 58.46,
+          "plackett_luce": 68.55999755859375,
+          "init_plackett_luce": 68.72000122070312
+        },
+        "Gold": {
+          "justification": "I have a relatively low confidence level in this answer because, while lapis lazuli can have flecks of gold or pyrite, the overall color of the stone is unlikely to be gold. Gold is also a highly distinctive color that is often associated with other types of stones or minerals.",
+          "listwise": 20,
+          "bradley_terry": 29.94,
+          "plackett_luce": 26.760000228881836,
+          "init_plackett_luce": 27.0
+        },
+        "Brown": {
+          "justification": "My confidence level in this answer is relatively low, as brown is not typically a color that is associated with semi-precious stones like lapis lazuli. However, some types of lapis lazuli can have brown or beige undertones, which is why I'm not ruling out this possibility entirely.",
+          "listwise": 30,
+          "bradley_terry": 30.04,
+          "plackett_luce": 24.6299991607666,
+          "init_plackett_luce": 25.299999237060547
+        },
+        "Grey": {
+          "justification": "I have a moderate confidence level in this answer because lapis lazuli can have a greyish or steely appearance, particularly when it's not highly polished. However, I'm not as confident in this answer because grey is not typically the primary color that people associate with lapis lazuli.",
+          "listwise": 50,
+          "bradley_terry": 58.46,
+          "plackett_luce": 68.94999694824219,
+          "init_plackett_luce": 69.79999542236328
+        },
+        "Black": {
+          "justification": "My confidence level in this answer is very low, as black is not a color that is typically associated with lapis lazuli. While some types of lapis lazuli can have black undertones or inclusions, the overall color of the stone is unlikely to be black.",
+          "listwise": 10,
+          "bradley_terry": 31.46,
+          "plackett_luce": 38.63999938964844,
+          "init_plackett_luce": 38.98999786376953
+        },
+        "Red": {
+          "justification": "I have a very low confidence level in this answer because red is not a color that is typically associated with lapis lazuli. Red is a highly distinctive color that is often associated with other types of stones or minerals, such as rubies or garnets.",
+          "listwise": 5,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Turquoise": {
+          "justification": "My confidence level in this answer is relatively high, as turquoise and lapis lazuli are both semi-precious stones that are known for their bright, vibrant colors. However, I'm not as confident in this answer because turquoise has a distinctive greenish-blue hue that is not typically associated with lapis lazuli.",
+          "listwise": 60,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Silver": {
+          "justification": "I have a relatively low confidence level in this answer because, while lapis lazuli can have a silvery sheen or appearance, the overall color of the stone is unlikely to be silver. Silver is also a highly distinctive color that is often associated with other types of stones or minerals.",
+          "listwise": 15,
+          "bradley_terry": 31.86,
+          "plackett_luce": 43.0,
+          "init_plackett_luce": 43.12999725341797
+        },
+        "Copper": {
+          "justification": "My confidence level in this answer is relatively low, as copper is not a color that is typically associated with semi-precious stones like lapis lazuli. However, some types of lapis lazuli can have coppery or reddish undertones, which is why I'm not ruling out this possibility entirely.",
+          "listwise": 25,
+          "bradley_terry": 31.61,
+          "plackett_luce": 39.21999740600586,
+          "init_plackett_luce": 39.20000076293945
+        }
+      }
+    },
+    {
+      "id": "webq_444",
+      "question": "what county is texarkana arkansas in?",
+      "question_type": {
+        "major": "LOC:LOCATION",
+        "minor": "other:Other location"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Miller County",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Bowie County": {
+          "justification": "Although Bowie County is actually located in Texas, it's possible that Texarkana, Arkansas could be in a similarly named county, given the city's unique location on the Texas-Arkansas border. My confidence is relatively low due to the lack of direct information linking Texarkana, Arkansas to Bowie County.",
+          "listwise": 20,
+          "bradley_terry": 16.3,
+          "plackett_luce": 55.5099983215332,
+          "init_plackett_luce": 54.939998626708984
+        },
+        "Little River County": {
+          "justification": "Little River County is located in southwestern Arkansas, which is relatively close to Texarkana. However, without more specific information, it's difficult to determine if Texarkana is actually located within this county. My confidence is low due to the lack of direct evidence.",
+          "listwise": 15,
+          "bradley_terry": 97.7,
+          "plackett_luce": 92.8499984741211,
+          "init_plackett_luce": 92.55999755859375
+        },
+        "Hempstead County": {
+          "justification": "Hempstead County is another county in southwestern Arkansas, and while it's possible that Texarkana could be located within its borders, there's no clear indication of this. My confidence is low due to the lack of specific information linking the two.",
+          "listwise": 12,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Howard County": {
+          "justification": "Howard County is located in southwestern Arkansas, and while it's not entirely impossible that Texarkana could be located within its borders, there's no strong evidence to support this claim. My confidence is very low due to the lack of direct information.",
+          "listwise": 10,
+          "bradley_terry": 6.13,
+          "plackett_luce": 19.549999237060547,
+          "init_plackett_luce": 18.059999465942383
+        },
+        "Sevier County": {
+          "justification": "Sevier County is located in southwestern Arkansas, and while it's possible that Texarkana could be located within its borders, there's no clear indication of this. My confidence is very low due to the lack of specific information linking the two.",
+          "listwise": 8,
+          "bradley_terry": 11.8,
+          "plackett_luce": 38.22999954223633,
+          "init_plackett_luce": 37.22999954223633
+        },
+        "Lafayette County": {
+          "justification": "Lafayette County is located in southwestern Arkansas, and while it's not entirely impossible that Texarkana could be located within its borders, there's no strong evidence to support this claim. My confidence is very low due to the lack of direct information.",
+          "listwise": 6,
+          "bradley_terry": 95.4,
+          "plackett_luce": 76.43000030517578,
+          "init_plackett_luce": 75.38999938964844
+        },
+        "Columbia County": {
+          "justification": "Columbia County is located in southwestern Arkansas, and while it's possible that Texarkana could be located within its borders, there's no clear indication of this. My confidence is very low due to the lack of specific information linking the two.",
+          "listwise": 5,
+          "bradley_terry": 16.14,
+          "plackett_luce": 57.52000045776367,
+          "init_plackett_luce": 56.87999725341797
+        },
+        "Union County": {
+          "justification": "Union County is located in southern Arkansas, and while it's not entirely impossible that Texarkana could be located within its borders, there's no strong evidence to support this claim. My confidence is very low due to the lack of direct information.",
+          "listwise": 4,
+          "bradley_terry": 5.6,
+          "plackett_luce": 14.889999389648438,
+          "init_plackett_luce": 14.039999961853027
+        },
+        "Ouachita County": {
+          "justification": "Ouachita County is located in southern Arkansas, and while it's possible that Texarkana could be located within its borders, there's no clear indication of this. My confidence is very low due to the lack of specific information linking the two.",
+          "listwise": 3,
+          "bradley_terry": 0.0,
+          "plackett_luce": 1.3199999332427979,
+          "init_plackett_luce": 0.38999998569488525
+        },
+        "Clark County": {
+          "justification": "Clark County is located in western Arkansas, and while it's not entirely impossible that Texarkana could be located within its borders, there's no strong evidence to support this claim. My confidence is extremely low due to the lack of direct information and the relatively large distance between Clark County and Texarkana.",
+          "listwise": 2,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        }
+      }
+    },
+    {
+      "id": "trivia_4000",
+      "question": "The Reign Of Terror was a period in the revolution of which country?",
+      "question_type": {
+        "major": "LOC:LOCATION",
+        "minor": "country:Country"
+      },
+      "question_difficulty": "Medium",
+      "answer": "FRANCE",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Russia": {
+          "justification": "Although Russia had its own share of revolutions and violent periods, such as the Red Terror, the specific term \"Reign of Terror\" is not commonly associated with Russian history. The Russian Revolution's most notable violent phase was indeed the Red Terror, but it occurred later than the French Revolution, making it less likely to be the correct answer.",
+          "listwise": 10,
+          "bradley_terry": 97.03,
+          "plackett_luce": 85.93999481201172,
+          "init_plackett_luce": 86.40999603271484
+        },
+        "China": {
+          "justification": "China has experienced numerous revolutions and periods of violence throughout its history, including the Cultural Revolution. However, the term \"Reign of Terror\" is not typically linked to any specific Chinese historical event, reducing the confidence in this answer.",
+          "listwise": 5,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "England": {
+          "justification": "England has had its share of revolutions and violent periods, such as the English Civil War. While the term \"Reign of Terror\" could potentially apply to certain periods in English history, it is not a commonly used term to describe any specific English revolution or event, making this a less likely candidate.",
+          "listwise": 15,
+          "bradley_terry": 92.72,
+          "plackett_luce": 72.9000015258789,
+          "init_plackett_luce": 73.47000122070312
+        },
+        "Germany": {
+          "justification": "Germany's history includes periods of violence and revolution, such as the Nazi regime's atrocities. However, the term \"Reign of Terror\" is not specifically associated with any German historical event, reducing the confidence in this answer.",
+          "listwise": 8,
+          "bradley_terry": 86.09,
+          "plackett_luce": 53.779998779296875,
+          "init_plackett_luce": 53.57999801635742
+        },
+        "Italy": {
+          "justification": "Italy has experienced various revolutions and periods of violence throughout its history. Although the term \"Reign of Terror\" could potentially apply to certain Italian events, it is not a commonly used term to describe any specific Italian revolution or period, making this a less likely candidate.",
+          "listwise": 12,
+          "bradley_terry": 89.87,
+          "plackett_luce": 57.779998779296875,
+          "init_plackett_luce": 57.369998931884766
+        },
+        "Spain": {
+          "justification": "Spain has a complex history with periods of violence and revolution, such as the Spanish Civil War. While the term \"Reign of Terror\" could potentially apply to certain Spanish events, it is not a commonly used term to describe any specific Spanish revolution or period. The Spanish Inquisition could be considered a period of terror, but it is not typically referred to as the \"Reign of Terror.\"",
+          "listwise": 18,
+          "bradley_terry": 100.0,
+          "plackett_luce": 95.58999633789062,
+          "init_plackett_luce": 95.97000122070312
+        },
+        "Poland": {
+          "justification": "Poland has experienced numerous invasions, partitions, and periods of violence throughout its history. However, the term \"Reign of Terror\" is not typically associated with any specific Polish historical event, reducing the confidence in this answer.",
+          "listwise": 6,
+          "bradley_terry": 81.67,
+          "plackett_luce": 31.619998931884766,
+          "init_plackett_luce": 31.65999984741211
+        },
+        "Austria": {
+          "justification": "Austria's history includes periods of violence and revolution, but the term \"Reign of Terror\" is not specifically associated with any Austrian historical event. The confidence in this answer is low due to the lack of a clear connection between Austria and the term \"Reign of Terror.\"",
+          "listwise": 4,
+          "bradley_terry": 97.57,
+          "plackett_luce": 90.6199951171875,
+          "init_plackett_luce": 91.63999938964844
+        },
+        "Portugal": {
+          "justification": "Portugal's history is relatively less marked by violent revolutions compared to other European countries. The term \"Reign of Terror\" is not typically linked to any specific Portuguese historical event, making this an unlikely candidate.",
+          "listwise": 3,
+          "bradley_terry": 84.68,
+          "plackett_luce": 42.73999786376953,
+          "init_plackett_luce": 42.59000015258789
+        },
+        "Belgium": {
+          "justification": "Belgium's history includes periods of violence and revolution, but the term \"Reign of Terror\" is not specifically associated with any Belgian historical event. The confidence in this answer is very low due to the lack of a clear connection between Belgium and the term \"Reign of Terror.\"",
+          "listwise": 2,
+          "bradley_terry": 99.33,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        }
+      }
+    },
+    {
+      "id": "trivia_4729",
+      "question": "Which American carnivorous mammal feeds by night, habitually dipping its prey into water before eating?",
+      "question_type": {
+        "major": "ENTY:ENTITY",
+        "minor": "animal:Animal"
+      },
+      "question_difficulty": "Hard",
+      "answer": "Racoon",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Otter": {
+          "justification": "The otter is a carnivorous mammal known for its aquatic habits and nocturnal behavior. It's plausible that otters could dip their prey into water before eating, given their comfort and proficiency in aquatic environments. However, their primary diet consists of fish and other aquatic animals, which might not require dipping into water before consumption.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Mink": {
+          "justification": "Minks are small, carnivorous mammals that are semi-aquatic and primarily nocturnal. While they do hunt near water and could potentially dip their prey into water, their diet mainly consists of small mammals, birds, and fish, which might not necessitate this behavior.",
+          "listwise": 40,
+          "bradley_terry": 70.05,
+          "plackett_luce": 81.8499984741211,
+          "init_plackett_luce": 81.8699951171875
+        },
+        "Fisher": {
+          "justification": "The fisher is a carnivorous mammal that is active at night and has a diverse diet including small mammals, birds, and insects. Although they are not typically associated with aquatic environments, they could potentially exhibit the described behavior. However, their primary habitat is forests, which reduces the likelihood of this behavior.",
+          "listwise": 30,
+          "bradley_terry": 36.32,
+          "plackett_luce": 38.709999084472656,
+          "init_plackett_luce": 38.290000915527344
+        },
+        "Coyote": {
+          "justification": "Coyotes are adaptable, carnivorous mammals that can be active at night and have a varied diet. While they might occasionally hunt near water, their diet and habitat suggest that dipping prey into water before eating is not a common behavior for them.",
+          "listwise": 20,
+          "bradley_terry": 36.45,
+          "plackett_luce": 39.459999084472656,
+          "init_plackett_luce": 39.47999954223633
+        },
+        "Bobcat": {
+          "justification": "Bobcats are nocturnal, carnivorous mammals with a diet consisting of small mammals, birds, and reptiles. They are not typically associated with aquatic environments, but they could potentially hunt near water and exhibit the described behavior. However, their primary habitat is forests and deserts, which reduces the likelihood.",
+          "listwise": 25,
+          "bradley_terry": 35.33,
+          "plackett_luce": 29.42999839782715,
+          "init_plackett_luce": 29.549999237060547
+        },
+        "Opossum": {
+          "justification": "Opossums are nocturnal, carnivorous mammals that are known to eat a wide variety of food, including small animals, insects, and fruits. They are comfortable in aquatic environments and have been observed washing their food in water, which makes them a plausible candidate for the described behavior.",
+          "listwise": 50,
+          "bradley_terry": 70.05,
+          "plackett_luce": 81.66999816894531,
+          "init_plackett_luce": 81.4000015258789
+        },
+        "Skunk": {
+          "justification": "Skunks are nocturnal, carnivorous mammals with a diet consisting of insects, small mammals, and fruits. While they might occasionally hunt near water, their diet and habitat suggest that dipping prey into water before eating is not a common behavior for them.",
+          "listwise": 15,
+          "bradley_terry": 38.19,
+          "plackett_luce": 53.459999084472656,
+          "init_plackett_luce": 53.29999923706055
+        },
+        "Weasel": {
+          "justification": "Weasels are small, carnivorous mammals that are primarily nocturnal and have a diet consisting of small mammals, birds, and insects. They are not typically associated with aquatic environments, but they could potentially hunt near water and exhibit the described behavior. However, their primary habitat is forests and grasslands, which reduces the likelihood.",
+          "listwise": 35,
+          "bradley_terry": 37.43,
+          "plackett_luce": 48.73999786376953,
+          "init_plackett_luce": 48.32999801635742
+        },
+        "Lynx": {
+          "justification": "Lynxes are carnivorous mammals that are active at night and have a diet consisting mainly of small mammals, such as rabbits and hares. They are not typically associated with aquatic environments, and their diet suggests that dipping prey into water before eating is unlikely.",
+          "listwise": 10,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Badger": {
+          "justification": "Badgers are carnivorous mammals that are primarily nocturnal and have a diet consisting of small mammals, insects, and roots. They are not typically associated with aquatic environments, and their diet suggests that dipping prey into water before eating is unlikely.",
+          "listwise": 5,
+          "bradley_terry": 34.78,
+          "plackett_luce": 25.209999084472656,
+          "init_plackett_luce": 25.25
+        }
+      }
+    },
+    {
+      "id": "trivia_1696",
+      "question": "Historical figures John Rann, John MacLaine, James Hind and Claude Duval were all notorious what?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Highwaymen",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Smugglers": {
+          "justification": "My confidence level is 40 because while John Rann, John MacLaine, James Hind, and Claude Duval were indeed involved in illicit activities, there's no direct evidence linking them specifically to smuggling. However, their notoriety and the time period in which they lived suggest that smuggling could have been one of their activities.",
+          "listwise": 40,
+          "bradley_terry": 40.94,
+          "plackett_luce": 37.65999984741211,
+          "init_plackett_luce": 37.0099983215332
+        },
+        "Pirates": {
+          "justification": "I have a confidence level of 20 for this answer because, although these historical figures were known for their lawlessness, there's limited information directly connecting them to piracy, which typically involves sea-based crimes. Their activities seem more focused on land.",
+          "listwise": 20,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Thieves": {
+          "justification": "With a confidence level of 60, I consider 'thieves' a plausible answer. Given the nature of their notoriety, it's reasonable to assume that theft was among their criminal activities. However, this term is somewhat generic and doesn't fully capture the specific nature of their crimes.",
+          "listwise": 60,
+          "bradley_terry": 57.71,
+          "plackett_luce": 59.099998474121094,
+          "init_plackett_luce": 58.709999084472656
+        },
+        "Bandits": {
+          "justification": "My confidence level for 'bandits' is 70. This term more accurately reflects the nature of their crimes, which involved targeting travelers and possibly engaging in violent robberies. The historical context and their methods align with the definition of banditry.",
+          "listwise": 70,
+          "bradley_terry": 71.17,
+          "plackett_luce": 76.04999542236328,
+          "init_plackett_luce": 75.65999603271484
+        },
+        "Robbers": {
+          "justification": "I have an 80 confidence level for 'robbers'. This term directly relates to the criminal activities attributed to these figures, involving the use of force or intimidation to steal from others. Their methods and the fear they inspired among the populace support this classification.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Outlaws": {
+          "justification": "With a confidence level of 90, 'outlaws' seems a very fitting description. These individuals were known for operating outside the law, committing various crimes, and evading authorities. The term encompasses a broad range of illegal activities and reflects their status as fugitives from justice.",
+          "listwise": 90,
+          "bradley_terry": 84.35,
+          "plackett_luce": 88.91999816894531,
+          "init_plackett_luce": 88.58999633789062
+        },
+        "Brigands": {
+          "justification": "My confidence level for 'brigands' is 75. Similar to bandits, brigands are known for their violent robberies, often targeting travelers. The historical figures in question were known for similar activities, making 'brigands' a plausible answer.",
+          "listwise": 75,
+          "bradley_terry": 100.0,
+          "plackett_luce": 91.3699951171875,
+          "init_plackett_luce": 91.5999984741211
+        },
+        "Murderers": {
+          "justification": "I have a confidence level of 30 for 'murderers'. While it's possible that these individuals were involved in violent crimes that resulted in murder, the primary focus of their notoriety seems to be on theft and robbery rather than murder specifically.",
+          "listwise": 30,
+          "bradley_terry": 19.86,
+          "plackett_luce": 13.149999618530273,
+          "init_plackett_luce": 13.59999942779541
+        },
+        "Con Artists": {
+          "justification": "With a confidence level of 10, I consider 'con artists' less likely. The historical figures mentioned were known more for their violent and direct methods of crime rather than sophisticated scams or deceptions typically associated with con artists.",
+          "listwise": 10,
+          "bradley_terry": 40.36,
+          "plackett_luce": 32.23999786376953,
+          "init_plackett_luce": 32.04999923706055
+        },
+        "Rebels": {
+          "justification": "My confidence level for 'rebels' is 25. While these figures did operate against the law, there's no strong evidence to suggest they were motivated by a desire to overthrow a government or challenge authority in a political sense, which is what typically defines a rebel.",
+          "listwise": 25,
+          "bradley_terry": 41.53,
+          "plackett_luce": 42.0099983215332,
+          "init_plackett_luce": 42.02000045776367
+        }
+      }
+    },
+    {
+      "id": "trivia_9096",
+      "question": "Franco Alfano completed which Puccini opera after the composers death in 1924?",
+      "question_type": {
+        "major": "ENTY:ENTITY",
+        "minor": "cremat:Invention, book and other creative piece"
+      },
+      "question_difficulty": "Hard",
+      "answer": "Turnadot",
+      "answer_difficulty": "Medium",
+      "candidate_answers": {
+        "La Bohème": {
+          "justification": "This opera was completed by Puccini in 1896, long before his death in 1924, so it's unlikely that Franco Alfano would have completed it.",
+          "listwise": 0,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Madama Butterfly": {
+          "justification": "Similar to La Bohème, Madama Butterfly was completed by Puccini in 1904, making it an unlikely candidate for completion by Alfano.",
+          "listwise": 0,
+          "bradley_terry": 22.38,
+          "plackett_luce": 5.609999656677246,
+          "init_plackett_luce": 5.210000038146973
+        },
+        "Tosca": {
+          "justification": "Tosca was completed by Puccini in 1900, and there's no indication that Alfano was involved in its completion.",
+          "listwise": 0,
+          "bradley_terry": 43.38,
+          "plackett_luce": 20.189998626708984,
+          "init_plackett_luce": 20.010000228881836
+        },
+        "Il Tabarro": {
+          "justification": "Although Il Tabarro is part of Puccini's triptych Il Trittico, which was completed in 1918, it's possible that Puccini may have left some unfinished work that Alfano could have completed. However, the low confidence level reflects the fact that Il Trittico was largely completed before Puccini's death.",
+          "listwise": 5,
+          "bradley_terry": 30.58,
+          "plackett_luce": 15.389999389648438,
+          "init_plackett_luce": 15.90999984741211
+        },
+        "Suor Angelica": {
+          "justification": "Like Il Tabarro, Suor Angelica is part of Il Trittico, and it's possible that Alfano may have done some work on it. However, the confidence level remains low due to the lack of evidence suggesting significant unfinished work.",
+          "listwise": 5,
+          "bradley_terry": 62.53,
+          "plackett_luce": 35.880001068115234,
+          "init_plackett_luce": 37.099998474121094
+        },
+        "Gianni Schicchi": {
+          "justification": "As the third part of Il Trittico, Gianni Schicchi could potentially have been worked on by Alfano. Nevertheless, the confidence level is low, given that Puccini had largely completed the opera before his death.",
+          "listwise": 5,
+          "bradley_terry": 67.04,
+          "plackett_luce": 27.5,
+          "init_plackett_luce": 26.829999923706055
+        },
+        "La Rondine": {
+          "justification": "La Rondine was composed by Puccini between 1913 and 1917, but it's possible that he may have made some revisions or additions before his death. Alfano might have completed these revisions, but the confidence level remains relatively low due to the lack of concrete evidence.",
+          "listwise": 10,
+          "bradley_terry": 94.54,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Edgar": {
+          "justification": "Edgar is an early Puccini opera that underwent significant revisions throughout the composer's life. It's possible that Puccini may have been working on further revisions before his death, which Alfano could have completed. The moderate confidence level reflects the potential for unfinished work on this opera.",
+          "listwise": 15,
+          "bradley_terry": 34.94,
+          "plackett_luce": 19.81999969482422,
+          "init_plackett_luce": 19.489999771118164
+        },
+        "Le Villi": {
+          "justification": "Le Villi is another early Puccini opera that the composer revised multiple times. Given its complex revision history, it's possible that Puccini may have left some unfinished work on Le Villi, which Alfano could have completed. The confidence level is higher than for some other candidates due to the potential for ongoing revisions.",
+          "listwise": 20,
+          "bradley_terry": 30.58,
+          "plackett_luce": 1.2300000190734863,
+          "init_plackett_luce": 2.25
+        },
+        "Turandot's sister opera, La Fenice": {
+          "justification": "Although there's no concrete evidence for the existence of a Puccini opera called La Fenice, it's possible that Puccini may have been working on a new opera or project before his death. If such a project existed, Alfano might have completed it, which would explain the moderate to high confidence level. However, this is largely speculative, and the confidence level should be treated with caution.",
+          "listwise": 30,
+          "bradley_terry": 100.0,
+          "plackett_luce": 81.44999694824219,
+          "init_plackett_luce": 80.22999572753906
+        }
+      }
+    }
+  ]
+}

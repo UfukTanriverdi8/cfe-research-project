@@ -1,0 +1,1998 @@
+{
+  "confusing": [
+    {
+      "id": "trivia_1617",
+      "question": "Rapunzel, Mother Gothel and Paulo are all characters in which 2010 animated film?",
+      "question_type": {
+        "major": "ENTY:ENTITY",
+        "minor": "cremat:Invention, book and other creative piece"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Tangled",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Toy Story 3": {
+          "justification": "There's no connection between the characters mentioned and the Toy Story franchise, which focuses on toys coming to life. The characters and storyline don't match.",
+          "listwise": 0,
+          "bradley_terry": 53.69,
+          "plackett_luce": 51.779998779296875,
+          "init_plackett_luce": 51.16999816894531
+        },
+        "Shrek Forever After": {
+          "justification": "Although Shrek features fairy tale characters, there's no direct connection to Rapunzel or Mother Gothel in this specific film. The storyline revolves around Shrek's midlife crisis, and the characters mentioned don't fit into the narrative.",
+          "listwise": 5,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Megamind": {
+          "justification": "Megamind is a superhero animated film with no connection to the characters mentioned. The storyline and characters are unrelated to Rapunzel or Mother Gothel.",
+          "listwise": 0,
+          "bradley_terry": 72.85,
+          "plackett_luce": 65.63999938964844,
+          "init_plackett_luce": 65.45999908447266
+        },
+        "Legend of the Guardians: The Owls of Ga'Hoole": {
+          "justification": "This film is about owls and their adventures, with no connection to the characters mentioned. The storyline and characters are unrelated to Rapunzel or Mother Gothel.",
+          "listwise": 0,
+          "bradley_terry": 40.98,
+          "plackett_luce": 39.65999984741211,
+          "init_plackett_luce": 38.84000015258789
+        },
+        "Despicable Me": {
+          "justification": "Although Despicable Me features a fairy tale-like storyline, there's no direct connection to Rapunzel or Mother Gothel. The characters and storyline don't match.",
+          "listwise": 0,
+          "bradley_terry": 75.44,
+          "plackett_luce": 63.72999954223633,
+          "init_plackett_luce": 63.13999938964844
+        },
+        "The Illusionist": {
+          "justification": "This animated film features a storyline with some fairy tale elements, but it's not directly related to Rapunzel or Mother Gothel. However, the film's style and themes might lead to some confusion, hence the low confidence level.",
+          "listwise": 10,
+          "bradley_terry": 85.98,
+          "plackett_luce": 83.40999603271484,
+          "init_plackett_luce": 82.41999816894531
+        },
+        "Alpha and Omega": {
+          "justification": "This animated film is about wolves and their adventures, with no connection to the characters mentioned. The storyline and characters are unrelated to Rapunzel or Mother Gothel.",
+          "listwise": 0,
+          "bradley_terry": 40.57,
+          "plackett_luce": 43.56999969482422,
+          "init_plackett_luce": 42.849998474121094
+        },
+        "Cats & Dogs: The Revenge of Kitty Galore": {
+          "justification": "This live-action/animated film features a storyline about cats and dogs as spies, with no connection to the characters mentioned. The characters and storyline don't match.",
+          "listwise": 0,
+          "bradley_terry": 28.66,
+          "plackett_luce": 26.849998474121094,
+          "init_plackett_luce": 26.5
+        },
+        "Marmaduke": {
+          "justification": "This live-action/animated film features a storyline about a dog, with no connection to the characters mentioned. The characters and storyline don't match.",
+          "listwise": 0,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Barbie: A Fashion Fairytale": {
+          "justification": "Although this film features fairy tale elements and a character named Raquelle (not Rapunzel), it might lead to some confusion. However, the storyline and characters are not directly related to Rapunzel or Mother Gothel, hence the low confidence level.",
+          "listwise": 20,
+          "bradley_terry": 92.25,
+          "plackett_luce": 86.75,
+          "init_plackett_luce": 86.66999816894531
+        }
+      }
+    },
+    {
+      "id": "trivia_389",
+      "question": "Who is the last English-born player to win the men's singles title at Wimbledon?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Fred Perry",
+      "answer_difficulty": "Medium",
+      "candidate_answers": {
+        "Andy Murray": {
+          "justification": "Although Andy Murray is Scottish, not English, I've included him as a candidate due to his significant achievements in tennis and his UK nationality. My confidence level is high because he has won Wimbledon titles, but it's not 100% since he's not English-born.",
+          "listwise": 80,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Tim Henman": {
+          "justification": "Tim Henman is an English former professional tennis player who had a successful career, including semifinal appearances at Wimbledon. My confidence level is moderate because, although he had a good run at Wimbledon, he never won the title.",
+          "listwise": 40,
+          "bradley_terry": 99.34,
+          "plackett_luce": 99.65999603271484,
+          "init_plackett_luce": 99.54000091552734
+        },
+        "Greg Rusedski": {
+          "justification": "Greg Rusedski is a British-Canadian former tennis player who represented the UK in international competitions. My confidence level is relatively low because, although he had some success, he was born in Canada and only represented the UK later in his career.",
+          "listwise": 30,
+          "bradley_terry": 34.17,
+          "plackett_luce": 25.69999885559082,
+          "init_plackett_luce": 25.31999969482422
+        },
+        "John Lloyd": {
+          "justification": "John Lloyd is a former English professional tennis player who had some success in the 1970s and 1980s. My confidence level is low because, although he was a decent player, he never won a Grand Slam singles title.",
+          "listwise": 20,
+          "bradley_terry": 76.93,
+          "plackett_luce": 78.9000015258789,
+          "init_plackett_luce": 78.30999755859375
+        },
+        "Mark Cox": {
+          "justification": "Mark Cox is a former English professional tennis player who had a moderate career in the 1960s and 1970s. My confidence level is low because he never achieved significant success in major tournaments.",
+          "listwise": 15,
+          "bradley_terry": 35.61,
+          "plackett_luce": 39.88999938964844,
+          "init_plackett_luce": 39.279998779296875
+        },
+        "Roger Taylor": {
+          "justification": "Roger Taylor is a former English professional tennis player who had some success in the 1960s and 1970s. My confidence level is very low because, although he was a decent player, he never won a Grand Slam singles title.",
+          "listwise": 10,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Buster Mottram": {
+          "justification": "Buster Mottram is a former English professional tennis player who had a short career in the 1970s and 1980s. My confidence level is very low because he never achieved significant success in major tournaments.",
+          "listwise": 8,
+          "bradley_terry": 57.36,
+          "plackett_luce": 61.19999694824219,
+          "init_plackett_luce": 61.05999755859375
+        },
+        "Jeremy Bates": {
+          "justification": "Jeremy Bates is a former English professional tennis player who had some success in the 1980s and 1990s. My confidence level is very low because, although he was a decent player, he never won a Grand Slam singles title.",
+          "listwise": 6,
+          "bradley_terry": 98.67,
+          "plackett_luce": 93.40999603271484,
+          "init_plackett_luce": 92.97999572753906
+        },
+        "Chris Wilkinson": {
+          "justification": "Chris Wilkinson is a former English professional tennis player who had a moderate career in the 1990s and 2000s. My confidence level is very low because he never achieved significant success in major tournaments.",
+          "listwise": 4,
+          "bradley_terry": 32.74,
+          "plackett_luce": 17.209999084472656,
+          "init_plackett_luce": 16.920000076293945
+        },
+        "James Ward": {
+          "justification": "James Ward is an English professional tennis player who has had some success in lower-level tournaments. My confidence level is extremely low because, although he's still an active player, he has never achieved significant success in major tournaments.",
+          "listwise": 2,
+          "bradley_terry": 34.17,
+          "plackett_luce": 28.65999984741211,
+          "init_plackett_luce": 28.31999969482422
+        }
+      }
+    },
+    {
+      "id": "trivia_1001",
+      "question": "Maria Fitzherbert was ‘married’ to which British monarch?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Medium",
+      "answer": "George IV",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "King George III": {
+          "justification": "Although King George III was the monarch during the time Maria Fitzherbert was active, there's no historical evidence to suggest a romantic relationship or marriage between them. My confidence level is low because King George III was married to Charlotte of Mecklenburg-Strelitz and had a large family with her.",
+          "listwise": 20,
+          "bradley_terry": 74.47,
+          "plackett_luce": 64.04999542236328,
+          "init_plackett_luce": 64.29000091552734
+        },
+        "King George II": {
+          "justification": "King George II died in 1760, and Maria Fitzherbert was born in 1756, but she was only a child when he died. There's no plausible connection between them, making my confidence level very low.",
+          "listwise": 5,
+          "bradley_terry": 55.32,
+          "plackett_luce": 43.959999084472656,
+          "init_plackett_luce": 43.41999816894531
+        },
+        "King George I": {
+          "justification": "King George I died in 1727, long before Maria Fitzherbert was born. This makes it impossible for them to have been married, resulting in a confidence level close to zero.",
+          "listwise": 1,
+          "bradley_terry": 38.26,
+          "plackett_luce": 32.0,
+          "init_plackett_luce": 32.779998779296875
+        },
+        "King James II": {
+          "justification": "King James II died in 1701, more than 50 years before Maria Fitzherbert was born. This historical impossibility leads to a confidence level of zero.",
+          "listwise": 0,
+          "bradley_terry": 20.98,
+          "plackett_luce": 18.190000534057617,
+          "init_plackett_luce": 18.190000534057617
+        },
+        "Prince Regent (later King George V's grandfather)": {
+          "justification": "Although the Prince Regent (later King George IV) is a strong candidate, I'm considering his father's generation and the next king in line. However, there's no connection between Maria Fitzherbert and the grandfather of King George V, making my confidence level low.",
+          "listwise": 10,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "King William IV": {
+          "justification": "King William IV was the younger brother of the Prince Regent (later King George IV) and did have relationships with women outside of his marriage. However, there's no historical evidence linking him to Maria Fitzherbert, resulting in a moderate confidence level.",
+          "listwise": 15,
+          "bradley_terry": 75.19,
+          "plackett_luce": 75.75,
+          "init_plackett_luce": 75.6500015258789
+        },
+        "King Charles II": {
+          "justification": "King Charles II died in 1685, more than 70 years before Maria Fitzherbert was born. This historical impossibility leads to a confidence level of zero.",
+          "listwise": 0,
+          "bradley_terry": 20.69,
+          "plackett_luce": 19.84000015258789,
+          "init_plackett_luce": 20.119998931884766
+        },
+        "King James I": {
+          "justification": "King James I died in 1625, more than 130 years before Maria Fitzherbert was born. This makes it impossible for them to have been married, resulting in a confidence level of zero.",
+          "listwise": 0,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Prince Frederick, Duke of York and Albany": {
+          "justification": "As the second son of King George III, Prince Frederick had a reputation for having relationships outside of his marriage. However, there's no historical evidence linking him to Maria Fitzherbert, making my confidence level low.",
+          "listwise": 8,
+          "bradley_terry": 75.91,
+          "plackett_luce": 81.6199951171875,
+          "init_plackett_luce": 81.62999725341797
+        },
+        "King Edward VII": {
+          "justification": "King Edward VII was born in 1841 and became king in 1901, long after Maria Fitzherbert's death in 1837. This significant time gap makes it impossible for them to have been married, resulting in a very low confidence level.",
+          "listwise": 2,
+          "bradley_terry": 55.32,
+          "plackett_luce": 52.31999969482422,
+          "init_plackett_luce": 53.099998474121094
+        }
+      }
+    },
+    {
+      "id": "trivia_4484",
+      "question": "The island called Martha's Vineyard off the south of Cape Cod in New England is in which state of the USA?",
+      "question_type": {
+        "major": "LOC:LOCATION",
+        "minor": "state:State"
+      },
+      "question_difficulty": "Hard",
+      "answer": "Mass.",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "New York": {
+          "justification": "Although New York is a neighboring state to the areas surrounding Cape Cod, its geographical connection to the region and the fact that some islands off the coast of New England could potentially be part of New York, leads to a moderate confidence level. However, the specific association of Martha's Vineyard with Cape Cod, which is known to be in Massachusetts, reduces this confidence.",
+          "listwise": 20,
+          "bradley_terry": 61.06,
+          "plackett_luce": 61.599998474121094,
+          "init_plackett_luce": 62.119998931884766
+        },
+        "Rhode Island": {
+          "justification": "Given Rhode Island's proximity to Cape Cod and its own island geography, such as Block Island, it's plausible that Martha's Vineyard could be part of Rhode Island. The state's small size but significant coastal presence increases the confidence level slightly.",
+          "listwise": 30,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Connecticut": {
+          "justification": "Connecticut is another New England state, but it is located more to the southwest of Cape Cod. While it's conceivable that Martha's Vineyard could be associated with Connecticut due to its New England location, the geographical distance and the lack of a direct connection to Cape Cod reduce the confidence level.",
+          "listwise": 15,
+          "bradley_terry": 84.74,
+          "plackett_luce": 85.70999908447266,
+          "init_plackett_luce": 85.54999542236328
+        },
+        "New Hampshire": {
+          "justification": "New Hampshire is a northern New England state, and its primary geographical features are more mountainous than coastal. The lack of a significant coastal presence and its distance from Cape Cod result in a low confidence level.",
+          "listwise": 10,
+          "bradley_terry": 72.26,
+          "plackett_luce": 73.79000091552734,
+          "init_plackett_luce": 73.6500015258789
+        },
+        "Maine": {
+          "justification": "Maine is the northeasternmost state in the United States and has a long coastline, but it is far from Cape Cod. The distance and the distinct geographical characteristics of Maine's coast compared to the area around Cape Cod lead to a very low confidence level.",
+          "listwise": 5,
+          "bradley_terry": 50.45,
+          "plackett_luce": 48.81999969482422,
+          "init_plackett_luce": 48.93000030517578
+        },
+        "New Jersey": {
+          "justification": "New Jersey is located on the East Coast but is far from New England. Its coastal geography is more associated with the Mid-Atlantic region, making it highly unlikely to be the location of Martha's Vineyard, hence a very low confidence level.",
+          "listwise": 2,
+          "bradley_terry": 16.74,
+          "plackett_luce": 8.239999771118164,
+          "init_plackett_luce": 8.929999351501465
+        },
+        "Delaware": {
+          "justification": "Delaware is a small state in the Mid-Atlantic region with a limited coastline. Its geographical characteristics and location are far removed from New England and Cape Cod, resulting in a near-zero confidence level.",
+          "listwise": 1,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Vermont": {
+          "justification": "Vermont is a landlocked state in New England, which immediately eliminates it as a possible location for an island like Martha's Vineyard. The complete lack of coastline results in a zero confidence level.",
+          "listwise": 0,
+          "bradley_terry": 40.01,
+          "plackett_luce": 38.529998779296875,
+          "init_plackett_luce": 38.34000015258789
+        },
+        "Pennsylvania": {
+          "justification": "Pennsylvania is a state in the Northeastern United States but is landlocked and far from the coastal areas of New England. The absence of any coastline and its geographical distance from Cape Cod lead to a zero confidence level.",
+          "listwise": 0,
+          "bradley_terry": 21.7,
+          "plackett_luce": 8.699999809265137,
+          "init_plackett_luce": 9.25
+        },
+        "Maryland": {
+          "justification": "Maryland is a state on the East Coast but is part of the Mid-Atlantic region, not New England. It has a coastline, but its geographical features and location are not associated with Cape Cod or Martha's Vineyard, resulting in a zero confidence level.",
+          "listwise": 0,
+          "bradley_terry": 29.57,
+          "plackett_luce": 16.09000015258789,
+          "init_plackett_luce": 17.100000381469727
+        }
+      }
+    },
+    {
+      "id": "webq_419",
+      "question": "what league are the indianapolis colts in?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "gr:Group or organization of person"
+      },
+      "question_difficulty": "Medium",
+      "answer": "AFC South",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "AFC East": {
+          "justification": "The Colts are an American Football team, and the AFC East is a division in the National Football League (NFL). Although they are not traditionally associated with this division, it's possible they could be part of it. My confidence is relatively low because I don't have enough information to confirm their actual division.",
+          "listwise": 20,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "NFC North": {
+          "justification": "The Colts are a well-known team, and the NFC North is a division in the NFL. However, I'm not aware of any direct connection between the Colts and this division, which is why my confidence level is relatively low.",
+          "listwise": 15,
+          "bradley_terry": 60.65,
+          "plackett_luce": 58.29999923706055,
+          "init_plackett_luce": 58.189998626708984
+        },
+        "AFC West": {
+          "justification": "The AFC West is another division in the NFL, and it's possible the Colts could be part of it. However, I don't have enough information to confirm this, and my confidence level is moderate.",
+          "listwise": 25,
+          "bradley_terry": 78.57,
+          "plackett_luce": 80.08999633789062,
+          "init_plackett_luce": 80.11000061035156
+        },
+        "NFC East": {
+          "justification": "The NFC East is a division in the NFL, but I'm not aware of any connection between the Colts and this division. My confidence level is low because the Colts are typically associated with the American Football Conference (AFC), not the National Football Conference (NFC).",
+          "listwise": 10,
+          "bradley_terry": 41.86,
+          "plackett_luce": 44.2599983215332,
+          "init_plackett_luce": 43.62999725341797
+        },
+        "AFC North": {
+          "justification": "The AFC North is a division in the NFL, and it's possible the Colts could be part of it. I have a moderate confidence level because the Colts are an AFC team, and this division is also part of the AFC.",
+          "listwise": 30,
+          "bradley_terry": 100.0,
+          "plackett_luce": 99.72999572753906,
+          "init_plackett_luce": 99.72000122070312
+        },
+        "NFC South": {
+          "justification": "The NFC South is a division in the NFL, but I'm not aware of any connection between the Colts and this division. My confidence level is very low because the Colts are typically associated with the AFC, not the NFC.",
+          "listwise": 5,
+          "bradley_terry": 51.47,
+          "plackett_luce": 50.81999969482422,
+          "init_plackett_luce": 50.39999771118164
+        },
+        "NFC West": {
+          "justification": "The NFC West is a division in the NFL, but I'm not aware of any connection between the Colts and this division. My confidence level is very low because the Colts are typically associated with the AFC, not the NFC.",
+          "listwise": 5,
+          "bradley_terry": 51.15,
+          "plackett_luce": 45.62999725341797,
+          "init_plackett_luce": 46.25
+        },
+        "Big Ten Conference": {
+          "justification": "The Big Ten Conference is a collegiate athletic conference, and while the Colts are based in Indiana, which has a Big Ten team (the Indiana Hoosiers), I'm certain the Colts are not part of this conference.",
+          "listwise": 0,
+          "bradley_terry": 23.46,
+          "plackett_luce": 13.549999237060547,
+          "init_plackett_luce": 13.09000015258789
+        },
+        "American Athletic Conference": {
+          "justification": "The American Athletic Conference is a collegiate athletic conference, and I'm certain the Colts are not part of this conference because they are a professional football team.",
+          "listwise": 0,
+          "bradley_terry": 17.59,
+          "plackett_luce": 12.069999694824219,
+          "init_plackett_luce": 11.420000076293945
+        },
+        "Mid-American Conference": {
+          "justification": "The Mid-American Conference is a collegiate athletic conference, and I'm certain the Colts are not part of this conference because they are a professional football team.",
+          "listwise": 0,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        }
+      }
+    },
+    {
+      "id": "trivia_5562",
+      "question": "Which U.S. state is the \"Land of Lincoln\"?\"",
+      "question_type": {
+        "major": "LOC:LOCATION",
+        "minor": "state:State"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Ill.",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Kentucky": {
+          "justification": "This confidence level is due to the fact that Abraham Lincoln, the 16th President of the United States, was born in a log cabin in Kentucky. Although he later moved to other states, his birthplace is a significant connection to the state.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 99.4000015258789,
+          "init_plackett_luce": 100.0
+        },
+        "Indiana": {
+          "justification": "Lincoln spent part of his childhood in Indiana, where his family moved when he was young. This period of his life is often referenced in historical accounts, making Indiana a plausible candidate for the \"Land of Lincoln\" title.",
+          "listwise": 70,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 99.77999877929688
+        },
+        "Ohio": {
+          "justification": "While Lincoln did not have a direct connection to Ohio, the state is located near the other states where he lived, and it played a significant role in the Underground Railroad, which Lincoln supported. However, this connection is more indirect, resulting in a lower confidence level.",
+          "listwise": 40,
+          "bradley_terry": 57.63,
+          "plackett_luce": 43.52000045776367,
+          "init_plackett_luce": 43.79999923706055
+        },
+        "Tennessee": {
+          "justification": "Lincoln's wife, Mary Todd Lincoln, had family ties to Tennessee, and the state was also an important location during the American Civil War, which Lincoln led the country through. However, Lincoln himself did not have a strong connection to the state.",
+          "listwise": 30,
+          "bradley_terry": 48.64,
+          "plackett_luce": 40.90999984741211,
+          "init_plackett_luce": 40.98999786376953
+        },
+        "Virginia": {
+          "justification": "As the state where the capital of the Confederacy was located during the American Civil War, Virginia has a complex and often antagonistic relationship with Lincoln's legacy. While he did lead the country to victory over the Confederacy, this connection is more negative than positive.",
+          "listwise": 20,
+          "bradley_terry": 29.59,
+          "plackett_luce": 29.209999084472656,
+          "init_plackett_luce": 29.260000228881836
+        },
+        "Missouri": {
+          "justification": "Missouri was a border state during the American Civil War and had both Union and Confederate sympathies. Lincoln's administration had to navigate the complex politics of the state, but he did not have a personal connection to it.",
+          "listwise": 25,
+          "bradley_terry": 81.36,
+          "plackett_luce": 77.79999542236328,
+          "init_plackett_luce": 78.1500015258789
+        },
+        "West Virginia": {
+          "justification": "West Virginia was part of Virginia during the American Civil War but became a separate state in 1863. While Lincoln's administration supported the creation of the new state, he did not have a direct connection to the area.",
+          "listwise": 15,
+          "bradley_terry": 29.59,
+          "plackett_luce": 9.609999656677246,
+          "init_plackett_luce": 10.0
+        },
+        "Maryland": {
+          "justification": "Maryland was a border state that remained in the Union during the American Civil War. While Lincoln's administration had to deal with the state's complex politics, he did not have a personal connection to the area, resulting in a low confidence level.",
+          "listwise": 10,
+          "bradley_terry": 26.72,
+          "plackett_luce": 19.079999923706055,
+          "init_plackett_luce": 19.549999237060547
+        },
+        "Pennsylvania": {
+          "justification": "Pennsylvania was an important state during the American Civil War, with the Battle of Gettysburg taking place there. However, Lincoln's connection to the state is largely limited to his Gettysburg Address, which, although famous, does not establish a strong enough link to make it a likely candidate for the \"Land of Lincoln\" title.",
+          "listwise": 5,
+          "bradley_terry": 65.59,
+          "plackett_luce": 46.31999969482422,
+          "init_plackett_luce": 47.37999725341797
+        },
+        "New York": {
+          "justification": "New York was an important state during the American Civil War, with many notable figures and events connected to it. However, Lincoln's connection to the state is largely limited to his time in office and his interactions with New York politicians, resulting in a very low confidence level.",
+          "listwise": 5,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        }
+      }
+    },
+    {
+      "id": "trivia_6436",
+      "question": "In which European capital city are the Hofburg Imperial Palace and St Stephen's Cathedral to be found?",
+      "question_type": {
+        "major": "LOC:LOCATION",
+        "minor": "city:City"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Wien",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Budapest": {
+          "justification": "Although Budapest has impressive architectural landmarks like the Hungarian Parliament Building and Buda Castle, it doesn't directly match the description of having both the Hofburg Imperial Palace and St Stephen's Cathedral. However, given the rich history and cultural significance of Budapest, there's a small chance it might be the correct answer due to some lesser-known historical connections or similarities in architectural styles.",
+          "listwise": 20,
+          "bradley_terry": 99.06,
+          "plackett_luce": 88.63999938964844,
+          "init_plackett_luce": 87.68000030517578
+        },
+        "Prague": {
+          "justification": "Prague boasts stunning historical buildings, including the Prague Castle and St. Vitus Cathedral. While it doesn't have the exact landmarks mentioned, its well-preserved medieval architecture and historical importance in Europe make it a plausible, albeit unlikely, candidate.",
+          "listwise": 15,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Berlin": {
+          "justification": "Berlin, with its rich history and landmarks like the Berlin Cathedral and the Palace of the Republic (though the latter is now demolished), doesn't directly align with the specific landmarks mentioned. However, Berlin's historical significance and architectural diversity give it a slight chance, considering the broad and complex history of European capitals.",
+          "listwise": 10,
+          "bradley_terry": 96.98,
+          "plackett_luce": 68.25,
+          "init_plackett_luce": 68.48999786376953
+        },
+        "Warsaw": {
+          "justification": "Warsaw, having undergone significant reconstruction after WWII, boasts a mix of historical and modern architecture, including the Royal Castle and St. John's Archcathedral. While it doesn't match the description closely, its historical importance in Eastern Europe provides a minimal level of confidence.",
+          "listwise": 8,
+          "bradley_terry": 64.59,
+          "plackett_luce": 37.849998474121094,
+          "init_plackett_luce": 38.36000061035156
+        },
+        "Vienna's Neighbor, Bratislava": {
+          "justification": "Bratislava, being close to Vienna and having its own historical significance with landmarks like the Bratislava Castle and St. Martin's Cathedral, might seem like a distant possibility due to geographical proximity. However, the specific landmarks mentioned are well-known to be associated with a different city.",
+          "listwise": 5,
+          "bradley_terry": 98.47,
+          "plackett_luce": 80.25999450683594,
+          "init_plackett_luce": 80.3699951171875
+        },
+        "Ljubljana": {
+          "justification": "Ljubljana, with its picturesque old town and landmarks like Ljubljana Castle and the Ljubljana Cathedral, is an unlikely candidate. Its smaller size and less prominent historical role in broader European history compared to other capitals make it a low-confidence choice.",
+          "listwise": 4,
+          "bradley_terry": 64.27,
+          "plackett_luce": 40.95000076293945,
+          "init_plackett_luce": 41.119998931884766
+        },
+        "Zagreb": {
+          "justification": "Zagreb has a beautiful historical core with the Zagreb Cathedral and the Croatian National Theatre, among other landmarks. However, it lacks the specific imperial and historical connections associated with the Hofburg Imperial Palace and St Stephen's Cathedral, making it a very unlikely candidate.",
+          "listwise": 3,
+          "bradley_terry": 96.24,
+          "plackett_luce": 62.87999725341797,
+          "init_plackett_luce": 62.72999954223633
+        },
+        "Sofia": {
+          "justification": "Sofia, with its ancient history and landmarks like the Alexander Nevsky Cathedral, doesn't closely match the description provided. Its historical significance is more closely tied to ancient civilizations and the Byzantine Empire, rather than the specific Habsburg or imperial connections implied by the question.",
+          "listwise": 2,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Athens": {
+          "justification": "Athens, known for its ancient ruins like the Acropolis and the Parthenon, is a highly unlikely candidate. The city's historical and architectural profile is predominantly ancient Greek, with less connection to the imperial and medieval European landmarks mentioned.",
+          "listwise": 1,
+          "bradley_terry": 22.43,
+          "plackett_luce": 6.349999904632568,
+          "init_plackett_luce": 7.299999713897705
+        },
+        "Riga": {
+          "justification": "Riga, with its well-preserved Art Nouveau architecture and historical landmarks like the Riga Cathedral, is an unlikely candidate. Its history and architectural style are more closely associated with the Hanseatic League and Baltic states, rather than the specific imperial and cathedral landmarks mentioned in the question.",
+          "listwise": 1,
+          "bradley_terry": 43.04,
+          "plackett_luce": 13.199999809265137,
+          "init_plackett_luce": 13.75999927520752
+        }
+      }
+    },
+    {
+      "id": "webq_1474",
+      "question": "what currency does cyprus use?",
+      "question_type": {
+        "major": "ENTY:ENTITY",
+        "minor": "currency:Currency name"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Euro",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Pound Sterling": {
+          "justification": "I have assigned a moderate confidence level to Pound Sterling because Cyprus was a British colony from 1878 to 1960, and it's possible that the country might have retained the Pound as its currency due to historical ties. However, this is unlikely since most countries gain independence and switch to their own currency.",
+          "listwise": 20,
+          "bradley_terry": 42.77,
+          "plackett_luce": 66.8699951171875,
+          "init_plackett_luce": 66.88999938964844
+        },
+        "Turkish Lira": {
+          "justification": "My confidence level for Turkish Lira is relatively low due to the complex history between Cyprus and Turkey. Although the northern part of Cyprus is occupied by Turkey, the internationally recognized government of Cyprus might not use the Turkish Lira as its official currency.",
+          "listwise": 15,
+          "bradley_terry": 6.41,
+          "plackett_luce": 46.5099983215332,
+          "init_plackett_luce": 46.16999816894531
+        },
+        "Cypriot Pound": {
+          "justification": "I have a higher confidence level for the Cypriot Pound because it was indeed the official currency of Cyprus until 2008. It's possible that the country might have reverted back to its old currency, although this seems unlikely given the country's economic integration with other European nations.",
+          "listwise": 40,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "US Dollar": {
+          "justification": "My confidence level for the US Dollar is very low because there's no apparent reason why Cyprus would adopt the US Dollar as its official currency. The country is not a US territory, and it doesn't have any significant economic ties that would necessitate the use of the US Dollar.",
+          "listwise": 5,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Greek Drachma": {
+          "justification": "I have assigned a low confidence level to the Greek Drachma because although Cyprus has cultural and historical ties with Greece, the country gained independence in 1960 and has since developed its own distinct economy and currency.",
+          "listwise": 10,
+          "bradley_terry": 6.55,
+          "plackett_luce": 45.52000045776367,
+          "init_plackett_luce": 45.38999938964844
+        },
+        "Cyprus Pound (reintroduced)": {
+          "justification": "My confidence level for the reintroduced Cyprus Pound is relatively low because, although the Cyprus Pound was the official currency until 2008, the country's decision to adopt a new currency would likely be a result of significant economic changes or integration with other countries.",
+          "listwise": 12,
+          "bradley_terry": 70.45,
+          "plackett_luce": 86.97999572753906,
+          "init_plackett_luce": 86.04999542236328
+        },
+        "British Sovereign": {
+          "justification": "I have a very low confidence level for the British Sovereign because it's an obsolete currency that was used in the UK during the 19th century. There's no reason why Cyprus would adopt such an outdated currency.",
+          "listwise": 2,
+          "bradley_terry": 3.43,
+          "plackett_luce": 24.399999618530273,
+          "init_plackett_luce": 24.399999618530273
+        },
+        "Ottoman Lira": {
+          "justification": "My confidence level for the Ottoman Lira is extremely low because it was the currency of the Ottoman Empire, which dissolved in the early 20th century. Cyprus was part of the Ottoman Empire, but it's highly unlikely that the country would adopt such an outdated and obsolete currency.",
+          "listwise": 1,
+          "bradley_terry": 1.05,
+          "plackett_luce": 7.46999979019165,
+          "init_plackett_luce": 6.730000019073486
+        },
+        "Cypriot Drachma": {
+          "justification": "I have assigned a low confidence level to the Cypriot Drachma because, although it sounds like a plausible currency, there's no historical evidence to suggest that Cyprus ever used a currency by this name.",
+          "listwise": 8,
+          "bradley_terry": 8.06,
+          "plackett_luce": 61.939998626708984,
+          "init_plackett_luce": 61.369998931884766
+        },
+        "Lev": {
+          "justification": "My confidence level for the Lev is relatively low because, although it's the currency of neighboring Bulgaria, there's no apparent reason why Cyprus would adopt the Lev as its official currency. The country's economic ties and integration with other European nations make it unlikely that they would adopt a currency from a different country.",
+          "listwise": 6,
+          "bradley_terry": 3.38,
+          "plackett_luce": 26.010000228881836,
+          "init_plackett_luce": 25.81999969482422
+        }
+      }
+    },
+    {
+      "id": "trivia_7321",
+      "question": "Which Roman Emperor succeeded his father Vespasian in 79?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Titus",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Domitian": {
+          "justification": "I have a high confidence level in Domitian because he was indeed a son of Vespasian and went on to become a Roman Emperor. However, the question specifies the successor in 79, and Domitian succeeded his brother Titus in 81, which is why my confidence is not 100.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Nerva": {
+          "justification": "Nerva was a Roman Emperor, but he succeeded Domitian in 96, which is much later than 79. Although he was a close advisor to the Flavian dynasty, there's no direct indication that he would have succeeded Vespasian immediately.",
+          "listwise": 20,
+          "bradley_terry": 15.71,
+          "plackett_luce": 74.81999969482422,
+          "init_plackett_luce": 74.43999481201172
+        },
+        "Trajan": {
+          "justification": "Trajan was a highly successful Roman Emperor, but he didn't succeed until 98, when Nerva adopted him as his heir. There's no historical evidence suggesting Trajan was in line to succeed Vespasian directly.",
+          "listwise": 15,
+          "bradley_terry": 14.5,
+          "plackett_luce": 59.34000015258789,
+          "init_plackett_luce": 59.27000045776367
+        },
+        "Claudius": {
+          "justification": "Claudius was a Roman Emperor, but he died in 54, more than 25 years before Vespasian's death. It's highly unlikely that he would have been considered as a successor in 79.",
+          "listwise": 5,
+          "bradley_terry": 2.63,
+          "plackett_luce": 8.960000038146973,
+          "init_plackett_luce": 8.389999389648438
+        },
+        "Galba": {
+          "justification": "Galba was a Roman Emperor who ruled briefly in 68-69, before Vespasian's rise to power. Although he was an experienced leader, there's no indication that he would have been in a position to succeed Vespasian in 79.",
+          "listwise": 10,
+          "bradley_terry": 7.24,
+          "plackett_luce": 37.689998626708984,
+          "init_plackett_luce": 37.540000915527344
+        },
+        "Otho": {
+          "justification": "Otho was another short-lived Roman Emperor in 69, but he died before Vespasian's reign began. It's unlikely that he would have been considered as a successor in 79.",
+          "listwise": 5,
+          "bradley_terry": 8.23,
+          "plackett_luce": 40.02000045776367,
+          "init_plackett_luce": 40.07999801635742
+        },
+        "Vitellius": {
+          "justification": "Vitellius was a Roman Emperor who ruled briefly in 69, but he was defeated by Vespasian's forces. It's highly unlikely that he would have been in a position to succeed Vespasian in 79.",
+          "listwise": 5,
+          "bradley_terry": 9.08,
+          "plackett_luce": 43.21999740600586,
+          "init_plackett_luce": 42.869998931884766
+        },
+        "Marcus Aurelius": {
+          "justification": "Marcus Aurelius was a Roman Emperor and philosopher, but he didn't rule until much later, from 161 to 180. There's no historical evidence suggesting he was in line to succeed Vespasian directly.",
+          "listwise": 8,
+          "bradley_terry": 4.94,
+          "plackett_luce": 23.059999465942383,
+          "init_plackett_luce": 22.59000015258789
+        },
+        "Hadrian": {
+          "justification": "Hadrian was a Roman Emperor who succeeded Trajan in 117. Although he was a close advisor to Trajan, there's no indication that he would have been considered as a successor to Vespasian in 79.",
+          "listwise": 12,
+          "bradley_terry": 5.85,
+          "plackett_luce": 28.079999923706055,
+          "init_plackett_luce": 27.969999313354492
+        },
+        "Caligula": {
+          "justification": "Caligula was a Roman Emperor who ruled from 37 to 41, more than 30 years before Vespasian's death. It's highly unlikely that he would have been in a position to succeed Vespasian in 79, especially considering his own death occurred decades earlier.",
+          "listwise": 2,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        }
+      }
+    },
+    {
+      "id": "webq_926",
+      "question": "what time zone is greensburg indiana?",
+      "question_type": {
+        "major": "NUM:NUMERIC",
+        "minor": "date:Date"
+      },
+      "question_difficulty": "Hard",
+      "answer": "North American Eastern Time Zone",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Central Time Zone": {
+          "justification": "I have assigned a moderate confidence level to the Central Time Zone because Greensburg, Indiana is located in the eastern part of the United States, but it's not directly adjacent to the eastern seaboard, which might suggest it could be in the Central Time Zone. However, without more specific information, it's difficult to determine with certainty.",
+          "listwise": 20,
+          "bradley_terry": 83.49,
+          "plackett_luce": 88.25999450683594,
+          "init_plackett_luce": 88.47999572753906
+        },
+        "Mountain Time Zone": {
+          "justification": "I have assigned a low confidence level to the Mountain Time Zone because Greensburg, Indiana is located far from the mountainous regions of the western United States, making it unlikely to be in this time zone.",
+          "listwise": 5,
+          "bradley_terry": 68.35,
+          "plackett_luce": 77.16999816894531,
+          "init_plackett_luce": 77.37999725341797
+        },
+        "Pacific Time Zone": {
+          "justification": "I have assigned a very low confidence level to the Pacific Time Zone because Greensburg, Indiana is located on the opposite side of the United States from the Pacific coast, making it highly unlikely to be in this time zone.",
+          "listwise": 2,
+          "bradley_terry": 52.29,
+          "plackett_luce": 59.73999786376953,
+          "init_plackett_luce": 59.5099983215332
+        },
+        "Alaska Time Zone": {
+          "justification": "I have assigned a very low confidence level to the Alaska Time Zone because Greensburg, Indiana is located far from Alaska, both geographically and culturally, making it extremely unlikely to be in this time zone.",
+          "listwise": 1,
+          "bradley_terry": 51.91,
+          "plackett_luce": 55.90999984741211,
+          "init_plackett_luce": 56.44999694824219
+        },
+        "Hawaii-Aleutian Time Zone": {
+          "justification": "I have assigned a very low confidence level to the Hawaii-Aleutian Time Zone because Greensburg, Indiana is located far from both Hawaii and the Aleutian Islands, making it extremely unlikely to be in this time zone.",
+          "listwise": 1,
+          "bradley_terry": 36.38,
+          "plackett_luce": 38.790000915527344,
+          "init_plackett_luce": 38.709999084472656
+        },
+        "Eastern European Time Zone": {
+          "justification": "I have assigned a confidence level of 0 to the Eastern European Time Zone because Greensburg, Indiana is located in the United States, not Europe, making it impossible for it to be in this time zone.",
+          "listwise": 0,
+          "bradley_terry": 51.53,
+          "plackett_luce": 46.63999938964844,
+          "init_plackett_luce": 46.13999938964844
+        },
+        "Australian Western Time Zone": {
+          "justification": "I have assigned a confidence level of 0 to the Australian Western Time Zone because Greensburg, Indiana is located in the United States, not Australia, making it impossible for it to be in this time zone.",
+          "listwise": 0,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "India Time Zone": {
+          "justification": "I have assigned a confidence level of 0 to the India Time Zone because Greensburg, Indiana is located in the United States, not India, making it impossible for it to be in this time zone.",
+          "listwise": 0,
+          "bradley_terry": 20.85,
+          "plackett_luce": 18.65999984741211,
+          "init_plackett_luce": 18.1299991607666
+        },
+        "China Standard Time Zone": {
+          "justification": "I have assigned a confidence level of 0 to the China Standard Time Zone because Greensburg, Indiana is located in the United States, not China, making it impossible for it to be in this time zone.",
+          "listwise": 0,
+          "bradley_terry": 20.85,
+          "plackett_luce": 18.6299991607666,
+          "init_plackett_luce": 18.149999618530273
+        },
+        "UTC-5 Time Zone": {
+          "justification": "I have assigned a moderate to high confidence level to the UTC-5 Time Zone because Greensburg, Indiana is located in the eastern part of the United States, and UTC-5 is a possible time zone offset for this region, although without more specific information, it's difficult to determine with certainty.",
+          "listwise": 40,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        }
+      }
+    }
+  ],
+  "non_confusing": [
+    {
+      "id": "trivia_4973",
+      "question": "Ornette Coleman, Louis Armstrong and Charles Mingus are associated with what style of music?",
+      "question_type": {
+        "major": "ENTY:ENTITY",
+        "minor": "cremat:Invention, book and other creative piece"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Jazz",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Blues": {
+          "justification": "I have a high confidence level in this answer because Ornette Coleman, Louis Armstrong, and Charles Mingus are all known to have been influenced by blues music and have incorporated blues elements into their work. Louis Armstrong, in particular, was known for his blues playing and singing. However, I don't have 100% confidence because while blues is an important part of their music, it may not be the primary style they are associated with.",
+          "listwise": 80,
+          "bradley_terry": 37.1,
+          "plackett_luce": 46.59000015258789,
+          "init_plackett_luce": 46.869998931884766
+        },
+        "Improvisational": {
+          "justification": "My confidence level in this answer is high because all three musicians are known for their improvisational skills. Ornette Coleman was a pioneer of free improvisation, Louis Armstrong was known for his spontaneous solos, and Charles Mingus was a master of improvising bass lines. However, \"improvisational\" is more of a technique than a specific style of music, which is why I don't have 100% confidence.",
+          "listwise": 90,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Avant-Garde": {
+          "justification": "I have a high confidence level in this answer because Ornette Coleman and Charles Mingus are both associated with the avant-garde movement in music. They were known for pushing the boundaries of traditional music and experimenting with new sounds and techniques. Louis Armstrong, while not typically thought of as avant-garde, did have a period of experimentation in his later career. However, I'm not 100% confident because \"avant-garde\" is a broad term that encompasses many different styles.",
+          "listwise": 85,
+          "bradley_terry": 82.3,
+          "plackett_luce": 86.70999908447266,
+          "init_plackett_luce": 86.54000091552734
+        },
+        "Swing": {
+          "justification": "My confidence level in this answer is moderate because while all three musicians were influenced by swing music, it's not the primary style they are associated with. Louis Armstrong was a key figure in the swing era, but Ornette Coleman and Charles Mingus are more commonly associated with other styles. However, swing is an important part of the musical heritage of all three musicians, which is why I don't have 0% confidence.",
+          "listwise": 70,
+          "bradley_terry": 37.1,
+          "plackett_luce": 46.84000015258789,
+          "init_plackett_luce": 46.86000061035156
+        },
+        "Experimental": {
+          "justification": "I have a high confidence level in this answer because all three musicians were known for experimenting with new sounds and techniques. Ornette Coleman was a pioneer of free jazz, Charles Mingus was known for his unconventional compositions, and Louis Armstrong was always looking for new ways to express himself musically. However, \"experimental\" is a broad term that could apply to many different styles of music, which is why I'm not 100% confident.",
+          "listwise": 88,
+          "bradley_terry": 53.0,
+          "plackett_luce": 62.34000015258789,
+          "init_plackett_luce": 62.689998626708984
+        },
+        "Free Music": {
+          "justification": "My confidence level in this answer is very high because Ornette Coleman is often credited with inventing the style of \"free jazz\" or \"free music,\" and Charles Mingus was also a key figure in this movement. Louis Armstrong's music also had elements of freedom and spontaneity, although he is not typically associated with the free music movement. However, I'm not 100% confident because \"free music\" is a term that could be interpreted in many different ways.",
+          "listwise": 92,
+          "bradley_terry": 67.28,
+          "plackett_luce": 74.47000122070312,
+          "init_plackett_luce": 74.23999786376953
+        },
+        "Roots Music": {
+          "justification": "I have a moderate confidence level in this answer because while all three musicians were influenced by roots music (such as blues, gospel, and folk), it's not the primary style they are associated with. Louis Armstrong's music, in particular, has roots in traditional African-American music, but Ornette Coleman and Charles Mingus are more commonly associated with other styles.",
+          "listwise": 60,
+          "bradley_terry": 19.72,
+          "plackett_luce": 29.059999465942383,
+          "init_plackett_luce": 29.939998626708984
+        },
+        "Chamber Music": {
+          "justification": "My confidence level in this answer is relatively low because while Charles Mingus did write music for small ensembles that could be classified as chamber music, it's not a style that is typically associated with Ornette Coleman or Louis Armstrong. However, all three musicians did have experience playing in small groups, which is why I don't have 0% confidence.",
+          "listwise": 40,
+          "bradley_terry": 0.66,
+          "plackett_luce": 6.089999675750732,
+          "init_plackett_luce": 6.829999923706055
+        },
+        "Funk": {
+          "justification": "I have a moderate confidence level in this answer because while Charles Mingus's music often had elements of funk and groove, it's not a style that is typically associated with Ornette Coleman or Louis Armstrong. However, all three musicians were known for their strong rhythmic sense and ability to create infectious grooves, which is why I don't have 0% confidence.",
+          "listwise": 50,
+          "bradley_terry": 1.33,
+          "plackett_luce": 11.869999885559082,
+          "init_plackett_luce": 12.559999465942383
+        },
+        "Classical": {
+          "justification": "My confidence level in this answer is relatively low because while all three musicians had some training in classical music and were influenced by classical composers, it's not a style that they are typically associated with. However, Charles Mingus did write music that incorporated classical elements, and Ornette Coleman has said that he was influenced by classical composers like Bach and Debussy. Louis Armstrong also had a period where he played with symphony orchestras, which is why I don't have 0% confidence.",
+          "listwise": 20,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        }
+      }
+    },
+    {
+      "id": "trivia_3562",
+      "question": "Sergio Leone, Otto Preminger, Fritz Lang and Fred Zinnemann are famous 20thC?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Hard",
+      "answer": "Directorial",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Cinematic": {
+          "justification": "This answer seems plausible because all the mentioned individuals (Sergio Leone, Otto Preminger, Fritz Lang, and Fred Zinnemann) are renowned film directors, and the term 'cinematic' is closely related to the film industry. The confidence level is high due to the strong connection between the individuals and the film industry.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Artistic": {
+          "justification": "The answer 'artistic' could be a good fit because the mentioned directors are known for their unique artistic styles and contributions to the world of cinema. However, the term 'artistic' is quite broad and could apply to various fields, which reduces the confidence level.",
+          "listwise": 60,
+          "bradley_terry": 45.37,
+          "plackett_luce": 54.64999771118164,
+          "init_plackett_luce": 54.30999755859375
+        },
+        "European": {
+          "justification": "Some of the mentioned directors (Sergio Leone, Fritz Lang, and Otto Preminger) have European origins, which might suggest a connection to European cinema or culture. However, Fred Zinnemann was born in Austria but later moved to the United States, and the term 'European' might not fully capture the common thread among these directors.",
+          "listwise": 40,
+          "bradley_terry": 43.78,
+          "plackett_luce": 39.87999725341797,
+          "init_plackett_luce": 40.0099983215332
+        },
+        "Influential": {
+          "justification": "All the mentioned directors have had a significant impact on the film industry, and their influence can still be seen in modern cinema. The confidence level is high because the term 'influential' accurately describes the lasting impact of these directors on the world of film.",
+          "listwise": 90,
+          "bradley_terry": 73.05,
+          "plackett_luce": 74.30999755859375,
+          "init_plackett_luce": 73.95999908447266
+        },
+        "Collaborative": {
+          "justification": "While some of the mentioned directors might have collaborated with each other or with other industry professionals, there is no strong evidence to suggest that collaboration is the primary common thread among them. The confidence level is low due to the lack of clear connections between the directors in terms of collaboration.",
+          "listwise": 20,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Innovative": {
+          "justification": "Many of the mentioned directors are known for their innovative approaches to filmmaking, such as Sergio Leone's use of long takes and close-ups, or Fritz Lang's experimentation with special effects. The confidence level is relatively high due to the directors' reputation for pushing boundaries in the film industry.",
+          "listwise": 70,
+          "bradley_terry": 20.77,
+          "plackett_luce": 21.28999900817871,
+          "init_plackett_luce": 21.689998626708984
+        },
+        "Legendary": {
+          "justification": "All the mentioned directors have achieved legendary status in the film industry, with many of their films being considered classics. The confidence level is high because the term 'legendary' accurately reflects the directors' lasting impact and reputation.",
+          "listwise": 85,
+          "bradley_terry": 43.87,
+          "plackett_luce": 45.78999710083008,
+          "init_plackett_luce": 45.88999938964844
+        },
+        "Pioneering": {
+          "justification": "Some of the mentioned directors, such as Fritz Lang, were indeed pioneers in the film industry, introducing new techniques and styles that influenced future generations. However, not all the mentioned directors were necessarily pioneers, which reduces the confidence level.",
+          "listwise": 65,
+          "bradley_terry": 75.44,
+          "plackett_luce": 79.66999816894531,
+          "init_plackett_luce": 79.1199951171875
+        },
+        "Iconic": {
+          "justification": "The mentioned directors have created iconic films that are still widely recognized and admired today, such as Sergio Leone's 'Once Upon a Time in the West' or Fritz Lang's 'Metropolis'. The confidence level is relatively high due to the enduring popularity and recognition of their films.",
+          "listwise": 75,
+          "bradley_terry": 42.6,
+          "plackett_luce": 24.85999870300293,
+          "init_plackett_luce": 25.25
+        },
+        "Visionary": {
+          "justification": "Many of the mentioned directors are known for their unique vision and ability to bring complex stories and ideas to life on screen. The confidence level is high because the term 'visionary' accurately describes the directors' ability to create innovative and influential films that have stood the test of time.",
+          "listwise": 80,
+          "bradley_terry": 45.94,
+          "plackett_luce": 59.84000015258789,
+          "init_plackett_luce": 59.47999954223633
+        }
+      }
+    },
+    {
+      "id": "trivia_9152",
+      "question": "Which group topped the UK charts for one week in 1997 with 'D'You Know What I Mean'?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "gr:Group or organization of person"
+      },
+      "question_difficulty": "Medium",
+      "answer": "OASIS",
+      "answer_difficulty": "Medium",
+      "candidate_answers": {
+        "Spice Girls": {
+          "justification": "The Spice Girls were a highly popular British girl group in the 1990s, known for their catchy pop songs and iconic style. Although they had several chart-topping hits, 'D'You Know What I Mean' doesn't seem to fit their typical genre or song title style, which is why the confidence level is relatively low.",
+          "listwise": 20,
+          "bradley_terry": 8.34,
+          "plackett_luce": 8.510000228881836,
+          "init_plackett_luce": 8.869999885559082
+        },
+        "Radiohead": {
+          "justification": "Radiohead is a British rock band known for their experimental and alternative sound. While they did have some chart success in the 1990s, their music style doesn't quite match the title 'D'You Know What I Mean', which sounds more like a Britpop or indie rock song.",
+          "listwise": 15,
+          "bradley_terry": 15.98,
+          "plackett_luce": 17.5,
+          "init_plackett_luce": 17.5
+        },
+        "Blur": {
+          "justification": "Blur is a British rock band that was a key part of the Britpop movement in the 1990s. They had several chart-topping hits and their music style could potentially fit the title 'D'You Know What I Mean'. However, the confidence level is not extremely high because the title doesn't immediately evoke Blur's typical song style.",
+          "listwise": 30,
+          "bradley_terry": 96.89,
+          "plackett_luce": 98.77999877929688,
+          "init_plackett_luce": 99.32999420166016
+        },
+        "Pulp": {
+          "justification": "Pulp is a British rock band known for their witty, observational lyrics and eclectic sound. While they were a prominent part of the Britpop scene, their music style is often more quirky and offbeat, which might not fit the title 'D'You Know What I Mean' as neatly as other bands.",
+          "listwise": 25,
+          "bradley_terry": 45.58,
+          "plackett_luce": 44.79999923706055,
+          "init_plackett_luce": 45.43000030517578
+        },
+        "Suede": {
+          "justification": "Suede is a British rock band that was also part of the Britpop movement. They had several chart successes in the 1990s, but their music style tends to be more glam-rock influenced, which might not immediately suggest the title 'D'You Know What I Mean'.",
+          "listwise": 20,
+          "bradley_terry": 46.3,
+          "plackett_luce": 46.61000061035156,
+          "init_plackett_luce": 47.20000076293945
+        },
+        "Cast": {
+          "justification": "Cast is a British rock band that emerged in the 1990s as part of the Britpop scene. While they had some chart success, their music style is often more psychedelic and experimental, which might not fit the title 'D'You Know What I Mean' as well as other bands.",
+          "listwise": 18,
+          "bradley_terry": 94.71,
+          "plackett_luce": 93.68000030517578,
+          "init_plackett_luce": 95.22999572753906
+        },
+        "Ocean Colour Scene": {
+          "justification": "Ocean Colour Scene is a British rock band that was part of the Britpop movement. They had several chart successes in the 1990s and their music style could potentially fit the title 'D'You Know What I Mean'. However, the confidence level is not extremely high because the title doesn't immediately evoke their typical song style.",
+          "listwise": 22,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Supergrass": {
+          "justification": "Supergrass is a British rock band that emerged in the 1990s as part of the Britpop scene. They had several chart successes and their music style could potentially fit the title 'D'You Know What I Mean'. The confidence level is relatively high because Supergrass was known for their catchy, upbeat songs, which might match the style of 'D'You Know What I Mean'.",
+          "listwise": 28,
+          "bradley_terry": 67.37,
+          "plackett_luce": 69.36000061035156,
+          "init_plackett_luce": 68.90999603271484
+        },
+        "Ash": {
+          "justification": "Ash is a British rock band that emerged in the 1990s as part of the Britpop and indie rock scenes. While they had some chart success, their music style tends to be more punk-influenced and energetic, which might not fit the title 'D'You Know What I Mean' as well as other bands.",
+          "listwise": 12,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Sleeper": {
+          "justification": "Sleeper is a British rock band that was part of the Britpop scene in the 1990s. While they had some chart success, their music style tends to be more indie rock influenced and might not immediately suggest the title 'D'You Know What I Mean', which is why the confidence level is relatively low.",
+          "listwise": 10,
+          "bradley_terry": 5.39,
+          "plackett_luce": 3.309999942779541,
+          "init_plackett_luce": 4.360000133514404
+        }
+      }
+    },
+    {
+      "id": "trivia_5651",
+      "question": "In poker, what hand do you have if all your cards are the same suit?",
+      "question_type": {
+        "major": "ENTY:ENTITY",
+        "minor": "other:Other entity"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Flush",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Straight Suit": {
+          "justification": "I have a high confidence level in this answer because the term 'straight' is often associated with sequences or order, and 'suit' directly refers to the cards being of the same suit. It seems logical that a hand with all cards of the same suit could be described by combining these concepts.",
+          "listwise": 80,
+          "bradley_terry": 50.33,
+          "plackett_luce": 55.5,
+          "init_plackett_luce": 55.68000030517578
+        },
+        "Suit Match": {
+          "justification": "My confidence in this answer is moderate because it directly addresses the fact that all cards match in suit, which is the defining characteristic of the hand in question. However, it doesn't sound like a traditional poker term, which reduces my confidence.",
+          "listwise": 60,
+          "bradley_terry": 49.74,
+          "plackett_luce": 49.39999771118164,
+          "init_plackett_luce": 50.34000015258789
+        },
+        "Uniform Hand": {
+          "justification": "I have a relatively high confidence level in this answer because 'uniform' implies that all elements of the hand are the same in some aspect, which aligns with all cards being of the same suit. It's a descriptive term that could logically apply to such a specific hand condition.",
+          "listwise": 70,
+          "bradley_terry": 49.25,
+          "plackett_luce": 44.47999954223633,
+          "init_plackett_luce": 44.02000045776367
+        },
+        "Color Hand": {
+          "justification": "My confidence in this answer is moderate because, in poker, suits are often referred to by their colors (e.g., red for hearts and diamonds, black for clubs and spades). However, 'color' alone doesn't fully encapsulate the uniqueness of having all cards of the same suit, making it less likely to be the correct term.",
+          "listwise": 50,
+          "bradley_terry": 49.91,
+          "plackett_luce": 51.46999740600586,
+          "init_plackett_luce": 51.22999954223633
+        },
+        "Same Suit Hand": {
+          "justification": "I have a very high confidence level in this answer because it directly and clearly describes the condition of having all cards of the same suit. It's straightforward and lacks ambiguity, making it a strong candidate for the correct term.",
+          "listwise": 90,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Mono Suit": {
+          "justification": "My confidence in this answer is high because 'mono' means alone or single, implying one suit throughout the hand. This prefix is often used in English to denote singularity or uniformity, which fits the description of the hand.",
+          "listwise": 85,
+          "bradley_terry": 51.71,
+          "plackett_luce": 69.95999908447266,
+          "init_plackett_luce": 70.41999816894531
+        },
+        "Suit Lock": {
+          "justification": "I have a lower confidence level in this answer because, while 'lock' implies a secure or certain condition, it doesn't directly relate to the suits of the cards. It could imply a strong hand but doesn't clearly convey the suit aspect.",
+          "listwise": 40,
+          "bradley_terry": 23.25,
+          "plackett_luce": 12.949999809265137,
+          "init_plackett_luce": 12.149999618530273
+        },
+        "Single Suit": {
+          "justification": "I have a very high confidence level in this answer because it explicitly states that all cards are of a single suit, leaving no room for misinterpretation. It's a clear and concise description of the hand's characteristic.",
+          "listwise": 95,
+          "bradley_terry": 76.68,
+          "plackett_luce": 88.93000030517578,
+          "init_plackett_luce": 88.7699966430664
+        },
+        "Coordinated Hand": {
+          "justification": "My confidence in this answer is moderate to high because 'coordinated' implies that all elements of the hand work together or share a common trait, which could be the suit. However, it's a bit vague and could apply to other hand conditions as well.",
+          "listwise": 65,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Unified Hand": {
+          "justification": "I have a relatively high confidence level in this answer because 'unified' suggests that all parts of the hand are united by a common factor, in this case, the suit. It's a logical term for describing a hand where all cards share the same suit, although it's not traditionally used in poker.",
+          "listwise": 75,
+          "bradley_terry": 48.11,
+          "plackett_luce": 30.689998626708984,
+          "init_plackett_luce": 30.94999885559082
+        }
+      }
+    },
+    {
+      "id": "trivia_2215",
+      "question": "Who played Nurse Gladys Emmanuel, Arkwright’s love interest in Open All Hours?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Lynda Baron",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Patricia Routledge": {
+          "justification": "I have a high confidence level in Patricia Routledge because she is a well-known British actress who has appeared in numerous TV shows, including Keeping Up Appearances, which is a similar type of sitcom to Open All Hours. Her experience in playing strong, comedic characters makes her a plausible candidate.",
+          "listwise": 80,
+          "bradley_terry": 54.52,
+          "plackett_luce": 57.209999084472656,
+          "init_plackett_luce": 56.849998474121094
+        },
+        "Prunella Scales": {
+          "justification": "Prunella Scales is another experienced British actress who has appeared in many TV shows, including Fawlty Towers, which is a classic British sitcom. Her ability to play a wide range of characters, including comedic roles, makes her a possible candidate for the role of Nurse Gladys Emmanuel.",
+          "listwise": 70,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Maggie Steed": {
+          "justification": "Maggie Steed is a British actress who has appeared in a variety of TV shows, including comedy series such as Shine on Harvey Moon. Her experience in playing comedic roles and her similarity in age and appearance to the character of Nurse Gladys Emmanuel make her a potential candidate.",
+          "listwise": 60,
+          "bradley_terry": 51.23,
+          "plackett_luce": 26.809999465942383,
+          "init_plackett_luce": 26.3799991607666
+        },
+        "Julia McKenzie": {
+          "justification": "Julia McKenzie is a British actress and singer who has appeared in numerous TV shows, including Fresh Fields and Agatha Christie's Marple. Her versatility as an actress and her experience in playing a wide range of characters make her a possible candidate for the role.",
+          "listwise": 50,
+          "bradley_terry": 53.49,
+          "plackett_luce": 42.98999786376953,
+          "init_plackett_luce": 43.029998779296875
+        },
+        "Gwen Taylor": {
+          "justification": "Gwen Taylor is a British actress who has appeared in many TV shows, including Duty Free and Barbara. Her experience in playing comedic roles and her similarity in age and appearance to the character of Nurse Gladys Emmanuel make her a potential candidate.",
+          "listwise": 55,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Stephanie Cole": {
+          "justification": "Stephanie Cole is a British actress who has appeared in numerous TV shows, including Tenko and Waiting for God. Her experience in playing strong, comedic characters and her similarity in age and appearance to the character of Nurse Gladys Emmanuel make her a plausible candidate.",
+          "listwise": 65,
+          "bradley_terry": 59.77,
+          "plackett_luce": 95.54999542236328,
+          "init_plackett_luce": 95.0
+        },
+        "Thelma Barlow": {
+          "justification": "Thelma Barlow is a British actress who has appeared in many TV shows, including Coronation Street and Midsomer Murders. Her experience in playing a wide range of characters, including comedic roles, and her similarity in age and appearance to the character of Nurse Gladys Emmanuel make her a strong candidate.",
+          "listwise": 75,
+          "bradley_terry": 55.19,
+          "plackett_luce": 58.209999084472656,
+          "init_plackett_luce": 58.37999725341797
+        },
+        "Liz Smith": {
+          "justification": "Liz Smith is a British actress who has appeared in numerous TV shows, including The Royle Family and Charlie and the Chocolate Factory. Her experience in playing comedic roles and her quirky, offbeat style make her a possible candidate for the role of Nurse Gladys Emmanuel.",
+          "listwise": 40,
+          "bradley_terry": 54.48,
+          "plackett_luce": 48.78999710083008,
+          "init_plackett_luce": 48.5
+        },
+        "June Whitfield": {
+          "justification": "June Whitfield is a British actress who has appeared in many TV shows, including Absolutely Fabulous and Last of the Summer Wine. Her extensive experience in playing comedic roles and her similarity in age and appearance to the character of Nurse Gladys Emmanuel make her a very strong candidate.",
+          "listwise": 85,
+          "bradley_terry": 58.38,
+          "plackett_luce": 80.8699951171875,
+          "init_plackett_luce": 80.54000091552734
+        },
+        "Sheila Steafel": {
+          "justification": "Sheila Steafel is a British actress who has appeared in numerous TV shows, including The Frost Report and The Two Ronnies. Her experience in playing comedic roles and her quirky, offbeat style make her a possible candidate for the role of Nurse Gladys Emmanuel, although her relatively lower profile compared to other candidates reduces my confidence level.",
+          "listwise": 45,
+          "bradley_terry": 5.56,
+          "plackett_luce": 6.769999980926514,
+          "init_plackett_luce": 5.739999771118164
+        }
+      }
+    },
+    {
+      "id": "trivia_4472",
+      "question": "Sherlock Holmes was proficient in which fictional martial art invented by Sir Arthur Conan Doyle?",
+      "question_type": {
+        "major": "ENTY:ENTITY",
+        "minor": "sport:Sport"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Baritsu",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "**Holmestyle**": {
+          "justification": "I have assigned a moderate confidence level to Holmestyle because it sounds like a plausible name for a martial art, and it is directly related to Sherlock Holmes. However, I am not highly confident because there is no direct reference to such a martial art in the Sherlock Holmes stories.",
+          "listwise": 40,
+          "bradley_terry": 56.52,
+          "plackett_luce": 53.39999771118164,
+          "init_plackett_luce": 53.38999938964844
+        },
+        "**Londonjutsu**": {
+          "justification": "My confidence level for Londonjutsu is relatively low because, although it sounds like a martial art, there is no connection to Sherlock Holmes or Sir Arthur Conan Doyle. The name seems more related to the city of London rather than the character or author.",
+          "listwise": 20,
+          "bradley_terry": 58.36,
+          "plackett_luce": 53.54999923706055,
+          "init_plackett_luce": 54.75
+        },
+        "**Doyleido**": {
+          "justification": "I have a moderate confidence level for Doyleido because it is directly related to Sir Arthur Conan Doyle. However, the name does not sound like a typical martial art, and there is no reference to such a martial art in the Sherlock Holmes stories.",
+          "listwise": 30,
+          "bradley_terry": 55.65,
+          "plackett_luce": 50.80999755859375,
+          "init_plackett_luce": 51.07999801635742
+        },
+        "**Bakerstreetido**": {
+          "justification": "My confidence level for Bakerstreetido is moderate to high because it is directly related to the famous Baker Street where Sherlock Holmes resides. The name sounds like a martial art, but I am not highly confident because there is no direct reference to such a martial art in the stories.",
+          "listwise": 45,
+          "bradley_terry": 97.3,
+          "plackett_luce": 97.69999694824219,
+          "init_plackett_luce": 96.90999603271484
+        },
+        "**Mindjutsu**": {
+          "justification": "I have a relatively low confidence level for Mindjutsu because, although it sounds like a martial art, it is more related to mental abilities rather than physical combat. Sherlock Holmes is known for his mental abilities, but there is no direct connection to a martial art with this name.",
+          "listwise": 25,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "**Sherlockjitsu**": {
+          "justification": "My confidence level for Sherlockjitsu is moderate to high because it is directly related to Sherlock Holmes, and the name sounds like a martial art. However, I am not highly confident because it seems too obvious and there is no direct reference to such a martial art in the stories.",
+          "listwise": 50,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "**Conando**": {
+          "justification": "I have a moderate confidence level for Conando because it is related to Sir Arthur Conan Doyle. However, the name does not sound like a typical martial art, and there is no reference to such a martial art in the Sherlock Holmes stories.",
+          "listwise": 35,
+          "bradley_terry": 37.3,
+          "plackett_luce": 30.779998779296875,
+          "init_plackett_luce": 31.799999237060547
+        },
+        "**Detectivjutsu**": {
+          "justification": "My confidence level for Detectivjutsu is relatively low because, although it sounds like a martial art, it is more related to the profession of detective rather than a specific martial art. Sherlock Holmes is a detective, but there is no direct connection to a martial art with this name.",
+          "listwise": 28,
+          "bradley_terry": 57.41,
+          "plackett_luce": 52.02000045776367,
+          "init_plackett_luce": 52.23999786376953
+        },
+        "**Watsonryu**": {
+          "justification": "I have a moderate confidence level for Watsonryu because it is related to Dr. John Watson, Sherlock Holmes' trusted sidekick. The name sounds like a martial art, but I am not highly confident because there is no direct reference to such a martial art in the stories.",
+          "listwise": 38,
+          "bradley_terry": 59.43,
+          "plackett_luce": 55.79999923706055,
+          "init_plackett_luce": 56.47999954223633
+        },
+        "**221bjutsu**": {
+          "justification": "My confidence level for 221bjutsu is moderate because it is directly related to the famous address of Sherlock Holmes (221B Baker Street). The name sounds like a martial art, but I am not highly confident because there is no direct reference to such a martial art in the stories.",
+          "listwise": 42,
+          "bradley_terry": 59.32,
+          "plackett_luce": 54.599998474121094,
+          "init_plackett_luce": 56.59000015258789
+        }
+      }
+    },
+    {
+      "id": "trivia_449",
+      "question": "Which British footballer has the most number of International caps?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Peter Shilton",
+      "answer_difficulty": "Medium",
+      "candidate_answers": {
+        "David Beckham": {
+          "justification": "David Beckham is a well-known English footballer who had a long and successful international career, earning 115 caps for the English national team. His high-profile status, skill, and longevity in the sport contribute to the high confidence level.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Bobby Charlton": {
+          "justification": "As a legendary English footballer and a key player in the 1966 World Cup-winning team, Bobby Charlton earned 106 caps for England. His impressive international career and iconic status in English football history justify a relatively high confidence level.",
+          "listwise": 70,
+          "bradley_terry": 53.13,
+          "plackett_luce": 54.91999816894531,
+          "init_plackett_luce": 54.599998474121094
+        },
+        "Bobby Moore": {
+          "justification": "Another English football legend, Bobby Moore, earned 108 caps for the national team and led England to their 1966 World Cup victory. Although his career was cut short due to illness, his achievements and reputation contribute to a respectable confidence level.",
+          "listwise": 65,
+          "bradley_terry": 73.98,
+          "plackett_luce": 76.29000091552734,
+          "init_plackett_luce": 75.97999572753906
+        },
+        "Ashley Cole": {
+          "justification": "With 107 caps for the English national team, Ashley Cole is one of the most capped English footballers. His consistent performances, defensive skills, and long career at the top level make him a strong candidate, hence the high confidence level.",
+          "listwise": 85,
+          "bradley_terry": 63.36,
+          "plackett_luce": 65.51000213623047,
+          "init_plackett_luce": 65.72999572753906
+        },
+        "Steven Gerrard": {
+          "justification": "As a highly skilled and dedicated English footballer, Steven Gerrard earned 114 caps for the national team. His exceptional leadership, vision, and goal-scoring ability make him a strong contender for the most capped British footballer, resulting in a high confidence level.",
+          "listwise": 90,
+          "bradley_terry": 85.73,
+          "plackett_luce": 87.06999969482422,
+          "init_plackett_luce": 86.61000061035156
+        },
+        "Frank Lampard": {
+          "justification": "With 106 caps for England, Frank Lampard is another highly experienced and skilled English footballer. His impressive goal-scoring record, vision, and consistency contribute to a high confidence level, although slightly lower than Gerrard's due to his slightly lower cap count.",
+          "listwise": 80,
+          "bradley_terry": 42.63,
+          "plackett_luce": 44.37999725341797,
+          "init_plackett_luce": 44.46999740600586
+        },
+        "Michael Owen": {
+          "justification": "Although Michael Owen had a successful international career, earning 89 caps for England, his confidence level is lower due to a relatively shorter career and fewer caps compared to other candidates on this list. His pace, goal-scoring ability, and achievements still make him a notable candidate.",
+          "listwise": 50,
+          "bradley_terry": 30.33,
+          "plackett_luce": 28.510000228881836,
+          "init_plackett_luce": 28.18000030517578
+        },
+        "Gary Neville": {
+          "justification": "As a skilled and dedicated English defender, Gary Neville earned 85 caps for the national team. His consistent performances, leadership, and longevity in the sport contribute to a respectable confidence level, although lower than some of the other candidates due to his slightly lower cap count.",
+          "listwise": 75,
+          "bradley_terry": 15.48,
+          "plackett_luce": 12.0,
+          "init_plackett_luce": 11.880000114440918
+        },
+        "Paul Gascoigne": {
+          "justification": "Despite being a highly skilled and iconic English footballer, Paul Gascoigne's international career was marked by inconsistency and off-field issues, resulting in 57 caps for England. His confidence level is lower due to the relatively low cap count and the presence of more consistent and longer-serving candidates.",
+          "listwise": 40,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Kenny Sansom": {
+          "justification": "As a former English footballer, Kenny Sansom earned 86 caps for the national team, making him a notable candidate. Although his career was marked by consistency and skill, his confidence level is lower due to the presence of more high-profile and longer-serving candidates on this list.",
+          "listwise": 60,
+          "bradley_terry": 30.33,
+          "plackett_luce": 28.329999923706055,
+          "init_plackett_luce": 28.5
+        }
+      }
+    },
+    {
+      "id": "trivia_7601",
+      "question": "Who composed the 'War Requiem'?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Britten",
+      "answer_difficulty": "Medium",
+      "candidate_answers": {
+        "Vaughan Williams": {
+          "justification": "Although Vaughan Williams was a prominent British composer, his style is more closely associated with pastoral and symphonic works. However, his 'Mass in G minor' and 'Dona Nobis Pacem' showcase his ability to compose large-scale choral works, which makes him a plausible candidate for the 'War Requiem'. The confidence level is moderate due to the difference in style between his known works and the 'War Requiem'.",
+          "listwise": 40,
+          "bradley_terry": 100.0,
+          "plackett_luce": 96.18000030517578,
+          "init_plackett_luce": 95.87999725341797
+        },
+        "Shostakovich": {
+          "justification": "As a Russian composer who experienced the hardships of war, Shostakovich's music often reflects the turmoil and suffering of his time. His 'Leningrad Symphony' and 'Babi Yar' cantata demonstrate his capacity to compose powerful, emotionally charged works related to war. However, the 'War Requiem' is specifically associated with British culture and the poetry of Wilfred Owen, making Shostakovich a less likely candidate.",
+          "listwise": 30,
+          "bradley_terry": 20.59,
+          "plackett_luce": 10.729999542236328,
+          "init_plackett_luce": 10.649999618530273
+        },
+        "Walton": {
+          "justification": "William Walton was a British composer known for his large-scale choral works, such as 'Belshazzar's Feast'. His experience in composing dramatic and expressive music makes him a potential candidate for the 'War Requiem'. The confidence level is relatively high due to Walton's familiarity with British culture and his ability to compose complex choral works.",
+          "listwise": 50,
+          "bradley_terry": 80.91,
+          "plackett_luce": 82.3699951171875,
+          "init_plackett_luce": 81.83999633789062
+        },
+        "Tippett": {
+          "justification": "Michael Tippett was a British composer who often incorporated social and political themes into his music. His 'A Child of Our Time' oratorio deals with issues of war, peace, and humanity, which aligns with the themes of the 'War Requiem'. Although Tippett's style is distinct, his experience in composing large-scale vocal works makes him a plausible candidate.",
+          "listwise": 45,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Hindemith": {
+          "justification": "Paul Hindemith was a German composer who wrote music in a variety of styles, including choral works like 'When Lilacs Last in the Dooryard Bloom'd'. While Hindemith's music often explores complex themes, his association with German culture and his distinct compositional style make him a less likely candidate for the 'War Requiem'.",
+          "listwise": 20,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Howells": {
+          "justification": "Herbert Howells was a British composer known for his choral music, particularly his 'Requiem' and 'Hymnus Paradisi'. Although Howells' style is more closely associated with traditional British church music, his experience in composing large-scale choral works and his familiarity with British culture make him a potential candidate for the 'War Requiem'.",
+          "listwise": 35,
+          "bradley_terry": 61.94,
+          "plackett_luce": 64.43000030517578,
+          "init_plackett_luce": 63.89999771118164
+        },
+        "Rubbra": {
+          "justification": "Edmund Rubbra was a British composer who wrote several large-scale choral works, including his 'Missa Cantuariensis' and 'Missa in Honorem Sancti Dominici'. While Rubbra's music often explores spiritual themes, his style is less well-known, and his association with the 'War Requiem' is not as strong as other candidates.",
+          "listwise": 25,
+          "bradley_terry": 61.15,
+          "plackett_luce": 52.7599983215332,
+          "init_plackett_luce": 53.189998626708984
+        },
+        "Finzi": {
+          "justification": "Gerald Finzi was a British composer who often explored themes of nature, poetry, and humanity in his music. His 'Intimations of Immortality' and 'For St. Cecilia' showcase his ability to compose large-scale choral works. Although Finzi's style is distinct, his familiarity with British culture and his experience in composing vocal music make him a plausible candidate for the 'War Requiem'.",
+          "listwise": 38,
+          "bradley_terry": 59.94,
+          "plackett_luce": 37.540000915527344,
+          "init_plackett_luce": 37.79999923706055
+        },
+        "Holst": {
+          "justification": "Gustav Holst was a British composer best known for his 'The Planets' suite. While Holst did compose some choral works, such as 'The Hymn of Jesus', his style is more closely associated with orchestral music, making him a less likely candidate for the 'War Requiem'.",
+          "listwise": 28,
+          "bradley_terry": 39.21,
+          "plackett_luce": 31.19999885559082,
+          "init_plackett_luce": 31.079999923706055
+        },
+        "Bliss": {
+          "justification": "Arthur Bliss was a British composer who wrote music in a variety of styles, including choral works like 'Morning Heroes'. Although Bliss' music often explores themes of war and humanity, his association with the 'War Requiem' is not as strong as other candidates, and his style is less well-known in the context of large-scale choral works.",
+          "listwise": 32,
+          "bradley_terry": 60.73,
+          "plackett_luce": 46.95000076293945,
+          "init_plackett_luce": 46.25
+        }
+      }
+    },
+    {
+      "id": "trivia_139",
+      "question": "In which European city is the Belvederen Gallery?",
+      "question_type": {
+        "major": "LOC:LOCATION",
+        "minor": "city:City"
+      },
+      "question_difficulty": "Hard",
+      "answer": "Wien",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Berlin": {
+          "justification": "Although Berlin is a major cultural hub in Europe, I couldn't find any direct connections between the city and the Belvedere Gallery. Berlin has its own set of famous museums, such as the Pergamon Museum, but I'm not aware of any notable art galleries by the name of Belvedere.",
+          "listwise": 10,
+          "bradley_terry": 55.12,
+          "plackett_luce": 83.40999603271484,
+          "init_plackett_luce": 83.97000122070312
+        },
+        "Prague": {
+          "justification": "Prague has a rich cultural heritage, and it's home to numerous art galleries and museums. However, I couldn't find any information that links the Belvedere Gallery to this city. Prague's most famous art institutions have different names, which is why my confidence level is relatively low.",
+          "listwise": 8,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Budapest": {
+          "justification": "Budapest has a vibrant art scene, and it's possible that the Belvedere Gallery could be located there. However, my research didn't yield any conclusive results, and I'm not aware of any notable art galleries by that name in the city. The Hungarian capital has its own unique cultural attractions, which makes me slightly more confident but still uncertain.",
+          "listwise": 12,
+          "bradley_terry": 54.55,
+          "plackett_luce": 84.70999908447266,
+          "init_plackett_luce": 85.08000183105469
+        },
+        "Warsaw": {
+          "justification": "Warsaw has a growing art scene, but I couldn't find any information that suggests the Belvedere Gallery is located there. The city's most famous museums and galleries have different names, which is why my confidence level is relatively low.",
+          "listwise": 6,
+          "bradley_terry": 46.19,
+          "plackett_luce": 19.469999313354492,
+          "init_plackett_luce": 19.479999542236328
+        },
+        "Copenhagen": {
+          "justification": "Copenhagen is known for its cultural institutions, and it's possible that the Belvedere Gallery could be located there. However, my research didn't turn up any conclusive results, and I'm not aware of any notable art galleries by that name in the city. The Danish capital has its own unique cultural attractions, which makes me slightly more confident but still uncertain.",
+          "listwise": 9,
+          "bradley_terry": 47.56,
+          "plackett_luce": 30.920000076293945,
+          "init_plackett_luce": 31.260000228881836
+        },
+        "Stockholm": {
+          "justification": "Stockholm has a thriving art scene, and it's possible that the Belvedere Gallery could be located there. However, my research didn't yield any conclusive results, and I'm not aware of any notable art galleries by that name in the city. The Swedish capital has its own unique cultural attractions, which makes me slightly more confident but still uncertain.",
+          "listwise": 11,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Amsterdam": {
+          "justification": "Amsterdam is famous for its art museums, such as the Rijksmuseum and the Van Gogh Museum. While it's possible that the Belvedere Gallery could be located there, I couldn't find any information that confirms this. Amsterdam's cultural scene is diverse, which is why my confidence level is slightly higher.",
+          "listwise": 14,
+          "bradley_terry": 48.17,
+          "plackett_luce": 39.62999725341797,
+          "init_plackett_luce": 40.040000915527344
+        },
+        "Munich": {
+          "justification": "Munich has a rich cultural heritage, and it's home to numerous art galleries and museums. While I couldn't find any direct connections between the city and the Belvedere Gallery, Munich's cultural scene is diverse enough that it's possible the gallery could be located there. The city's most famous art institutions have different names, but I'm slightly more confident due to Munich's overall cultural significance.",
+          "listwise": 15,
+          "bradley_terry": 54.48,
+          "plackett_luce": 82.18999481201172,
+          "init_plackett_luce": 82.68000030517578
+        },
+        "Zurich": {
+          "justification": "Zurich has a thriving art scene, and it's possible that the Belvedere Gallery could be located there. However, my research didn't yield any conclusive results, and I'm not aware of any notable art galleries by that name in the city. The Swiss city has its own unique cultural attractions, which makes me slightly more confident but still uncertain.",
+          "listwise": 13,
+          "bradley_terry": 51.35,
+          "plackett_luce": 58.91999816894531,
+          "init_plackett_luce": 59.41999816894531
+        },
+        "Brussels": {
+          "justification": "Brussels has a rich cultural heritage, and it's home to numerous art galleries and museums. While I couldn't find any direct connections between the city and the Belvedere Gallery, Brussels' cultural scene is diverse enough that it's possible the gallery could be located there. The city's most famous art institutions have different names, but I'm slightly more confident due to Brussels' overall cultural significance and its location in the heart of Europe.",
+          "listwise": 16,
+          "bradley_terry": 46.6,
+          "plackett_luce": 28.09000015258789,
+          "init_plackett_luce": 28.139999389648438
+        }
+      }
+    },
+    {
+      "id": "trivia_4723",
+      "question": "Who was the legless World War II fighter pilot who was detained in German prisoner of war camps for 4 years?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Douglas Bader",
+      "answer_difficulty": "Medium",
+      "candidate_answers": {
+        "Colin Pinckney": {
+          "justification": "Although I couldn't find any information about a legless World War II fighter pilot by this name, it's possible that he might be a lesser-known figure. My confidence level is low due to the lack of available information.",
+          "listwise": 20,
+          "bradley_terry": 3.2,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "William Simpson": {
+          "justification": "I found a few references to a William Simpson who served in World War II, but none of them mention him being a legless fighter pilot. My confidence level is low because there's no concrete evidence linking him to the description.",
+          "listwise": 15,
+          "bradley_terry": 0.0,
+          "plackett_luce": 10.309999465942383,
+          "init_plackett_luce": 11.65999984741211
+        },
+        "Geoffrey Quill": {
+          "justification": "Geoffrey Quill was a British test pilot and a commander in the Royal Air Force during World War II. Although I couldn't find any information about him being legless, his experience as a pilot and his involvement in the war effort make him a potential candidate. My confidence level is moderate due to his relevant background.",
+          "listwise": 30,
+          "bradley_terry": 48.93,
+          "plackett_luce": 67.0199966430664,
+          "init_plackett_luce": 68.3499984741211
+        },
+        "Keith Park": {
+          "justification": "Keith Park was a New Zealand-born Royal Air Force officer who played a significant role in the Battle of Britain. While I couldn't find any information about him being legless, his prominence in the war effort makes him a possible candidate. My confidence level is moderate due to his notable career.",
+          "listwise": 25,
+          "bradley_terry": 55.91,
+          "plackett_luce": 62.82999801635742,
+          "init_plackett_luce": 64.43000030517578
+        },
+        "Robert Stanford Tuck": {
+          "justification": "Robert Stanford Tuck was a British fighter pilot who served in World War II and was a prisoner of war for a time. Although I couldn't find any information about him being legless, his experience as a fighter pilot and his time in captivity make him a more plausible candidate. My confidence level is higher due to his relevant experience.",
+          "listwise": 40,
+          "bradley_terry": 68.13,
+          "plackett_luce": 79.58000183105469,
+          "init_plackett_luce": 80.6500015258789
+        },
+        "James Nicolson": {
+          "justification": "James Nicolson was a British fighter pilot who served in World War II and was awarded the Victoria Cross. While I couldn't find any information about him being legless, his bravery and experience as a pilot make him a potential candidate. My confidence level is moderate due to his notable achievements.",
+          "listwise": 35,
+          "bradley_terry": 68.13,
+          "plackett_luce": 80.47999572753906,
+          "init_plackett_luce": 81.38999938964844
+        },
+        "Brian Kingcome": {
+          "justification": "Brian Kingcome was a British fighter pilot who served in World War II and was a squadron leader. Although I couldn't find any information about him being legless, his experience as a pilot and his leadership role make him a possible candidate. My confidence level is moderate due to his relevant background.",
+          "listwise": 28,
+          "bradley_terry": 48.93,
+          "plackett_luce": 69.36000061035156,
+          "init_plackett_luce": 69.04000091552734
+        },
+        "Peter Townsend": {
+          "justification": "Peter Townsend was a British fighter pilot who served in World War II and was a close friend of Princess Margaret. While I couldn't find any information about him being legless, his experience as a pilot and his involvement in the war effort make him a potential candidate. My confidence level is moderate due to his relevant experience.",
+          "listwise": 32,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Alan Deere": {
+          "justification": "Alan Deere was a New Zealand-born British fighter pilot who served in World War II and was a prisoner of war for a time. Although I couldn't find any information about him being legless, his experience as a fighter pilot and his time in captivity make him a more plausible candidate. My confidence level is higher due to his relevant experience.",
+          "listwise": 38,
+          "bradley_terry": 65.82,
+          "plackett_luce": 73.38999938964844,
+          "init_plackett_luce": 73.54999542236328
+        },
+        "Christopher Foxley-Norris": {
+          "justification": "Christopher Foxley-Norris was a British fighter pilot who served in World War II and was a commander in the Royal Air Force. While I couldn't find any information about him being legless, his experience as a pilot and his involvement in the war effort make him a possible candidate. My confidence level is low due to the lack of concrete evidence linking him to the description.",
+          "listwise": 22,
+          "bradley_terry": 100.0,
+          "plackett_luce": 79.47999572753906,
+          "init_plackett_luce": 80.8499984741211
+        }
+      }
+    },
+    {
+      "id": "trivia_3616",
+      "question": "What are the narrow bands of strong winds called which move around the world between about six and twelve miles high?",
+      "question_type": {
+        "major": "ENTY:ENTITY",
+        "minor": "termeq:Equivalent term"
+      },
+      "question_difficulty": "Hard",
+      "answer": "Jetstream",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Wind Channels": {
+          "justification": "I have a moderate confidence level in this answer because the term \"channels\" implies a narrow, confined path, which aligns with the description of the winds. However, I'm not entirely sure if this term is commonly used in meteorology, which is why my confidence level is not higher.",
+          "listwise": 40,
+          "bradley_terry": 65.65,
+          "plackett_luce": 70.51000213623047,
+          "init_plackett_luce": 71.38999938964844
+        },
+        "Aerial Currents": {
+          "justification": "My confidence level in this answer is relatively low because while \"aerial currents\" does refer to movements of air, it's a fairly general term that doesn't specifically convey the idea of narrow bands of strong winds. It's possible that this term could be used to describe the phenomenon, but it's not a very specific or technical term.",
+          "listwise": 30,
+          "bradley_terry": 45.95,
+          "plackett_luce": 39.55999755859375,
+          "init_plackett_luce": 40.09000015258789
+        },
+        "Sky Rivers": {
+          "justification": "I have a low confidence level in this answer because \"sky rivers\" is a poetic term that doesn't have an obvious connection to meteorology or the description of strong winds. While it's possible that this term could be used in a descriptive or metaphorical sense, it's unlikely to be a technical term used in the field.",
+          "listwise": 20,
+          "bradley_terry": 29.77,
+          "plackett_luce": 29.92999839782715,
+          "init_plackett_luce": 30.75
+        },
+        "Atmospheric Flows": {
+          "justification": "My confidence level in this answer is moderate to high because \"atmospheric flows\" is a term that is often used in meteorology to describe the movement of air in the atmosphere. The term is general enough to encompass a wide range of phenomena, including narrow bands of strong winds, but it's not specific enough to be a definitive answer.",
+          "listwise": 50,
+          "bradley_terry": 46.47,
+          "plackett_luce": 44.13999938964844,
+          "init_plackett_luce": 45.13999938964844
+        },
+        "Air Lanes": {
+          "justification": "I have a moderate confidence level in this answer because \"air lanes\" implies a narrow, defined path, which aligns with the description of the winds. However, this term is more commonly used in aviation to refer to designated flight paths, so I'm not sure if it's commonly used in meteorology to describe strong winds.",
+          "listwise": 45,
+          "bradley_terry": 15.45,
+          "plackett_luce": 11.420000076293945,
+          "init_plackett_luce": 11.569999694824219
+        },
+        "Wind Tunnels": {
+          "justification": "My confidence level in this answer is relatively low because while \"wind tunnels\" does refer to a confined path of air, it's typically used to describe a man-made structure used for testing and research, rather than a natural phenomenon. It's possible that this term could be used metaphorically to describe the strong winds, but it's unlikely to be a technical term.",
+          "listwise": 35,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Upper Air Jets": {
+          "justification": "I have a relatively high confidence level in this answer because \"upper air jets\" specifically refers to strong winds in the upper atmosphere, which aligns with the description. The term \"jets\" implies a narrow, fast-moving stream of air, which fits with the phenomenon being described.",
+          "listwise": 60,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Stratospheric Streams": {
+          "justification": "My confidence level in this answer is moderate to high because \"stratospheric streams\" specifically refers to the stratosphere, which is the layer of the atmosphere where the strong winds are located. The term \"streams\" implies a narrow, flowing path, which aligns with the description of the winds.",
+          "listwise": 55,
+          "bradley_terry": 83.38,
+          "plackett_luce": 87.90999603271484,
+          "init_plackett_luce": 87.95999908447266
+        },
+        "High-Altitude Winds": {
+          "justification": "I have a relatively low confidence level in this answer because while \"high-altitude winds\" does refer to the general location of the strong winds, it's a very general term that doesn't specifically convey the idea of narrow bands of wind. This term could be used to describe a wide range of phenomena, so it's not a very specific or technical term.",
+          "listwise": 25,
+          "bradley_terry": 66.33,
+          "plackett_luce": 67.69999694824219,
+          "init_plackett_luce": 67.98999786376953
+        },
+        "Fast Air Currents": {
+          "justification": "My confidence level in this answer is moderate because \"fast air currents\" does refer to the speed of the winds, which is an important characteristic of the phenomenon being described. However, this term is fairly general and doesn't specifically convey the idea of narrow bands of wind, so I'm not entirely sure if it's the correct answer.",
+          "listwise": 48,
+          "bradley_terry": 46.99,
+          "plackett_luce": 45.099998474121094,
+          "init_plackett_luce": 45.25
+        }
+      }
+    },
+    {
+      "id": "trivia_1954",
+      "question": "In the tv sitcom ‘Allo Allo!’, what was Rene’s surname?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Artois",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Dupont": {
+          "justification": "I have a high confidence level for this answer because 'Dupont' is a common French surname, which fits with the show's setting in occupied France. The name also has a familiar and authentic sound to it, which could make it a plausible choice for a main character like Rene.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "LaFleur": {
+          "justification": "My confidence level for this answer is moderate because 'LaFleur' is a French surname that means 'the flower', which could be a fitting and humorous name for a character like Rene who often finds himself in awkward and delicate situations.",
+          "listwise": 60,
+          "bradley_terry": 34.41,
+          "plackett_luce": 34.189998626708984,
+          "init_plackett_luce": 32.290000915527344
+        },
+        "Garnier": {
+          "justification": "I have a relatively high confidence level for this answer because 'Garnier' is another common French surname that sounds suitable for a character like Rene. The name also has a bit of an old-fashioned feel to it, which could fit with the show's World War II setting.",
+          "listwise": 70,
+          "bradley_terry": 87.17,
+          "plackett_luce": 88.95999908447266,
+          "init_plackett_luce": 87.73999786376953
+        },
+        "Bouvier": {
+          "justification": "My confidence level for this answer is moderate because 'Bouvier' is a French surname that means 'cowherd', which doesn't have an immediately obvious connection to Rene's character or the show's plot. However, the name does have a certain rustic charm to it that could make it a plausible choice.",
+          "listwise": 50,
+          "bradley_terry": 59.58,
+          "plackett_luce": 58.77000045776367,
+          "init_plackett_luce": 58.15999984741211
+        },
+        "Marchand": {
+          "justification": "I have a moderate to high confidence level for this answer because 'Marchand' is a French surname that means 'merchant', which could be a fitting name for a character like Rene who runs a cafe. The name also has a bit of a sophisticated sound to it, which could contrast humorously with Rene's often bumbling personality.",
+          "listwise": 65,
+          "bradley_terry": 56.56,
+          "plackett_luce": 54.79999923706055,
+          "init_plackett_luce": 53.29999923706055
+        },
+        "Rousseau": {
+          "justification": "My confidence level for this answer is moderate because 'Rousseau' is a French surname that has a certain intellectual or philosophical connotation, which doesn't necessarily fit with Rene's more down-to-earth character. However, the name does have a certain elegance to it that could make it a plausible choice.",
+          "listwise": 55,
+          "bradley_terry": 69.42,
+          "plackett_luce": 71.0,
+          "init_plackett_luce": 71.56999969482422
+        },
+        "Leroux": {
+          "justification": "I have a relatively high confidence level for this answer because 'Leroux' is a common French surname that sounds suitable for a character like Rene. The name also has a bit of a rugged or rustic feel to it, which could fit with the show's wartime setting.",
+          "listwise": 75,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Dumont": {
+          "justification": "My confidence level for this answer is high because 'Dumont' is a French surname that means 'of the mountain', which could be a fitting name for a character like Rene who often finds himself in elevated or precarious situations. The name also has a certain strength and solidity to it that could make it a plausible choice.",
+          "listwise": 85,
+          "bradley_terry": 35.03,
+          "plackett_luce": 33.189998626708984,
+          "init_plackett_luce": 31.3799991607666
+        },
+        "Fournier": {
+          "justification": "I have a relatively low confidence level for this answer because 'Fournier' is a French surname that means 'baker', which doesn't have an immediately obvious connection to Rene's character or the show's plot. However, the name does have a certain humble or unassuming quality to it that could make it a plausible choice.",
+          "listwise": 40,
+          "bradley_terry": 94.28,
+          "plackett_luce": 97.80999755859375,
+          "init_plackett_luce": 97.86000061035156
+        },
+        "Blanchard": {
+          "justification": "My confidence level for this answer is relatively low because 'Blanchard' is a French surname that means 'whitish' or 'pale', which doesn't have an immediately obvious connection to Rene's character or the show's plot. However, the name does have a certain pale or washed-out quality to it that could contrast humorously with Rene's often dramatic or exaggerated personality.",
+          "listwise": 45,
+          "bradley_terry": 54.37,
+          "plackett_luce": 56.459999084472656,
+          "init_plackett_luce": 56.81999969482422
+        }
+      }
+    },
+    {
+      "id": "trivia_2482",
+      "question": "Who wrote ‘The Forsyte Saga’?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Galsworthy",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "E.M. Forster": {
+          "justification": "I have assigned a moderate confidence level to E.M. Forster because, like the author of 'The Forsyte Saga', he was a prominent English novelist of the early 20th century, known for his insightful portrayals of the British upper class. Forster's works, such as 'Howards End', explore themes of social class, family, and personal relationships, which are also central to 'The Forsyte Saga'. However, Forster's writing style and thematic focus are distinct from those typically associated with 'The Forsyte Saga', which is why my confidence level is not higher.",
+          "listwise": 40,
+          "bradley_terry": 63.2,
+          "plackett_luce": 77.2699966430664,
+          "init_plackett_luce": 77.63999938964844
+        },
+        "D.H. Lawrence": {
+          "justification": "My confidence level for D.H. Lawrence is relatively low because, although he was a major English novelist of the same period, his works tend to focus more on individual psychology, sexuality, and the human condition, rather than the intricate family dynamics and social satire that characterize 'The Forsyte Saga'. Lawrence's writing style is also often more lyrical and experimental than what is typically associated with 'The Forsyte Saga'.",
+          "listwise": 30,
+          "bradley_terry": 60.8,
+          "plackett_luce": 53.2599983215332,
+          "init_plackett_luce": 52.53999710083008
+        },
+        "Virginia Woolf": {
+          "justification": "I have assigned a relatively low confidence level to Virginia Woolf because, while she was a key figure in the modernist movement and a prominent English novelist, her works tend to be more experimental and focused on individual subjective experience, rather than the sprawling family sagas and social commentary that define 'The Forsyte Saga'. Woolf's writing style is also often more impressionistic and less concerned with traditional narrative structures.",
+          "listwise": 20,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Arnold Bennett": {
+          "justification": "My confidence level for Arnold Bennett is moderate to high because he was a prolific English novelist and playwright who, like the author of 'The Forsyte Saga', was known for his realistic portrayals of middle-class life and his insightful exploration of social class and family dynamics. Bennett's works, such as 'The Old Wives' Tale', often focus on the everyday lives and struggles of ordinary people, which is also a key aspect of 'The Forsyte Saga'.",
+          "listwise": 50,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "H.G. Wells": {
+          "justification": "I have assigned a relatively low confidence level to H.G. Wells because, although he was a major English novelist and social commentator, his works tend to focus more on science fiction, utopianism, and social prophecy, rather than the detailed, realistic portrayals of family life and social class that characterize 'The Forsyte Saga'. Wells's writing style is also often more didactic and less concerned with traditional narrative structures.",
+          "listwise": 25,
+          "bradley_terry": 29.15,
+          "plackett_luce": 12.59999942779541,
+          "init_plackett_luce": 12.199999809265137
+        },
+        "Elizabeth Bowen": {
+          "justification": "My confidence level for Elizabeth Bowen is relatively moderate because, while she was a prominent English novelist known for her insightful portrayals of the British upper class, her works tend to focus more on individual psychology and the nuances of personal relationships, rather than the sprawling family sagas and social commentary that define 'The Forsyte Saga'. Bowen's writing style is also often more subtle and less concerned with traditional narrative structures.",
+          "listwise": 35,
+          "bradley_terry": 59.93,
+          "plackett_luce": 43.52000045776367,
+          "init_plackett_luce": 43.59000015258789
+        },
+        "Somerset Maugham": {
+          "justification": "I have assigned a moderate to high confidence level to Somerset Maugham because, like the author of 'The Forsyte Saga', he was a prolific English novelist and playwright who explored themes of social class, family, and personal relationships in his works. Maugham's novels, such as 'Of Human Bondage', often focus on the complexities of human relationships and the social conventions that govern them, which is also a key aspect of 'The Forsyte Saga'.",
+          "listwise": 45,
+          "bradley_terry": 60.8,
+          "plackett_luce": 52.43000030517578,
+          "init_plackett_luce": 52.57999801635742
+        },
+        "Hugh Walpole": {
+          "justification": "My confidence level for Hugh Walpole is relatively moderate because, while he was a prominent English novelist known for his realistic portrayals of middle-class life, his works tend to be less well-known and less widely studied than those of other authors on this list. However, Walpole's novels, such as 'The Herries Chronicle', do explore themes of family, social class, and personal relationships, which are also central to 'The Forsyte Saga'.",
+          "listwise": 38,
+          "bradley_terry": 62.55,
+          "plackett_luce": 74.3499984741211,
+          "init_plackett_luce": 74.0
+        },
+        "A.E.W. Mason": {
+          "justification": "I have assigned a relatively low confidence level to A.E.W. Mason because, although he was a prolific English novelist and playwright, his works tend to focus more on adventure, romance, and historical fiction, rather than the detailed, realistic portrayals of family life and social class that characterize 'The Forsyte Saga'. Mason's writing style is also often more sensational and less concerned with traditional narrative structures.",
+          "listwise": 28,
+          "bradley_terry": 60.84,
+          "plackett_luce": 53.0,
+          "init_plackett_luce": 53.41999816894531
+        },
+        "J.B. Priestley": {
+          "justification": "My confidence level for J.B. Priestley is relatively low because, while he was a prominent English novelist and playwright known for his insightful portrayals of middle-class life, his works tend to focus more on individual psychology, social commentary, and science fiction, rather than the sprawling family sagas and social satire that define 'The Forsyte Saga'. Priestley's writing style is also often more didactic and less concerned with traditional narrative structures.",
+          "listwise": 32,
+          "bradley_terry": 60.72,
+          "plackett_luce": 52.459999084472656,
+          "init_plackett_luce": 52.46999740600586
+        }
+      }
+    },
+    {
+      "id": "trivia_9916",
+      "question": "Who plays 'Mahmud Nasir', a Muslim who finds out he was born Jewish, in the 2010 film 'The Infidel'?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Hard",
+      "answer": "Omid Jalili",
+      "answer_difficulty": "Medium",
+      "candidate_answers": {
+        "Riz Ahmed": {
+          "justification": "Riz Ahmed is a British-Pakistani actor known for his versatility in playing complex characters, including those with diverse cultural backgrounds. His experience in portraying characters with Muslim heritage, as seen in films like 'The Reluctant Fundamentalist', makes him a plausible candidate for the role of Mahmud Nasir.",
+          "listwise": 80,
+          "bradley_terry": 19.11,
+          "plackett_luce": 28.549999237060547,
+          "init_plackett_luce": 27.85999870300293
+        },
+        "Naveen Andrews": {
+          "justification": "Naveen Andrews is a British actor of Indian descent, recognized for his roles in 'Lost' and 'Planet Terror'. Although he hasn't played a character with a similar background to Mahmud Nasir, his acting range and experience in portraying characters from diverse cultural backgrounds give him a moderate chance of being the correct answer.",
+          "listwise": 70,
+          "bradley_terry": 10.64,
+          "plackett_luce": 13.889999389648438,
+          "init_plackett_luce": 13.649999618530273
+        },
+        "Sacha Baron Cohen": {
+          "justification": "Sacha Baron Cohen is a British actor and comedian known for his provocative and satirical characters. While he has played characters from various ethnic backgrounds, his style of comedy and acting might not be the best fit for a role like Mahmud Nasir, which requires a more nuanced and dramatic approach.",
+          "listwise": 40,
+          "bradley_terry": 63.97,
+          "plackett_luce": 68.43000030517578,
+          "init_plackett_luce": 66.97999572753906
+        },
+        "Kayvan Novak": {
+          "justification": "Kayvan Novak is a British-Iranian actor and comedian who has experience playing characters with Muslim heritage. His background and acting style, as seen in the TV series 'Facejacker', make him a strong candidate for the role of Mahmud Nasir.",
+          "listwise": 85,
+          "bradley_terry": 88.95,
+          "plackett_luce": 93.82999420166016,
+          "init_plackett_luce": 92.43999481201172
+        },
+        "Sanjeev Bhaskar": {
+          "justification": "Sanjeev Bhaskar is a British-Indian actor and comedian known for his work in 'The Kumars at No. 42' and 'Paddington 2'. Although he has played characters with diverse cultural backgrounds, his comedic style might not be the best fit for a dramatic role like Mahmud Nasir.",
+          "listwise": 60,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Alexander Siddig": {
+          "justification": "Alexander Siddig is a Sudanese-British actor recognized for his roles in 'Star Trek: Deep Space Nine' and 'Peaky Blinders'. His experience in portraying characters with complex cultural backgrounds and his dramatic acting range make him a plausible candidate for the role of Mahmud Nasir.",
+          "listwise": 75,
+          "bradley_terry": 18.07,
+          "plackett_luce": 23.689998626708984,
+          "init_plackett_luce": 24.299999237060547
+        },
+        "Nitin Ganatra": {
+          "justification": "Nitin Ganatra is a British-Indian actor known for his roles in 'EastEnders' and 'Bridget Jones's Diary'. Although he has played characters with diverse cultural backgrounds, his acting style and experience might not be the best fit for a role like Mahmud Nasir, which requires a more nuanced approach.",
+          "listwise": 65,
+          "bradley_terry": 63.6,
+          "plackett_luce": 71.29999542236328,
+          "init_plackett_luce": 70.65999603271484
+        },
+        "Ace Bhatti": {
+          "justification": "Ace Bhatti is a British-Pakistani actor recognized for his roles in 'EastEnders' and 'The Sarah Jane Adventures'. While he has experience playing characters with Muslim heritage, his acting range and style might not be the best fit for a dramatic role like Mahmud Nasir.",
+          "listwise": 55,
+          "bradley_terry": 23.15,
+          "plackett_luce": 31.59000015258789,
+          "init_plackett_luce": 30.469999313354492
+        },
+        "Adrian Lester": {
+          "justification": "Adrian Lester is a British actor known for his roles in 'Hustle' and 'Rome'. Although he has played characters with complex cultural backgrounds, his acting style and experience might not be the best fit for a role like Mahmud Nasir, which requires a more nuanced approach to portraying a character with a specific cultural and religious background.",
+          "listwise": 50,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Dominic Rains": {
+          "justification": "Dominic Rains is an Iranian-American actor recognized for his roles in 'Flashforward' and 'Marvel's Agents of S.H.I.E.L.D.'. While he has experience playing characters with diverse cultural backgrounds, his acting range and style might not be the best fit for a dramatic role like Mahmud Nasir, which requires a more nuanced approach to portraying a character with a specific cultural and religious background.",
+          "listwise": 45,
+          "bradley_terry": 21.08,
+          "plackett_luce": 26.420000076293945,
+          "init_plackett_luce": 25.869998931884766
+        }
+      }
+    }
+  ]
+}

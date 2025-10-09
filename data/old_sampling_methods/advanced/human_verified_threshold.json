@@ -1,0 +1,1832 @@
+{
+  "confusing": [
+    {
+      "id": "trivia_1617",
+      "question": "Rapunzel, Mother Gothel and Paulo are all characters in which 2010 animated film?",
+      "question_type": {
+        "major": "ENTY:ENTITY",
+        "minor": "cremat:Invention, book and other creative piece"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Tangled",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Toy Story 3": {
+          "justification": "There's no connection between the characters mentioned and the Toy Story franchise, which focuses on toys coming to life. The characters and storyline don't match.",
+          "listwise": 0,
+          "bradley_terry": 53.69,
+          "plackett_luce": 51.779998779296875,
+          "init_plackett_luce": 51.16999816894531
+        },
+        "Shrek Forever After": {
+          "justification": "Although Shrek features fairy tale characters, there's no direct connection to Rapunzel or Mother Gothel in this specific film. The storyline revolves around Shrek's midlife crisis, and the characters mentioned don't fit into the narrative.",
+          "listwise": 5,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Megamind": {
+          "justification": "Megamind is a superhero animated film with no connection to the characters mentioned. The storyline and characters are unrelated to Rapunzel or Mother Gothel.",
+          "listwise": 0,
+          "bradley_terry": 72.85,
+          "plackett_luce": 65.63999938964844,
+          "init_plackett_luce": 65.45999908447266
+        },
+        "Legend of the Guardians: The Owls of Ga'Hoole": {
+          "justification": "This film is about owls and their adventures, with no connection to the characters mentioned. The storyline and characters are unrelated to Rapunzel or Mother Gothel.",
+          "listwise": 0,
+          "bradley_terry": 40.98,
+          "plackett_luce": 39.65999984741211,
+          "init_plackett_luce": 38.84000015258789
+        },
+        "Despicable Me": {
+          "justification": "Although Despicable Me features a fairy tale-like storyline, there's no direct connection to Rapunzel or Mother Gothel. The characters and storyline don't match.",
+          "listwise": 0,
+          "bradley_terry": 75.44,
+          "plackett_luce": 63.72999954223633,
+          "init_plackett_luce": 63.13999938964844
+        },
+        "The Illusionist": {
+          "justification": "This animated film features a storyline with some fairy tale elements, but it's not directly related to Rapunzel or Mother Gothel. However, the film's style and themes might lead to some confusion, hence the low confidence level.",
+          "listwise": 10,
+          "bradley_terry": 85.98,
+          "plackett_luce": 83.40999603271484,
+          "init_plackett_luce": 82.41999816894531
+        },
+        "Alpha and Omega": {
+          "justification": "This animated film is about wolves and their adventures, with no connection to the characters mentioned. The storyline and characters are unrelated to Rapunzel or Mother Gothel.",
+          "listwise": 0,
+          "bradley_terry": 40.57,
+          "plackett_luce": 43.56999969482422,
+          "init_plackett_luce": 42.849998474121094
+        },
+        "Cats & Dogs: The Revenge of Kitty Galore": {
+          "justification": "This live-action/animated film features a storyline about cats and dogs as spies, with no connection to the characters mentioned. The characters and storyline don't match.",
+          "listwise": 0,
+          "bradley_terry": 28.66,
+          "plackett_luce": 26.849998474121094,
+          "init_plackett_luce": 26.5
+        },
+        "Marmaduke": {
+          "justification": "This live-action/animated film features a storyline about a dog, with no connection to the characters mentioned. The characters and storyline don't match.",
+          "listwise": 0,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Barbie: A Fashion Fairytale": {
+          "justification": "Although this film features fairy tale elements and a character named Raquelle (not Rapunzel), it might lead to some confusion. However, the storyline and characters are not directly related to Rapunzel or Mother Gothel, hence the low confidence level.",
+          "listwise": 20,
+          "bradley_terry": 92.25,
+          "plackett_luce": 86.75,
+          "init_plackett_luce": 86.66999816894531
+        }
+      }
+    },
+    {
+      "id": "trivia_389",
+      "question": "Who is the last English-born player to win the men's singles title at Wimbledon?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Fred Perry",
+      "answer_difficulty": "Medium",
+      "candidate_answers": {
+        "Andy Murray": {
+          "justification": "Although Andy Murray is Scottish, not English, I've included him as a candidate due to his significant achievements in tennis and his UK nationality. My confidence level is high because he has won Wimbledon titles, but it's not 100% since he's not English-born.",
+          "listwise": 80,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Tim Henman": {
+          "justification": "Tim Henman is an English former professional tennis player who had a successful career, including semifinal appearances at Wimbledon. My confidence level is moderate because, although he had a good run at Wimbledon, he never won the title.",
+          "listwise": 40,
+          "bradley_terry": 99.34,
+          "plackett_luce": 99.65999603271484,
+          "init_plackett_luce": 99.54000091552734
+        },
+        "Greg Rusedski": {
+          "justification": "Greg Rusedski is a British-Canadian former tennis player who represented the UK in international competitions. My confidence level is relatively low because, although he had some success, he was born in Canada and only represented the UK later in his career.",
+          "listwise": 30,
+          "bradley_terry": 34.17,
+          "plackett_luce": 25.69999885559082,
+          "init_plackett_luce": 25.31999969482422
+        },
+        "John Lloyd": {
+          "justification": "John Lloyd is a former English professional tennis player who had some success in the 1970s and 1980s. My confidence level is low because, although he was a decent player, he never won a Grand Slam singles title.",
+          "listwise": 20,
+          "bradley_terry": 76.93,
+          "plackett_luce": 78.9000015258789,
+          "init_plackett_luce": 78.30999755859375
+        },
+        "Mark Cox": {
+          "justification": "Mark Cox is a former English professional tennis player who had a moderate career in the 1960s and 1970s. My confidence level is low because he never achieved significant success in major tournaments.",
+          "listwise": 15,
+          "bradley_terry": 35.61,
+          "plackett_luce": 39.88999938964844,
+          "init_plackett_luce": 39.279998779296875
+        },
+        "Roger Taylor": {
+          "justification": "Roger Taylor is a former English professional tennis player who had some success in the 1960s and 1970s. My confidence level is very low because, although he was a decent player, he never won a Grand Slam singles title.",
+          "listwise": 10,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Buster Mottram": {
+          "justification": "Buster Mottram is a former English professional tennis player who had a short career in the 1970s and 1980s. My confidence level is very low because he never achieved significant success in major tournaments.",
+          "listwise": 8,
+          "bradley_terry": 57.36,
+          "plackett_luce": 61.19999694824219,
+          "init_plackett_luce": 61.05999755859375
+        },
+        "Jeremy Bates": {
+          "justification": "Jeremy Bates is a former English professional tennis player who had some success in the 1980s and 1990s. My confidence level is very low because, although he was a decent player, he never won a Grand Slam singles title.",
+          "listwise": 6,
+          "bradley_terry": 98.67,
+          "plackett_luce": 93.40999603271484,
+          "init_plackett_luce": 92.97999572753906
+        },
+        "Chris Wilkinson": {
+          "justification": "Chris Wilkinson is a former English professional tennis player who had a moderate career in the 1990s and 2000s. My confidence level is very low because he never achieved significant success in major tournaments.",
+          "listwise": 4,
+          "bradley_terry": 32.74,
+          "plackett_luce": 17.209999084472656,
+          "init_plackett_luce": 16.920000076293945
+        },
+        "James Ward": {
+          "justification": "James Ward is an English professional tennis player who has had some success in lower-level tournaments. My confidence level is extremely low because, although he's still an active player, he has never achieved significant success in major tournaments.",
+          "listwise": 2,
+          "bradley_terry": 34.17,
+          "plackett_luce": 28.65999984741211,
+          "init_plackett_luce": 28.31999969482422
+        }
+      }
+    },
+    {
+      "id": "trivia_1444",
+      "question": "For how many years was Richard III king of England?",
+      "question_type": {
+        "major": "NUM:NUMERIC",
+        "minor": "count:Number of something"
+      },
+      "question_difficulty": "Medium",
+      "answer": "2",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "1": {
+          "justification": "I have a relatively low confidence in this answer because, although it's possible for a king to have a short reign, Richard III's reign is well-documented in historical records, and a one-year reign would be unusually brief. However, it's not entirely impossible, which is why I've assigned a confidence level of 20.",
+          "listwise": 20,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "3": {
+          "justification": "I have a moderate confidence in this answer because Richard III's reign is often reported to have been around 2 years, but it's possible that some sources may round up or down, resulting in a 3-year estimate. Additionally, Richard III's reign was marked by significant events, and a 3-year reign would provide enough time for these events to have unfolded.",
+          "listwise": 40,
+          "bradley_terry": 85.42,
+          "plackett_luce": 87.93000030517578,
+          "init_plackett_luce": 87.6500015258789
+        },
+        "4": {
+          "justification": "I have a relatively low confidence in this answer because, while Richard III's reign was significant, a 4-year reign would be longer than most historical estimates. However, it's possible that some sources may have included the time he spent as Duke of Gloucester or other titles in their calculations, which could result in a longer estimated reign.",
+          "listwise": 15,
+          "bradley_terry": 73.29,
+          "plackett_luce": 76.27999877929688,
+          "init_plackett_luce": 76.33999633789062
+        },
+        "5": {
+          "justification": "I have a low confidence in this answer because a 5-year reign would be significantly longer than most historical estimates of Richard III's time as king. While it's possible that some sources may have made errors in their calculations, a 5-year reign would be unusual and not supported by most historical records.",
+          "listwise": 10,
+          "bradley_terry": 62.2,
+          "plackett_luce": 65.95999908447266,
+          "init_plackett_luce": 65.63999938964844
+        },
+        "6": {
+          "justification": "I have a very low confidence in this answer because a 6-year reign would be extremely long compared to most historical estimates of Richard III's time as king. There is little to no historical evidence to support a reign of this length, which is why I've assigned a confidence level of 5.",
+          "listwise": 5,
+          "bradley_terry": 51.34,
+          "plackett_luce": 54.64999771118164,
+          "init_plackett_luce": 54.54999923706055
+        },
+        "7": {
+          "justification": "Similar to the previous answer, I have a very low confidence in this answer because a 7-year reign would be extremely long and not supported by most historical records. While it's possible that some sources may have made significant errors, a 7-year reign is unlikely.",
+          "listwise": 5,
+          "bradley_terry": 35.54,
+          "plackett_luce": 34.04999923706055,
+          "init_plackett_luce": 34.130001068115234
+        },
+        "8": {
+          "justification": "I have zero confidence in this answer because a 8-year reign would be completely inconsistent with all historical records and estimates of Richard III's time as king. There is no credible evidence to support a reign of this length.",
+          "listwise": 0,
+          "bradley_terry": 40.58,
+          "plackett_luce": 40.32999801635742,
+          "init_plackett_luce": 40.0099983215332
+        },
+        "9": {
+          "justification": "Similar to the previous answer, I have zero confidence in this answer because a 9-year reign would be completely inconsistent with all historical records and estimates of Richard III's time as king. There is no credible evidence to support a reign of this length.",
+          "listwise": 0,
+          "bradley_terry": 28.58,
+          "plackett_luce": 28.959999084472656,
+          "init_plackett_luce": 28.93000030517578
+        },
+        "10": {
+          "justification": "I have zero confidence in this answer because a 10-year reign would be completely inconsistent with all historical records and estimates of Richard III's time as king. There is no credible evidence to support a reign of this length, and it would be a significant anomaly in historical records.",
+          "listwise": 0,
+          "bradley_terry": 15.73,
+          "plackett_luce": 13.25999927520752,
+          "init_plackett_luce": 12.769999504089355
+        },
+        "11": {
+          "justification": "I have zero confidence in this answer because an 11-year reign would be completely inconsistent with all historical records and estimates of Richard III's time as king. There is no credible evidence to support a reign of this length, and it would be a significant anomaly in historical records.",
+          "listwise": 0,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        }
+      }
+    },
+    {
+      "id": "trivia_1001",
+      "question": "Maria Fitzherbert was ‘married’ to which British monarch?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Medium",
+      "answer": "George IV",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "King George III": {
+          "justification": "Although King George III was the monarch during the time Maria Fitzherbert was active, there's no historical evidence to suggest a romantic relationship or marriage between them. My confidence level is low because King George III was married to Charlotte of Mecklenburg-Strelitz and had a large family with her.",
+          "listwise": 20,
+          "bradley_terry": 74.47,
+          "plackett_luce": 64.04999542236328,
+          "init_plackett_luce": 64.29000091552734
+        },
+        "King George II": {
+          "justification": "King George II died in 1760, and Maria Fitzherbert was born in 1756, but she was only a child when he died. There's no plausible connection between them, making my confidence level very low.",
+          "listwise": 5,
+          "bradley_terry": 55.32,
+          "plackett_luce": 43.959999084472656,
+          "init_plackett_luce": 43.41999816894531
+        },
+        "King George I": {
+          "justification": "King George I died in 1727, long before Maria Fitzherbert was born. This makes it impossible for them to have been married, resulting in a confidence level close to zero.",
+          "listwise": 1,
+          "bradley_terry": 38.26,
+          "plackett_luce": 32.0,
+          "init_plackett_luce": 32.779998779296875
+        },
+        "King James II": {
+          "justification": "King James II died in 1701, more than 50 years before Maria Fitzherbert was born. This historical impossibility leads to a confidence level of zero.",
+          "listwise": 0,
+          "bradley_terry": 20.98,
+          "plackett_luce": 18.190000534057617,
+          "init_plackett_luce": 18.190000534057617
+        },
+        "Prince Regent (later King George V's grandfather)": {
+          "justification": "Although the Prince Regent (later King George IV) is a strong candidate, I'm considering his father's generation and the next king in line. However, there's no connection between Maria Fitzherbert and the grandfather of King George V, making my confidence level low.",
+          "listwise": 10,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "King William IV": {
+          "justification": "King William IV was the younger brother of the Prince Regent (later King George IV) and did have relationships with women outside of his marriage. However, there's no historical evidence linking him to Maria Fitzherbert, resulting in a moderate confidence level.",
+          "listwise": 15,
+          "bradley_terry": 75.19,
+          "plackett_luce": 75.75,
+          "init_plackett_luce": 75.6500015258789
+        },
+        "King Charles II": {
+          "justification": "King Charles II died in 1685, more than 70 years before Maria Fitzherbert was born. This historical impossibility leads to a confidence level of zero.",
+          "listwise": 0,
+          "bradley_terry": 20.69,
+          "plackett_luce": 19.84000015258789,
+          "init_plackett_luce": 20.119998931884766
+        },
+        "King James I": {
+          "justification": "King James I died in 1625, more than 130 years before Maria Fitzherbert was born. This makes it impossible for them to have been married, resulting in a confidence level of zero.",
+          "listwise": 0,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Prince Frederick, Duke of York and Albany": {
+          "justification": "As the second son of King George III, Prince Frederick had a reputation for having relationships outside of his marriage. However, there's no historical evidence linking him to Maria Fitzherbert, making my confidence level low.",
+          "listwise": 8,
+          "bradley_terry": 75.91,
+          "plackett_luce": 81.6199951171875,
+          "init_plackett_luce": 81.62999725341797
+        },
+        "King Edward VII": {
+          "justification": "King Edward VII was born in 1841 and became king in 1901, long after Maria Fitzherbert's death in 1837. This significant time gap makes it impossible for them to have been married, resulting in a very low confidence level.",
+          "listwise": 2,
+          "bradley_terry": 55.32,
+          "plackett_luce": 52.31999969482422,
+          "init_plackett_luce": 53.099998474121094
+        }
+      }
+    },
+    {
+      "id": "webq_419",
+      "question": "what league are the indianapolis colts in?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "gr:Group or organization of person"
+      },
+      "question_difficulty": "Medium",
+      "answer": "AFC South",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "AFC East": {
+          "justification": "The Colts are an American Football team, and the AFC East is a division in the National Football League (NFL). Although they are not traditionally associated with this division, it's possible they could be part of it. My confidence is relatively low because I don't have enough information to confirm their actual division.",
+          "listwise": 20,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "NFC North": {
+          "justification": "The Colts are a well-known team, and the NFC North is a division in the NFL. However, I'm not aware of any direct connection between the Colts and this division, which is why my confidence level is relatively low.",
+          "listwise": 15,
+          "bradley_terry": 60.65,
+          "plackett_luce": 58.29999923706055,
+          "init_plackett_luce": 58.189998626708984
+        },
+        "AFC West": {
+          "justification": "The AFC West is another division in the NFL, and it's possible the Colts could be part of it. However, I don't have enough information to confirm this, and my confidence level is moderate.",
+          "listwise": 25,
+          "bradley_terry": 78.57,
+          "plackett_luce": 80.08999633789062,
+          "init_plackett_luce": 80.11000061035156
+        },
+        "NFC East": {
+          "justification": "The NFC East is a division in the NFL, but I'm not aware of any connection between the Colts and this division. My confidence level is low because the Colts are typically associated with the American Football Conference (AFC), not the National Football Conference (NFC).",
+          "listwise": 10,
+          "bradley_terry": 41.86,
+          "plackett_luce": 44.2599983215332,
+          "init_plackett_luce": 43.62999725341797
+        },
+        "AFC North": {
+          "justification": "The AFC North is a division in the NFL, and it's possible the Colts could be part of it. I have a moderate confidence level because the Colts are an AFC team, and this division is also part of the AFC.",
+          "listwise": 30,
+          "bradley_terry": 100.0,
+          "plackett_luce": 99.72999572753906,
+          "init_plackett_luce": 99.72000122070312
+        },
+        "NFC South": {
+          "justification": "The NFC South is a division in the NFL, but I'm not aware of any connection between the Colts and this division. My confidence level is very low because the Colts are typically associated with the AFC, not the NFC.",
+          "listwise": 5,
+          "bradley_terry": 51.47,
+          "plackett_luce": 50.81999969482422,
+          "init_plackett_luce": 50.39999771118164
+        },
+        "NFC West": {
+          "justification": "The NFC West is a division in the NFL, but I'm not aware of any connection between the Colts and this division. My confidence level is very low because the Colts are typically associated with the AFC, not the NFC.",
+          "listwise": 5,
+          "bradley_terry": 51.15,
+          "plackett_luce": 45.62999725341797,
+          "init_plackett_luce": 46.25
+        },
+        "Big Ten Conference": {
+          "justification": "The Big Ten Conference is a collegiate athletic conference, and while the Colts are based in Indiana, which has a Big Ten team (the Indiana Hoosiers), I'm certain the Colts are not part of this conference.",
+          "listwise": 0,
+          "bradley_terry": 23.46,
+          "plackett_luce": 13.549999237060547,
+          "init_plackett_luce": 13.09000015258789
+        },
+        "American Athletic Conference": {
+          "justification": "The American Athletic Conference is a collegiate athletic conference, and I'm certain the Colts are not part of this conference because they are a professional football team.",
+          "listwise": 0,
+          "bradley_terry": 17.59,
+          "plackett_luce": 12.069999694824219,
+          "init_plackett_luce": 11.420000076293945
+        },
+        "Mid-American Conference": {
+          "justification": "The Mid-American Conference is a collegiate athletic conference, and I'm certain the Colts are not part of this conference because they are a professional football team.",
+          "listwise": 0,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        }
+      }
+    },
+    {
+      "id": "trivia_6436",
+      "question": "In which European capital city are the Hofburg Imperial Palace and St Stephen's Cathedral to be found?",
+      "question_type": {
+        "major": "LOC:LOCATION",
+        "minor": "city:City"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Wien",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Budapest": {
+          "justification": "Although Budapest has impressive architectural landmarks like the Hungarian Parliament Building and Buda Castle, it doesn't directly match the description of having both the Hofburg Imperial Palace and St Stephen's Cathedral. However, given the rich history and cultural significance of Budapest, there's a small chance it might be the correct answer due to some lesser-known historical connections or similarities in architectural styles.",
+          "listwise": 20,
+          "bradley_terry": 99.06,
+          "plackett_luce": 88.63999938964844,
+          "init_plackett_luce": 87.68000030517578
+        },
+        "Prague": {
+          "justification": "Prague boasts stunning historical buildings, including the Prague Castle and St. Vitus Cathedral. While it doesn't have the exact landmarks mentioned, its well-preserved medieval architecture and historical importance in Europe make it a plausible, albeit unlikely, candidate.",
+          "listwise": 15,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Berlin": {
+          "justification": "Berlin, with its rich history and landmarks like the Berlin Cathedral and the Palace of the Republic (though the latter is now demolished), doesn't directly align with the specific landmarks mentioned. However, Berlin's historical significance and architectural diversity give it a slight chance, considering the broad and complex history of European capitals.",
+          "listwise": 10,
+          "bradley_terry": 96.98,
+          "plackett_luce": 68.25,
+          "init_plackett_luce": 68.48999786376953
+        },
+        "Warsaw": {
+          "justification": "Warsaw, having undergone significant reconstruction after WWII, boasts a mix of historical and modern architecture, including the Royal Castle and St. John's Archcathedral. While it doesn't match the description closely, its historical importance in Eastern Europe provides a minimal level of confidence.",
+          "listwise": 8,
+          "bradley_terry": 64.59,
+          "plackett_luce": 37.849998474121094,
+          "init_plackett_luce": 38.36000061035156
+        },
+        "Vienna's Neighbor, Bratislava": {
+          "justification": "Bratislava, being close to Vienna and having its own historical significance with landmarks like the Bratislava Castle and St. Martin's Cathedral, might seem like a distant possibility due to geographical proximity. However, the specific landmarks mentioned are well-known to be associated with a different city.",
+          "listwise": 5,
+          "bradley_terry": 98.47,
+          "plackett_luce": 80.25999450683594,
+          "init_plackett_luce": 80.3699951171875
+        },
+        "Ljubljana": {
+          "justification": "Ljubljana, with its picturesque old town and landmarks like Ljubljana Castle and the Ljubljana Cathedral, is an unlikely candidate. Its smaller size and less prominent historical role in broader European history compared to other capitals make it a low-confidence choice.",
+          "listwise": 4,
+          "bradley_terry": 64.27,
+          "plackett_luce": 40.95000076293945,
+          "init_plackett_luce": 41.119998931884766
+        },
+        "Zagreb": {
+          "justification": "Zagreb has a beautiful historical core with the Zagreb Cathedral and the Croatian National Theatre, among other landmarks. However, it lacks the specific imperial and historical connections associated with the Hofburg Imperial Palace and St Stephen's Cathedral, making it a very unlikely candidate.",
+          "listwise": 3,
+          "bradley_terry": 96.24,
+          "plackett_luce": 62.87999725341797,
+          "init_plackett_luce": 62.72999954223633
+        },
+        "Sofia": {
+          "justification": "Sofia, with its ancient history and landmarks like the Alexander Nevsky Cathedral, doesn't closely match the description provided. Its historical significance is more closely tied to ancient civilizations and the Byzantine Empire, rather than the specific Habsburg or imperial connections implied by the question.",
+          "listwise": 2,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Athens": {
+          "justification": "Athens, known for its ancient ruins like the Acropolis and the Parthenon, is a highly unlikely candidate. The city's historical and architectural profile is predominantly ancient Greek, with less connection to the imperial and medieval European landmarks mentioned.",
+          "listwise": 1,
+          "bradley_terry": 22.43,
+          "plackett_luce": 6.349999904632568,
+          "init_plackett_luce": 7.299999713897705
+        },
+        "Riga": {
+          "justification": "Riga, with its well-preserved Art Nouveau architecture and historical landmarks like the Riga Cathedral, is an unlikely candidate. Its history and architectural style are more closely associated with the Hanseatic League and Baltic states, rather than the specific imperial and cathedral landmarks mentioned in the question.",
+          "listwise": 1,
+          "bradley_terry": 43.04,
+          "plackett_luce": 13.199999809265137,
+          "init_plackett_luce": 13.75999927520752
+        }
+      }
+    },
+    {
+      "id": "webq_1474",
+      "question": "what currency does cyprus use?",
+      "question_type": {
+        "major": "ENTY:ENTITY",
+        "minor": "currency:Currency name"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Euro",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Pound Sterling": {
+          "justification": "I have assigned a moderate confidence level to Pound Sterling because Cyprus was a British colony from 1878 to 1960, and it's possible that the country might have retained the Pound as its currency due to historical ties. However, this is unlikely since most countries gain independence and switch to their own currency.",
+          "listwise": 20,
+          "bradley_terry": 42.77,
+          "plackett_luce": 66.8699951171875,
+          "init_plackett_luce": 66.88999938964844
+        },
+        "Turkish Lira": {
+          "justification": "My confidence level for Turkish Lira is relatively low due to the complex history between Cyprus and Turkey. Although the northern part of Cyprus is occupied by Turkey, the internationally recognized government of Cyprus might not use the Turkish Lira as its official currency.",
+          "listwise": 15,
+          "bradley_terry": 6.41,
+          "plackett_luce": 46.5099983215332,
+          "init_plackett_luce": 46.16999816894531
+        },
+        "Cypriot Pound": {
+          "justification": "I have a higher confidence level for the Cypriot Pound because it was indeed the official currency of Cyprus until 2008. It's possible that the country might have reverted back to its old currency, although this seems unlikely given the country's economic integration with other European nations.",
+          "listwise": 40,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "US Dollar": {
+          "justification": "My confidence level for the US Dollar is very low because there's no apparent reason why Cyprus would adopt the US Dollar as its official currency. The country is not a US territory, and it doesn't have any significant economic ties that would necessitate the use of the US Dollar.",
+          "listwise": 5,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Greek Drachma": {
+          "justification": "I have assigned a low confidence level to the Greek Drachma because although Cyprus has cultural and historical ties with Greece, the country gained independence in 1960 and has since developed its own distinct economy and currency.",
+          "listwise": 10,
+          "bradley_terry": 6.55,
+          "plackett_luce": 45.52000045776367,
+          "init_plackett_luce": 45.38999938964844
+        },
+        "Cyprus Pound (reintroduced)": {
+          "justification": "My confidence level for the reintroduced Cyprus Pound is relatively low because, although the Cyprus Pound was the official currency until 2008, the country's decision to adopt a new currency would likely be a result of significant economic changes or integration with other countries.",
+          "listwise": 12,
+          "bradley_terry": 70.45,
+          "plackett_luce": 86.97999572753906,
+          "init_plackett_luce": 86.04999542236328
+        },
+        "British Sovereign": {
+          "justification": "I have a very low confidence level for the British Sovereign because it's an obsolete currency that was used in the UK during the 19th century. There's no reason why Cyprus would adopt such an outdated currency.",
+          "listwise": 2,
+          "bradley_terry": 3.43,
+          "plackett_luce": 24.399999618530273,
+          "init_plackett_luce": 24.399999618530273
+        },
+        "Ottoman Lira": {
+          "justification": "My confidence level for the Ottoman Lira is extremely low because it was the currency of the Ottoman Empire, which dissolved in the early 20th century. Cyprus was part of the Ottoman Empire, but it's highly unlikely that the country would adopt such an outdated and obsolete currency.",
+          "listwise": 1,
+          "bradley_terry": 1.05,
+          "plackett_luce": 7.46999979019165,
+          "init_plackett_luce": 6.730000019073486
+        },
+        "Cypriot Drachma": {
+          "justification": "I have assigned a low confidence level to the Cypriot Drachma because, although it sounds like a plausible currency, there's no historical evidence to suggest that Cyprus ever used a currency by this name.",
+          "listwise": 8,
+          "bradley_terry": 8.06,
+          "plackett_luce": 61.939998626708984,
+          "init_plackett_luce": 61.369998931884766
+        },
+        "Lev": {
+          "justification": "My confidence level for the Lev is relatively low because, although it's the currency of neighboring Bulgaria, there's no apparent reason why Cyprus would adopt the Lev as its official currency. The country's economic ties and integration with other European nations make it unlikely that they would adopt a currency from a different country.",
+          "listwise": 6,
+          "bradley_terry": 3.38,
+          "plackett_luce": 26.010000228881836,
+          "init_plackett_luce": 25.81999969482422
+        }
+      }
+    },
+    {
+      "id": "trivia_7321",
+      "question": "Which Roman Emperor succeeded his father Vespasian in 79?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Titus",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Domitian": {
+          "justification": "I have a high confidence level in Domitian because he was indeed a son of Vespasian and went on to become a Roman Emperor. However, the question specifies the successor in 79, and Domitian succeeded his brother Titus in 81, which is why my confidence is not 100.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Nerva": {
+          "justification": "Nerva was a Roman Emperor, but he succeeded Domitian in 96, which is much later than 79. Although he was a close advisor to the Flavian dynasty, there's no direct indication that he would have succeeded Vespasian immediately.",
+          "listwise": 20,
+          "bradley_terry": 15.71,
+          "plackett_luce": 74.81999969482422,
+          "init_plackett_luce": 74.43999481201172
+        },
+        "Trajan": {
+          "justification": "Trajan was a highly successful Roman Emperor, but he didn't succeed until 98, when Nerva adopted him as his heir. There's no historical evidence suggesting Trajan was in line to succeed Vespasian directly.",
+          "listwise": 15,
+          "bradley_terry": 14.5,
+          "plackett_luce": 59.34000015258789,
+          "init_plackett_luce": 59.27000045776367
+        },
+        "Claudius": {
+          "justification": "Claudius was a Roman Emperor, but he died in 54, more than 25 years before Vespasian's death. It's highly unlikely that he would have been considered as a successor in 79.",
+          "listwise": 5,
+          "bradley_terry": 2.63,
+          "plackett_luce": 8.960000038146973,
+          "init_plackett_luce": 8.389999389648438
+        },
+        "Galba": {
+          "justification": "Galba was a Roman Emperor who ruled briefly in 68-69, before Vespasian's rise to power. Although he was an experienced leader, there's no indication that he would have been in a position to succeed Vespasian in 79.",
+          "listwise": 10,
+          "bradley_terry": 7.24,
+          "plackett_luce": 37.689998626708984,
+          "init_plackett_luce": 37.540000915527344
+        },
+        "Otho": {
+          "justification": "Otho was another short-lived Roman Emperor in 69, but he died before Vespasian's reign began. It's unlikely that he would have been considered as a successor in 79.",
+          "listwise": 5,
+          "bradley_terry": 8.23,
+          "plackett_luce": 40.02000045776367,
+          "init_plackett_luce": 40.07999801635742
+        },
+        "Vitellius": {
+          "justification": "Vitellius was a Roman Emperor who ruled briefly in 69, but he was defeated by Vespasian's forces. It's highly unlikely that he would have been in a position to succeed Vespasian in 79.",
+          "listwise": 5,
+          "bradley_terry": 9.08,
+          "plackett_luce": 43.21999740600586,
+          "init_plackett_luce": 42.869998931884766
+        },
+        "Marcus Aurelius": {
+          "justification": "Marcus Aurelius was a Roman Emperor and philosopher, but he didn't rule until much later, from 161 to 180. There's no historical evidence suggesting he was in line to succeed Vespasian directly.",
+          "listwise": 8,
+          "bradley_terry": 4.94,
+          "plackett_luce": 23.059999465942383,
+          "init_plackett_luce": 22.59000015258789
+        },
+        "Hadrian": {
+          "justification": "Hadrian was a Roman Emperor who succeeded Trajan in 117. Although he was a close advisor to Trajan, there's no indication that he would have been considered as a successor to Vespasian in 79.",
+          "listwise": 12,
+          "bradley_terry": 5.85,
+          "plackett_luce": 28.079999923706055,
+          "init_plackett_luce": 27.969999313354492
+        },
+        "Caligula": {
+          "justification": "Caligula was a Roman Emperor who ruled from 37 to 41, more than 30 years before Vespasian's death. It's highly unlikely that he would have been in a position to succeed Vespasian in 79, especially considering his own death occurred decades earlier.",
+          "listwise": 2,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        }
+      }
+    },
+    {
+      "id": "webq_926",
+      "question": "what time zone is greensburg indiana?",
+      "question_type": {
+        "major": "NUM:NUMERIC",
+        "minor": "date:Date"
+      },
+      "question_difficulty": "Hard",
+      "answer": "North American Eastern Time Zone",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Central Time Zone": {
+          "justification": "I have assigned a moderate confidence level to the Central Time Zone because Greensburg, Indiana is located in the eastern part of the United States, but it's not directly adjacent to the eastern seaboard, which might suggest it could be in the Central Time Zone. However, without more specific information, it's difficult to determine with certainty.",
+          "listwise": 20,
+          "bradley_terry": 83.49,
+          "plackett_luce": 88.25999450683594,
+          "init_plackett_luce": 88.47999572753906
+        },
+        "Mountain Time Zone": {
+          "justification": "I have assigned a low confidence level to the Mountain Time Zone because Greensburg, Indiana is located far from the mountainous regions of the western United States, making it unlikely to be in this time zone.",
+          "listwise": 5,
+          "bradley_terry": 68.35,
+          "plackett_luce": 77.16999816894531,
+          "init_plackett_luce": 77.37999725341797
+        },
+        "Pacific Time Zone": {
+          "justification": "I have assigned a very low confidence level to the Pacific Time Zone because Greensburg, Indiana is located on the opposite side of the United States from the Pacific coast, making it highly unlikely to be in this time zone.",
+          "listwise": 2,
+          "bradley_terry": 52.29,
+          "plackett_luce": 59.73999786376953,
+          "init_plackett_luce": 59.5099983215332
+        },
+        "Alaska Time Zone": {
+          "justification": "I have assigned a very low confidence level to the Alaska Time Zone because Greensburg, Indiana is located far from Alaska, both geographically and culturally, making it extremely unlikely to be in this time zone.",
+          "listwise": 1,
+          "bradley_terry": 51.91,
+          "plackett_luce": 55.90999984741211,
+          "init_plackett_luce": 56.44999694824219
+        },
+        "Hawaii-Aleutian Time Zone": {
+          "justification": "I have assigned a very low confidence level to the Hawaii-Aleutian Time Zone because Greensburg, Indiana is located far from both Hawaii and the Aleutian Islands, making it extremely unlikely to be in this time zone.",
+          "listwise": 1,
+          "bradley_terry": 36.38,
+          "plackett_luce": 38.790000915527344,
+          "init_plackett_luce": 38.709999084472656
+        },
+        "Eastern European Time Zone": {
+          "justification": "I have assigned a confidence level of 0 to the Eastern European Time Zone because Greensburg, Indiana is located in the United States, not Europe, making it impossible for it to be in this time zone.",
+          "listwise": 0,
+          "bradley_terry": 51.53,
+          "plackett_luce": 46.63999938964844,
+          "init_plackett_luce": 46.13999938964844
+        },
+        "Australian Western Time Zone": {
+          "justification": "I have assigned a confidence level of 0 to the Australian Western Time Zone because Greensburg, Indiana is located in the United States, not Australia, making it impossible for it to be in this time zone.",
+          "listwise": 0,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "India Time Zone": {
+          "justification": "I have assigned a confidence level of 0 to the India Time Zone because Greensburg, Indiana is located in the United States, not India, making it impossible for it to be in this time zone.",
+          "listwise": 0,
+          "bradley_terry": 20.85,
+          "plackett_luce": 18.65999984741211,
+          "init_plackett_luce": 18.1299991607666
+        },
+        "China Standard Time Zone": {
+          "justification": "I have assigned a confidence level of 0 to the China Standard Time Zone because Greensburg, Indiana is located in the United States, not China, making it impossible for it to be in this time zone.",
+          "listwise": 0,
+          "bradley_terry": 20.85,
+          "plackett_luce": 18.6299991607666,
+          "init_plackett_luce": 18.149999618530273
+        },
+        "UTC-5 Time Zone": {
+          "justification": "I have assigned a moderate to high confidence level to the UTC-5 Time Zone because Greensburg, Indiana is located in the eastern part of the United States, and UTC-5 is a possible time zone offset for this region, although without more specific information, it's difficult to determine with certainty.",
+          "listwise": 40,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        }
+      }
+    }
+  ],
+  "non_confusing": [
+    {
+      "id": "trivia_6378",
+      "question": "On which river does the Scottish city of Stirling lie?",
+      "question_type": {
+        "major": "LOC:LOCATION",
+        "minor": "other:Other location"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Forth",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "River Tay": {
+          "justification": "The River Tay is a major river in Scotland, and while it's possible that Stirling could be located on it, my confidence is relatively low because I'm not aware of any direct connection between the two. The Tay is more commonly associated with cities like Perth and Dundee.",
+          "listwise": 20,
+          "bradley_terry": 40.76,
+          "plackett_luce": 53.31999969482422,
+          "init_plackett_luce": 53.19999694824219
+        },
+        "River Clyde": {
+          "justification": "The River Clyde is another significant river in Scotland, primarily associated with Glasgow. Given the distance between Glasgow and Stirling, I have a low confidence level that Stirling lies on the Clyde, as it would require a significant detour from the Clyde's main course.",
+          "listwise": 15,
+          "bradley_terry": 40.72,
+          "plackett_luce": 52.689998626708984,
+          "init_plackett_luce": 53.099998474121094
+        },
+        "River Dee": {
+          "justification": "The River Dee is located in eastern Scotland and flows through the city of Aberdeen. Given the considerable distance between Aberdeen and Stirling, my confidence level is very low, as it's unlikely that Stirling would be situated on the Dee.",
+          "listwise": 10,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "River Don": {
+          "justification": "The River Don is also located in eastern Scotland, flowing through Aberdeen. Similar to the Dee, the distance between the Don and Stirling makes it an unlikely candidate, resulting in a low confidence level.",
+          "listwise": 12,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.5999999642372131,
+          "init_plackett_luce": 0.5600000023841858
+        },
+        "River Teith": {
+          "justification": "The River Teith is a smaller river in Scotland, and after some consideration, I found that it's actually a tributary of the River Forth (though I'm not supposed to know that). Given its relatively smaller size and potential connections to larger rivers, my confidence level is moderate, as it's possible that Stirling could be located on the Teith.",
+          "listwise": 40,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "River Earn": {
+          "justification": "The River Earn is another Scottish river, flowing into the River Tay. While it's possible that Stirling could be situated on the Earn, my confidence level is relatively low due to the Earn's connection to the Tay and the lack of direct association with Stirling.",
+          "listwise": 18,
+          "bradley_terry": 38.57,
+          "plackett_luce": 40.82999801635742,
+          "init_plackett_luce": 40.71999740600586
+        },
+        "River Allan": {
+          "justification": "The River Allan is a smaller river in Scotland, and upon further consideration, I found that it's actually located near Stirling. This proximity increases my confidence level, as it's possible that Stirling could be situated on the Allan.",
+          "listwise": 30,
+          "bradley_terry": 73.06,
+          "plackett_luce": 88.4000015258789,
+          "init_plackett_luce": 88.65999603271484
+        },
+        "River Avon": {
+          "justification": "The River Avon is a Scottish river that flows into the River Forth (again, not that I'm supposed to know that). Given its potential connections to larger rivers and moderate size, my confidence level is relatively moderate, as it's possible that Stirling could be located on the Avon.",
+          "listwise": 25,
+          "bradley_terry": 43.24,
+          "plackett_luce": 68.56999969482422,
+          "init_plackett_luce": 69.1500015258789
+        },
+        "River Kelvin": {
+          "justification": "The River Kelvin is a small river in Scotland, primarily associated with Glasgow. Given the distance between Glasgow and Stirling, my confidence level is very low, as it's unlikely that Stirling would be situated on the Kelvin.",
+          "listwise": 8,
+          "bradley_terry": 37.01,
+          "plackett_luce": 31.25,
+          "init_plackett_luce": 30.889999389648438
+        },
+        "River Almond": {
+          "justification": "The River Almond is a Scottish river that flows into the River Forth (not that I know that). Given its moderate size and potential connections to larger rivers, my confidence level is relatively low to moderate, as it's possible that Stirling could be located on the Almond, but not highly likely.",
+          "listwise": 22,
+          "bradley_terry": 38.76,
+          "plackett_luce": 38.90999984741211,
+          "init_plackett_luce": 38.32999801635742
+        }
+      }
+    },
+    {
+      "id": "webq_402",
+      "question": "who plays edward scissorhands?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Johnny Depp",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Tim Burton": {
+          "justification": "Although Tim Burton is the director of Edward Scissorhands, it's unlikely that he would also play the lead role, as he is not primarily an actor. However, he has made cameo appearances in some of his films, which is why I've assigned a low confidence level.",
+          "listwise": 5,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Anthony Hopkins": {
+          "justification": "Anthony Hopkins is a renowned actor known for his iconic roles, but he doesn't quite fit the profile of Edward Scissorhands. He has a strong, authoritative presence on screen, which might not be suitable for the gentle and isolated character of Edward. Still, he has shown his versatility as an actor, which is why I've assigned a moderate confidence level.",
+          "listwise": 10,
+          "bradley_terry": 27.12,
+          "plackett_luce": 23.529998779296875,
+          "init_plackett_luce": 23.18000030517578
+        },
+        "Robert Downey Jr.": {
+          "justification": "Robert Downey Jr. has proven his acting range in various films, and he has a certain eccentricity that might fit the character of Edward Scissorhands. However, his typical roles are more fast-talking and charismatic, which doesn't entirely match the quiet and awkward nature of Edward. This is why I've assigned a relatively low confidence level.",
+          "listwise": 15,
+          "bradley_terry": 48.66,
+          "plackett_luce": 44.56999969482422,
+          "init_plackett_luce": 44.89999771118164
+        },
+        "Michael Keaton": {
+          "justification": "Michael Keaton has worked with Tim Burton in the past (in Beetlejuice) and has shown his ability to play quirky characters. He might have been a suitable choice for Edward Scissorhands, but his acting style is often more energetic and comedic, which doesn't perfectly align with the character's gentle and melancholic nature.",
+          "listwise": 20,
+          "bradley_terry": 81.22,
+          "plackett_luce": 81.47000122070312,
+          "init_plackett_luce": 82.4000015258789
+        },
+        "Crispin Glover": {
+          "justification": "Crispin Glover has a reputation for playing eccentric and unconventional characters, which might make him a good fit for Edward Scissorhands. He has a unique appearance and acting style that could bring an interesting interpretation to the role. However, he is not as well-known for playing leading roles, which is why I've assigned a moderate confidence level.",
+          "listwise": 25,
+          "bradley_terry": 81.22,
+          "plackett_luce": 76.90999603271484,
+          "init_plackett_luce": 76.83000183105469
+        },
+        "Daniel Day-Lewis": {
+          "justification": "Daniel Day-Lewis is a highly acclaimed actor known for his intense preparation and immersion into his roles. While he has played a wide range of characters, his typical approach is more dramatic and intense, which might not be the best fit for the gentle and isolated Edward Scissorhands. This is why I've assigned a relatively low confidence level.",
+          "listwise": 12,
+          "bradley_terry": 14.85,
+          "plackett_luce": 12.639999389648438,
+          "init_plackett_luce": 11.59000015258789
+        },
+        "Jim Carrey": {
+          "justification": "Jim Carrey is known for his comedic roles and over-the-top performances, which doesn't quite match the quiet and melancholic nature of Edward Scissorhands. Although he has shown his dramatic range in films like The Truman Show, his acting style is often more energetic and exaggerated, which is why I've assigned a low confidence level.",
+          "listwise": 8,
+          "bradley_terry": 38.13,
+          "plackett_luce": 34.47999954223633,
+          "init_plackett_luce": 34.34000015258789
+        },
+        "Gary Oldman": {
+          "justification": "Gary Oldman is a highly versatile actor who has played a wide range of characters throughout his career. He has a chameleon-like ability to transform into his roles, which might make him a suitable choice for Edward Scissorhands. However, his typical roles are often more dramatic and intense, which doesn't perfectly align with the character's gentle nature.",
+          "listwise": 18,
+          "bradley_terry": 59.11,
+          "plackett_luce": 54.88999938964844,
+          "init_plackett_luce": 54.90999984741211
+        },
+        "Willem Dafoe": {
+          "justification": "Willem Dafoe has a unique appearance and acting style that might make him a good fit for Edward Scissorhands. He has played a wide range of characters throughout his career, including some eccentric and unconventional roles. Although he is not typically known for playing leading roles, his versatility as an actor is why I've assigned a moderate confidence level.",
+          "listwise": 22,
+          "bradley_terry": 69.37,
+          "plackett_luce": 70.22999572753906,
+          "init_plackett_luce": 70.98999786376953
+        },
+        "Vincent Price": {
+          "justification": "Vincent Price was a renowned actor known for his iconic roles in horror films, but he passed away in 1993, and Edward Scissorhands was released in 1990. Although he was still active during the filming of Edward Scissorhands, his typical roles were more dramatic and authoritative, which doesn't quite fit the profile of Edward Scissorhands. This is why I've assigned a low confidence level.",
+          "listwise": 6,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        }
+      }
+    },
+    {
+      "id": "trivia_2306",
+      "question": "Which band featured Siobhan Fahey and Marcella Detroit?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "gr:Group or organization of person"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Shakespears Sister",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Bananarama": {
+          "justification": "I have a high confidence level in Bananarama because Siobhan Fahey was a founding member of the group. Although she left the band in 1988, her involvement with Bananarama makes it a plausible candidate. However, I'm not 100% confident since the question specifically mentions Siobhan Fahey and Marcella Detroit together.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "The Bangles": {
+          "justification": "The Bangles are an all-female band known for their catchy pop-rock sound. While they don't have an obvious connection to Siobhan Fahey or Marcella Detroit, it's possible that the two musicians collaborated with the band on a project. My confidence level is low due to the lack of direct evidence.",
+          "listwise": 20,
+          "bradley_terry": 89.38,
+          "plackett_luce": 41.97999954223633,
+          "init_plackett_luce": 43.29999923706055
+        },
+        "The Pretenders": {
+          "justification": "The Pretenders are a rock band with a strong female lead vocalist, Chrissie Hynde. Although Siobhan Fahey and Marcella Detroit aren't directly associated with the band, it's conceivable that they contributed to a song or album as guest musicians. My confidence level is moderate due to the band's history of collaborations.",
+          "listwise": 30,
+          "bradley_terry": 54.78,
+          "plackett_luce": 43.66999816894531,
+          "init_plackett_luce": 43.439998626708984
+        },
+        "Eurythmics": {
+          "justification": "The Eurythmics are a synth-pop duo with a strong female presence, courtesy of Annie Lennox. While Siobhan Fahey and Marcella Detroit aren't official members, they might have worked with the band on a specific project. My confidence level is moderate due to the Eurythmics' eclectic collaborations.",
+          "listwise": 40,
+          "bradley_terry": 74.3,
+          "plackett_luce": 31.920000076293945,
+          "init_plackett_luce": 29.92999839782715
+        },
+        "The Go-Go's": {
+          "justification": "The Go-Go's are an all-female new wave band with a fun, upbeat sound. Although they don't have a direct connection to Siobhan Fahey or Marcella Detroit, it's possible that the two musicians guest-starred on a song or album. My confidence level is relatively low due to the lack of evidence.",
+          "listwise": 25,
+          "bradley_terry": 48.95,
+          "plackett_luce": 25.579999923706055,
+          "init_plackett_luce": 23.639999389648438
+        },
+        "Blondie": {
+          "justification": "Blondie is a new wave rock band with a strong female lead vocalist, Debbie Harry. While Siobhan Fahey and Marcella Detroit aren't official members, they might have contributed to a song or album as guest musicians. My confidence level is moderate due to Blondie's history of collaborations.",
+          "listwise": 35,
+          "bradley_terry": 21.48,
+          "plackett_luce": 13.380000114440918,
+          "init_plackett_luce": 13.199999809265137
+        },
+        "The Runaways": {
+          "justification": "The Runaways are an all-female rock band from the 1970s. Although they don't have a direct connection to Siobhan Fahey or Marcella Detroit, it's possible that the two musicians were influenced by the band or collaborated with former members. My confidence level is low due to the time period and lack of direct evidence.",
+          "listwise": 15,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Til Tuesday": {
+          "justification": "Til Tuesday is a new wave rock band with a female lead vocalist, Aimee Mann. While they don't have a direct connection to Siobhan Fahey or Marcella Detroit, it's possible that the two musicians guest-starred on a song or album. My confidence level is very low due to the lack of evidence and the band's relatively low profile.",
+          "listwise": 10,
+          "bradley_terry": 24.0,
+          "plackett_luce": 4.170000076293945,
+          "init_plackett_luce": 3.3499999046325684
+        },
+        "The Waitresses": {
+          "justification": "The Waitresses are a new wave rock band with a female lead vocalist, Patty Donahue. Although they don't have a direct connection to Siobhan Fahey or Marcella Detroit, it's possible that the two musicians collaborated with the band on a project. My confidence level is very low due to the lack of evidence and the band's relatively low profile.",
+          "listwise": 12,
+          "bradley_terry": 37.73,
+          "plackett_luce": 27.44999885559082,
+          "init_plackett_luce": 26.1299991607666
+        },
+        "Katrina & The Waves": {
+          "justification": "Katrina & The Waves are a new wave rock band with a female lead vocalist, Katrina Leskanich. While they don't have a direct connection to Siobhan Fahey or Marcella Detroit, it's possible that the two musicians guest-starred on a song or album. My confidence level is relatively low due to the lack of evidence and the band's relatively low profile in the context of Siobhan Fahey and Marcella Detroit's careers.",
+          "listwise": 18,
+          "bradley_terry": 59.21,
+          "plackett_luce": 45.61000061035156,
+          "init_plackett_luce": 47.04999923706055
+        }
+      }
+    },
+    {
+      "id": "webq_894",
+      "question": "what is the zip code for azle texas?",
+      "question_type": {
+        "major": "NUM:NUMERIC",
+        "minor": "other:Other number"
+      },
+      "question_difficulty": "Hard",
+      "answer": "76098",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "76105": {
+          "justification": "I've assigned a moderate confidence level to this candidate because it's a nearby zip code that could potentially serve Azle. However, without specific knowledge of Azle's zip code, it's difficult to determine the accuracy of this answer.",
+          "listwise": 20,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "76052": {
+          "justification": "This candidate has a lower confidence level due to its proximity to other cities in Texas. While it's possible that Azle shares a zip code with neighboring areas, the lack of specific information about Azle's zip code makes this answer less likely.",
+          "listwise": 15,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "76108": {
+          "justification": "I've given this candidate a relatively low confidence level because it appears to be associated with a different part of Texas. Without more information, it's challenging to determine whether this zip code is relevant to Azle.",
+          "listwise": 12,
+          "bradley_terry": 3.22,
+          "plackett_luce": 19.0,
+          "init_plackett_luce": 19.020000457763672
+        },
+        "76226": {
+          "justification": "This candidate has a low confidence level due to its distance from Azle. The zip code seems to be associated with a different region in Texas, making it less likely to be the correct answer.",
+          "listwise": 8,
+          "bradley_terry": 3.22,
+          "plackett_luce": 19.520000457763672,
+          "init_plackett_luce": 19.229999542236328
+        },
+        "76039": {
+          "justification": "I've assigned a moderate confidence level to this candidate because it's located in the general vicinity of Azle. However, the lack of specific knowledge about Azle's zip code makes it difficult to confirm the accuracy of this answer.",
+          "listwise": 18,
+          "bradley_terry": 100.0,
+          "plackett_luce": 98.12999725341797,
+          "init_plackett_luce": 98.25
+        },
+        "76116": {
+          "justification": "This candidate has a relatively low confidence level due to its potential association with other cities in Texas. Without more information, it's challenging to determine whether this zip code is relevant to Azle.",
+          "listwise": 10,
+          "bradley_terry": 3.22,
+          "plackett_luce": 18.059999465942383,
+          "init_plackett_luce": 18.69999885559082
+        },
+        "76248": {
+          "justification": "I've given this candidate a low confidence level due to its apparent association with a different part of Texas. The distance from Azle and lack of specific information make this answer less likely.",
+          "listwise": 6,
+          "bradley_terry": 6.43,
+          "plackett_luce": 37.70000076293945,
+          "init_plackett_luce": 38.349998474121094
+        },
+        "76028": {
+          "justification": "This candidate has a moderate to high confidence level because it's located in the general area surrounding Azle. While it's still uncertain whether this is the correct zip code, its proximity to Azle makes it a more plausible option.",
+          "listwise": 22,
+          "bradley_terry": 100.0,
+          "plackett_luce": 99.7699966430664,
+          "init_plackett_luce": 99.66999816894531
+        },
+        "76129": {
+          "justification": "I've assigned a moderate confidence level to this candidate because it's possible that Azle shares a zip code with neighboring areas. However, the lack of specific knowledge about Azle's zip code makes it difficult to confirm the accuracy of this answer.",
+          "listwise": 14,
+          "bradley_terry": 3.22,
+          "plackett_luce": 19.239999771118164,
+          "init_plackett_luce": 18.670000076293945
+        },
+        "76259": {
+          "justification": "This candidate has a very low confidence level due to its apparent association with a different region in Texas, far from Azle. The distance and lack of specific information make this answer highly unlikely.",
+          "listwise": 4,
+          "bradley_terry": 3.22,
+          "plackett_luce": 19.03999900817871,
+          "init_plackett_luce": 18.489999771118164
+        }
+      }
+    },
+    {
+      "id": "trivia_2947",
+      "question": "Which English mechanical and civil engineer who died in 1859 was responsible for engineering the Great Western Railway and designing the Clifton Suspension Bridge in Bristol ?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Easy",
+      "answer": "Brunel",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Robert Stephenson": {
+          "justification": "Although Robert Stephenson was a prominent engineer of the time, his work was more focused on the development of steam locomotives and the construction of the Liverpool and Manchester Railway. However, his experience and expertise in railway engineering make him a plausible candidate, hence the moderate confidence level.",
+          "listwise": 40,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Joseph Locke": {
+          "justification": "Joseph Locke was a civil engineer who worked on several railway projects, including the Liverpool and Manchester Railway. While he did contribute to the development of railways in England, there is limited evidence to suggest he was directly involved in the Great Western Railway or the Clifton Suspension Bridge, resulting in a lower confidence level.",
+          "listwise": 30,
+          "bradley_terry": 22.89,
+          "plackett_luce": 76.65999603271484,
+          "init_plackett_luce": 76.37999725341797
+        },
+        "George Stephenson": {
+          "justification": "As the father of Robert Stephenson, George Stephenson was a pioneering engineer who built the first public steam railway. However, his focus was more on the early development of steam locomotives and railways in the north of England, making him a less likely candidate for the specific projects mentioned, hence the lower confidence level.",
+          "listwise": 20,
+          "bradley_terry": 8.54,
+          "plackett_luce": 27.799999237060547,
+          "init_plackett_luce": 27.849998474121094
+        },
+        "Thomas Telford": {
+          "justification": "Thomas Telford was a Scottish engineer who worked on various infrastructure projects, including bridges and canals. Although he was a prominent figure in the engineering world, his work was more focused on projects in Scotland and the north of England, making him a less likely candidate for the Great Western Railway and Clifton Suspension Bridge.",
+          "listwise": 15,
+          "bradley_terry": 9.99,
+          "plackett_luce": 33.80999755859375,
+          "init_plackett_luce": 33.38999938964844
+        },
+        "William Fairbairn": {
+          "justification": "William Fairbairn was a Scottish engineer who made significant contributions to the development of iron ships and bridges. While he did work on some railway projects, there is limited evidence to suggest he was directly involved in the Great Western Railway or the Clifton Suspension Bridge, resulting in a low confidence level.",
+          "listwise": 10,
+          "bradley_terry": 16.18,
+          "plackett_luce": 54.84000015258789,
+          "init_plackett_luce": 53.959999084472656
+        },
+        "Charles Blacker Vignoles": {
+          "justification": "Charles Blacker Vignoles was a civil engineer who worked on several railway projects, including the Liverpool and Manchester Railway. He also designed several bridges, but there is limited evidence to suggest he was directly involved in the Great Western Railway or the Clifton Suspension Bridge, resulting in a moderate confidence level.",
+          "listwise": 25,
+          "bradley_terry": 15.14,
+          "plackett_luce": 50.2599983215332,
+          "init_plackett_luce": 50.209999084472656
+        },
+        "John Rennie": {
+          "justification": "John Rennie was a Scottish engineer who worked on various infrastructure projects, including bridges and canals. Although he was a prominent figure in the engineering world, his work was more focused on projects in Scotland and the north of England, and he passed away in 1821, before the construction of the Great Western Railway and Clifton Suspension Bridge, making him a less likely candidate.",
+          "listwise": 12,
+          "bradley_terry": 3.73,
+          "plackett_luce": 11.40999984741211,
+          "init_plackett_luce": 10.300000190734863
+        },
+        "James Walker": {
+          "justification": "James Walker was a civil engineer who worked on several infrastructure projects, including bridges and harbors. While he did contribute to the development of engineering in England, there is limited evidence to suggest he was directly involved in the Great Western Railway or the Clifton Suspension Bridge, resulting in a relatively low confidence level.",
+          "listwise": 18,
+          "bradley_terry": 13.22,
+          "plackett_luce": 47.59000015258789,
+          "init_plackett_luce": 46.52000045776367
+        },
+        "Francis Giles": {
+          "justification": "Francis Giles was a civil engineer who worked on several railway projects, but there is limited information available about his specific contributions to the field. The lack of evidence and recognition makes him a less likely candidate, hence the low confidence level.",
+          "listwise": 8,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "William Cubitt": {
+          "justification": "William Cubitt was a civil engineer who worked on several infrastructure projects, including bridges and railways. While he did contribute to the development of engineering in England, there is limited evidence to suggest he was directly involved in the Great Western Railway or the Clifton Suspension Bridge, resulting in a moderate confidence level.",
+          "listwise": 22,
+          "bradley_terry": 14.23,
+          "plackett_luce": 46.57999801635742,
+          "init_plackett_luce": 45.95000076293945
+        }
+      }
+    },
+    {
+      "id": "trivia_656",
+      "question": "In 1969, a man was stabbed to death by a member of the Hell's Angels at a Rolling Stones concert. Where was the concert held?",
+      "question_type": {
+        "major": "LOC:LOCATION",
+        "minor": "other:Other location"
+      },
+      "question_difficulty": "Easy",
+      "answer": "Altamont",
+      "answer_difficulty": "Medium",
+      "candidate_answers": {
+        "Woodstock": {
+          "justification": "Although Woodstock was a major music festival in 1969, it was held in August, and the incident in question occurred in December. Additionally, Woodstock was a peaceful event with no reported incidents of violence involving the Hell's Angels.",
+          "listwise": 5,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "San Francisco": {
+          "justification": "San Francisco was a hub for the counterculture movement in the 1960s, and the Hell's Angels were known to be present in the area. However, there is no direct connection between the city and the specific incident involving the Rolling Stones.",
+          "listwise": 20,
+          "bradley_terry": 82.87,
+          "plackett_luce": 86.0999984741211,
+          "init_plackett_luce": 87.06999969482422
+        },
+        "Los Angeles": {
+          "justification": "Los Angeles was another major city with a significant music scene in the 1960s, but there is no specific evidence linking the city to the incident. The Hell's Angels did have a presence in Los Angeles, but it's not a strong enough connection to increase confidence.",
+          "listwise": 15,
+          "bradley_terry": 55.79,
+          "plackett_luce": 61.04999923706055,
+          "init_plackett_luce": 60.72999954223633
+        },
+        "New York City": {
+          "justification": "New York City was a major center for music and culture in the 1960s, but there is no direct connection between the city and the incident involving the Rolling Stones and the Hell's Angels.",
+          "listwise": 10,
+          "bradley_terry": 30.64,
+          "plackett_luce": 29.489999771118164,
+          "init_plackett_luce": 29.53999900817871
+        },
+        "Seattle": {
+          "justification": "Seattle was not a major hub for the counterculture movement or the Hell's Angels in the 1960s, making it an unlikely location for the incident.",
+          "listwise": 5,
+          "bradley_terry": 43.55,
+          "plackett_luce": 44.86000061035156,
+          "init_plackett_luce": 44.98999786376953
+        },
+        "Chicago": {
+          "justification": "Chicago was a significant city for music in the 1960s, and the Hell's Angels did have a presence in the area. However, there is no specific evidence linking the city to the incident involving the Rolling Stones.",
+          "listwise": 12,
+          "bradley_terry": 25.05,
+          "plackett_luce": 19.779998779296875,
+          "init_plackett_luce": 20.299999237060547
+        },
+        "Miami": {
+          "justification": "Miami was not a major center for the counterculture movement or the Hell's Angels in the 1960s, making it an unlikely location for the incident.",
+          "listwise": 8,
+          "bradley_terry": 0.0,
+          "plackett_luce": 5.319999694824219,
+          "init_plackett_luce": 5.409999847412109
+        },
+        "Denver": {
+          "justification": "Denver was not a major hub for the counterculture movement or the Hell's Angels in the 1960s, making it an unlikely location for the incident.",
+          "listwise": 6,
+          "bradley_terry": 16.08,
+          "plackett_luce": 19.209999084472656,
+          "init_plackett_luce": 19.34000015258789
+        },
+        "Oakland": {
+          "justification": "Oakland was a city in the San Francisco Bay Area, which was a hub for the counterculture movement and the Hell's Angels. The proximity to San Francisco and the presence of the Hell's Angels in the area make Oakland a more plausible location for the incident.",
+          "listwise": 30,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Berkeley": {
+          "justification": "Berkeley was a city in the San Francisco Bay Area, known for its strong counterculture movement and student activism. The presence of the Hell's Angels in the area and the city's proximity to San Francisco make Berkeley a possible location for the incident, although it's not a strong enough connection to increase confidence significantly.",
+          "listwise": 25,
+          "bradley_terry": 68.64,
+          "plackett_luce": 72.79000091552734,
+          "init_plackett_luce": 73.04000091552734
+        }
+      }
+    },
+    {
+      "id": "trivia_6689",
+      "question": "Which UK international airport has the code PIK?",
+      "question_type": {
+        "major": "LOC:LOCATION",
+        "minor": "other:Other location"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Prestwick",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Perth Airport": {
+          "justification": "Although Perth is a city in Scotland, I couldn't find any direct association with the code PIK. However, it's possible that the airport code is not directly related to the city name, which is why I've assigned a low confidence level.",
+          "listwise": 20,
+          "bradley_terry": 21.94,
+          "plackett_luce": 73.9000015258789,
+          "init_plackett_luce": 73.86000061035156
+        },
+        "Paisley Airport": {
+          "justification": "Paisley is a town in Scotland, close to Glasgow. While it's possible that a smaller airport in the area could have the code PIK, I couldn't find any information confirming this, leading to a low confidence level.",
+          "listwise": 15,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Peterborough Airport": {
+          "justification": "Peterborough is a city in England, and while it has an airport, I couldn't find any evidence that it's an international airport or that it uses the code PIK, resulting in a very low confidence level.",
+          "listwise": 10,
+          "bradley_terry": 7.24,
+          "plackett_luce": 29.869998931884766,
+          "init_plackett_luce": 30.25
+        },
+        "Plymouth Airport": {
+          "justification": "Plymouth is a city in England with a small airport. However, I couldn't find any information confirming that it's an international airport or that it uses the code PIK, leading to a low confidence level.",
+          "listwise": 12,
+          "bradley_terry": 0.68,
+          "plackett_luce": 4.420000076293945,
+          "init_plackett_luce": 3.9800000190734863
+        },
+        "Pitlochry Airport": {
+          "justification": "Pitlochry is a town in Scotland, but I couldn't find any information about an airport in the area, let alone an international one with the code PIK, resulting in a very low confidence level.",
+          "listwise": 8,
+          "bradley_terry": 16.8,
+          "plackett_luce": 60.06999969482422,
+          "init_plackett_luce": 60.22999954223633
+        },
+        "Penzance Airport": {
+          "justification": "Penzance is a town in England with a small airport. While it's possible that the airport could have the code PIK, I couldn't find any confirming information, leading to a relatively low confidence level.",
+          "listwise": 18,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Inverness Airport": {
+          "justification": "Inverness is a city in Scotland with an international airport. Although I couldn't find any direct association with the code PIK, it's possible that the code is used for a smaller terminal or a specific route, which is why I've assigned a moderate confidence level.",
+          "listwise": 25,
+          "bradley_terry": 16.17,
+          "plackett_luce": 57.7599983215332,
+          "init_plackett_luce": 57.22999954223633
+        },
+        "Isle of Man Airport": {
+          "justification": "The Isle of Man is a self-governing British Crown dependency with an international airport. While I couldn't find any direct association with the code PIK, it's possible that the code is used for a specific route or terminal, leading to a moderate confidence level.",
+          "listwise": 22,
+          "bradley_terry": 8.1,
+          "plackett_luce": 36.36000061035156,
+          "init_plackett_luce": 36.06999969482422
+        },
+        "Dundee Airport": {
+          "justification": "Dundee is a city in Scotland with a small international airport. Although I couldn't find any direct association with the code PIK, it's possible that the code is used for a specific route or terminal, which is why I've assigned a moderate confidence level.",
+          "listwise": 28,
+          "bradley_terry": 19.3,
+          "plackett_luce": 57.72999954223633,
+          "init_plackett_luce": 57.599998474121094
+        },
+        "Kirkwall Airport": {
+          "justification": "Kirkwall is a town in the Orkney Islands, Scotland, with a small international airport. While I couldn't find any direct association with the code PIK, the airport's remote location and limited routes might lead to a unique airport code, resulting in a moderate to high confidence level.",
+          "listwise": 30,
+          "bradley_terry": 9.8,
+          "plackett_luce": 34.189998626708984,
+          "init_plackett_luce": 34.64999771118164
+        }
+      }
+    },
+    {
+      "id": "trivia_6634",
+      "question": "Which Italian City is the setting of Shakespeare's 'Romeo and Juliet'?",
+      "question_type": {
+        "major": "LOC:LOCATION",
+        "minor": "city:City"
+      },
+      "question_difficulty": "Medium",
+      "answer": "VERONA",
+      "answer_difficulty": "Medium",
+      "candidate_answers": {
+        "Florence": {
+          "justification": "Although Florence is a prominent Italian city with a rich history, there's limited connection between Florence and the story of Romeo and Juliet. My confidence level is relatively low because the city doesn't have strong ties to the narrative.",
+          "listwise": 20,
+          "bradley_terry": 9.96,
+          "plackett_luce": 55.54999923706055,
+          "init_plackett_luce": 55.32999801635742
+        },
+        "Milan": {
+          "justification": "Milan is another major Italian city, but it's not commonly associated with the story of the star-crossed lovers. The lack of direct references to Milan in the context of Romeo and Juliet leads to a lower confidence level.",
+          "listwise": 15,
+          "bradley_terry": 10.74,
+          "plackett_luce": 63.369998931884766,
+          "init_plackett_luce": 63.2599983215332
+        },
+        "Naples": {
+          "justification": "Naples has a distinct cultural identity, but it's not typically linked to the Romeo and Juliet narrative. The city's characteristics and history don't seem to align closely with the story, resulting in a low confidence level.",
+          "listwise": 10,
+          "bradley_terry": 4.17,
+          "plackett_luce": 27.44999885559082,
+          "init_plackett_luce": 27.209999084472656
+        },
+        "Turin": {
+          "justification": "Turin is a city in northern Italy, but it doesn't have any notable connections to the story of Romeo and Juliet. The lack of relevant information or associations leads to a very low confidence level.",
+          "listwise": 5,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Genoa": {
+          "justification": "Genoa is a historic port city in Italy, but it's not commonly mentioned in the context of Romeo and Juliet. While it's possible that the city could be a setting, the absence of strong connections results in a relatively low confidence level.",
+          "listwise": 12,
+          "bradley_terry": 3.78,
+          "plackett_luce": 22.68000030517578,
+          "init_plackett_luce": 21.779998779296875
+        },
+        "Bologna": {
+          "justification": "Bologna is a city in northern Italy with a rich history, but it's not typically associated with the story of the star-crossed lovers. The city's characteristics don't seem to match the narrative, leading to a low confidence level.",
+          "listwise": 8,
+          "bradley_terry": 3.21,
+          "plackett_luce": 21.479999542236328,
+          "init_plackett_luce": 20.869998931884766
+        },
+        "Padua": {
+          "justification": "Padua is a city in northern Italy that's actually mentioned in the context of Romeo and Juliet, as it's the location of a university that some characters attend. This connection increases the confidence level, as it suggests a possible link to the story.",
+          "listwise": 40,
+          "bradley_terry": 58.99,
+          "plackett_luce": 86.0999984741211,
+          "init_plackett_luce": 86.43000030517578
+        },
+        "Siena": {
+          "justification": "Siena is a city in Tuscany with a rich history, but it's not directly associated with the narrative of Romeo and Juliet. While it's possible that the city could be a setting, the lack of strong connections results in a relatively low confidence level.",
+          "listwise": 18,
+          "bradley_terry": 4.93,
+          "plackett_luce": 30.739999771118164,
+          "init_plackett_luce": 30.260000228881836
+        },
+        "Pisa": {
+          "justification": "Pisa is a city in Tuscany famous for its leaning tower, but it's not typically linked to the story of Romeo and Juliet. However, the city's location in Italy and its historical significance lead to a slightly higher confidence level than some other candidates.",
+          "listwise": 22,
+          "bradley_terry": 0.84,
+          "plackett_luce": 8.429999351501465,
+          "init_plackett_luce": 7.659999847412109
+        },
+        "Mantua": {
+          "justification": "Mantua is a city in northern Italy that's actually mentioned in the context of Romeo and Juliet, as it's the location where Romeo is banished. This direct connection to the narrative increases the confidence level, as it suggests a possible link to the story.",
+          "listwise": 30,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        }
+      }
+    },
+    {
+      "id": "trivia_1081",
+      "question": "How many players are on the field in a baseball team?",
+      "question_type": {
+        "major": "NUM:NUMERIC",
+        "minor": "count:Number of something"
+      },
+      "question_difficulty": "Medium",
+      "answer": "9",
+      "answer_difficulty": "Medium",
+      "candidate_answers": {
+        "5": {
+          "justification": "I have a low confidence level in this answer because baseball teams typically have more players on the field than just 5. This number seems too small to cover all the positions on the field, such as pitcher, catcher, and the various infield and outfield positions.",
+          "listwise": 10,
+          "bradley_terry": 44.94,
+          "plackett_luce": 27.85999870300293,
+          "init_plackett_luce": 26.979999542236328
+        },
+        "7": {
+          "justification": "My confidence level in this answer is moderate, but still relatively low. While 7 players might seem like a reasonable number, it still falls short of covering all the necessary positions on the field. For example, a team would need at least 7 players to cover the pitcher, catcher, first baseman, second baseman, third baseman, shortstop, and one outfielder, but this would leave the other outfield positions uncovered.",
+          "listwise": 20,
+          "bradley_terry": 54.54,
+          "plackett_luce": 77.27999877929688,
+          "init_plackett_luce": 76.97000122070312
+        },
+        "8": {
+          "justification": "I have a slightly higher confidence level in this answer, as 8 players could potentially cover most of the positions on the field. However, this number still seems a bit short, as a team would likely need at least 8 players to cover the pitcher, catcher, first baseman, second baseman, third baseman, shortstop, and two outfielders, but this would leave one outfield position uncovered.",
+          "listwise": 30,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "10": {
+          "justification": "My confidence level in this answer is relatively low, as 10 players seems excessive for the number of positions on the field. While it's possible that some teams might have 10 players on the field in certain situations, such as with extra infielders or outfielders, this number seems too high for a standard game.",
+          "listwise": 15,
+          "bradley_terry": 52.8,
+          "plackett_luce": 69.58000183105469,
+          "init_plackett_luce": 69.5199966430664
+        },
+        "11": {
+          "justification": "I have a very low confidence level in this answer, as 11 players seems extremely excessive for the number of positions on the field. This number would likely result in overcrowding and confusion on the field, and it's unlikely that a team would need this many players to cover all the necessary positions.",
+          "listwise": 5,
+          "bradley_terry": 50.85,
+          "plackett_luce": 54.59000015258789,
+          "init_plackett_luce": 54.43000030517578
+        },
+        "6": {
+          "justification": "My confidence level in this answer is low, as 6 players seems too small to cover all the positions on the field. While a team might be able to cover some of the positions with 6 players, such as the pitcher, catcher, first baseman, second baseman, third baseman, and shortstop, this would leave the outfield positions uncovered.",
+          "listwise": 12,
+          "bradley_terry": 51.92,
+          "plackett_luce": 63.16999816894531,
+          "init_plackett_luce": 63.5099983215332
+        },
+        "12": {
+          "justification": "I have a low confidence level in this answer, as 12 players seems too high for the number of positions on the field. This number would likely result in overcrowding and confusion on the field, and it's unlikely that a team would need this many players to cover all the necessary positions.",
+          "listwise": 8,
+          "bradley_terry": 48.02,
+          "plackett_luce": 42.0,
+          "init_plackett_luce": 42.04999923706055
+        },
+        "4": {
+          "justification": "My confidence level in this answer is very low, as 4 players seems extremely too small to cover all the positions on the field. This number would leave most of the positions uncovered, and it's unlikely that a team could effectively play with only 4 players on the field.",
+          "listwise": 5,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "13": {
+          "justification": "I have a very low confidence level in this answer, as 13 players seems extremely excessive for the number of positions on the field. This number would likely result in severe overcrowding and confusion on the field, and it's highly unlikely that a team would need this many players to cover all the necessary positions.",
+          "listwise": 3,
+          "bradley_terry": 44.92,
+          "plackett_luce": 25.51999855041504,
+          "init_plackett_luce": 25.1299991607666
+        },
+        "8.5": {
+          "justification": "My confidence level in this answer is extremely low, as 8.5 players is not a whole number and seems unrealistic for the number of players on the field. Baseball teams typically have a whole number of players on the field, and it's unlikely that a team would have a fraction of a player on the field.",
+          "listwise": 2,
+          "bradley_terry": 43.75,
+          "plackett_luce": 14.079999923706055,
+          "init_plackett_luce": 13.649999618530273
+        }
+      }
+    },
+    {
+      "id": "trivia_692",
+      "question": "How many avenues radiate from the Arc de Triomphe?",
+      "question_type": {
+        "major": "NUM:NUMERIC",
+        "minor": "count:Number of something"
+      },
+      "question_difficulty": "Medium",
+      "answer": "12",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "8": {
+          "justification": "I have a moderate confidence level in this answer because the Arc de Triomphe is a large monument, and it's possible that it has a symmetrical design with 8 avenues radiating from it, similar to the spokes of a wheel. However, I'm not extremely confident because I don't have any specific information about the Arc de Triomphe's design.",
+          "listwise": 40,
+          "bradley_terry": 95.36,
+          "plackett_luce": 80.68000030517578,
+          "init_plackett_luce": 81.0199966430664
+        },
+        "10": {
+          "justification": "My confidence level in this answer is relatively low because while 10 is a reasonable number of avenues, it seems a bit high for a single monument. I'm considering the possibility that the Arc de Triomphe has a more complex design, but I'm not convinced that it would have as many as 10 avenues radiating from it.",
+          "listwise": 30,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "6": {
+          "justification": "I have a fairly high confidence level in this answer because 6 is a relatively small, manageable number of avenues that could realistically radiate from a single monument. The Arc de Triomphe is a large and impressive structure, but it's not enormous, so 6 avenues seem like a plausible number.",
+          "listwise": 50,
+          "bradley_terry": 48.6,
+          "plackett_luce": 58.869998931884766,
+          "init_plackett_luce": 59.39999771118164
+        },
+        "15": {
+          "justification": "My confidence level in this answer is relatively low because 15 seems like a very high number of avenues for a single monument. While the Arc de Triomphe is a significant landmark, it's not a massive city or a sprawling complex, so I'm skeptical that it would have as many as 15 avenues radiating from it.",
+          "listwise": 20,
+          "bradley_terry": 5.14,
+          "plackett_luce": 28.599998474121094,
+          "init_plackett_luce": 29.469999313354492
+        },
+        "4": {
+          "justification": "I have a fairly high confidence level in this answer because 4 is a small, simple number of avenues that could easily radiate from a single monument. The Arc de Triomphe is a notable landmark, but it's not overly complex, so 4 avenues seem like a reasonable number.",
+          "listwise": 60,
+          "bradley_terry": 3.46,
+          "plackett_luce": 17.59000015258789,
+          "init_plackett_luce": 17.69999885559082
+        },
+        "9": {
+          "justification": "My confidence level in this answer is moderate because 9 is a somewhat unusual number of avenues, but it's not entirely implausible. I'm considering the possibility that the Arc de Triomphe has a unique or asymmetrical design, but I'm not convinced that it would have exactly 9 avenues radiating from it.",
+          "listwise": 35,
+          "bradley_terry": 93.64,
+          "plackett_luce": 74.1199951171875,
+          "init_plackett_luce": 74.44999694824219
+        },
+        "7": {
+          "justification": "I have a moderate to high confidence level in this answer because 7 is a relatively small number of avenues that could realistically radiate from a single monument. The Arc de Triomphe is a significant landmark, and 7 avenues seem like a plausible number, given its size and importance.",
+          "listwise": 45,
+          "bradley_terry": 5.49,
+          "plackett_luce": 30.469999313354492,
+          "init_plackett_luce": 30.399999618530273
+        },
+        "11": {
+          "justification": "My confidence level in this answer is relatively low because 11 seems like a somewhat unusual number of avenues. While it's possible that the Arc de Triomphe has an irregular or asymmetrical design, I'm not convinced that it would have exactly 11 avenues radiating from it.",
+          "listwise": 25,
+          "bradley_terry": 98.28,
+          "plackett_luce": 89.45999908447266,
+          "init_plackett_luce": 89.61000061035156
+        },
+        "5": {
+          "justification": "I have a fairly high confidence level in this answer because 5 is a small, manageable number of avenues that could easily radiate from a single monument. The Arc de Triomphe is a notable landmark, and 5 avenues seem like a reasonable number, given its size and design.",
+          "listwise": 55,
+          "bradley_terry": 2.23,
+          "plackett_luce": 12.029999732971191,
+          "init_plackett_luce": 12.59999942779541
+        },
+        "3": {
+          "justification": "I have a relatively high confidence level in this answer because 3 is a very small, simple number of avenues that could easily radiate from a single monument. The Arc de Triomphe is a significant landmark, but it's not overly complex, so 3 avenues seem like a plausible number, especially if the monument has a simple or symmetrical design.",
+          "listwise": 65,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        }
+      }
+    },
+    {
+      "id": "trivia_675",
+      "question": "Which cockney private detective, co-created by Terry Venables, was portrayed on TV by Nicholas Ball?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Medium",
+      "answer": "James Hazell",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Jack Regan": {
+          "justification": "My confidence level is 40 because Jack Regan is a well-known character from the TV series 'The Sweeney', which features a cockney detective. However, I'm not certain if he was a private detective or if Terry Venables was involved in his creation.",
+          "listwise": 40,
+          "bradley_terry": 3.2,
+          "plackett_luce": 8.139999389648438,
+          "init_plackett_luce": 9.34000015258789
+        },
+        "Charlie Endell": {
+          "justification": "Charlie Endell is a character from the TV series 'Budgie', but I couldn't find any information linking him to Terry Venables or a private detective role, which is why my confidence level is 20.",
+          "listwise": 20,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Terry McCann": {
+          "justification": "Terry McCann is a character from the TV series 'Minder', which features a cockney protagonist. Although he's not a traditional private detective, his involvement in various schemes and adventures might qualify him as a candidate. My confidence level is 30 due to the lack of direct connection to Terry Venables.",
+          "listwise": 30,
+          "bradley_terry": 97.8,
+          "plackett_luce": 95.50999450683594,
+          "init_plackett_luce": 95.54999542236328
+        },
+        "Frank Marker": {
+          "justification": "Frank Marker is the main character from the TV series 'Public Eye', which features a private detective. However, I couldn't find any information linking him to Terry Venables or a cockney background, which is why my confidence level is 25.",
+          "listwise": 25,
+          "bradley_terry": 6.61,
+          "plackett_luce": 30.549999237060547,
+          "init_plackett_luce": 31.229999542236328
+        },
+        "John Mann": {
+          "justification": "John Mann is a character from various TV shows and books, but I couldn't find any specific information linking him to Terry Venables, a private detective role, or a cockney background, resulting in a low confidence level of 15.",
+          "listwise": 15,
+          "bradley_terry": 3.27,
+          "plackett_luce": 12.569999694824219,
+          "init_plackett_luce": 13.09999942779541
+        },
+        "Derek Longbow": {
+          "justification": "Derek Longbow is not a well-known character, and I couldn't find any information linking him to Terry Venables, a private detective role, or a cockney background, which is why my confidence level is 10.",
+          "listwise": 10,
+          "bradley_terry": 87.36,
+          "plackett_luce": 60.709999084472656,
+          "init_plackett_luce": 61.22999954223633
+        },
+        "Alfie Jennings": {
+          "justification": "Alfie Jennings is not a well-known character, and I couldn't find any information linking him to Terry Venables, a private detective role, or a cockney background, resulting in a low confidence level of 12.",
+          "listwise": 12,
+          "bradley_terry": 93.68,
+          "plackett_luce": 82.23999786376953,
+          "init_plackett_luce": 82.55999755859375
+        },
+        "Danny Wilde": {
+          "justification": "Danny Wilde is a character from the TV series 'The Persuaders!', which features a wealthy playboy and his adventures. Although he's not a traditional private detective, his involvement in various schemes and adventures might qualify him as a candidate. My confidence level is 18 due to the lack of direct connection to Terry Venables and a cockney background.",
+          "listwise": 18,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Mike Walsh": {
+          "justification": "Mike Walsh is not a well-known character, and I couldn't find any information linking him to Terry Venables, a private detective role, or a cockney background, resulting in a moderate confidence level of 22.",
+          "listwise": 22,
+          "bradley_terry": 89.56,
+          "plackett_luce": 68.90999603271484,
+          "init_plackett_luce": 68.8699951171875
+        },
+        "Dave Carter": {
+          "justification": "Dave Carter is not a well-known character, and I couldn't find any information linking him to Terry Venables, a private detective role, or a cockney background, which is why my confidence level is 8.",
+          "listwise": 8,
+          "bradley_terry": 5.78,
+          "plackett_luce": 20.770000457763672,
+          "init_plackett_luce": 21.149999618530273
+        }
+      }
+    },
+    {
+      "id": "trivia_4444",
+      "question": "Who presented a list of 23 problems in mathematics at a conference of the International Congress of Mathematicians on 8 August 1900 in the Sorbonne, of which only 10 have resolutions which are fully accepted?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Easy",
+      "answer": "Hilbert",
+      "answer_difficulty": "Medium",
+      "candidate_answers": {
+        "Henri Poincaré": {
+          "justification": "Although Poincaré was a prominent mathematician of the time, there is no strong evidence to suggest that he presented a list of 23 problems. However, his work on topology and other fields might have led to some influential presentations, which is why I assign a low confidence level.",
+          "listwise": 20,
+          "bradley_terry": 94.92,
+          "plackett_luce": 94.8699951171875,
+          "init_plackett_luce": 94.58999633789062
+        },
+        "Bertrand Russell": {
+          "justification": "Russell was a philosopher and mathematician, but his focus was more on logic and philosophy. While he did attend mathematical conferences, there is no record of him presenting a list of problems like the one described, hence the low confidence level.",
+          "listwise": 15,
+          "bradley_terry": 2.84,
+          "plackett_luce": 3.0899999141693115,
+          "init_plackett_luce": 2.8399999141693115
+        },
+        "Georg Cantor": {
+          "justification": "Cantor was a key figure in the development of set theory, and his work had a significant impact on mathematics. It's possible that he might have presented a list of problems, but there is no concrete evidence to support this claim, which is why I assign a moderate confidence level.",
+          "listwise": 30,
+          "bradley_terry": 37.56,
+          "plackett_luce": 44.39999771118164,
+          "init_plackett_luce": 45.15999984741211
+        },
+        "Richard Dedekind": {
+          "justification": "Dedekind was a German mathematician who made significant contributions to number theory and algebra. While he was an influential figure, there is no record of him presenting a list of 23 problems, which is why I assign a relatively low confidence level.",
+          "listwise": 25,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Henri Lebesgue": {
+          "justification": "Lebesgue was a French mathematician who made important contributions to real analysis and measure theory. However, his work was more focused on specific areas of mathematics, and there is no evidence to suggest that he presented a broad list of problems like the one described, hence the very low confidence level.",
+          "listwise": 10,
+          "bradley_terry": 9.21,
+          "plackett_luce": 8.559999465942383,
+          "init_plackett_luce": 8.059999465942383
+        },
+        "Felix Klein": {
+          "justification": "Klein was a German mathematician who worked on a wide range of topics, including geometry and group theory. He was also known for his efforts to promote international cooperation in mathematics, which might have led to a presentation like the one described. This is why I assign a moderate to high confidence level.",
+          "listwise": 40,
+          "bradley_terry": 70.98,
+          "plackett_luce": 74.52999877929688,
+          "init_plackett_luce": 73.26000213623047
+        },
+        "Émile Borel": {
+          "justification": "Borel was a French mathematician who made significant contributions to probability theory and real analysis. While he was an influential figure, there is no record of him presenting a list of 23 problems, which is why I assign a very low confidence level.",
+          "listwise": 12,
+          "bradley_terry": 3.88,
+          "plackett_luce": 10.899999618530273,
+          "init_plackett_luce": 9.609999656677246
+        },
+        "David Hilbert's contemporary, Hermann Minkowski": {
+          "justification": "Minkowski was a German mathematician who worked on geometry, number theory, and relativity. He was a close friend and colleague of Hilbert, which might suggest that he could have presented a list of problems. However, there is no concrete evidence to support this claim, which is why I assign a moderate to high confidence level.",
+          "listwise": 50,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Jacques Hadamard": {
+          "justification": "Hadamard was a French mathematician who made significant contributions to number theory, algebra, and analysis. While he was an influential figure, there is no record of him presenting a list of 23 problems, which is why I assign a relatively low confidence level.",
+          "listwise": 18,
+          "bradley_terry": 30.23,
+          "plackett_luce": 41.52000045776367,
+          "init_plackett_luce": 40.79999923706055
+        },
+        "Adolf Hurwitz": {
+          "justification": "Hurwitz was a German mathematician who worked on algebra, geometry, and number theory. He was a colleague of Hilbert and Minkowski, which might suggest that he could have presented a list of problems. However, there is no concrete evidence to support this claim, which is why I assign a relatively low confidence level.",
+          "listwise": 22,
+          "bradley_terry": 4.72,
+          "plackett_luce": 10.069999694824219,
+          "init_plackett_luce": 9.279999732971191
+        }
+      }
+    },
+    {
+      "id": "trivia_1601",
+      "question": "How many squares does a Rubik’s Cube have on each side?",
+      "question_type": {
+        "major": "NUM:NUMERIC",
+        "minor": "count:Number of something"
+      },
+      "question_difficulty": "Medium",
+      "answer": "9",
+      "answer_difficulty": "Medium",
+      "candidate_answers": {
+        "4": {
+          "justification": "I have a high confidence level in this answer because a Rubik's Cube is a 3D puzzle with a grid-like structure on each face. A 2x2 grid would result in 4 squares on each side, which seems like a plausible and simple design. However, I'm not 100% confident because I know that Rubik's Cubes have a more complex structure.",
+          "listwise": 80,
+          "bradley_terry": 43.75,
+          "plackett_luce": 31.899999618530273,
+          "init_plackett_luce": 32.71999740600586
+        },
+        "16": {
+          "justification": "This answer seems possible because a 4x4 grid would result in 16 squares on each side. Although this would make the cube more complex, it's still a feasible design. My confidence level is lower because I'm not sure if the cube's mechanism could support such a large number of squares.",
+          "listwise": 40,
+          "bradley_terry": 91.78,
+          "plackett_luce": 62.6099967956543,
+          "init_plackett_luce": 62.62999725341797
+        },
+        "1": {
+          "justification": "I have a low confidence level in this answer because a single square on each side would not provide enough complexity or challenge for a puzzle like the Rubik's Cube. It's unlikely that the cube would be designed with only one square per face.",
+          "listwise": 10,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "6": {
+          "justification": "A 2x3 or 3x2 grid would result in 6 squares on each side, which seems like a reasonable design. My confidence level is moderate because, while it's possible, I'm not sure if this layout would provide the right balance of simplicity and complexity for a puzzle.",
+          "listwise": 50,
+          "bradley_terry": 95.16,
+          "plackett_luce": 82.98999786376953,
+          "init_plackett_luce": 83.47999572753906
+        },
+        "8": {
+          "justification": "An 2x4 or 4x2 grid would result in 8 squares on each side. I have a relatively high confidence level in this answer because it seems like a plausible design that could provide an interesting challenge. However, I'm not 100% confident because I'm not sure if this layout would be too simple or too complex.",
+          "listwise": 60,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "12": {
+          "justification": "A 3x4 or 4x3 grid would result in 12 squares on each side. My confidence level is lower because, while it's possible, I think this design might be too complex or cluttered for a puzzle like the Rubik's Cube.",
+          "listwise": 30,
+          "bradley_terry": 95.76,
+          "plackett_luce": 73.25,
+          "init_plackett_luce": 73.5
+        },
+        "5": {
+          "justification": "A 1x5 or 5x1 grid would result in 5 squares on each side. I have a low confidence level in this answer because this layout seems unbalanced and unlikely to provide a challenging or interesting puzzle.",
+          "listwise": 20,
+          "bradley_terry": 42.42,
+          "plackett_luce": 19.600000381469727,
+          "init_plackett_luce": 20.239999771118164
+        },
+        "7": {
+          "justification": "A 1x7 or 7x1 grid would result in 7 squares on each side. My confidence level is low because, similar to the previous answer, this layout seems unbalanced and unlikely to provide a good puzzle.",
+          "listwise": 25,
+          "bradley_terry": 91.89,
+          "plackett_luce": 48.39999771118164,
+          "init_plackett_luce": 49.52000045776367
+        },
+        "3": {
+          "justification": "A 1x3 or 3x1 grid would result in 3 squares on each side. I have a low confidence level in this answer because this layout seems too simple and unlikely to provide a challenging puzzle.",
+          "listwise": 15,
+          "bradley_terry": 98.81,
+          "plackett_luce": 97.97999572753906,
+          "init_plackett_luce": 97.94999694824219
+        },
+        "24": {
+          "justification": "A 4x6 or 6x4 grid would result in 24 squares on each side. My confidence level is very low because this design seems excessively complex and unlikely to be practical for a puzzle like the Rubik's Cube. The mechanism and user experience would likely be too cumbersome with this many squares.",
+          "listwise": 5,
+          "bradley_terry": 45.08,
+          "plackett_luce": 35.73999786376953,
+          "init_plackett_luce": 35.7599983215332
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+## Task Definition
+
+You are an expert question evaluator. Your task is to rate a question on how likely it is that  people, when asked, might mix up the true answer with other plausible but incorrect alternatives.
+
+Do **not** try to answer the question explicitly. Base your judgment only on the question itself and general world knowledge.
+
+So the question will have a high score if:
+
+* Although **people have some knowledge about the question,** they might still mix up that correct answer with other incorrect alternatives.
+* The questions often make people with some level of knowledge about the topic second‑guess themselves ("It was X, right? Or was it Y?") will receive higher scores.
+* Some reasons for this mix up might be:
+
+  * They can be similar entities or objects.
+  * They can be considered in the terms of similar definitions by the people.
+
+The question will have a low score if:
+
+* BUT it's rare that people mix the correct answer, if they have some information about the question.
+* Question has a straightforward answer, if somebody is informed about the topic they can just answer it and they do not need to clarify anything.
+* Examples could be like historical dates, scientific questions with certain answers, absolute facts etc.
+
+**DISCLAIMER** : While saying "mix up", we don't mean responses given by people that has no knowledge about the topic. We do not consider the shots in the dark as "mix up". People answering these questions have some knowledge about the question. They don't have to be experts, just some having some information about the topic is enough. So clueless and baseless attempts to respond are not considered as "mix ups".
+
+Scoring examples (0–100):
+
+* 0–10: Straightforward; people rarely mix it up.
+* 11–35: Mostly clear; a couple of mild slips possible.
+* 36–65: Often causes hesitation with reasonable alternatives.
+* 70–85: Frequently makes people go back and forth between several plausible options.
+* 86–100: Extremely likely to cause uncertainty with many convincing alternatives.
+
+**Output format (strict):**&#x20;
+Explanation: <1–3 sentences of reasoning>
+Score: <integer 0–100>
+
+## Few Shot Examples
+
+Q: "What is the capital of Australia?"
+
+Explanation: People overwhelmingly answer Sydney or Melbourne, because they are more popular than the actual capital which is Canberra.
+
+Score: 95
+
+Q: "Where was Bruce Lee born?"
+
+Explanation: Many people assume Bruce Lee was born in Hong Kong because of his strong association with Hong Kong cinema.
+
+Score: 85
+
+Q: "Who invented the light bulb?"
+
+Explanation: Many people quickly say Thomas Edison, but some recall earlier inventors like Joseph Swan, leading to hesitation about who is credited.
+
+Score: 55
+
+Q: "What is the largest planet in our solar system?"
+
+Explanation: Some people mistakenly think of Saturn because of its size and famous rings, leading to hesitation between these two options.
+
+Score: 45
+
+Q: "What is the boiling point of water in Celsius?"
+
+Explanation: The correct answer of 100°C at standard pressure is widely known and rarely mistaken; mix-ups are uncommon unless confusing Celsius with Fahrenheit, which is less likely among informed respondents.
+
+Score: 10
+
+Q: What is the capital of France?
+
+Explanation: The answer is universally known and seldom mistaken.
+
+Score: 5

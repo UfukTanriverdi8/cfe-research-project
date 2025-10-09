@@ -1,0 +1,1416 @@
+{
+  "confusing": [
+    {
+      "id": "trivia_6638",
+      "question": "Who played Hotlips Houlihan in the 1972 film MASH?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Sally Kellerman",
+      "answer_difficulty": "Medium",
+      "candidate_answers": {
+        "Jane Fonda": {
+          "justification": "Jane Fonda was a prominent actress during the 1970s, known for her roles in films like \"Klute\" and \"Barbarella\". Her strong screen presence and ability to play complex characters make her a plausible candidate for the role of Hotlips Houlihan. However, her style and typical roles may not perfectly align with the character's personality.",
+          "listwise": 80,
+          "bradley_terry": 22.59,
+          "plackett_luce": 69.83999633789062,
+          "init_plackett_luce": 70.04000091552734
+        },
+        "Goldie Hawn": {
+          "justification": "Goldie Hawn was a rising star in the 1970s, with notable roles in films like \"Cactus Flower\" and \"There's a Girl in My Soup\". Her comedic timing and charm could have worked well for the role of Hotlips, but her typical typecast as a more carefree and quirky character might not fit the more serious and authoritative aspects of Hotlips.",
+          "listwise": 60,
+          "bradley_terry": 10.19,
+          "plackett_luce": 26.90999984741211,
+          "init_plackett_luce": 27.439998626708984
+        },
+        "Barbara Streisand": {
+          "justification": "Barbara Streisand is a highly acclaimed actress and singer, known for her powerful voice and strong screen presence. While she has played a wide range of roles, her style and typical typecast might not be the best fit for the character of Hotlips Houlihan, who requires a balance of authority, wit, and vulnerability.",
+          "listwise": 40,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Faye Dunaway": {
+          "justification": "Faye Dunaway was a highly respected actress in the 1970s, known for her intense performances in films like \"Bonnie and Clyde\" and \"Chinatown\". Her ability to play complex, dynamic characters makes her a strong candidate for the role of Hotlips, but her typical typecast as a more dramatic and intense actress might not perfectly align with the character's mix of humor and authority.",
+          "listwise": 70,
+          "bradley_terry": 15.78,
+          "plackett_luce": 50.15999984741211,
+          "init_plackett_luce": 50.55999755859375
+        },
+        "Candice Bergen": {
+          "justification": "Candice Bergen is a talented actress and model, known for her roles in films like \"Carnal Knowledge\" and \"Miss Congeniality\". Her sharp wit and strong screen presence could have worked well for the role of Hotlips, but her typical typecast as a more glamorous and sophisticated character might not fit the more down-to-earth and practical aspects of Hotlips.",
+          "listwise": 50,
+          "bradley_terry": 19.44,
+          "plackett_luce": 60.78999710083008,
+          "init_plackett_luce": 61.349998474121094
+        },
+        "Diane Keaton": {
+          "justification": "Diane Keaton was a rising star in the 1970s, known for her quirky and offbeat performances in films like \"Play It Again, Sam\" and \"Annie Hall\". While she has played a wide range of roles, her typical typecast as a more eccentric and neurotic character might not be the best fit for the character of Hotlips Houlihan, who requires a balance of authority and vulnerability.",
+          "listwise": 30,
+          "bradley_terry": 1.54,
+          "plackett_luce": 9.010000228881836,
+          "init_plackett_luce": 8.800000190734863
+        },
+        "Ellen Burstyn": {
+          "justification": "Ellen Burstyn is a highly acclaimed actress, known for her powerful performances in films like \"The Last Picture Show\" and \"Alice Doesn't Live Here Anymore\". Her ability to play complex, dynamic characters makes her a plausible candidate for the role of Hotlips, but her typical typecast as a more dramatic and intense actress might not perfectly align with the character's mix of humor and authority.",
+          "listwise": 45,
+          "bradley_terry": 11.02,
+          "plackett_luce": 34.630001068115234,
+          "init_plackett_luce": 34.63999938964844
+        },
+        "Lee Grant": {
+          "justification": "Lee Grant is a talented actress, known for her roles in films like \"In the Heat of the Night\" and \"Shampoo\". Her sharp wit and strong screen presence could have worked well for the role of Hotlips, and her experience playing complex, dynamic characters makes her a strong candidate.",
+          "listwise": 55,
+          "bradley_terry": 21.96,
+          "plackett_luce": 70.86000061035156,
+          "init_plackett_luce": 70.61000061035156
+        },
+        "Cloris Leachman": {
+          "justification": "Cloris Leachman is a highly respected actress and comedian, known for her roles in films like \"The Last Picture Show\" and \"Young Frankenstein\". Her ability to play complex, dynamic characters and her sharp wit make her a strong candidate for the role of Hotlips, and her experience playing authoritative and humorous characters could have been a good fit.",
+          "listwise": 65,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Susan Sarandon": {
+          "justification": "Susan Sarandon was a rising star in the 1970s, known for her roles in films like \"Joe\" and \"The Rocky Horror Picture Show\". While she has played a wide range of roles, her typical typecast as a more quirky and offbeat character might not be the best fit for the character of Hotlips Houlihan, who requires a balance of authority and vulnerability.",
+          "listwise": 25,
+          "bradley_terry": 8.47,
+          "plackett_luce": 28.920000076293945,
+          "init_plackett_luce": 29.059999465942383
+        }
+      }
+    },
+    {
+      "id": "trivia_783",
+      "question": "The undersurface of a person's foot or of a shoe?",
+      "question_type": {
+        "major": "ENTY:ENTITY",
+        "minor": "other:Other entity"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Sole",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Heel": {
+          "justification": "The reasoning behind this confidence level is that the heel is a part of the undersurface of the foot, but it doesn't cover the entire area. The question seems to be asking for a term that encompasses the whole underside, so while 'heel' is related, it's not a perfect fit.",
+          "listwise": 20,
+          "bradley_terry": 30.32,
+          "plackett_luce": 19.079999923706055,
+          "init_plackett_luce": 18.369998931884766
+        },
+        "Arch": {
+          "justification": "The confidence level for 'arch' is lower because, although it is a part of the foot's undersurface, it specifically refers to the curved area between the heel and the toes. This doesn't cover the entire underside of the foot or shoe.",
+          "listwise": 15,
+          "bradley_terry": 32.46,
+          "plackett_luce": 28.76999855041504,
+          "init_plackett_luce": 28.439998626708984
+        },
+        "Toe": {
+          "justification": "The confidence level for 'toe' is low because toes are individual parts of the foot and don't refer to the undersurface as a whole. However, the underside of the toes does touch the ground, so there's a slight connection.",
+          "listwise": 10,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Insole": {
+          "justification": "The confidence level for 'insole' is high because it directly refers to the inner surface of a shoe that contacts the foot. While it's more about the shoe than the foot itself, it's closely related to the concept of the undersurface.",
+          "listwise": 80,
+          "bradley_terry": 67.79,
+          "plackett_luce": 80.41999816894531,
+          "init_plackett_luce": 80.0
+        },
+        "Bottom": {
+          "justification": "The reasoning behind this confidence level is that 'bottom' is a general term that could apply to the undersurface of many objects, including feet or shoes. However, it's not specific or technical enough to be a precise answer.",
+          "listwise": 40,
+          "bradley_terry": 64.64,
+          "plackett_luce": 59.77000045776367,
+          "init_plackett_luce": 60.12999725341797
+        },
+        "Base": {
+          "justification": "Similar to 'bottom', 'base' could refer to the underside of something, but it lacks specificity. The confidence level is moderate because, while it could apply, it's not a commonly used term in the context of feet or shoes.",
+          "listwise": 30,
+          "bradley_terry": 64.64,
+          "plackett_luce": 58.46999740600586,
+          "init_plackett_luce": 57.52000045776367
+        },
+        "Underside": {
+          "justification": "The confidence level for 'underside' is relatively high because it directly refers to the surface of an object that faces downwards. However, it's a bit generic and doesn't specifically relate to feet or shoes without additional context.",
+          "listwise": 60,
+          "bradley_terry": 64.64,
+          "plackett_luce": 60.91999816894531,
+          "init_plackett_luce": 60.619998931884766
+        },
+        "Plantar": {
+          "justification": "The confidence level for 'plantar' is very high because, in anatomy, 'plantar' refers specifically to the sole of the foot. It's a technical term that directly addresses the undersurface of the foot, making it a strong candidate.",
+          "listwise": 85,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Footbed": {
+          "justification": "The reasoning behind this confidence level is that 'footbed' refers to the surface within a shoe that the foot rests on. While it's more about the shoe than the foot, it's closely related to the concept of the undersurface, especially in the context of footwear.",
+          "listwise": 70,
+          "bradley_terry": 66.11,
+          "plackett_luce": 70.27999877929688,
+          "init_plackett_luce": 69.58000183105469
+        },
+        "Foundation": {
+          "justification": "The confidence level for 'foundation' is relatively low because, although it could metaphorically refer to the base or starting point of something (like the foot), it's not a term commonly used to describe the undersurface of feet or shoes. It's more of a conceptual or architectural term.",
+          "listwise": 25,
+          "bradley_terry": 31.39,
+          "plackett_luce": 24.19999885559082,
+          "init_plackett_luce": 23.06999969482422
+        }
+      }
+    },
+    {
+      "id": "trivia_6169",
+      "question": "Who, according to T S Eliot, \"always has an alibi, and one or two to spare\"?\"",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Easy",
+      "answer": "Macavity",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Professor Moriarty": {
+          "justification": "I have a high confidence level in Professor Moriarty because he is a notorious character in the Sherlock Holmes series, known for his cunning and ability to evade detection. His intelligence and resourcefulness would allow him to always have an alibi, making him a strong candidate.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Fantômas": {
+          "justification": "Fantômas is a French fictional character and a master of disguise, which would enable him to create multiple alibis. His ability to blend into different environments and assume various identities makes him a plausible candidate, although his lack of direct connection to T.S. Eliot's work reduces my confidence level.",
+          "listwise": 70,
+          "bradley_terry": 67.79,
+          "plackett_luce": 77.54000091552734,
+          "init_plackett_luce": 76.65999603271484
+        },
+        "The Cheshire Cat": {
+          "justification": "The Cheshire Cat, from Lewis Carroll's Alice's Adventures in Wonderland, is known for his mischievous and elusive nature. His ability to disappear and reappear at will could be interpreted as having multiple alibis, but his fantastical nature and lack of direct connection to the quote reduce my confidence level.",
+          "listwise": 60,
+          "bradley_terry": 22.58,
+          "plackett_luce": 20.31999969482422,
+          "init_plackett_luce": 20.25
+        },
+        "Arsène Lupin": {
+          "justification": "Arsène Lupin is a fictional character and a master thief, known for his cunning and ability to evade detection. His intelligence and resourcefulness would allow him to create complex alibis, making him a strong candidate. However, his lack of direct connection to T.S. Eliot's work reduces my confidence level slightly.",
+          "listwise": 75,
+          "bradley_terry": 68.57,
+          "plackett_luce": 83.54999542236328,
+          "init_plackett_luce": 83.75
+        },
+        "The Phantom of the Opera": {
+          "justification": "The Phantom of the Opera is a fictional character known for his mysterious and elusive nature. His ability to move undetected through the opera house and his talent for deception could be interpreted as having multiple alibis, but his lack of direct connection to the quote and his more tragic character reduce my confidence level.",
+          "listwise": 65,
+          "bradley_terry": 0.0,
+          "plackett_luce": 8.119999885559082,
+          "init_plackett_luce": 9.59000015258789
+        },
+        "Hercule Poirot": {
+          "justification": "Hercule Poirot is a fictional detective created by Agatha Christie, known for his intelligence and ability to solve complex cases. While he is a clever character, his role as a detective rather than a culprit reduces my confidence level, as he would be more likely to uncover alibis rather than create them.",
+          "listwise": 40,
+          "bradley_terry": 28.78,
+          "plackett_luce": 20.15999984741211,
+          "init_plackett_luce": 20.189998626708984
+        },
+        "The Artful Dodger": {
+          "justification": "The Artful Dodger is a fictional character from Charles Dickens' Oliver Twist, known for his cunning and ability to evade detection. His intelligence and resourcefulness would allow him to create alibis, but his relatively minor role in literature and lack of direct connection to T.S. Eliot's work reduce my confidence level.",
+          "listwise": 55,
+          "bradley_terry": 67.01,
+          "plackett_luce": 76.47000122070312,
+          "init_plackett_luce": 75.77999877929688
+        },
+        "Dr. Jekyll": {
+          "justification": "Dr. Jekyll is a fictional character from Robert Louis Stevenson's novel, known for his ability to transform into the evil Mr. Hyde. While his dual identity could be interpreted as having multiple alibis, his lack of direct connection to the quote and his more complex, tragic character reduce my confidence level.",
+          "listwise": 50,
+          "bradley_terry": 34.87,
+          "plackett_luce": 35.18000030517578,
+          "init_plackett_luce": 35.64999771118164
+        },
+        "The Scarlet Pimpernel": {
+          "justification": "The Scarlet Pimpernel is a fictional character known for his bravery and cunning, as well as his ability to create complex disguises and alibis. His intelligence and resourcefulness would allow him to always have an alibi, making him a strong candidate. His connection to the literary world and his reputation as a master of deception increase my confidence level.",
+          "listwise": 85,
+          "bradley_terry": 43.66,
+          "plackett_luce": 36.72999954223633,
+          "init_plackett_luce": 37.32999801635742
+        },
+        "Cardinal Richelieu": {
+          "justification": "Cardinal Richelieu is a historical figure known for his intelligence and cunning, as well as his ability to manipulate others. While he was a real person, his lack of direct connection to the quote and his more historical, political role reduce my confidence level, as his actions were more focused on politics than creating alibis.",
+          "listwise": 45,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        }
+      }
+    },
+    {
+      "id": "trivia_1580",
+      "question": "In the Shakespeare play ‘The Tempest’, Prospero is the overthrown Duke of ‘where’?",
+      "question_type": {
+        "major": "LOC:LOCATION",
+        "minor": "other:Other location"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Milan",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Naples": {
+          "justification": "I have a high confidence level in Naples because it was a major city-state in Italy during the time period in which Shakespeare wrote 'The Tempest'. The play's themes of power, politics, and colonialism are also relevant to Naples' history as a strategic port city. Additionally, Naples is mentioned in several other Shakespeare plays, suggesting that the city was familiar to Shakespeare and his audience.",
+          "listwise": 80,
+          "bradley_terry": 80.28,
+          "plackett_luce": 83.65999603271484,
+          "init_plackett_luce": 84.79000091552734
+        },
+        "Florence": {
+          "justification": "My confidence level in Florence is moderate due to its cultural and artistic significance during the Renaissance. As a major center of learning and politics, Florence could be a plausible setting for Prospero's dukedom. However, there is limited direct evidence in the play to support this claim, which reduces my confidence level.",
+          "listwise": 60,
+          "bradley_terry": 62.86,
+          "plackett_luce": 62.25,
+          "init_plackett_luce": 62.0099983215332
+        },
+        "Venice": {
+          "justification": "I have a relatively high confidence level in Venice because of its reputation as a powerful and wealthy city-state during the Renaissance. The play's themes of trade, commerce, and colonialism are also relevant to Venice's history as a major maritime power. Additionally, Shakespeare's 'Othello' and 'The Merchant of Venice' are set in Venice, suggesting that the city was of interest to Shakespeare.",
+          "listwise": 70,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Genoa": {
+          "justification": "My confidence level in Genoa is moderate due to its history as a major port city and commercial center in Italy. While Genoa is not as prominently featured in Shakespeare's plays as some other Italian cities, its strategic location and economic importance make it a plausible candidate for Prospero's dukedom.",
+          "listwise": 50,
+          "bradley_terry": 58.83,
+          "plackett_luce": 55.36000061035156,
+          "init_plackett_luce": 55.65999984741211
+        },
+        "Sicily": {
+          "justification": "I have a relatively low confidence level in Sicily because, while it is an island like the one on which the play takes place, there is limited direct evidence in the play to support this claim. However, Sicily's history as a colonial possession of various European powers, including Italy, makes it a possible candidate.",
+          "listwise": 40,
+          "bradley_terry": 90.46,
+          "plackett_luce": 91.13999938964844,
+          "init_plackett_luce": 91.0
+        },
+        "Padua": {
+          "justification": "My confidence level in Padua is relatively low due to its smaller size and less prominent role in Italian politics during the Renaissance. While Padua is featured in Shakespeare's 'The Taming of the Shrew', there is limited evidence to suggest that it would be a suitable setting for Prospero's dukedom.",
+          "listwise": 30,
+          "bradley_terry": 67.09,
+          "plackett_luce": 64.94999694824219,
+          "init_plackett_luce": 66.43000030517578
+        },
+        "Turin": {
+          "justification": "I have a low confidence level in Turin because it is not prominently featured in Shakespeare's plays, and its history as a major city-state during the Renaissance is less well-known than that of other Italian cities. However, Turin's strategic location in northern Italy makes it a possible, if unlikely, candidate.",
+          "listwise": 20,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Bologna": {
+          "justification": "My confidence level in Bologna is relatively low due to its limited role in Italian politics during the Renaissance. While Bologna is featured in Shakespeare's 'The Taming of the Shrew', there is limited evidence to suggest that it would be a suitable setting for Prospero's dukedom.",
+          "listwise": 25,
+          "bradley_terry": 2.52,
+          "plackett_luce": 0.85999995470047,
+          "init_plackett_luce": 1.5
+        },
+        "Verona": {
+          "justification": "I have a moderate confidence level in Verona because of its cultural and artistic significance during the Renaissance. As a major center of learning and politics, Verona could be a plausible setting for Prospero's dukedom. Additionally, Shakespeare's 'Romeo and Juliet' is set in Verona, suggesting that the city was of interest to Shakespeare.",
+          "listwise": 45,
+          "bradley_terry": 83.12,
+          "plackett_luce": 83.93999481201172,
+          "init_plackett_luce": 85.15999603271484
+        },
+        "Ravenna": {
+          "justification": "My confidence level in Ravenna is relatively low due to its limited role in Italian politics during the Renaissance. While Ravenna has a rich cultural and artistic heritage, there is limited evidence to suggest that it would be a suitable setting for Prospero's dukedom. However, Ravenna's strategic location in northern Italy makes it a possible, if unlikely, candidate.",
+          "listwise": 35,
+          "bradley_terry": 11.28,
+          "plackett_luce": 7.789999961853027,
+          "init_plackett_luce": 7.96999979019165
+        }
+      }
+    },
+    {
+      "id": "trivia_2126",
+      "question": "What might a Geordie call a ‘tab’?",
+      "question_type": {
+        "major": "ENTY:ENTITY",
+        "minor": "termeq:Equivalent term"
+      },
+      "question_difficulty": "Hard",
+      "answer": "Cig",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Fag": {
+          "justification": "This is a common slang term for a cigarette in the UK, and Geordies, being from the northeast of England, might use this term. The high confidence level is due to the widespread use of 'fag' as a colloquialism for cigarette in British culture.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Smoke": {
+          "justification": "'Smoke' is a generic term that can refer to a cigarette, and it's possible that Geordies might use this term to refer to a 'tab'. The confidence level is moderate because while 'smoke' is a common term, it's not as specific to the northeast of England as some other options might be.",
+          "listwise": 70,
+          "bradley_terry": 56.79,
+          "plackett_luce": 73.70999908447266,
+          "init_plackett_luce": 73.72999572753906
+        },
+        "Drag": {
+          "justification": "'Drag' is a term that can refer to taking a puff of a cigarette, but it's less likely to be used as a noun to refer to the cigarette itself. The lower confidence level reflects this, as it's not as common for 'drag' to be used in this way.",
+          "listwise": 40,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Butt": {
+          "justification": "'Butt' is a term that can refer to the remains of a cigarette, but it's less likely to be used to refer to a whole cigarette. The low confidence level reflects this, as it's not a common usage of the term.",
+          "listwise": 30,
+          "bradley_terry": 7.71,
+          "plackett_luce": 43.98999786376953,
+          "init_plackett_luce": 43.73999786376953
+        },
+        "Rollie": {
+          "justification": "'Rollie' is a term that can refer to a hand-rolled cigarette, but it's not as commonly used in the northeast of England. The low confidence level reflects this, as it's not a term that's specifically associated with Geordie culture.",
+          "listwise": 20,
+          "bradley_terry": 7.77,
+          "plackett_luce": 39.790000915527344,
+          "init_plackett_luce": 38.71999740600586
+        },
+        "Burn": {
+          "justification": "'Burn' is a term that can refer to the act of smoking a cigarette, but it's highly unlikely to be used as a noun to refer to the cigarette itself. The very low confidence level reflects this, as it's not a common usage of the term.",
+          "listwise": 10,
+          "bradley_terry": 1.19,
+          "plackett_luce": 8.170000076293945,
+          "init_plackett_luce": 7.25
+        },
+        "Stick": {
+          "justification": "'Stick' is a term that can refer to a cigarette, and it's possible that Geordies might use this term. The moderate confidence level reflects this, as it's a plausible but not extremely common usage of the term.",
+          "listwise": 50,
+          "bradley_terry": 1.92,
+          "plackett_luce": 6.460000038146973,
+          "init_plackett_luce": 5.329999923706055
+        },
+        "Puff": {
+          "justification": "'Puff' is a term that can refer to the act of taking a drag on a cigarette, but it's less likely to be used as a noun to refer to the cigarette itself. The low confidence level reflects this, as it's not a common usage of the term.",
+          "listwise": 25,
+          "bradley_terry": 3.98,
+          "plackett_luce": 17.639999389648438,
+          "init_plackett_luce": 17.469999313354492
+        },
+        "Snout": {
+          "justification": "'Snout' is a term that can refer to a cigarette, but it's not commonly used in the northeast of England. The low confidence level reflects this, as it's not a term that's specifically associated with Geordie culture.",
+          "listwise": 15,
+          "bradley_terry": 7.33,
+          "plackett_luce": 39.37999725341797,
+          "init_plackett_luce": 38.43000030517578
+        },
+        "Baccy": {
+          "justification": "'Baccy' is a term that can refer to tobacco, and it's possible that Geordies might use this term to refer to a 'tab'. The moderate to high confidence level reflects this, as it's a plausible usage of the term, especially in informal settings.",
+          "listwise": 60,
+          "bradley_terry": 56.79,
+          "plackett_luce": 76.5199966430664,
+          "init_plackett_luce": 75.56999969482422
+        }
+      }
+    },
+    {
+      "id": "trivia_7473",
+      "question": "Which company makes/made a watch called 'Submariner'?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "gr:Group or organization of person"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Rolex",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Omega": {
+          "justification": "Omega is a well-known luxury watch brand that produces high-quality timepieces, including dive watches. Although they are famous for the Seamaster, it's possible they might have a model called Submariner, given their experience in creating waterproof watches.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Breitling": {
+          "justification": "Breitling is another prominent watch brand that specializes in aviation and dive watches. They have a range of models like the Superocean, which could potentially have a variant or predecessor called Submariner, hence the moderate confidence level.",
+          "listwise": 60,
+          "bradley_terry": 41.35,
+          "plackett_luce": 53.63999938964844,
+          "init_plackett_luce": 54.189998626708984
+        },
+        "Tag Heuer": {
+          "justification": "Tag Heuer is a popular watch brand that produces a variety of timepieces, including sports and dive watches. While they have models like the Aquaracer, it's conceivable they might have experimented with a Submariner model, although it's not a well-known fact.",
+          "listwise": 50,
+          "bradley_terry": 42.17,
+          "plackett_luce": 59.44999694824219,
+          "init_plackett_luce": 59.56999969482422
+        },
+        "Panerai": {
+          "justification": "Panerai is an Italian luxury watch brand that has a history of producing high-quality dive watches. Their models, such as the Luminor and Radiomir, are designed for underwater use, making it plausible they could have a Submariner model, hence the relatively high confidence level.",
+          "listwise": 70,
+          "bradley_terry": 73.17,
+          "plackett_luce": 88.1500015258789,
+          "init_plackett_luce": 88.29000091552734
+        },
+        "IWC": {
+          "justification": "IWC is a Swiss luxury watch brand that produces a range of timepieces, including dive watches like the Aquatimer. Although they have a diverse portfolio, the name Submariner doesn't immediately come to mind when thinking of IWC, resulting in a lower confidence level.",
+          "listwise": 40,
+          "bradley_terry": 43.54,
+          "plackett_luce": 68.51000213623047,
+          "init_plackett_luce": 69.01000213623047
+        },
+        "Jaeger-LeCoultre": {
+          "justification": "Jaeger-LeCoultre is a Swiss luxury watch brand known for its high-end timepieces, including the iconic Reverso and Master models. While they do produce some sports watches, the name Submariner doesn't seem to fit their typical brand image, leading to a lower confidence level.",
+          "listwise": 30,
+          "bradley_terry": 40.32,
+          "plackett_luce": 44.75,
+          "init_plackett_luce": 44.61000061035156
+        },
+        "Cartier": {
+          "justification": "Cartier is a French luxury brand that produces high-end jewelry and watches. Although they have some sports watch models like the Calibre, the name Submariner doesn't seem to align with their typical brand aesthetic, resulting in a low confidence level.",
+          "listwise": 20,
+          "bradley_terry": 36.97,
+          "plackett_luce": 19.059999465942383,
+          "init_plackett_luce": 19.35999870300293
+        },
+        "Tissot": {
+          "justification": "Tissot is a Swiss watch brand that produces a range of affordable timepieces, including some sports and dive watches. However, the name Submariner doesn't seem to be associated with Tissot, and their brand image doesn't immediately evoke high-end dive watches, leading to a very low confidence level.",
+          "listwise": 10,
+          "bradley_terry": 39.26,
+          "plackett_luce": 35.55999755859375,
+          "init_plackett_luce": 35.84000015258789
+        },
+        "Seiko": {
+          "justification": "Seiko is a Japanese watch brand that produces a wide range of timepieces, including dive watches like the Prospex. Although they have a reputation for producing reliable and affordable watches, the name Submariner doesn't seem to be part of their typical model lineup, resulting in a low confidence level.",
+          "listwise": 15,
+          "bradley_terry": 38.6,
+          "plackett_luce": 30.760000228881836,
+          "init_plackett_luce": 30.989999771118164
+        },
+        "Citizen": {
+          "justification": "Citizen is a Japanese watch brand that produces a variety of timepieces, including some sports and dive watches. However, the name Submariner doesn't seem to be associated with Citizen, and their brand image doesn't immediately evoke high-end luxury watches, leading to a very low confidence level.",
+          "listwise": 5,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        }
+      }
+    },
+    {
+      "id": "trivia_3584",
+      "question": "Since the mid 1900s the world's biggest trade fair for toys and games is hosted annual in?",
+      "question_type": {
+        "major": "ENTY:ENTITY",
+        "minor": "event:Event"
+      },
+      "question_difficulty": "Hard",
+      "answer": "Nurnburg",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Tokyo": {
+          "justification": "Tokyo is a major hub for technology, innovation, and entertainment, which are all closely related to the toy and game industry. Japan is also known for its vibrant culture of gaming and anime, making it a plausible host city for such an event. The city's large population, excellent infrastructure, and business-friendly environment further support its candidacy.",
+          "listwise": 80,
+          "bradley_terry": 50.72,
+          "plackett_luce": 50.48999786376953,
+          "init_plackett_luce": 50.38999938964844
+        },
+        "Las Vegas": {
+          "justification": "As a major convention and exhibition center, Las Vegas has the infrastructure and experience to host large-scale trade fairs. The city's entertainment industry and proximity to Los Angeles, a hub for the gaming and toy industry, also make it a potential host city. However, the city's primary focus on adult entertainment might detract from its suitability for a toy and game trade fair.",
+          "listwise": 70,
+          "bradley_terry": 49.33,
+          "plackett_luce": 40.62999725341797,
+          "init_plackett_luce": 41.09000015258789
+        },
+        "Hong Kong": {
+          "justification": "Hong Kong is a significant player in the global toy industry, with many manufacturers and exporters based in the city. Its strategic location, world-class infrastructure, and business-friendly environment make it an attractive location for international trade fairs. The city's experience in hosting large-scale exhibitions and conferences further supports its candidacy.",
+          "listwise": 85,
+          "bradley_terry": 53.3,
+          "plackett_luce": 63.80999755859375,
+          "init_plackett_luce": 63.64999771118164
+        },
+        "New York City": {
+          "justification": "As a global hub for business, entertainment, and media, New York City has the potential to host a major trade fair for toys and games. The city's proximity to major toy and game companies, as well as its excellent infrastructure and exhibition facilities, are positives. However, the city's high costs and competitive event calendar might make it less appealing to organizers.",
+          "listwise": 60,
+          "bradley_terry": 51.87,
+          "plackett_luce": 58.90999984741211,
+          "init_plackett_luce": 59.1099967956543
+        },
+        "London": {
+          "justification": "London is a major center for international trade and commerce, with a strong presence of toy and game companies. The city's excellent infrastructure, exhibition facilities, and business-friendly environment make it a plausible host city. Its experience in hosting large-scale events, such as the London Toy Fair, further supports its candidacy.",
+          "listwise": 75,
+          "bradley_terry": 53.06,
+          "plackett_luce": 66.5,
+          "init_plackett_luce": 66.30999755859375
+        },
+        "Shanghai": {
+          "justification": "Shanghai is a major hub for international trade and commerce, with a significant presence of toy and game manufacturers. The city's excellent infrastructure, exhibition facilities, and business-friendly environment make it an attractive location for large-scale trade fairs. China's growing importance in the global toy industry further supports Shanghai's candidacy.",
+          "listwise": 90,
+          "bradley_terry": 46.34,
+          "plackett_luce": 27.59000015258789,
+          "init_plackett_luce": 27.559999465942383
+        },
+        "Paris": {
+          "justification": "Paris is a major center for international trade and commerce, with a strong presence of toy and game companies. The city's excellent infrastructure, exhibition facilities, and business-friendly environment make it a plausible host city. However, the city's high costs and competitive event calendar might make it less appealing to organizers.",
+          "listwise": 65,
+          "bradley_terry": 51.74,
+          "plackett_luce": 56.5,
+          "init_plackett_luce": 56.77000045776367
+        },
+        "Singapore": {
+          "justification": "Singapore is a major hub for international trade and commerce, with a business-friendly environment and excellent infrastructure. The city's experience in hosting large-scale exhibitions and conferences, as well as its strategic location in Southeast Asia, make it an attractive location for a toy and game trade fair.",
+          "listwise": 80,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Berlin": {
+          "justification": "Berlin is a major center for international trade and commerce, with a growing presence of toy and game companies. The city's excellent infrastructure, exhibition facilities, and business-friendly environment make it a plausible host city. Germany's strong toy industry and experience in hosting large-scale events further support Berlin's candidacy.",
+          "listwise": 70,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Milan": {
+          "justification": "Milan is a major center for international trade and commerce, with a strong presence of toy and game companies. The city's excellent infrastructure and exhibition facilities make it a plausible host city. However, the city's high costs and competitive event calendar, as well as its relatively smaller size compared to other candidate cities, might make it less appealing to organizers.",
+          "listwise": 55,
+          "bradley_terry": 47.95,
+          "plackett_luce": 33.619998931884766,
+          "init_plackett_luce": 33.64999771118164
+        }
+      }
+    },
+    {
+      "id": "trivia_1677",
+      "question": "What is the nickname of the frontiersman Nathaniel Poe, played by Daniel Day Lewis, in the 1992, film ‘The Last of the Mohicans’?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Easy",
+      "answer": "Hawkeye",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Pathfinder": {
+          "justification": "I have a high confidence level in this answer because 'Pathfinder' is a common nickname for frontiersmen and explorers in American history and literature, and it fits the character's role in the film as a guide and tracker. However, I'm not 100% confident because I don't have explicit information confirming this nickname for the character.",
+          "listwise": 80,
+          "bradley_terry": 13.04,
+          "plackett_luce": 51.98999786376953,
+          "init_plackett_luce": 51.439998626708984
+        },
+        "Leatherstocking": {
+          "justification": "My confidence level in this answer is relatively high because 'Leatherstocking' is a well-known nickname for a frontiersman in James Fenimore Cooper's novels, which 'The Last of the Mohicans' is based on. However, I'm not certain if this nickname is specifically associated with the character Nathaniel Poe.",
+          "listwise": 70,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Deerhunter": {
+          "justification": "I have a moderate confidence level in this answer because 'Deerhunter' is a plausible nickname for a frontiersman, given the character's skills as a hunter and tracker. However, I'm not convinced that this nickname is particularly distinctive or memorable, which reduces my confidence level.",
+          "listwise": 40,
+          "bradley_terry": 2.93,
+          "plackett_luce": 11.229999542236328,
+          "init_plackett_luce": 10.420000076293945
+        },
+        "Mountainman": {
+          "justification": "My confidence level in this answer is moderate because 'Mountainman' is a common term for frontiersmen and explorers who lived and worked in the wilderness. However, I'm not sure if this nickname is specific enough to be associated with the character Nathaniel Poe.",
+          "listwise": 50,
+          "bradley_terry": 4.79,
+          "plackett_luce": 17.299999237060547,
+          "init_plackett_luce": 17.369998931884766
+        },
+        "Longhunter": {
+          "justification": "I have a relatively high confidence level in this answer because 'Longhunter' is a nickname that was actually used for frontiersmen in American history, particularly those who hunted and explored in the wilderness. However, I'm not certain if this nickname is associated with the character in the film.",
+          "listwise": 60,
+          "bradley_terry": 10.95,
+          "plackett_luce": 42.81999969482422,
+          "init_plackett_luce": 43.23999786376953
+        },
+        "Frontiersman": {
+          "justification": "My confidence level in this answer is relatively low because 'Frontiersman' is a generic term that could apply to many characters in the film, rather than a distinctive nickname for Nathaniel Poe.",
+          "listwise": 30,
+          "bradley_terry": 1.87,
+          "plackett_luce": 8.470000267028809,
+          "init_plackett_luce": 7.349999904632568
+        },
+        "Wildernessman": {
+          "justification": "I have a moderate confidence level in this answer because 'Wildernessman' is a plausible nickname for a character who lives and works in the wilderness. However, I'm not convinced that this nickname is particularly memorable or distinctive.",
+          "listwise": 45,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Tracker": {
+          "justification": "My confidence level in this answer is moderate because 'Tracker' is a nickname that fits the character's skills and role in the film. However, I'm not sure if this nickname is specific enough to be associated with Nathaniel Poe.",
+          "listwise": 55,
+          "bradley_terry": 19.17,
+          "plackett_luce": 66.27999877929688,
+          "init_plackett_luce": 67.08999633789062
+        },
+        "Ranger": {
+          "justification": "I have a relatively high confidence level in this answer because 'Ranger' is a nickname that was actually used for frontiersmen and explorers in American history, particularly those who worked as guides and trackers. However, I'm not certain if this nickname is associated with the character in the film.",
+          "listwise": 65,
+          "bradley_terry": 10.46,
+          "plackett_luce": 40.279998779296875,
+          "init_plackett_luce": 40.38999938964844
+        },
+        "Scout": {
+          "justification": "My confidence level in this answer is relatively low because 'Scout' is a generic term that could apply to many characters in the film, rather than a distinctive nickname for Nathaniel Poe. However, I'm not ruling out the possibility that this nickname could be associated with the character.",
+          "listwise": 35,
+          "bradley_terry": 16.04,
+          "plackett_luce": 60.8599967956543,
+          "init_plackett_luce": 60.02000045776367
+        }
+      }
+    },
+    {
+      "id": "trivia_219",
+      "question": "Where was the American venue of the Live Aid concert?",
+      "question_type": {
+        "major": "LOC:LOCATION",
+        "minor": "other:Other location"
+      },
+      "question_difficulty": "Hard",
+      "answer": "Phila.",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "New York City": {
+          "justification": "I have a high confidence level in New York City because it is a major city in the United States with a rich history of hosting large-scale concerts and events. Its iconic venues, such as Madison Square Garden, could have potentially hosted the Live Aid concert.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Los Angeles": {
+          "justification": "Los Angeles is another major city in the United States with a strong reputation for hosting large events, including concerts. The city is home to many famous venues, such as the Hollywood Bowl, which could have been a suitable location for the Live Aid concert.",
+          "listwise": 70,
+          "bradley_terry": 72.96,
+          "plackett_luce": 70.54999542236328,
+          "init_plackett_luce": 70.6500015258789
+        },
+        "Chicago": {
+          "justification": "Chicago is a significant city in the United States with a thriving music scene, making it a plausible candidate to host the Live Aid concert. Its venues, such as Wrigley Field or Soldier Field, could have accommodated a large event like Live Aid.",
+          "listwise": 60,
+          "bradley_terry": 56.52,
+          "plackett_luce": 50.0,
+          "init_plackett_luce": 50.36000061035156
+        },
+        "Boston": {
+          "justification": "Boston is a city with a rich cultural scene, and it has hosted many notable concerts and events throughout its history. While it may not be as large as other cities like New York or Los Angeles, Boston's venues, such as Fenway Park, could have potentially hosted the Live Aid concert.",
+          "listwise": 50,
+          "bradley_terry": 72.32,
+          "plackett_luce": 55.82999801635742,
+          "init_plackett_luce": 55.5
+        },
+        "Washington D.C.": {
+          "justification": "Washington D.C. is the capital city of the United States, and it has a strong reputation for hosting significant events. However, its venues may not be as well-suited for a large concert like Live Aid, which is why my confidence level is lower.",
+          "listwise": 40,
+          "bradley_terry": 73.6,
+          "plackett_luce": 77.86000061035156,
+          "init_plackett_luce": 77.86000061035156
+        },
+        "Miami": {
+          "justification": "Miami is a major city in the United States with a vibrant music scene, but it may not have been the most likely candidate to host the Live Aid concert. Its venues, such as the Miami Orange Bowl, could have accommodated the event, but other cities may have been more suitable.",
+          "listwise": 30,
+          "bradley_terry": 21.5,
+          "plackett_luce": 14.139999389648438,
+          "init_plackett_luce": 14.609999656677246
+        },
+        "Dallas": {
+          "justification": "Dallas is a significant city in the United States, but it may not have had the same level of reputation for hosting large concerts and events at the time of the Live Aid concert. Its venues, such as the Cotton Bowl, could have potentially hosted the event, but my confidence level is relatively low.",
+          "listwise": 25,
+          "bradley_terry": 15.83,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "San Francisco": {
+          "justification": "San Francisco is a city with a rich cultural scene, but it may not have been the most likely candidate to host the Live Aid concert. Its venues, such as Candlestick Park, could have accommodated the event, but other cities may have been more suitable.",
+          "listwise": 20,
+          "bradley_terry": 40.72,
+          "plackett_luce": 37.529998779296875,
+          "init_plackett_luce": 37.54999923706055
+        },
+        "Detroit": {
+          "justification": "Detroit is a city with a significant music scene, but it may not have had the same level of reputation for hosting large concerts and events at the time of the Live Aid concert. Its venues, such as the Pontiac Silverdome, could have potentially hosted the event, but my confidence level is relatively low.",
+          "listwise": 15,
+          "bradley_terry": 40.72,
+          "plackett_luce": 29.10999870300293,
+          "init_plackett_luce": 29.44999885559082
+        },
+        "Atlanta": {
+          "justification": "Atlanta is a significant city in the United States, but it may not have been a likely candidate to host the Live Aid concert. Its venues, such as the Georgia Dome, could have accommodated the event, but other cities may have been more suitable, which is why my confidence level is relatively low.",
+          "listwise": 10,
+          "bradley_terry": 0.0,
+          "plackett_luce": 2.9700000286102295,
+          "init_plackett_luce": 3.419999837875366
+        }
+      }
+    },
+    {
+      "id": "trivia_6744",
+      "question": "How many dot positions are usually used in each letter of the Braille system?",
+      "question_type": {
+        "major": "NUM:NUMERIC",
+        "minor": "count:Number of something"
+      },
+      "question_difficulty": "Medium",
+      "answer": "6",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "3": {
+          "justification": "I have a relatively high confidence level in this answer because the Braille system is known for its simplicity and efficiency. Using 3 dot positions would allow for a manageable number of possible combinations (2^3 = 8) while still providing enough distinct characters for basic communication. This number seems like a good balance between complexity and usability.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 99.87999725341797,
+          "init_plackett_luce": 99.68999481201172
+        },
+        "4": {
+          "justification": "My confidence in this answer is somewhat lower than the previous one, but still significant. With 4 dot positions, the number of possible combinations increases to 2^4 = 16, which could potentially accommodate a larger character set. However, this might also lead to increased complexity and difficulty in reading and writing.",
+          "listwise": 70,
+          "bradley_terry": 100.0,
+          "plackett_luce": 99.73999786376953,
+          "init_plackett_luce": 99.87999725341797
+        },
+        "5": {
+          "justification": "I have a moderate confidence level in this answer. Using 5 dot positions would result in 2^5 = 32 possible combinations, which could be sufficient for a more extensive character set. Nevertheless, the added complexity might make it more challenging for users to learn and master the system.",
+          "listwise": 60,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "8": {
+          "justification": "My confidence in this answer is relatively low. With 8 dot positions, the number of possible combinations becomes 2^8 = 256, which is more than enough to accommodate a large character set, including punctuation and special characters. However, this might make the system overly complex and difficult to use, especially for those who are new to Braille.",
+          "listwise": 40,
+          "bradley_terry": 69.76,
+          "plackett_luce": 62.69999694824219,
+          "init_plackett_luce": 62.69999694824219
+        },
+        "2": {
+          "justification": "I have a relatively low confidence level in this answer. Using only 2 dot positions would result in a very limited number of possible combinations (2^2 = 4), which might not be sufficient for even a basic character set. This could lead to a lack of distinctiveness between characters and make the system less effective.",
+          "listwise": 30,
+          "bradley_terry": 57.21,
+          "plackett_luce": 50.0099983215332,
+          "init_plackett_luce": 50.29999923706055
+        },
+        "9": {
+          "justification": "My confidence in this answer is quite low. With 9 dot positions, the number of possible combinations becomes 2^9 = 512, which is likely more than necessary for a character set. The added complexity would probably make the system cumbersome and difficult to learn.",
+          "listwise": 20,
+          "bradley_terry": 44.78,
+          "plackett_luce": 38.87999725341797,
+          "init_plackett_luce": 38.71999740600586
+        },
+        "7": {
+          "justification": "I have a low confidence level in this answer. Using 7 dot positions would result in 2^7 = 128 possible combinations, which might be more than needed for a standard character set. While this could provide some flexibility, it might also lead to unnecessary complexity.",
+          "listwise": 25,
+          "bradley_terry": 83.23,
+          "plackett_luce": 74.58999633789062,
+          "init_plackett_luce": 74.6500015258789
+        },
+        "10": {
+          "justification": "My confidence in this answer is very low. With 10 dot positions, the number of possible combinations becomes 2^10 = 1024, which is likely excessive for a character set. The system would probably be too complex and difficult to use, making it impractical for most applications.",
+          "listwise": 15,
+          "bradley_terry": 31.82,
+          "plackett_luce": 26.78999900817871,
+          "init_plackett_luce": 26.579999923706055
+        },
+        "1": {
+          "justification": "I have a very low confidence level in this answer. Using only 1 dot position would result in a extremely limited number of possible combinations (2^1 = 2), which would not be sufficient for even a basic character set. This would make the system virtually unusable.",
+          "listwise": 10,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "12": {
+          "justification": "My confidence in this answer is extremely low. With 12 dot positions, the number of possible combinations becomes 2^12 = 4096, which is far more than necessary for a character set. The system would likely be overly complex, difficult to learn, and impractical for most applications.",
+          "listwise": 5,
+          "bradley_terry": 17.46,
+          "plackett_luce": 13.579999923706055,
+          "init_plackett_luce": 13.239999771118164
+        }
+      }
+    },
+    {
+      "id": "trivia_5915",
+      "question": "What is the common name of the garden weed urtica dioica?",
+      "question_type": {
+        "major": "ENTY:ENTITY",
+        "minor": "plant:Plant"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Nettle",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Stinging Weed": {
+          "justification": "I have a high confidence level in this answer because Urtica dioica is known to cause skin irritation and sting when touched, which is a distinctive characteristic that would likely be reflected in its common name. The term \"stinging\" is often used to describe plants that cause discomfort or pain upon contact.",
+          "listwise": 80,
+          "bradley_terry": 66.23,
+          "plackett_luce": 89.63999938964844,
+          "init_plackett_luce": 89.66999816894531
+        },
+        "Burn Weed": {
+          "justification": "My confidence level in this answer is moderate because, while Urtica dioica does cause a burning sensation when it comes into contact with skin, the term \"burn weed\" might not be the most commonly used or widely recognized name for this plant. However, it is still a plausible candidate.",
+          "listwise": 60,
+          "bradley_terry": 33.42,
+          "plackett_luce": 37.62999725341797,
+          "init_plackett_luce": 37.41999816894531
+        },
+        "Itch Plant": {
+          "justification": "I have a relatively high confidence level in this answer because Urtica dioica is known to cause itching and skin irritation, which could lead to it being referred to as the \"itch plant\" in informal or colloquial contexts.",
+          "listwise": 70,
+          "bradley_terry": 64.49,
+          "plackett_luce": 82.29999542236328,
+          "init_plackett_luce": 82.1199951171875
+        },
+        "Scratch Weed": {
+          "justification": "My confidence level in this answer is moderate because, while Urtica dioica does cause skin irritation that might lead to scratching, the term \"scratch weed\" is not particularly distinctive or memorable, and might not be widely used or recognized.",
+          "listwise": 50,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Painful Plant": {
+          "justification": "I have a relatively low confidence level in this answer because, while Urtica dioica is indeed painful to touch, the term \"painful plant\" is quite generic and could apply to many different species, making it a less likely candidate for a common name.",
+          "listwise": 40,
+          "bradley_terry": 33.08,
+          "plackett_luce": 45.36000061035156,
+          "init_plackett_luce": 45.20000076293945
+        },
+        "Stingwort": {
+          "justification": "I have a very high confidence level in this answer because \"Stingwort\" is a term that is sometimes used to describe plants that cause skin irritation or stinging, and Urtica dioica is a well-known example of such a plant. The suffix \"-wort\" is also commonly used in the names of plants, which adds to the plausibility of this candidate.",
+          "listwise": 90,
+          "bradley_terry": 65.36,
+          "plackett_luce": 82.6199951171875,
+          "init_plackett_luce": 82.3699951171875
+        },
+        "Irritation Weed": {
+          "justification": "My confidence level in this answer is relatively low because, while Urtica dioica does cause skin irritation, the term \"irritation weed\" is quite generic and could apply to many different species, making it a less likely candidate for a common name.",
+          "listwise": 30,
+          "bradley_terry": 33.08,
+          "plackett_luce": 42.88999938964844,
+          "init_plackett_luce": 42.02000045776367
+        },
+        "Skin Weed": {
+          "justification": "I have a relatively low confidence level in this answer because, while Urtica dioica does affect the skin, the term \"skin weed\" is not particularly distinctive or memorable, and might not be widely used or recognized.",
+          "listwise": 20,
+          "bradley_terry": 2.02,
+          "plackett_luce": 6.809999942779541,
+          "init_plackett_luce": 6.529999732971191
+        },
+        "Prickly Plant": {
+          "justification": "My confidence level in this answer is very low because, while Urtica dioica does have prickly or irritating hairs, the term \"prickly plant\" is extremely generic and could apply to many different species, making it a very unlikely candidate for a common name.",
+          "listwise": 10,
+          "bradley_terry": 2.6,
+          "plackett_luce": 5.900000095367432,
+          "init_plackett_luce": 6.329999923706055
+        },
+        "Burning Nettle Relative": {
+          "justification": "I have zero confidence in this answer because it is too vague and does not provide a specific common name for Urtica dioica. The term \"burning nettle relative\" suggests a relationship to another plant, but does not offer a distinct or recognizable name for the species in question.",
+          "listwise": 0,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        }
+      }
+    },
+    {
+      "id": "trivia_9951",
+      "question": "Which chain store founded by John Hargreaves opened its 200th UK outlet in Croydon in September 2006?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "gr:Group or organization of person"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Matalan",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Primark": {
+          "justification": "I have a high confidence level in Primark because it is a well-known chain store with a large number of outlets in the UK. The company has been expanding rapidly, and it's plausible that they could have reached the milestone of 200 stores by 2006. However, I'm not 100% confident because I don't have specific information about Primark's expansion timeline.",
+          "listwise": 80,
+          "bradley_terry": 53.72,
+          "plackett_luce": 70.63999938964844,
+          "init_plackett_luce": 69.65999603271484
+        },
+        "Next": {
+          "justification": "Next is another prominent UK retailer with a significant number of stores. While they have been expanding, I'm less confident about them reaching the 200-store milestone by 2006, as their growth rate might not have been as rapid as some other retailers. Additionally, Next has a stronger focus on higher-end clothing, which might affect their expansion strategy.",
+          "listwise": 60,
+          "bradley_terry": 53.07,
+          "plackett_luce": 72.0999984741211,
+          "init_plackett_luce": 72.22000122070312
+        },
+        "New Look": {
+          "justification": "New Look is a popular high-street retailer with a large number of stores in the UK. They have been expanding rapidly, and it's possible that they could have reached 200 stores by 2006. However, I'm not 100% confident because I don't have specific information about their expansion plans during that time period.",
+          "listwise": 70,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "River Island": {
+          "justification": "River Island is a well-known UK retailer, but I'm less confident about them reaching the 200-store milestone by 2006. They have been expanding, but their growth rate might not have been as rapid as some other retailers. Additionally, River Island has a stronger focus on fashion clothing, which might affect their expansion strategy.",
+          "listwise": 50,
+          "bradley_terry": 92.66,
+          "plackett_luce": 94.23999786376953,
+          "init_plackett_luce": 95.61000061035156
+        },
+        "Marks & Spencer": {
+          "justification": "Marks & Spencer is a long-established UK retailer with a significant number of stores. However, I'm less confident about them reaching the 200-store milestone by 2006, as their expansion plans might have been more focused on refurbishing existing stores rather than opening new ones.",
+          "listwise": 40,
+          "bradley_terry": 27.93,
+          "plackett_luce": 32.189998626708984,
+          "init_plackett_luce": 32.2599983215332
+        },
+        "Debenhams": {
+          "justification": "Debenhams is a well-known UK department store chain, but I'm less confident about them reaching the 200-store milestone by 2006. They have been expanding, but their growth rate might not have been as rapid as some other retailers. Additionally, Debenhams has a stronger focus on department stores, which might affect their expansion strategy.",
+          "listwise": 30,
+          "bradley_terry": 63.25,
+          "plackett_luce": 65.51000213623047,
+          "init_plackett_luce": 66.06999969482422
+        },
+        "Asda": {
+          "justification": "Asda is a UK supermarket chain, but they also have a clothing section. However, I'm less confident about them reaching the 200-store milestone by 2006, as their primary focus is on grocery retailing rather than clothing.",
+          "listwise": 20,
+          "bradley_terry": 9.62,
+          "plackett_luce": 23.5,
+          "init_plackett_luce": 23.510000228881836
+        },
+        "Tesco": {
+          "justification": "Tesco is a UK supermarket chain with a significant number of stores, but I'm very unlikely to consider them as the correct answer. Their primary focus is on grocery retailing, and while they do have a clothing section, it's not their main business.",
+          "listwise": 10,
+          "bradley_terry": 51.76,
+          "plackett_luce": 31.8799991607666,
+          "init_plackett_luce": 31.049999237060547
+        },
+        "Sainsbury's": {
+          "justification": "Sainsbury's is another UK supermarket chain, but I'm very unlikely to consider them as the correct answer. Like Tesco, their primary focus is on grocery retailing, and while they do have a clothing section, it's not their main business.",
+          "listwise": 10,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Bhs": {
+          "justification": "Bhs (British Home Stores) is a UK retailer that was founded by a different person, but I'm considering them as a candidate because they do have a significant number of stores. However, I'm less confident about them reaching the 200-store milestone by 2006, as their expansion plans might have been affected by their business strategy and market conditions.",
+          "listwise": 25,
+          "bradley_terry": 52.41,
+          "plackett_luce": 52.459999084472656,
+          "init_plackett_luce": 51.61000061035156
+        }
+      }
+    },
+    {
+      "id": "trivia_5562",
+      "question": "Which U.S. state is the \"Land of Lincoln\"?\"",
+      "question_type": {
+        "major": "LOC:LOCATION",
+        "minor": "state:State"
+      },
+      "question_difficulty": "Medium",
+      "answer": "Ill.",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Kentucky": {
+          "justification": "This confidence level is due to the fact that Abraham Lincoln, the 16th President of the United States, was born in a log cabin in Kentucky. Although he later moved to other states, his birthplace is a significant connection to the state.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 99.4000015258789,
+          "init_plackett_luce": 100.0
+        },
+        "Indiana": {
+          "justification": "Lincoln spent part of his childhood in Indiana, where his family moved when he was young. This period of his life is often referenced in historical accounts, making Indiana a plausible candidate for the \"Land of Lincoln\" title.",
+          "listwise": 70,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 99.77999877929688
+        },
+        "Ohio": {
+          "justification": "While Lincoln did not have a direct connection to Ohio, the state is located near the other states where he lived, and it played a significant role in the Underground Railroad, which Lincoln supported. However, this connection is more indirect, resulting in a lower confidence level.",
+          "listwise": 40,
+          "bradley_terry": 57.63,
+          "plackett_luce": 43.52000045776367,
+          "init_plackett_luce": 43.79999923706055
+        },
+        "Tennessee": {
+          "justification": "Lincoln's wife, Mary Todd Lincoln, had family ties to Tennessee, and the state was also an important location during the American Civil War, which Lincoln led the country through. However, Lincoln himself did not have a strong connection to the state.",
+          "listwise": 30,
+          "bradley_terry": 48.64,
+          "plackett_luce": 40.90999984741211,
+          "init_plackett_luce": 40.98999786376953
+        },
+        "Virginia": {
+          "justification": "As the state where the capital of the Confederacy was located during the American Civil War, Virginia has a complex and often antagonistic relationship with Lincoln's legacy. While he did lead the country to victory over the Confederacy, this connection is more negative than positive.",
+          "listwise": 20,
+          "bradley_terry": 29.59,
+          "plackett_luce": 29.209999084472656,
+          "init_plackett_luce": 29.260000228881836
+        },
+        "Missouri": {
+          "justification": "Missouri was a border state during the American Civil War and had both Union and Confederate sympathies. Lincoln's administration had to navigate the complex politics of the state, but he did not have a personal connection to it.",
+          "listwise": 25,
+          "bradley_terry": 81.36,
+          "plackett_luce": 77.79999542236328,
+          "init_plackett_luce": 78.1500015258789
+        },
+        "West Virginia": {
+          "justification": "West Virginia was part of Virginia during the American Civil War but became a separate state in 1863. While Lincoln's administration supported the creation of the new state, he did not have a direct connection to the area.",
+          "listwise": 15,
+          "bradley_terry": 29.59,
+          "plackett_luce": 9.609999656677246,
+          "init_plackett_luce": 10.0
+        },
+        "Maryland": {
+          "justification": "Maryland was a border state that remained in the Union during the American Civil War. While Lincoln's administration had to deal with the state's complex politics, he did not have a personal connection to the area, resulting in a low confidence level.",
+          "listwise": 10,
+          "bradley_terry": 26.72,
+          "plackett_luce": 19.079999923706055,
+          "init_plackett_luce": 19.549999237060547
+        },
+        "Pennsylvania": {
+          "justification": "Pennsylvania was an important state during the American Civil War, with the Battle of Gettysburg taking place there. However, Lincoln's connection to the state is largely limited to his Gettysburg Address, which, although famous, does not establish a strong enough link to make it a likely candidate for the \"Land of Lincoln\" title.",
+          "listwise": 5,
+          "bradley_terry": 65.59,
+          "plackett_luce": 46.31999969482422,
+          "init_plackett_luce": 47.37999725341797
+        },
+        "New York": {
+          "justification": "New York was an important state during the American Civil War, with many notable figures and events connected to it. However, Lincoln's connection to the state is largely limited to his time in office and his interactions with New York politicians, resulting in a very low confidence level.",
+          "listwise": 5,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        }
+      }
+    },
+    {
+      "id": "trivia_4032",
+      "question": "What is the name for a set of marks stamped on gold and silver articles to attest to the genuineness of the metal and the year of testing?",
+      "question_type": {
+        "major": "ENTY:ENTITY",
+        "minor": "termeq:Equivalent term"
+      },
+      "question_difficulty": "Easy",
+      "answer": "Hallmark",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Assay Mark": {
+          "justification": "I have a high confidence level in this answer because the term \"assay\" refers to the process of testing the purity of metals, and \"mark\" implies a stamp or symbol. This term is closely related to the concept of verifying the genuineness of metal, making it a strong candidate.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Metal Stamp": {
+          "justification": "My confidence level in this answer is moderate because while it refers to the act of stamping a mark on metal, it lacks specificity regarding the purpose or standardization of the mark. It's a plausible but not particularly distinctive term.",
+          "listwise": 40,
+          "bradley_terry": 1.2,
+          "plackett_luce": 16.760000228881836,
+          "init_plackett_luce": 17.299999237060547
+        },
+        "Purity Seal": {
+          "justification": "I have a relatively high confidence level in this answer because it explicitly conveys the idea of verifying the purity of the metal. However, the term \"seal\" might imply a more general or unofficial authentication, rather than a standardized testing process.",
+          "listwise": 70,
+          "bradley_terry": 64.28,
+          "plackett_luce": 68.33999633789062,
+          "init_plackett_luce": 69.29999542236328
+        },
+        "Sterling Sign": {
+          "justification": "My confidence level in this answer is relatively low because while \"sterling\" refers to a specific standard of silver purity, the term \"sign\" is vague and doesn't necessarily imply a standardized testing or marking process.",
+          "listwise": 30,
+          "bradley_terry": 63.69,
+          "plackett_luce": 58.07999801635742,
+          "init_plackett_luce": 59.189998626708984
+        },
+        "Gold Guarantee": {
+          "justification": "I have a low confidence level in this answer because it's more of a marketing term than a technical or official designation. While it implies a promise of quality, it doesn't specifically refer to a standardized marking or testing process.",
+          "listwise": 20,
+          "bradley_terry": 0.6,
+          "plackett_luce": 5.329999923706055,
+          "init_plackett_luce": 5.869999885559082
+        },
+        "Metal Mint Mark": {
+          "justification": "My confidence level in this answer is moderate to high because it references the idea of a mark or stamp, and \"mint\" implies an official or standardized process. However, the term might be more closely associated with the production of coins rather than the testing of metal purity.",
+          "listwise": 60,
+          "bradley_terry": 64.88,
+          "plackett_luce": 73.62999725341797,
+          "init_plackett_luce": 73.47999572753906
+        },
+        "Authentication Emblem": {
+          "justification": "I have a moderate confidence level in this answer because it explicitly conveys the idea of verifying authenticity, and \"emblem\" implies a symbol or mark. However, the term is somewhat generic and doesn't specifically reference metal testing or standards.",
+          "listwise": 50,
+          "bradley_terry": 41.96,
+          "plackett_luce": 45.61000061035156,
+          "init_plackett_luce": 45.36000061035156
+        },
+        "Quality Quoin": {
+          "justification": "My confidence level in this answer is very low because \"quoin\" is an obscure term that doesn't have an obvious connection to metal testing or marking. While it might be a plausible term in a specific context, it's not a well-known or widely recognized term in this field.",
+          "listwise": 10,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Standard Stamp": {
+          "justification": "I have a very high confidence level in this answer because it explicitly references the idea of a standardized marking process, which is closely related to the concept of verifying metal purity. The term \"standard\" implies a official or widely recognized benchmark.",
+          "listwise": 90,
+          "bradley_terry": 64.88,
+          "plackett_luce": 70.33000183105469,
+          "init_plackett_luce": 70.97999572753906
+        },
+        "Verification Vestige": {
+          "justification": "My confidence level in this answer is relatively low because while it references the idea of verifying authenticity, the term \"vestige\" implies a faint or indirect indication rather than a clear and standardized mark. The term is also somewhat obscure and not widely recognized in this context.",
+          "listwise": 25,
+          "bradley_terry": 22.58,
+          "plackett_luce": 24.0,
+          "init_plackett_luce": 23.809999465942383
+        }
+      }
+    },
+    {
+      "id": "trivia_473",
+      "question": "Who was part man, part machine, all cop and hailed from a futuristic Detroit?",
+      "question_type": {
+        "major": "HUM:HUMAN",
+        "minor": "ind:Individual"
+      },
+      "question_difficulty": "Medium",
+      "answer": "RoboCop",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Inspector Gadget": {
+          "justification": "Although Inspector Gadget is a cyborg, the description of being from a futuristic Detroit doesn't quite fit his character, as he is typically depicted in a more generic, cartoonish setting. However, his part-man, part-machine nature and law enforcement role make him a possible candidate.",
+          "listwise": 20,
+          "bradley_terry": 13.52,
+          "plackett_luce": 49.23999786376953,
+          "init_plackett_luce": 48.959999084472656
+        },
+        "The Terminator": {
+          "justification": "As a cyborg assassin, The Terminator has the part-man, part-machine aspect covered, but he is not typically depicted as a cop. His futuristic setting and ability to blend in with humans make him a plausible candidate, but his primary role as a killer rather than a law enforcement officer reduces his likelihood.",
+          "listwise": 40,
+          "bradley_terry": 14.47,
+          "plackett_luce": 55.619998931884766,
+          "init_plackett_luce": 54.86000061035156
+        },
+        "Judge Dredd": {
+          "justification": "Judge Dredd is a law enforcement officer in a futuristic setting, which aligns with the description. However, he is not explicitly part-man, part-machine, although he does use advanced technology to aid him in his duties. His confidence level is higher due to his role as a cop in a futuristic society.",
+          "listwise": 60,
+          "bradley_terry": 13.24,
+          "plackett_luce": 50.34000015258789,
+          "init_plackett_luce": 50.57999801635742
+        },
+        "Alex Murphy (before becoming RoboCop)": {
+          "justification": "Alex Murphy is the human character who later becomes RoboCop, but as a human, he doesn't fit the part-man, part-machine description. His confidence level is low because he doesn't match the cyborg aspect of the description.",
+          "listwise": 10,
+          "bradley_terry": 11.38,
+          "plackett_luce": 42.61000061035156,
+          "init_plackett_luce": 42.18000030517578
+        },
+        "I, Robot's Detective Del Spooner": {
+          "justification": "Detective Del Spooner is a human character in a futuristic setting, investigating a murder involving robots. While he is a cop in a futuristic world, he is not part-man, part-machine, which reduces his confidence level.",
+          "listwise": 30,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Deus Ex's Adam Jensen": {
+          "justification": "Adam Jensen is a cyborg and the main character in the Deus Ex video game series. He works in a futuristic, high-tech world and has augmented body parts, making him a strong candidate. His confidence level is high due to his part-man, part-machine nature and his role in a futuristic, technological society.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Alita from Alita: Battle Angel": {
+          "justification": "Alita is a cyborg in a futuristic world, but she is not explicitly a cop. Her confidence level is moderate due to her part-man, part-machine nature and her existence in a futuristic setting, but her lack of a clear law enforcement role reduces her likelihood.",
+          "listwise": 50,
+          "bradley_terry": 3.44,
+          "plackett_luce": 15.279999732971191,
+          "init_plackett_luce": 15.429999351501465
+        },
+        "Ghost in the Shell's Major Motoko Kusanagi": {
+          "justification": "Major Motoko Kusanagi is a cyborg and the main character in the Ghost in the Shell series. She works in a futuristic, high-tech world and is part of a special law enforcement unit, making her a strong candidate. Her confidence level is high due to her part-man, part-machine nature and her role in a futuristic, technological society.",
+          "listwise": 70,
+          "bradley_terry": 16.81,
+          "plackett_luce": 62.28999710083008,
+          "init_plackett_luce": 62.439998626708984
+        },
+        "Bionic Woman's Jaime Sommers": {
+          "justification": "Jaime Sommers is a cyborg with bionic implants, but her character is not typically depicted in a futuristic, law enforcement role. Her confidence level is moderate due to her part-man, part-machine nature, but her lack of a clear connection to a futuristic Detroit reduces her likelihood.",
+          "listwise": 25,
+          "bradley_terry": 3.84,
+          "plackett_luce": 16.619998931884766,
+          "init_plackett_luce": 15.799999237060547
+        },
+        "Cyberpunk 2077's V": {
+          "justification": "V is a customizable character in the Cyberpunk 2077 video game, and players can choose to make them a cyborg with various augmentations. The game is set in a futuristic world with a strong focus on technology and law enforcement, making V a strong candidate. Their confidence level is high due to their potential part-man, part-machine nature and their existence in a futuristic, technological society.",
+          "listwise": 85,
+          "bradley_terry": 3.78,
+          "plackett_luce": 15.630000114440918,
+          "init_plackett_luce": 15.229999542236328
+        }
+      }
+    },
+    {
+      "id": "webq_1331",
+      "question": "what is the most populated state in united states?",
+      "question_type": {
+        "major": "LOC:LOCATION",
+        "minor": "state:State"
+      },
+      "question_difficulty": "Medium",
+      "answer": "California",
+      "answer_difficulty": "Easy",
+      "candidate_answers": {
+        "Texas": {
+          "justification": "Texas is the second-largest state in the US by land area and has several major cities, including Houston, Dallas, and San Antonio, which are known for their large populations and economic growth. The state's strong economy, diverse industries, and high quality of life make it an attractive place to live, contributing to its high population.",
+          "listwise": 80,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "New York": {
+          "justification": "As the most populous city in the US, New York City is located in the state of New York, which automatically gives the state a high population. The state is also home to other major cities like Buffalo and Albany, and its proximity to other densely populated areas in the Northeast contributes to its large population.",
+          "listwise": 70,
+          "bradley_terry": 73.96,
+          "plackett_luce": 76.48999786376953,
+          "init_plackett_luce": 76.25999450683594
+        },
+        "Florida": {
+          "justification": "Florida is a popular retirement destination and has a growing population due to its warm climate, beautiful beaches, and thriving tourism industry. The state's major cities, such as Miami, Tampa, and Orlando, are also hubs for international trade and commerce, attracting people from all over the world.",
+          "listwise": 60,
+          "bradley_terry": 85.75,
+          "plackett_luce": 87.83000183105469,
+          "init_plackett_luce": 87.61000061035156
+        },
+        "Illinois": {
+          "justification": "Illinois is home to the third-most populous city in the US, Chicago, which is a major economic and cultural center. The state's strategic location in the Midwest, its diverse economy, and its high standard of living make it an attractive place to live, contributing to its relatively high population.",
+          "listwise": 50,
+          "bradley_terry": 52.52,
+          "plackett_luce": 56.03999710083008,
+          "init_plackett_luce": 55.62999725341797
+        },
+        "Pennsylvania": {
+          "justification": "Pennsylvania has a long history of industrial and economic growth, with major cities like Philadelphia and Pittsburgh driving population growth. The state's proximity to other densely populated areas in the Northeast and its strong education system also contribute to its population.",
+          "listwise": 40,
+          "bradley_terry": 63.19,
+          "plackett_luce": 65.11000061035156,
+          "init_plackett_luce": 65.06999969482422
+        },
+        "Ohio": {
+          "justification": "Ohio is a hub for industry and commerce in the Midwest, with major cities like Columbus, Cleveland, and Cincinnati contributing to its population. The state's strategic location, diverse economy, and high standard of living make it an attractive place to live, although its population growth rate is slower than some other states.",
+          "listwise": 35,
+          "bradley_terry": 40.4,
+          "plackett_luce": 40.11000061035156,
+          "init_plackett_luce": 39.779998779296875
+        },
+        "Georgia": {
+          "justification": "Georgia has a growing population due to its thriving economy, mild climate, and high quality of life. The state's major cities, such as Atlanta and Augusta, are hubs for international trade and commerce, and its proximity to the Southeast's major cities contributes to its population growth.",
+          "listwise": 30,
+          "bradley_terry": 40.4,
+          "plackett_luce": 40.39999771118164,
+          "init_plackett_luce": 39.56999969482422
+        },
+        "North Carolina": {
+          "justification": "North Carolina has a growing population due to its strong economy, mild climate, and high quality of life. The state's major cities, such as Charlotte and Raleigh-Durham, are hubs for technology and finance, and its proximity to other densely populated areas in the Southeast contributes to its population growth.",
+          "listwise": 25,
+          "bradley_terry": 27.24,
+          "plackett_luce": 24.369998931884766,
+          "init_plackett_luce": 23.850000381469727
+        },
+        "Michigan": {
+          "justification": "Michigan has a relatively high population due to its strong economy, diverse industries, and high standard of living. The state's major cities, such as Detroit and Grand Rapids, are hubs for industry and commerce, although the state's population growth rate has slowed in recent years.",
+          "listwise": 20,
+          "bradley_terry": 14.62,
+          "plackett_luce": 13.59999942779541,
+          "init_plackett_luce": 12.889999389648438
+        },
+        "New Jersey": {
+          "justification": "New Jersey has a high population density due to its small size and proximity to New York City. The state's major cities, such as Newark and Jersey City, are hubs for industry and commerce, and its high standard of living contributes to its relatively high population, although its small size limits its overall population.",
+          "listwise": 15,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        }
+      }
+    },
+    {
+      "id": "trivia_3296",
+      "question": "Derived from the use of naval artillery what is the nautical term for the top edge of the side of a boat?",
+      "question_type": {
+        "major": "ENTY:ENTITY",
+        "minor": "termeq:Equivalent term"
+      },
+      "question_difficulty": "Easy",
+      "answer": "Gunwale",
+      "answer_difficulty": "Hard",
+      "candidate_answers": {
+        "Rail": {
+          "justification": "I have a high confidence level in 'Rail' because it is a common term used in various contexts, including architecture and transportation, to refer to a horizontal or sloping bar or structure that serves as a boundary or support. In the context of a boat, a rail could plausibly refer to the top edge of the side, providing a barrier or support for passengers or crew.",
+          "listwise": 80,
+          "bradley_terry": 71.41,
+          "plackett_luce": 74.83999633789062,
+          "init_plackett_luce": 74.68999481201172
+        },
+        "Gunnel": {
+          "justification": "My confidence level in 'Gunnel' is relatively high due to its similarity in sound and spelling to the correct term. It's possible that 'Gunnel' is a variant or colloquialism used in certain regions or communities, and it's not uncommon for nautical terms to have multiple variations or pronunciations.",
+          "listwise": 70,
+          "bradley_terry": 100.0,
+          "plackett_luce": 100.0,
+          "init_plackett_luce": 100.0
+        },
+        "Wale": {
+          "justification": "I have a moderate confidence level in 'Wale' because it is a term that is sometimes used in nautical contexts to refer to a horizontal strip or plank, particularly in the context of shipbuilding or repair. While it's not a direct match for the top edge of a boat's side, it's possible that 'Wale' could be used in a more general sense to refer to any prominent horizontal feature.",
+          "listwise": 60,
+          "bradley_terry": 84.42,
+          "plackett_luce": 86.0199966430664,
+          "init_plackett_luce": 86.33999633789062
+        },
+        "Strake": {
+          "justification": "My confidence level in 'Strake' is moderate due to its use in nautical contexts to refer to a horizontal plank or strip, particularly in the context of shipbuilding or hull construction. While 'Strake' typically refers to a specific type of plank or panel, it's possible that it could be used more broadly to refer to the top edge of a boat's side.",
+          "listwise": 50,
+          "bradley_terry": 33.52,
+          "plackett_luce": 35.55999755859375,
+          "init_plackett_luce": 35.65999984741211
+        },
+        "Capping": {
+          "justification": "I have a relatively low confidence level in 'Capping' because, while it is a term used in some nautical contexts to refer to a covering or finishing piece, it's not a direct match for the top edge of a boat's side. However, it's possible that 'Capping' could be used in a more general sense to refer to any type of finishing or trim piece.",
+          "listwise": 40,
+          "bradley_terry": 33.52,
+          "plackett_luce": 34.939998626708984,
+          "init_plackett_luce": 35.439998626708984
+        },
+        "Sheer": {
+          "justification": "My confidence level in 'Sheer' is relatively low due to its more common use in nautical contexts to refer to the upward curve or slope of a ship's hull, rather than a specific edge or feature. While 'Sheer' does relate to the overall shape and profile of a boat, it's not a direct match for the top edge of the side.",
+          "listwise": 30,
+          "bradley_terry": 59.42,
+          "plackett_luce": 63.55999755859375,
+          "init_plackett_luce": 63.73999786376953
+        },
+        "Bilge": {
+          "justification": "I have a low confidence level in 'Bilge' because it typically refers to the lowest part of a ship's hull, rather than the top edge of the side. While 'Bilge' is an important nautical term, it's not a plausible candidate for the term in question.",
+          "listwise": 20,
+          "bradley_terry": 0.0,
+          "plackett_luce": 0.0,
+          "init_plackett_luce": 0.0
+        },
+        "Keel": {
+          "justification": "My confidence level in 'Keel' is very low due to its use in nautical contexts to refer to the central, longitudinal structure of a ship's hull, rather than the top edge of the side. 'Keel' is a fundamental term in shipbuilding and navigation, but it's not related to the feature in question.",
+          "listwise": 15,
+          "bradley_terry": 12.98,
+          "plackett_luce": 7.059999942779541,
+          "init_plackett_luce": 6.710000038146973
+        },
+        "Transom": {
+          "justification": "I have a very low confidence level in 'Transom' because it typically refers to the flat, vertical surface at the stern of a boat, rather than the top edge of the side. While 'Transom' is an important nautical term, it's not a plausible candidate for the term in question.",
+          "listwise": 10,
+          "bradley_terry": 17.35,
+          "plackett_luce": 13.09999942779541,
+          "init_plackett_luce": 12.5
+        },
+        "Coaming": {
+          "justification": "My confidence level in 'Coaming' is extremely low due to its use in nautical contexts to refer to a raised edge or lip around a hatch or opening, rather than the top edge of a boat's side. While 'Coaming' is a relevant term in certain contexts, it's not a plausible candidate for the term in question.",
+          "listwise": 5,
+          "bradley_terry": 47.4,
+          "plackett_luce": 52.53999710083008,
+          "init_plackett_luce": 52.38999938964844
+        }
+      }
+    }
+  ],
+  "non_confusing": []
+}
