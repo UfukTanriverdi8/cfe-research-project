@@ -20,6 +20,8 @@ This definition implies that the CFE task has multiple intertwined aspects:
 
 # Roadmap
 
+![CFE Roadmap](./md_images/cfe_roadmap_transparent.png)
+
 ## Testing Current Models
 
 Our goal is to first test this task with current models. If they cannot achieve our task after extensive evaluations, we will continue with different methods that will improve these models on this task (constructing a dataset, finetuning etc.)
@@ -184,9 +186,48 @@ For questions labeled as confusing, we evaluate the model responses based on thr
 
 3. **Quality of the Clarifications**: Did the model provide clear, accurate, and convincing explanations for why each mentioned alternative is incorrect?
 
-For each one of these we will have **distinct** system prompts. Here is the system prompt for the first one:
+For this evaluation, we will propose a three step novel pipeline:
 
-```text
-## Task Definition
-You are an expert evaluator for a Counterfactual Explanatory QA system. Your task is to assess how well the model identified plausible but incorrect alternative answers that could realistically confuse someone knowledgeable about the topic.
-You will be given a question and the model's response, which includes the correct answer and any mentioned alternative answers. Your job is to evaluate the sufficiency of these mentioned alternatives based on the following criteria: 
+1. **Step 1: Generate the Ideal Set of Alternatives for the Question**
+    In this step, we will ask GPT to generate the ideal set of plausible but incorrect alternatives for each question. This will serve as a reference point for evaluating the model responses. Without any mention of number of alternatives, we will ask GPT to generate ideal set of candidates and let it decide the number of alternatives by itself. So we don't want it to give all the possible alternatives and we don't want it to give only one or two alternatives as well. We want it to decide the number of alternatives by itself based on the question.
+    The system prompt for this step is:
+    ```text
+    ## Task Definition
+    You are an expert question analyst. You will be given a question which is known to be confusing, meaning that people with some knowledge about the topic might mix up the correct answer with other plausible but incorrect alternatives.
+    Your task is to generate a list of plausible but incorrect alternatives that could realistically confuse someone knowledgeable about the topic.
+
+    When generating these alternatives, consider the following:
+    * They should be similar entities or objects that people might reasonably mistake for the correct answer.
+    * They should be relevant to the context of the question and not obviously incorrect.
+    * Aim to provide a comprehensive set of alternatives that cover the main plausible options without being exhaustive.
+    * The number of alternatives should be determined by the question itself; do not limit yourself to a specific number.
+    **Output format (strict):**
+    Alternatives:
+    - <Alternative 1>
+    - <Alternative 2>
+    - <Alternative 3>
+    ...
+    ``` 
+2. **Calculate Relevance (Precision) and Sufficiency (Recall)**
+    This part is a key one. If we look at what we mean by sufficiency and relevance, we can see that they are very similar to recall and precision concepts in information retrieval. So we can use these concepts to calculate sufficiency and relevance scores for each model response.
+    - **Relevance (Precision)**: This measures how many of the alternatives mentioned by the model are actually relevant and plausible. It is calculated as:
+    $$\text{Relevance (Precision)} = \frac{\text{Mentioned} \cap \text{Ideal}}{\text{Mentioned}}$$
+    - **Sufficiency (Recall)**: This measures how many of the ideal alternatives were actually mentioned by the model. It is calculated as:
+    $$\text{Sufficiency (Recall)} = \frac{\text{Mentioned} \cap \text{Ideal}}{\text{Ideal}}$$
+
+    Since we already have the mentioned alternatives from the model responses from the first algorithmic evaluation step, and we have the ideal alternatives from the previous step, we can easily calculate these scores.
+
+    But to find out the intersection between the mentioned and ideal alternatives, we need to check if they are semantically similar or not. For this, we will use GPT again. GPT will come up with an intersection list based on semantic similarity. The system prompt for this step is:
+    ```text
+    ## Task Definition
+    You are an expert answer evaluator. You will be given two lists of answers for a question. Your task is to find the intersection between these two lists based on semantic similarity.
+
+    When determining the intersection, consider the following:
+    * Two answers are considered to be in the intersection if they are semantically similar, even if they are not exactly the same.
+    * Use your judgment to assess the similarity based on meaning and context.
+    **Output format (strict):**
+    Intersection:
+    - <Answer 1 from List A that is similar to an answer in List B>
+    - <Answer 2 from List A that is similar to an answer in List B>
+    ...
+    ```
