@@ -97,7 +97,7 @@ Before evaluating model responses, we first need to label the questions in our d
     - Compute the total candidate mass ($S$) for the question, and normalize it by dividing by the maximum observed $S$ across all questions.
 
     - Calculate the Confusion Index (CI) as:
-    $$CI = M \times \frac{S}{\max(S)}$$
+    $$\large CI = M \times \frac{S}{\max(S)}$$
     - Finally, compare each question’s CI to the mean CI across the dataset. Questions with CI above the mean are labeled as confusing, while those below are non-confusing.
     
     This method captures confusion in a more nuanced way, since it accounts for both the strength of distractors and the overall plausibility distribution.
@@ -221,10 +221,8 @@ For this evaluation, we will propose a three step novel pipeline:
     This part is a key one. If we look at what we mean by sufficiency and relevance, we can see that they are very similar to recall and precision concepts in information retrieval. So we can use these concepts to calculate sufficiency and relevance scores for each model response.
     - **Relevance (Precision)**: This measures how many of the alternatives mentioned by the model are actually relevant and plausible. It is calculated as:
     
-    $$
-    \large
-    \text{Relevance (Precision)} = \frac{\text{Mentioned} \cap \text{Ideal}}{\text{Mentioned}}
-    $$
+    $$\large
+    \text{Relevance (Precision)} = \frac{\text{Mentioned} \cap \text{Ideal}}{\text{Mentioned}}$$
     
     - **Sufficiency (Recall)**: This measures how many of the ideal alternatives were actually mentioned by the model. It is calculated as:
     
