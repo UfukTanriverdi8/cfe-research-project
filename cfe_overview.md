@@ -20,7 +20,7 @@ This definition implies that the CFE task has multiple intertwined aspects:
 
 # Roadmap
 
-![CFE Roadmap](./md_images/cfe_roadmap_transparent.png)
+![CFE Roadmap](./md_images/cfe_roadmap.png)
 
 ## Testing Current Models
 
