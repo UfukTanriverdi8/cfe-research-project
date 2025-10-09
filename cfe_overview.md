@@ -97,9 +97,7 @@ Before evaluating model responses, we first need to label the questions in our d
     - Compute the total candidate mass ($S$) for the question, and normalize it by dividing by the maximum observed $S$ across all questions.
 
     - Calculate the Confusion Index (CI) as:
-    $$
-    CI = M \times \frac{S}{\max(S)}
-    $$
+    $$CI = M \times \frac{S}{\max(S)}$$
     - Finally, compare each question’s CI to the mean CI across the dataset. Questions with CI above the mean are labeled as confusing, while those below are non-confusing.
     
     This method captures confusion in a more nuanced way, since it accounts for both the strength of distractors and the overall plausibility distribution.
@@ -230,10 +228,8 @@ For this evaluation, we will propose a three step novel pipeline:
     
     - **Sufficiency (Recall)**: This measures how many of the ideal alternatives were actually mentioned by the model. It is calculated as:
     
-    $$
-    \large
-    \text{Sufficiency (Recall)} = \frac{\text{Mentioned} \cap \text{Ideal}}{\text{Ideal}}
-    $$
+    $$\large
+    \text{Sufficiency (Recall)} = \frac{\text{Mentioned} \cap \text{Ideal}}{\text{Ideal}}$$
    
     Since we already have the mentioned alternatives from the model responses from the first algorithmic evaluation step, and we have the ideal alternatives from the previous step, we can easily calculate these scores.
 
