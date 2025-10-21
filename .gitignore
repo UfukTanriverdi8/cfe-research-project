@@ -1,3 +1,5 @@
 **/plausible_qa.json
 **/3000_questions.json
 /.env
+data/eval_results/gpt/100q_gpt_candidates[0-9]*.csv
+data/eval_results/gpt/100q_gpt_candidates_ckpt*.csv
