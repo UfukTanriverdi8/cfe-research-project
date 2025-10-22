@@ -201,22 +201,35 @@ For this evaluation, we will propose a three step novel pipeline:
     In this step, we will ask GPT to generate the ideal set of plausible but incorrect alternatives for each question. This will serve as a reference point for evaluating the model responses. Without any mention of number of alternatives, we will ask GPT to generate ideal set of candidates and let it decide the number of alternatives by itself. So we don't want it to give all the possible alternatives and we don't want it to give only one or two alternatives as well. We want it to decide the number of alternatives by itself based on the question.
     The system prompt for this step is:
     ```text
-    ## Task Definition
-    You are an expert question analyst. You will be given a question which is known to be confusing, meaning that people with some knowledge about the topic might mix up the correct answer with other plausible but incorrect alternatives.
-    Your task is to generate a list of plausible but incorrect alternatives that could realistically confuse someone knowledgeable about the topic.
+    You are an expert question analyst specializing in educational question answering. You will be given a question along with its correct answer.
 
-    When generating these alternatives, consider the following:
-    * They should be similar entities or objects that people might reasonably mistake for the correct answer.
-    * They should be relevant to the context of the question and not obviously incorrect.
-    * Aim to provide a comprehensive set of alternatives that cover the main plausible options without being exhaustive.
-    * The number of alternatives should be determined by the question itself; do not limit yourself to a specific number.
-    **Output format (strict):**
-    Alternatives:
-    - <Alternative 1>
-    - <Alternative 2>
-    - <Alternative 3>
-    ...
-    ``` 
+    Your task is to identify the ideal number of plausible but incorrect alternative answers (distractors) for a given factual question. 
+    These are the answers that a knowledgeable person might realistically confuse with the correct answer.
+
+    ### Instructions:
+    - List only the plausible but *incorrect* alternatives that could reasonably be mistaken for the correct answer.
+    - Focus on alternatives that can make someone who has some familiarity with the topic hesitate or second-guess themselves.
+    - Do **not** include the correct answer itself or clearly absurd, irrelevant, or far-fetched options.
+    - Add just a one sentence explanation for each alternative, describing why it is plausible yet incorrect.
+    - Do **not** state the number of items explicitly; just list them naturally.
+    - Don't try to minimize or maximize the number of alternatives; just provide the ideal number of alternatives for the given question.
+    - Ensure that your final output is in strict JSON format as specified below.
+
+    ### Output format:
+    {
+    "question": "<the question here>",
+    "correct_answer": "<the correct answer here>",
+    "ideal_candidate_answers": [
+        {
+        "answer": "<plausible but incorrect answer 1>",
+        "explanation": "<one sentence explanation for why this answer is plausible yet incorrect>"
+        },
+        {
+        "answer": "<plausible but incorrect answer 2>",
+        "explanation": "<one sentence explanation for why this answer is plausible yet incorrect>"
+        } ...
+    ]
+    }``` 
 2. **Calculate Relevance (Precision) and Sufficiency (Recall)**
     This part is a key one. If we look at what we mean by sufficiency and relevance, we can see that they are very similar to recall and precision concepts in information retrieval. So we can use these concepts to calculate sufficiency and relevance scores for each model response.
     - **Relevance (Precision)**: This measures how many of the alternatives mentioned by the model are actually relevant and plausible. It is calculated as:
@@ -233,15 +246,27 @@ For this evaluation, we will propose a three step novel pipeline:
 
     But to find out the intersection between the mentioned and ideal alternatives, we need to check if they are semantically similar or not. For this, we will use GPT again. GPT will come up with an intersection list based on semantic similarity. The system prompt for this step is:
     ```text
-    ## Task Definition
-    You are an expert answer evaluator. You will be given two lists of answers for a question. Your task is to find the intersection between these two lists based on semantic similarity.
-
-    When determining the intersection, consider the following:
-    * Two answers are considered to be in the intersection if they are semantically similar, even if they are not exactly the same.
-    * Use your judgment to assess the similarity based on meaning and context.
-    **Output format (strict):**
-    Intersection:
-    - <Answer 1 from List A that is similar to an answer in List B>
-    - <Answer 2 from List A that is similar to an answer in List B>
-    ...
+    You are an expert semantic evaluator.
+    Your task is to find the semantic intersection between two lists of entity names. 
+    You will be provided with List A and List B.
+    ### Instructions:
+    - Identify entities that are semantically equivalent between the two lists.
+    - We consider entities to be semantically equivalent if they are the abbreviated, synonymous, or slight variations of each other that represent the same thing.
+    - Return a JSON array containing the names of the entities that are present in both lists based on semantic similarity.
+    - For each entity in the intersection use the name from both lists.
+    - Ensure that the output is a valid JSON.
+    ### Output format:
+    {
+        "matches": [
+            {"A": "New York City", "B": "NYC"},
+            {"A": "L.A.", "B": "Los Angeles"}
+        ]
+    }
     ```
+
+    After getting the intersection list from GPT, we can easily calculate relevance and sufficiency scores for each model response. Finally, we can also calculate the F1 score as the harmonic mean of relevance and sufficiency. All these will be saved to the csv as `gpt_precision`, `gpt_recall` and `gpt_f1_score` columns.
+
+    When we compare these scores with the algorithmic evaluation scores, we see that they don't have any correlation at all. If we can rely on GPT evaluations, this means that our algorithmic evaluation method is not sufficient enough to evaluate model responses on this task. But if we can't rely on GPT evaluations, then we need to find another way to evaluate model responses. This is where human evaluation comes into play.
+
+3. **Step 3: Quality of the Clarifications**
+    In this step, we will evaluate the quality of the clarifications provided by the model for each mentioned alternative. We will ask GPT to rate the clarity, accuracy, and convincingness of each explanation on a scale from 0 to 100.
