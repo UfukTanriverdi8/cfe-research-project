@@ -197,7 +197,7 @@ For questions labeled as confusing, we evaluate the model responses based on thr
 
 For this evaluation, we will propose a three step novel pipeline:
 
-1. **Step 1: Generate the Ideal Set of Alternatives for the Question**
+1. **Generate the Ideal Set of Alternatives for the Question**
     In this step, we will ask GPT to generate the ideal set of plausible but incorrect alternatives for each question. This will serve as a reference point for evaluating the model responses. Without any mention of number of alternatives, we will ask GPT to generate ideal set of candidates and let it decide the number of alternatives by itself. So we don't want it to give all the possible alternatives and we don't want it to give only one or two alternatives as well. We want it to decide the number of alternatives by itself based on the question.
     The system prompt for this step is:
     ```text
@@ -268,5 +268,5 @@ For this evaluation, we will propose a three step novel pipeline:
 
     When we compare these scores with the algorithmic evaluation scores, we see that they don't have any correlation at all. If we can rely on GPT evaluations, this means that our algorithmic evaluation method is not sufficient enough to evaluate model responses on this task. But if we can't rely on GPT evaluations, then we need to find another way to evaluate model responses. This is where human evaluation comes into play.
 
-3. **Step 3: Quality of the Clarifications**
+3. **Evaluate the Quality of the Clarifications**
     In this step, we will evaluate the quality of the clarifications provided by the model for each mentioned alternative. We will ask GPT to rate the clarity, accuracy, and convincingness of each explanation on a scale from 0 to 100.
