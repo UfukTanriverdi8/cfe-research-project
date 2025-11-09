@@ -18,15 +18,22 @@ This definition implies that the CFE task has multiple intertwined aspects:
 - Providing high-quality clarifications that directly target plausible alternatives and reject them for valid reasons
 - Exercising restraint by avoiding clarifications when it is not necessary.
 
-# Roadmap
-
+## Roadmap
 ![CFE Roadmap](./md_images/cfe_roadmap.png)
 
-## Testing Current Models
+
+If the current models cannot achieve the task with prompting alone, we will proceed with building a dataset specifically designed for the CFE task. 
+
+I currently think this dataset can be used in two different scenarios:
+1. Finetuning existing models by using DPO or ORPO methods.
+2. Training a classifier model that will detect whether a question is confusing or not. Based on the classifier output, we can inject additional information to the user prompt in order to force the model to give clarifications.
+
+
+# Testing Current Models
 
 Our goal is to first test this task with current models. If they cannot achieve our task after extensive evaluations, we will continue with different methods that will improve these models on this task (constructing a dataset, finetuning etc.)
 
-### Test Dataset
+## Test Dataset
 
 To support this goal, we build on the PlausibleQA dataset, which provides around 10,000 questions. Each question has one correct answer and 10 incorrect but plausible candidate answers, each with a plausibility score from 0 to 100. These candidate answers are valuable for evaluation because they capture what a human might realistically mistake for the correct answer. 
 
@@ -34,7 +41,7 @@ However, since the original dataset also contains many incorrectly answered ques
 
 >**This final sample question dataset will be used for whole testing process.**
 
-### Tested Models and System Prompts
+## Tested Models and System Prompts
 
 To explore whether the CFE task can be achieved with prompting alone, we tested a set of state-of-the-art large language models. The selected models were:
 
@@ -72,7 +79,7 @@ Never reveal your reasoning or mention that you judged the question.
 You are a Counterfactual Explanatory QA assistant. For each question, state the correct answer and then provide clarifications that address plausible but incorrect alternative answers to the question, explaining why they are not correct.
 ```
 
-### Evaluation of the Test Model Responses
+## Evaluation of the Test Model Responses
 
 After generating answers with mentioned model-system prompt combinations, we will evaluate our model responses in 3 different ways:
 
@@ -80,7 +87,7 @@ After generating answers with mentioned model-system prompt combinations, we wil
 - GPT Evaluation
 - Human Evaluation
 
-#### 1. **Algorithmic Evaluation:**
+### 1. **Algorithmic Evaluation:**
 
 This is a novel model evaluation technique <Mark style="background-color:#519965;">that is completely based on the PlausibleQA dataset plausibility scores</Mark>. So we try to propose a new mathematical method **that will evaluate model responses without any human or GPT involvement.**
 
@@ -125,13 +132,13 @@ If question is non-confusing: $\text{Final Score} = 1 - \text{Penalty}$
 
 Based on this idea each model response already evalauted.
 
-#### 2. **GPT Evaluation:**
+### 2. **GPT Evaluation:**
 
 The second step uses GPT-based evaluation, **which is meant to simulate human judgement**. This part avoids any reliance on PlausibleQA and instead asks a strong model (GPT-5 or any other SOTA model) to directly judge model outputs along the key CFE dimensions.
 
 ![GPT Evaluation Pipeline](./md_images/gpt_eval_pipeline.jpg)
 
-##### **GPT Evaluation 1st Layer: Confusion Assessment**
+#### **GPT Evaluation 1st Layer: Confusion Assessment**
 
 In this evaluation method, just like the previous one, we first need to label the questions in our dataset as either "confusing" or "non-confusing." This classification is crucial because it determines when clarifications are needed. To do this, we ask GPT to evaluate confusability of our questions from the test dataset with this system prompt:
 
@@ -183,10 +190,17 @@ As you can see from the distribution, the mean and median values are around 50, 
 
 After labeling the questions, we proceed to evaluate the model responses.
 
+If we want to see the correlation between the two confusion labeling methods (Algorithmic vs GPT), we'll see that:
+- Pearson’s Correlation between `simple_conf` and `gpt_conf_score > 50`: -0.08212660237876346
+- Pearson’s Correlation between `adv_conf` and `gpt_conf_score > 50`: -0.032580551837601474
+
+To summarize, there is almost no correlation between the two methods. This indicates that GPT's understanding of confusion differs significantly from the algorithmic methods we devised. This could be due to PlausibleQA's plausibility scores not fully capturing human-like confusion and GPT's more nuanced understanding of what makes a question confusing. 
+
+Additionally `gpt_conf_score` threshold was set to 25 and 75 but still the correlation with algorithmic labeling was around 0.
 > ⚠️
 > **We will not evaluate non-confusing questions for now.** The reason is we know that all model responses are correct already and other than this aspect, we do not have any other ground truth to evaluate them. So we will only evaluate the model responses for the confusing questions. Previously I tried to evaluate responses for non-confusing questions as well, but then it turns out to be a general QA evaluation problem which is out of the scope of this project.
 
-##### **GPT Evaluation 2nd Layer: Response Evaluation**
+#### **GPT Evaluation 2nd Layer: Response Evaluation**
 
 For questions labeled as confusing, we evaluate the model responses based on three key criteria:
 1. **Sufficiency of the Mentioned Alternatives**: Did the model mention **the sufficient number of** plausible but incorrect alternatives that could realistically confuse someone knowledgeable about the topic?
@@ -228,8 +242,17 @@ For this evaluation, we will propose a three step novel pipeline:
         "answer": "<plausible but incorrect answer 2>",
         "explanation": "<one sentence explanation for why this answer is plausible yet incorrect>"
         } ...
-    ]
-    }``` 
+        ]
+    }
+    ```
+    **Findings:**
+    
+    - Across all confusing questions, the average number of ideal candidates generated was **5.1**, showing that GPT consistently generates a moderate and interpretable set of plausible alternatives.
+    - However, there was a significant mismatch between the ideal candidates generated by GPT and the actual plausible candidates from the PlausibleQA dataset.
+        - PlausibleQA candidates sometimes include wrong-type distractors (e.g., locations for “name” questions, objects for “year” questions).
+        - GPT’s ideal sets tend to be type-consistent, reflecting human-like reasoning about what could plausibly confuse someone.
+    - This mismatch explains many cases where the algorithmic metric assigns a high score while GPT assigns zero F1 (term not in ideal set).
+
 2. **Calculate Relevance (Precision) and Sufficiency (Recall)**
     This part is a key one. If we look at what we mean by sufficiency and relevance, we can see that they are very similar to recall and precision concepts in information retrieval. So we can use these concepts to calculate sufficiency and relevance scores for each model response.
     - **Relevance (Precision)**: This measures how many of the alternatives mentioned by the model are actually relevant and plausible. It is calculated as:
@@ -263,10 +286,30 @@ For this evaluation, we will propose a three step novel pipeline:
         ]
     }
     ```
-
     After getting the intersection list from GPT, we can easily calculate relevance and sufficiency scores for each model response. Finally, we can also calculate the F1 score as the harmonic mean of relevance and sufficiency. All these will be saved to the csv as `gpt_precision`, `gpt_recall` and `gpt_f1_score` columns.
 
-    When we compare these scores with the algorithmic evaluation scores, we see that they don't have any correlation at all. If we can rely on GPT evaluations, this means that our algorithmic evaluation method is not sufficient enough to evaluate model responses on this task. But if we can't rely on GPT evaluations, then we need to find another way to evaluate model responses. This is where human evaluation comes into play.
+    **Findings:**
+
+    When we compare these scores with the algorithmic evaluation scores, we see that they don't have any correlation at all. If we can rely on GPT evaluations, this means that our algorithmic evaluation method is not sufficient enough to evaluate model responses on this task. But if we can't rely on GPT evaluations, then we need to find another way to evaluate model responses. Here are the correlation scores:
+
+    - Spearman correlation of the questions where `simple_conf = True` and `gpt_conf_score > 50`: 0.8417196806214539
+
+    - Spearman correlation of the questions where `adv_conf = True` and `gpt_conf_score > 50`: 0.8146418627983509
+
+    - But if we don’t care about the intersection and just focus on the `gpt_conf_score > 50` condition then the correlation score is really low (around 0) for both `simple_metric` and `adv_metric`.
+
+    These results mean that:
+    - It shows that when we consider the intersection questions, **the algorithmic scores and gpt scores are aligned**.
+    - If we assume the GPT confusion score as the honest representation of the actual confusability, then **the algorithmic confusion labeling is not correct**.
+    - If the GPT confusion score and the F1 score are actually close to what humans would think, then <Mark style="background-color:#519965;">the models are not capable of achieving this task.</Mark>
 
 3. **Evaluate the Quality of the Clarifications**
     In this step, we will evaluate the quality of the clarifications provided by the model for each mentioned alternative. We will ask GPT to rate the clarity, accuracy, and convincingness of each explanation on a scale from 0 to 100.
+
+### **3.Human Evaluation:**
+    
+We need to prepare a precise human evaluation pipeline. 
+This part is under development and will be added soon.
+
+# Building a Dataset
+If the tested models cannot achieve the task with prompting alone, we will proceed with building a dataset specifically designed for the CFE task. This dataset will include questions, correct answers, and high-quality counterfactual explanations that address plausible but incorrect alternatives. We will then use this dataset to finetune existing models or test new architectures better suited for the CFE task.
